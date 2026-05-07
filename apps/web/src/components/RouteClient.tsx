@@ -243,7 +243,7 @@ export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
                           target={mobile ? undefined : "_blank"}
                           rel="noreferrer noopener"
                           aria-label={l.label}
-                          className="flex items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 px-5 py-3 shadow-sm transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
+                          className="flex min-w-[6rem] items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 px-10 py-3 shadow-sm transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
                         >
                           <Icon className="h-7 w-7" />
                           <span className="sr-only">{l.label}</span>
