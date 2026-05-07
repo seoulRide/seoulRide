@@ -4,7 +4,7 @@ import { BottomTabNav } from "@/components/BottomTabNav";
 import { EventCard } from "@/components/EventCard";
 import { getEventsByStation, getPopularStations } from "@/lib/data";
 import { useLangFromSearch, type Lang, t } from "@/lib/i18n";
-import { getEventStatus, type EventStatus } from "@/lib/event-status";
+import { compareEventsByStartThenEnd, getEventStatus, type EventStatus } from "@/lib/event-status";
 import type { EventEntry } from "@/lib/types";
 
 const PAST_CAP = 60;
@@ -42,14 +42,9 @@ export default async function EventsPage({
   for (const e of all) buckets[getEventStatus(e.start, e.end, now)].push(e);
 
   // Unified sort: start ASC, ties broken by end ASC (soonest ending first).
-  const byStartThenEnd = (a: EventEntry, b: EventEntry) => {
-    const cs = a.start.localeCompare(b.start);
-    if (cs !== 0) return cs;
-    return (a.end || a.start).localeCompare(b.end || b.start);
-  };
-  buckets.ongoing.sort(byStartThenEnd);
-  buckets.upcoming.sort(byStartThenEnd);
-  buckets.past.sort(byStartThenEnd);
+  buckets.ongoing.sort(compareEventsByStartThenEnd);
+  buckets.upcoming.sort(compareEventsByStartThenEnd);
+  buckets.past.sort(compareEventsByStartThenEnd);
 
   const counts: Record<StatusKey, number> = {
     ongoing: buckets.ongoing.length,

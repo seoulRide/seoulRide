@@ -1,6 +1,19 @@
 export type EventStatus = "past" | "ongoing" | "upcoming";
 
 /**
+ * Canonical event sort: start date ASC, ties broken by end date ASC
+ * (soonest-ending wins). Use everywhere we list events chronologically.
+ */
+export function compareEventsByStartThenEnd(
+  a: { start: string; end: string },
+  b: { start: string; end: string },
+): number {
+  const cs = a.start.localeCompare(b.start);
+  if (cs !== 0) return cs;
+  return (a.end || a.start).localeCompare(b.end || b.start);
+}
+
+/**
  * Robust parser for the datetime strings produced by our ingest pipeline.
  * Accepts "YYYY-MM-DD", "YYYY-MM-DD HH:mm:ss", and full ISO. Returns null
  * when input is empty or unparseable.

@@ -11,6 +11,7 @@ import {
   getWeatherByGu,
 } from "@/lib/data";
 import { t, useLangFromSearch, type Lang } from "@/lib/i18n";
+import { compareEventsByStartThenEnd } from "@/lib/event-status";
 
 export default async function StationPage({
   params,
@@ -31,7 +32,7 @@ export default async function StationPage({
     getFoodByStation(),
     getWeatherByGu(),
   ]);
-  const events = eventsAll[station.station_no] ?? [];
+  const events = (eventsAll[station.station_no] ?? []).slice().sort(compareEventsByStartThenEnd);
   const food = foodAll[station.station_no] ?? null;
   const weather = station.gu_en ? weatherAll[station.gu_en] : null;
   const name = station.station_name_ko;
