@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ComponentType } from "react";
 import Link from "next/link";
 import { NaverMap, type NaverMapHandle, type NaverMapMarker, type NaverMapNamedMarker, type NaverMapPolyline } from "./NaverMap";
-import { haversineKm, walkingMinutes, formatDistance, formatMinutes } from "@/lib/route-geometry";
-import type { RouteResponse } from "@/lib/types";
+import { haversineKm, walkingMinutes, cyclingMinutes, formatDistance, formatMinutes } from "@/lib/route-geometry";
+import { bicycleAppLinks, isMobileUA, type MapAppProvider } from "@/lib/map-app-links";
 import { t, type Lang } from "@/lib/i18n";
 import { Drawer } from "vaul";
+import { GoogleMapsIcon, NaverIcon, KakaoIcon } from "./BrandIcons";
 
 const FALLBACK_CENTER = { lat: 37.5665, lng: 126.978 }; // 시청
 type LocStatus = "idle" | "requesting" | "granted" | "denied" | "unsupported";
@@ -32,8 +33,6 @@ interface EventInfo {
   url: string;
 }
 
-const ICON_HERE = `
-  <div style="width:18px;height:18px;border-radius:9999px;background:#3b82f6;border:3px solid white;box-shadow:0 0 0 6px rgba(59,130,246,0.18);"></div>`;
 const ICON_RENTAL = `
   <div style="width:32px;height:32px;border-radius:9999px;background:#10b981;border:3px solid white;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:14px;box-shadow:0 2px 6px rgba(0,0,0,0.2);">A</div>`;
 const ICON_RETURN = `
@@ -41,15 +40,25 @@ const ICON_RETURN = `
 const ICON_EVENT = `
   <div style="width:36px;height:36px;border-radius:9999px;background:#f59e0b;border:3px solid white;display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:18px;box-shadow:0 2px 8px rgba(0,0,0,0.25);">★</div>`;
 
+const PROVIDER_ICON: Record<MapAppProvider, ComponentType<{ className?: string }>> = {
+  google: GoogleMapsIcon,
+  naver: NaverIcon,
+  kakao: KakaoIcon,
+};
+
 export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
   const mapRef = useRef<NaverMapHandle>(null);
   const [origin, setOrigin] = useState<{ lat: number; lng: number }>(FALLBACK_CENTER);
   const [locStatus, setLocStatus] = useState<LocStatus>("idle");
   const [rental, setRental] = useState<NearStation | null>(null);
   const [returnSt, setReturnSt] = useState<NearStation | null>(null);
-  const [route, setRoute] = useState<RouteResponse | null>(null);
-  const [routeError, setRouteError] = useState<string | null>(null);
+  const [stationsError, setStationsError] = useState<string | null>(null);
   const [snap, setSnap] = useState<number | string | null>(0.45);
+  const [mobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    setMobile(isMobileUA());
+  }, []);
 
   const requestLocation = () => {
     if (typeof navigator === "undefined" || !("geolocation" in navigator)) {
@@ -82,35 +91,11 @@ export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
         setRental(aRes.stations?.[0] ?? null);
         setReturnSt(bRes.stations?.[0] ?? null);
       } catch (e) {
-        if (active) setRouteError(e instanceof Error ? e.message : "stations lookup failed");
+        if (active) setStationsError(e instanceof Error ? e.message : "stations lookup failed");
       }
     })();
     return () => { active = false; };
   }, [origin, event.lat, event.lng]);
-
-  // Fetch route between rental and return stations
-  useEffect(() => {
-    if (!rental || !returnSt) return;
-    let active = true;
-    (async () => {
-      try {
-        const r = await fetch(
-          `/api/route?fromLat=${rental.lat}&fromLng=${rental.lng}&toLat=${returnSt.lat}&toLng=${returnSt.lng}`,
-        );
-        const data = (await r.json()) as RouteResponse | { error: string };
-        if (!active) return;
-        if ("polyline" in data) {
-          setRoute(data);
-          setRouteError(null);
-        } else {
-          setRouteError(data.error);
-        }
-      } catch (e) {
-        if (active) setRouteError(e instanceof Error ? e.message : "route fetch failed");
-      }
-    })();
-    return () => { active = false; };
-  }, [rental, returnSt]);
 
   // Build map polylines and markers
   const polylines: NaverMapPolyline[] = [];
@@ -125,13 +110,16 @@ export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
     });
     extras.push({ id: "rental", lat: rental.lat, lng: rental.lng, html: ICON_RENTAL, anchor: { x: 16, y: 16 }, zIndex: 7000 });
   }
-  if (route && route.polyline.length >= 2) {
+  if (rental && returnSt) {
     polylines.push({
-      id: "bike",
-      points: route.polyline,
-      color: route.fallback ? "#34d399" : "#10b981",
-      weight: 5,
-      dashed: route.fallback,
+      id: "bike-reference",
+      points: [
+        { lat: rental.lat, lng: rental.lng },
+        { lat: returnSt.lat, lng: returnSt.lng },
+      ],
+      color: "#10b981",
+      weight: 4,
+      dashed: true,
     });
   }
   if (returnSt) {
@@ -148,16 +136,24 @@ export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
 
   const dummyMarkers: NaverMapMarker[] = [];
 
-  // Distances/times for the steps
+  // Distances/times for the steps (straight-line, since real routing happens in the external app)
   const walkA = rental ? haversineKm(origin, { lat: rental.lat, lng: rental.lng }) : 0;
   const walkB = returnSt ? haversineKm({ lat: returnSt.lat, lng: returnSt.lng }, { lat: event.lat, lng: event.lng }) : 0;
-  const bikeKm = route ? route.distance_m / 1000 : (rental && returnSt ? haversineKm({ lat: rental.lat, lng: rental.lng }, { lat: returnSt.lat, lng: returnSt.lng }) : 0);
-  const bikeMin = route ? route.duration_s / 60 : (bikeKm / 15) * 60;
+  const bikeKm = rental && returnSt ? haversineKm({ lat: rental.lat, lng: rental.lng }, { lat: returnSt.lat, lng: returnSt.lng }) : 0;
+  const bikeMin = cyclingMinutes(bikeKm);
   const totalKm = walkA + bikeKm + walkB;
   const totalMin = walkingMinutes(walkA) + bikeMin + walkingMinutes(walkB);
 
   const eventTitle = lang === "ko" ? event.title_ko : event.title_en;
   const eventVenue = lang === "ko" ? event.venue_ko : event.venue_en;
+
+  const appLinks = rental && returnSt
+    ? bicycleAppLinks(
+        { lat: rental.lat, lng: rental.lng, name: rental.station_name_ko },
+        { lat: returnSt.lat, lng: returnSt.lng, name: eventTitle },
+        mobile,
+      ).flatMap((l) => (l.url !== null ? [{ ...l, url: l.url }] : []))
+    : [];
 
   return (
     <div className="relative">
@@ -169,6 +165,7 @@ export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
         here={locStatus === "granted" ? origin : null}
         polylines={polylines}
         extraMarkers={extras}
+        showBicycleLayer
         fitBounds
         className="h-[100svh] w-full"
       />
@@ -227,8 +224,35 @@ export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
             <div className="flex-1 overflow-y-auto px-4 pb-[calc(env(safe-area-inset-bottom)+96px)] pt-1 space-y-3">
               {/* Disclaimer */}
               <p className="text-[11px] text-zinc-500 bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md px-3 py-2 leading-relaxed">
-                {route?.fallback ? t("route.fallback_straight", lang) : t("route.disclaimer_pedestrian", lang)}
+                {t("route.disclaimer_external", lang)}
               </p>
+
+              {/* Map app deep links — real bicycle routing happens here */}
+              {appLinks.length > 0 && (
+                <div className="space-y-1.5">
+                  <div className="text-[11px] uppercase tracking-widest text-zinc-500 font-semibold">
+                    {t("route.open_in_app", lang)}
+                  </div>
+                  <div className="grid grid-cols-3 gap-2">
+                    {appLinks.map((l) => {
+                      const Icon = PROVIDER_ICON[l.provider];
+                      return (
+                        <a
+                          key={l.provider}
+                          href={l.url}
+                          target={mobile ? undefined : "_blank"}
+                          rel="noreferrer noopener"
+                          aria-label={l.label}
+                          className="flex items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 px-3 py-3 shadow-sm transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
+                        >
+                          <Icon className="h-7 w-7" />
+                          <span className="sr-only">{l.label}</span>
+                        </a>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
 
               {/* Total summary */}
               <div className="flex items-baseline justify-between rounded-xl border border-zinc-200 dark:border-zinc-800 px-4 py-3 bg-white dark:bg-zinc-950">
@@ -279,8 +303,8 @@ export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
                 </a>
               )}
 
-              {routeError && (
-                <p className="text-xs text-red-500">{routeError}</p>
+              {stationsError && (
+                <p className="text-xs text-red-500">{stationsError}</p>
               )}
             </div>
           </Drawer.Content>

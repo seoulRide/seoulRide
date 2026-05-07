@@ -92,14 +92,3 @@ export interface StationMasterEntry {
   address: string;
 }
 
-export interface RouteResponse {
-  polyline: { lat: number; lng: number }[];
-  /** Total cycling distance in metres. */
-  distance_m: number;
-  /** Estimated cycling duration in seconds (15 km/h). */
-  duration_s: number;
-  provider: "tmap_pedestrian" | "straight";
-  fallback: boolean;
-  /** Optional human-friendly status message for debugging. */
-  message?: string;
-}

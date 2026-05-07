@@ -16,12 +16,11 @@
 SEOUL_OPEN_API_KEY=...                # 서울 열린데이터광장 인증키 (없으면 sample 사용)
 KMA_API_KEY=...                       # apihub.kma.go.kr 인증키 (없으면 모의 날씨)
 NEXT_PUBLIC_NAVER_MAP_CLIENT_ID=...   # NAVER Maps Client ID (지도 표시 필수)
-TMAP_APP_KEY=...                      # 자전거 경로 안내 — TMAP 보행자 API (없으면 직선 폴백)
 ```
 
 **NAVER Maps:** NCP 콘솔(console.ncloud.com) → AI·Application Service → Maps → Application 등록 후 발급. SDK URL 파라미터에서는 `ncpKeyId=`로 전달됨. Web Service URL 등록 필수 (`localhost:3000`, `localhost:3030`, 배포 도메인). 미등록 도메인 호출 시 401.
 
-**TMAP (자전거 경로 폴백):** SK Open API(openapi.sk.com)에서 가입 → 앱 등록 → appKey 발급. **자기 신청형**(제휴 불필요). `/api/route` 서버 라우트가 보행자 경로 API를 자전거 경로 근사로 호출하며, 응답의 `totalDistance`(m)을 자전거 평균 15km/h로 환산해 시간 추정. 키 없으면 자동으로 직선 폴백.
+**자전거 길찾기 (외부 앱 위임):** 자체 자전거 라우팅 API를 호출하지 않는다. `/route/[id]` 페이지는 NAVER `BicycleLayer`로 자전거도로 망을 시각화하고, 거리/시간은 직선(Haversine) + 15km/h로 단순 추정한 뒤, Google Maps / NAVER 지도 / 카카오맵의 자전거 길찾기로 보내는 딥링크 버튼을 노출한다 (`lib/map-app-links.ts`). 모바일=앱 딥링크, 데스크톱=웹 URL. 카카오는 PC 웹이 자전거 모드를 지원하지 않아 데스크톱에서는 버튼을 숨긴다. 따라서 **자전거 라우팅용 환경변수/제휴 불필요**.
 
 LLM/AI Gateway는 사용하지 않는다. 영문 카피는 두 경로로만 채운다:
 - 행사: `ListPublicReservationEnglish` 데이터셋 매칭, 미매칭 시 한국어 원어 유지
@@ -46,3 +45,4 @@ LLM/AI Gateway는 사용하지 않는다. 영문 카피는 두 경로로만 채�
 | 2026-05-07 | Leaflet→Kakao Maps 교체 + `/nearby` (geolocation + vaul 바텀시트) 추가 | apps/web 컴포넌트·라우트·env | 한국 특화 맵 + 당근식 위치 기반 행사 탐색 UX |
 | 2026-05-07 | Kakao→NAVER Maps 교체 (전면) | KakaoSdkScript/Map/types 삭제, NaverSdkScript/Map/types 신규, MapWrapper·NearbyClient·layout import 교체, env rename | NCP 한국 라벨 일관성 + 결제수단 등록 마찰 수용 결정 |
 | 2026-05-07 | 행사 추천(/) + 따릉이 경로 안내(/route/[id]) 추가 | recommend.ts, route-geometry.ts, tmap-pedestrian.ts, /api/route, /api/stations-near, RouteClient, RouteSegmentList; EventCard 주 액션 → /route, NaverMap polyline/extraMarkers props | 외국인 인기 대여소 = 외국인 추천 동네 가정 + 행사 클릭 → 자전거 동선 |
+| 2026-05-07 | TMAP 보행자 폴백 제거 → 외부 지도 앱(Google/NAVER/Kakao) 자전거 길찾기 딥링크 위임 + NAVER `BicycleLayer` 오버레이 | map-app-links.ts 신규, NaverMap `showBicycleLayer` prop, naver-types `BicycleLayer`, RouteClient 재작성, types.ts `RouteResponse` 삭제, `/api/route` + tmap-pedestrian.ts 삭제, i18n 카피 교체, `TMAP_APP_KEY` env 제거 | 자전거 라우팅을 직접 호출하면 제휴(TMAP) 또는 외부 키(ORS)가 필요한데, 외국인 사용자는 어차피 턴바이턴 안내용으로 지도 앱을 열기 때문에 라우팅을 외부 앱에 위임하는 게 운영·비용·정확도 모두 우위 |

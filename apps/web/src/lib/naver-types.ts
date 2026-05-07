@@ -47,6 +47,11 @@ export interface NaverPolyline {
   setOptions(options: Record<string, unknown>): void;
 }
 
+export interface NaverBicycleLayer {
+  setMap(map: NaverMap | null): void;
+  getMap(): NaverMap | null;
+}
+
 export interface NaverEventListener { /* opaque */ }
 
 export interface NaverNamespace {
@@ -66,6 +71,7 @@ export interface NaverNamespace {
       zIndex?: number;
       clickable?: boolean;
     }) => NaverMarker;
+    BicycleLayer: new () => NaverBicycleLayer;
     Polyline: new (opts: {
       path: NaverLatLng[];
       map?: NaverMap;

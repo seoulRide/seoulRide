@@ -6,6 +6,7 @@ import type {
   NaverMap as NaverMapInstance,
   NaverEventListener,
   NaverPolyline,
+  NaverBicycleLayer,
 } from "@/lib/naver-types";
 
 export interface NaverMapMarker {
@@ -61,6 +62,8 @@ interface NaverMapProps {
   polylines?: NaverMapPolyline[];
   /** Optional named markers (rental, return, event venue, ...). */
   extraMarkers?: NaverMapNamedMarker[];
+  /** Overlay NAVER's bicycle road tile layer on top of the base map. */
+  showBicycleLayer?: boolean;
 }
 
 const FALLBACK_CENTER = { lat: 37.5665, lng: 126.978 }; // 시청 광장
@@ -125,6 +128,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     here = null,
     polylines,
     extraMarkers,
+    showBicycleLayer = false,
   },
   ref,
 ) {
@@ -135,6 +139,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
   const namedMarkersRef = useRef<Map<string, NaverMarker>>(new Map());
   const polylinesRef = useRef<Map<string, NaverPolyline>>(new Map());
   const hereMarkerRef = useRef<NaverMarker | null>(null);
+  const bicycleLayerRef = useRef<NaverBicycleLayer | null>(null);
   const onClickRef = useRef(onMarkerClick);
   onClickRef.current = onMarkerClick;
 
@@ -317,6 +322,21 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     }
   }, [extraMarkers, mapReady]);
 
+  // Bicycle road layer (toggle on/off)
+  useEffect(() => {
+    const n = window.naver;
+    const map = mapRef.current;
+    if (!n || !map) return;
+    if (showBicycleLayer) {
+      if (!bicycleLayerRef.current) {
+        bicycleLayerRef.current = new n.maps.BicycleLayer();
+      }
+      bicycleLayerRef.current.setMap(map);
+    } else if (bicycleLayerRef.current) {
+      bicycleLayerRef.current.setMap(null);
+    }
+  }, [showBicycleLayer, mapReady]);
+
   // "here" (current location) overlay
   useEffect(() => {
     const n = window.naver;
@@ -358,6 +378,10 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
       if (hereMarkerRef.current) {
         hereMarkerRef.current.setMap(null);
         hereMarkerRef.current = null;
+      }
+      if (bicycleLayerRef.current) {
+        bicycleLayerRef.current.setMap(null);
+        bicycleLayerRef.current = null;
       }
       if (mapRef.current) {
         try { mapRef.current.destroy(); } catch { /* noop */ }
