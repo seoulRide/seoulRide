@@ -92,3 +92,38 @@ export interface StationMasterEntry {
   address: string;
 }
 
+export const TrendingSource = z.enum([
+  "reddit_seoul",
+  "reddit_korea",
+  "visit_seoul",
+  "naver_news",
+  "timeout_seoul",
+]);
+export type TrendingSource = z.infer<typeof TrendingSource>;
+
+export const TrendingEntry = z.object({
+  station_no: z.string(),
+  station_name_ko: z.string(),
+  gu_ko: z.string(),
+  gu_en: z.string().nullable(),
+  /** Mention count over the trailing 7-day window. */
+  mention_count: z.number(),
+  /** Sentiment-weighted score; -1..1, higher = more positive buzz. */
+  sentiment_avg: z.number(),
+  summary_ko: z.string(),
+  summary_en: z.string(),
+  /** Event ids (from EventEntry) within ~7 days near this station. */
+  related_event_ids: z.array(z.string()),
+  sources: z.array(z.object({
+    url: z.string(),
+    title: z.string(),
+    snippet: z.string(),
+    source: TrendingSource,
+  })),
+  /** ISO 8601 — when the synthesizer wrote this entry. */
+  updated_at: z.string(),
+});
+export type TrendingEntry = z.infer<typeof TrendingEntry>;
+export const TrendingByStation = z.array(TrendingEntry);
+export type TrendingByStation = z.infer<typeof TrendingByStation>;
+

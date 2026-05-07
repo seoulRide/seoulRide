@@ -2,18 +2,20 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { BottomTabNav } from "@/components/BottomTabNav";
 import { EventCard } from "@/components/EventCard";
 import { WeatherWidget } from "@/components/WeatherWidget";
+import { TrendingHero } from "@/components/TrendingHero";
 import MapWrapper from "@/components/MapWrapper";
-import { getPopularStations, getWeatherByGu, getEventsByStation } from "@/lib/data";
+import { getPopularStations, getWeatherByGu, getEventsByStation, getTrending } from "@/lib/data";
 import { t, useLangFromSearch, type Lang } from "@/lib/i18n";
 import { recommendTopEvents } from "@/lib/recommend";
 
 export default async function HomePage({ searchParams }: { searchParams: Promise<{ lng?: string }> }) {
   const sp = await searchParams;
   const lang: Lang = useLangFromSearch(sp);
-  const [stations, weather, eventsByStation] = await Promise.all([
+  const [stations, weather, eventsByStation, trending] = await Promise.all([
     getPopularStations(),
     getWeatherByGu(),
     getEventsByStation(),
+    getTrending(),
   ]);
 
   const top = stations[0];
@@ -36,6 +38,8 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
           </div>
           {featuredWeather && <WeatherWidget w={featuredWeather} lang={lang} />}
         </section>
+
+        <TrendingHero trending={trending} lang={lang} />
 
         <section className="space-y-4">
           <h2 className="text-xs uppercase tracking-widest text-zinc-500">{t("section.popular", lang)}</h2>

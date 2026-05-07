@@ -32,8 +32,13 @@ coverage/
 *.lcov
 
 # Harness intermediate artifacts (regeneratable, may contain API responses)
-_workspace/
+_workspace/*
 _workspace_prev_*/
+# Exception: trending pipeline ships a committed sample so the UI has a
+# fallback shape before the daily cron has produced trending.json.
+!_workspace/05_trending/
+_workspace/05_trending/*
+!_workspace/05_trending/trending.sample.json
 
 # Cached API responses (regeneratable, may contain ToS-restricted data)
 data/cache/

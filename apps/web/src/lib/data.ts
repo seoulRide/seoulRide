@@ -6,8 +6,10 @@ import {
   EventsByStation,
   FoodByStation,
   WeatherByGu,
+  TrendingByStation,
   type PopularStation,
   type StationMasterEntry,
+  type TrendingByStation as TrendingByStationType,
 } from "./types";
 
 const WS = path.resolve(process.cwd(), "../../_workspace");
@@ -31,6 +33,19 @@ export async function getFoodByStation() {
 
 export async function getWeatherByGu() {
   return readJson("04_weather/forecast_by_gu.json", WeatherByGu);
+}
+
+/**
+ * Returns the daily-refreshed trending list. Tries the canonical
+ * `trending.json` first; falls back to `trending.sample.json` so the UI
+ * still renders during Phase 1 before the live pipeline is wired up.
+ */
+export async function getTrending(): Promise<TrendingByStationType> {
+  try {
+    return await readJson("05_trending/trending.json", TrendingByStation);
+  } catch {
+    return readJson("05_trending/trending.sample.json", TrendingByStation);
+  }
 }
 
 export async function getStationById(id: string): Promise<PopularStation | null> {

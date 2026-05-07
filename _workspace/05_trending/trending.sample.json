@@ -1,0 +1,94 @@
+[
+  {
+    "station_no": "ST-1199",
+    "station_name_ko": "서울숲 관리사무소",
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "mention_count": 14,
+    "sentiment_avg": 0.62,
+    "summary_ko": "서울숲 일대가 이번 주 카페·소품샵 후기로 다시 떠오르고 있습니다. 외국인 라이더들이 가장 많이 빌리는 1위 대여소이기도 해서, 한강 라이딩과 묶기 좋습니다.",
+    "summary_en": "Seoul Forest is buzzing again this week — multiple cafe and indie-shop write-ups across r/seoul and Visit Seoul. It's the #1 station for foreign riders, so it pairs naturally with a Han River loop.",
+    "related_event_ids": [],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/sample1",
+        "title": "Seoul Forest cafes worth the bike ride?",
+        "snippet": "We rode bikes to Seoul Forest last weekend and the cafes around the deer enclosure were incredible…",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/news/sample-seongsu",
+        "title": "Seongsu's craft cafe scene gets two new openings",
+        "snippet": "Two indie roasters opened in Seongsu this month, both within walking distance of Seoul Forest…",
+        "source": "visit_seoul"
+      }
+    ],
+    "updated_at": "2026-05-08T06:00:00Z"
+  },
+  {
+    "station_no": "ST-207",
+    "station_name_ko": "서강대역 2번출구 앞",
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "mention_count": 11,
+    "sentiment_avg": 0.41,
+    "summary_ko": "연남동·홍대 일대가 야시장과 라이브 음악 후기로 꾸준히 언급됩니다. 자전거 주차가 편한 서강대역 대여소가 가까운 진입점이에요.",
+    "summary_en": "Yeonnam-dong and Hongdae stay hot for night markets and live music; expat threads on r/seoul keep recommending them. Sogang Station bike rack is the easiest in/out for the area.",
+    "related_event_ids": [],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/sample2",
+        "title": "Best Friday-night vibes near Hongdae?",
+        "snippet": "Did the Yeonnam → Hongdae walk last Friday and the alley bars off the parking lot were perfect…",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/whats-on/sample-yeonnam",
+        "title": "Yeonnam-dong street market returns this weekend",
+        "snippet": "The seasonal Yeonnam-dong handicraft market resumes Saturday afternoons through May…",
+        "source": "visit_seoul"
+      }
+    ],
+    "updated_at": "2026-05-08T06:00:00Z"
+  },
+  {
+    "station_no": "ST-474",
+    "station_name_ko": "불광역 8번출구",
+    "gu_ko": "은평구",
+    "gu_en": "Eunpyeong-gu",
+    "mention_count": 7,
+    "sentiment_avg": 0.55,
+    "summary_ko": "은평한옥마을 사진 후기가 자주 올라옵니다. 평일 오후가 한산하고 자전거 접근이 좋다고 합니다.",
+    "summary_en": "Eunpyeong Hanok Village photo posts are climbing on r/korea — mostly weekday-afternoon visits when it's quiet. Bike access from Bulgwang Station is straightforward.",
+    "related_event_ids": [],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/korea/comments/sample3",
+        "title": "Hanok village without the crowds — Eunpyeong worth it?",
+        "snippet": "Did Eunpyeong Hanok Village on a Wednesday afternoon, much quieter than Bukchon and walkable from the bike rack…",
+        "source": "reddit_korea"
+      }
+    ],
+    "updated_at": "2026-05-08T06:00:00Z"
+  },
+  {
+    "station_no": "ST-502",
+    "station_name_ko": "성내동 434-28",
+    "gu_ko": "강동구",
+    "gu_en": "Gangdong-gu",
+    "mention_count": 5,
+    "sentiment_avg": 0.30,
+    "summary_ko": "한강 자전거길 동쪽 끝 구간이 새 봄 시즌에 다시 언급됩니다. 광나루 한강공원 진입에 가까운 대여소입니다.",
+    "summary_en": "The east-end Han River bike path is getting fresh spring write-ups, especially around Gwangnaru Han River Park. Seongnae-dong is the closest station for that entry.",
+    "related_event_ids": [],
+    "sources": [
+      {
+        "url": "https://english.visitseoul.net/whats-on/sample-gwangnaru",
+        "title": "Gwangnaru Han River Park spring picnic season",
+        "snippet": "Spring picnic spots along the eastern Han River are now in season; bike paths are clear of construction…",
+        "source": "visit_seoul"
+      }
+    ],
+    "updated_at": "2026-05-08T06:00:00Z"
+  }
+]
