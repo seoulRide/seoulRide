@@ -79,3 +79,27 @@ export const WeatherForecast = z.object({
 export type WeatherForecast = z.infer<typeof WeatherForecast>;
 export const WeatherByGu = z.record(z.string(), WeatherForecast);
 export type WeatherByGu = z.infer<typeof WeatherByGu>;
+
+export interface StationMasterEntry {
+  station_no: string;
+  station_no_norm: string;
+  station_name_ko: string;
+  station_name_en: string | null;
+  lat: number;
+  lng: number;
+  gu_ko: string;
+  gu_en: string | null;
+  address: string;
+}
+
+export interface RouteResponse {
+  polyline: { lat: number; lng: number }[];
+  /** Total cycling distance in metres. */
+  distance_m: number;
+  /** Estimated cycling duration in seconds (15 km/h). */
+  duration_s: number;
+  provider: "tmap_pedestrian" | "straight";
+  fallback: boolean;
+  /** Optional human-friendly status message for debugging. */
+  message?: string;
+}

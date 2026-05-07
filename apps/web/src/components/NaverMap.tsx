@@ -1,7 +1,12 @@
 "use client";
 
 import { useEffect, useImperativeHandle, useRef, useState, forwardRef, useCallback } from "react";
-import type { NaverMarker, NaverMap as NaverMapInstance, NaverEventListener } from "@/lib/naver-types";
+import type {
+  NaverMarker,
+  NaverMap as NaverMapInstance,
+  NaverEventListener,
+  NaverPolyline,
+} from "@/lib/naver-types";
 
 export interface NaverMapMarker {
   id: string;
@@ -10,6 +15,28 @@ export interface NaverMapMarker {
   /** 0..1 — used for marker color/size */
   intensity?: number;
   label?: string;
+}
+
+/** A simple polyline (e.g. a route segment). */
+export interface NaverMapPolyline {
+  id: string;
+  points: { lat: number; lng: number }[];
+  color?: string;
+  weight?: number;
+  dashed?: boolean;
+}
+
+/** Distinct named markers (e.g. rental/return/event), rendered separately
+ *  from the bulk `markers` array so they don't compete for ids. */
+export interface NaverMapNamedMarker {
+  id: string;
+  lat: number;
+  lng: number;
+  /** Pre-rendered HTML content for the icon. */
+  html: string;
+  /** Anchor pixel offset so the marker tip lands on (lat,lng). */
+  anchor?: { x: number; y: number };
+  zIndex?: number;
 }
 
 export interface NaverMapHandle {
@@ -30,6 +57,10 @@ interface NaverMapProps {
   fitBounds?: boolean;
   /** Optional separate "current location" marker rendered with a distinct style. */
   here?: { lat: number; lng: number } | null;
+  /** Optional polylines (route segments) drawn under markers. */
+  polylines?: NaverMapPolyline[];
+  /** Optional named markers (rental, return, event venue, ...). */
+  extraMarkers?: NaverMapNamedMarker[];
 }
 
 const FALLBACK_CENTER = { lat: 37.5665, lng: 126.978 }; // 시청 광장
@@ -83,13 +114,26 @@ function MissingKey() {
 }
 
 export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function NaverMap(
-  { markers, selectedId, center, zoom = 11, className, onMarkerClick, fitBounds = false, here = null },
+  {
+    markers,
+    selectedId,
+    center,
+    zoom = 11,
+    className,
+    onMarkerClick,
+    fitBounds = false,
+    here = null,
+    polylines,
+    extraMarkers,
+  },
   ref,
 ) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<NaverMapInstance | null>(null);
   const [mapReady, setMapReady] = useState(false);
   const markersRef = useRef<Map<string, { marker: NaverMarker; listener: NaverEventListener | null }>>(new Map());
+  const namedMarkersRef = useRef<Map<string, NaverMarker>>(new Map());
+  const polylinesRef = useRef<Map<string, NaverPolyline>>(new Map());
   const hereMarkerRef = useRef<NaverMarker | null>(null);
   const onClickRef = useRef(onMarkerClick);
   onClickRef.current = onMarkerClick;
@@ -194,13 +238,84 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
       }
     }
 
-    if (fitBounds && markers.length > 0) {
+    if (fitBounds && (markers.length > 0 || (extraMarkers?.length ?? 0) > 0 || (polylines?.length ?? 0) > 0)) {
       const bounds = new n.maps.LatLngBounds();
       for (const m of markers) bounds.extend(new n.maps.LatLng(m.lat, m.lng));
+      for (const m of extraMarkers ?? []) bounds.extend(new n.maps.LatLng(m.lat, m.lng));
+      for (const pl of polylines ?? []) for (const p of pl.points) bounds.extend(new n.maps.LatLng(p.lat, p.lng));
       if (here) bounds.extend(new n.maps.LatLng(here.lat, here.lng));
       map.fitBounds(bounds, SEOUL_FIT_PADDING);
     }
-  }, [markers, selectedId, fitBounds, here, mapReady]);
+  }, [markers, selectedId, fitBounds, here, mapReady, extraMarkers, polylines]);
+
+  // Sync polylines
+  useEffect(() => {
+    const n = window.naver;
+    const map = mapRef.current;
+    if (!n || !map) return;
+    const present = new Set((polylines ?? []).map((p) => p.id));
+    for (const [id, line] of polylinesRef.current) {
+      if (!present.has(id)) {
+        line.setMap(null);
+        polylinesRef.current.delete(id);
+      }
+    }
+    for (const pl of polylines ?? []) {
+      const path = pl.points.map((p) => new n.maps.LatLng(p.lat, p.lng));
+      const opts = {
+        path,
+        map,
+        strokeColor: pl.color ?? "#10b981",
+        strokeWeight: pl.weight ?? 4,
+        strokeOpacity: 0.85,
+        strokeStyle: pl.dashed ? ("shortdash" as const) : ("solid" as const),
+        strokeLineCap: "round" as const,
+        strokeLineJoin: "round" as const,
+        clickable: false,
+      };
+      const existing = polylinesRef.current.get(pl.id);
+      if (existing) {
+        existing.setPath(path);
+        existing.setOptions(opts);
+      } else {
+        polylinesRef.current.set(pl.id, new n.maps.Polyline(opts));
+      }
+    }
+  }, [polylines, mapReady]);
+
+  // Sync extra markers (named)
+  useEffect(() => {
+    const n = window.naver;
+    const map = mapRef.current;
+    if (!n || !map) return;
+    const present = new Set((extraMarkers ?? []).map((m) => m.id));
+    for (const [id, m] of namedMarkersRef.current) {
+      if (!present.has(id)) {
+        m.setMap(null);
+        namedMarkersRef.current.delete(id);
+      }
+    }
+    for (const m of extraMarkers ?? []) {
+      const node = document.createElement("div");
+      node.innerHTML = m.html;
+      const anchor = m.anchor ? new n.maps.Point(m.anchor.x, m.anchor.y) : new n.maps.Point(12, 12);
+      const existing = namedMarkersRef.current.get(m.id);
+      if (existing) {
+        existing.setPosition(new n.maps.LatLng(m.lat, m.lng));
+        existing.setIcon({ content: node, anchor });
+        existing.setZIndex(m.zIndex ?? 5000);
+      } else {
+        const marker = new n.maps.Marker({
+          position: new n.maps.LatLng(m.lat, m.lng),
+          map,
+          icon: { content: node, anchor },
+          zIndex: m.zIndex ?? 5000,
+          clickable: false,
+        });
+        namedMarkersRef.current.set(m.id, marker);
+      }
+    }
+  }, [extraMarkers, mapReady]);
 
   // "here" (current location) overlay
   useEffect(() => {
@@ -236,6 +351,10 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
         entry.marker.setMap(null);
       }
       markersRef.current.clear();
+      for (const m of namedMarkersRef.current.values()) m.setMap(null);
+      namedMarkersRef.current.clear();
+      for (const p of polylinesRef.current.values()) p.setMap(null);
+      polylinesRef.current.clear();
       if (hereMarkerRef.current) {
         hereMarkerRef.current.setMap(null);
         hereMarkerRef.current = null;

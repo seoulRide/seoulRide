@@ -1,19 +1,25 @@
 import { SiteHeader } from "@/components/SiteHeader";
 import { BottomTabNav } from "@/components/BottomTabNav";
-import { StationCard } from "@/components/StationCard";
+import { EventCard } from "@/components/EventCard";
 import { WeatherWidget } from "@/components/WeatherWidget";
 import MapWrapper from "@/components/MapWrapper";
-import { getPopularStations, getWeatherByGu } from "@/lib/data";
+import { getPopularStations, getWeatherByGu, getEventsByStation } from "@/lib/data";
 import { t, useLangFromSearch, type Lang } from "@/lib/i18n";
+import { recommendTopEvents } from "@/lib/recommend";
 
 export default async function HomePage({ searchParams }: { searchParams: Promise<{ lng?: string }> }) {
   const sp = await searchParams;
   const lang: Lang = useLangFromSearch(sp);
-  const stations = await getPopularStations();
-  const weather = await getWeatherByGu();
+  const [stations, weather, eventsByStation] = await Promise.all([
+    getPopularStations(),
+    getWeatherByGu(),
+    getEventsByStation(),
+  ]);
 
   const top = stations[0];
   const featuredWeather = top?.gu_en ? weather[top.gu_en] : Object.values(weather)[0];
+
+  const recommended = recommendTopEvents(eventsByStation, stations, { perStationCap: 3, total: 12 });
 
   return (
     <>
@@ -37,11 +43,16 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-xs uppercase tracking-widest text-zinc-500">Top {Math.min(stations.length, 12)}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:auto-rows-[160px]">
-            {stations.slice(0, 12).map((s, i) => (
-              <StationCard key={s.station_no} station={s} lang={lang} hero={i === 0} />
-            ))}
+          <h2 className="text-xs uppercase tracking-widest text-zinc-500">
+            {t("home.section.recommended", lang)} · {recommended.length}
+          </h2>
+          <p className="text-sm text-zinc-500 max-w-prose">{t("home.section.recommended_sub", lang)}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+            {recommended.map((e) => {
+              const anchor = lang === "ko" ? e.anchor_station_name_ko : e.anchor_station_name_ko;
+              const subtitle = `${t("card.near_station", lang)}: ${anchor} (${e.anchor_rent_total.toLocaleString()})`;
+              return <EventCard key={e.id} event={e} lang={lang} subtitle={subtitle} />;
+            })}
           </div>
         </section>
 

@@ -41,6 +41,12 @@ export interface NaverMarker {
   setZIndex(z: number): void;
 }
 
+export interface NaverPolyline {
+  setMap(map: NaverMap | null): void;
+  setPath(path: NaverLatLng[]): void;
+  setOptions(options: Record<string, unknown>): void;
+}
+
 export interface NaverEventListener { /* opaque */ }
 
 export interface NaverNamespace {
@@ -60,6 +66,18 @@ export interface NaverNamespace {
       zIndex?: number;
       clickable?: boolean;
     }) => NaverMarker;
+    Polyline: new (opts: {
+      path: NaverLatLng[];
+      map?: NaverMap;
+      strokeColor?: string;
+      strokeWeight?: number;
+      strokeOpacity?: number;
+      strokeStyle?: "solid" | "shortdash" | "shortdot" | "shortdashdot" | "shortdashdotdot" | "dot" | "dash" | "longdash" | "dashdot" | "longdashdot" | "longdashdotdot";
+      strokeLineCap?: "butt" | "round" | "square";
+      strokeLineJoin?: "miter" | "round" | "bevel";
+      clickable?: boolean;
+      zIndex?: number;
+    }) => NaverPolyline;
     Event: {
       addListener(target: object, type: string, handler: (...args: unknown[]) => void): NaverEventListener;
       removeListener(listener: NaverEventListener): void;

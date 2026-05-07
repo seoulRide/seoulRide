@@ -7,6 +7,7 @@ import {
   FoodByStation,
   WeatherByGu,
   type PopularStation,
+  type StationMasterEntry,
 } from "./types";
 
 const WS = path.resolve(process.cwd(), "../../_workspace");
@@ -35,4 +36,12 @@ export async function getWeatherByGu() {
 export async function getStationById(id: string): Promise<PopularStation | null> {
   const all = await getPopularStations();
   return all.find((s) => s.station_no === id) ?? null;
+}
+
+let _stationMaster: StationMasterEntry[] | null = null;
+export async function getStationMaster(): Promise<StationMasterEntry[]> {
+  if (_stationMaster) return _stationMaster;
+  const txt = await fs.readFile(path.join(WS, "01_ingest/station_master.normalized.json"), "utf8");
+  _stationMaster = JSON.parse(txt) as StationMasterEntry[];
+  return _stationMaster;
 }
