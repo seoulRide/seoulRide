@@ -6,12 +6,11 @@ import { haversineKm, formatDistance } from "@/lib/route-geometry";
 import { bicycleAppLinks, type MapAppProvider } from "@/lib/map-app-links";
 import { getEventStatus } from "@/lib/event-status";
 import { t, type Lang } from "@/lib/i18n";
-import { GoogleMapsIcon, NaverIcon, KakaoIcon } from "./BrandIcons";
+import { GoogleMapsIcon, NaverIcon } from "./BrandIcons";
 
 const PROVIDER_ICON: Record<MapAppProvider, ComponentType<{ className?: string }>> = {
   google: GoogleMapsIcon,
   naver: NaverIcon,
-  kakao: KakaoIcon,
 };
 
 const CATEGORY_LABEL: Record<ExplorerEvent["category"], { en: string; ko: string }> = {

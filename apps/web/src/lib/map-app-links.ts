@@ -5,7 +5,7 @@
  * should hide the button.
  */
 
-export type MapAppProvider = "google" | "naver" | "kakao";
+export type MapAppProvider = "google" | "naver";
 
 export interface MapEndpoint {
   lat: number;
@@ -56,20 +56,7 @@ function naverWebUrl(from: MapEndpoint, to: MapEndpoint): string {
   );
 }
 
-function kakaoMobileDeep(from: MapEndpoint, to: MapEndpoint): string {
-  return (
-    `kakaomap://route?sp=${from.lat},${from.lng}` +
-    `&ep=${to.lat},${to.lng}&by=BICYCLE`
-  );
-}
-
-/**
- * Build the list of map-app buttons for a given route (rental → return).
- * Pass `mobile=false` on desktop to suppress mobile-only providers.
- *
- * Note: Kakao Map PC web does not support bicycle directions, so on desktop
- * we omit the Kakao link entirely (url=null) — callers should hide that button.
- */
+/** Build the list of map-app buttons for a given route (rental → return). */
 export function bicycleAppLinks(
   from: MapEndpoint,
   to: MapEndpoint,
@@ -85,11 +72,6 @@ export function bicycleAppLinks(
       provider: "naver",
       label: "NAVER",
       url: mobile ? naverMobileDeep(from, to) : naverWebUrl(from, to),
-    },
-    {
-      provider: "kakao",
-      label: "Kakao",
-      url: mobile ? kakaoMobileDeep(from, to) : null,
     },
   ];
 }

@@ -39,14 +39,3 @@ export function NaverIcon({ className }: { className?: string }) {
   );
 }
 
-export function KakaoIcon({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
-      <rect width="24" height="24" rx="5" fill="#FEE500" />
-      <path
-        fill="#3C1E1E"
-        d="M12 6.4c-3.4 0-6.2 2.18-6.2 4.87 0 1.74 1.17 3.26 2.92 4.12l-.74 2.74c-.07.24.21.44.43.3l3.27-2.16c.1.01.21.02.32.02 3.4 0 6.2-2.18 6.2-4.87S15.4 6.4 12 6.4z"
-      />
-    </svg>
-  );
-}
