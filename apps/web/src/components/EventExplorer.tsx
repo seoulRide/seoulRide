@@ -161,7 +161,7 @@ export function EventExplorer({
 
       <div
         ref={scrollerRef}
-        className="fixed inset-x-0 bottom-0 z-40 overflow-x-auto overflow-y-hidden pb-[calc(env(safe-area-inset-bottom)+12px)] pt-2 [&::-webkit-scrollbar]:hidden"
+        className="fixed inset-x-0 bottom-[calc(3.5rem+env(safe-area-inset-bottom))] md:bottom-0 z-30 overflow-x-auto overflow-y-hidden pb-3 pt-2 [&::-webkit-scrollbar]:hidden"
         style={{ scrollbarWidth: "none", scrollSnapType: "x mandatory" }}
       >
         <div className="flex items-stretch gap-3 px-[10vw]">
@@ -221,14 +221,26 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
       ref={ref}
       data-id={event.id}
       className={[
-        "shrink-0 w-[80vw] max-w-md rounded-2xl bg-white dark:bg-zinc-950 border shadow-lg p-4 flex flex-col gap-2",
+        "relative shrink-0 w-[80vw] max-w-md rounded-2xl bg-white dark:bg-zinc-950 border shadow-lg p-4 flex flex-col gap-2",
         selected
           ? "border-emerald-500 ring-2 ring-emerald-500/30"
           : "border-zinc-200 dark:border-zinc-800",
       ].join(" ")}
       style={{ scrollSnapAlign: "center" }}
     >
-      <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-semibold">
+      {event.url && (
+        <a
+          href={event.url}
+          target="_blank"
+          rel="noreferrer noopener"
+          aria-label={t("route.event_link", lang)}
+          title={t("route.event_link", lang)}
+          className="absolute top-2.5 right-2.5 inline-flex h-8 w-8 items-center justify-center rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 text-base leading-none"
+        >
+          🔗
+        </a>
+      )}
+      <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-semibold pr-9">
         <span
           className={[
             "px-1.5 py-0.5 rounded",
@@ -260,18 +272,8 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
       <h3 className="text-base font-semibold leading-tight line-clamp-2 min-h-[2.6em]">{title}</h3>
       <p className="text-xs text-zinc-500 line-clamp-1">{venue}</p>
 
-      {/* Footer pinned to the card bottom — buttons + event-page link don't shift with title length */}
+      {/* Footer pinned to the card bottom — buttons don't shift with title length */}
       <div className="mt-auto flex flex-col gap-2 pt-3">
-        {event.url && (
-          <a
-            href={event.url}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="self-center text-xs text-emerald-600 hover:underline"
-          >
-            {t("route.event_link", lang)} ↗
-          </a>
-        )}
         <div className="flex justify-center gap-3">
           {links.map((l) => {
             const Icon = PROVIDER_ICON[l.provider];

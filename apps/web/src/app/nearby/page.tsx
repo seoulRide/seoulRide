@@ -6,9 +6,14 @@ import { getEventsByStation, getPopularStations } from "@/lib/data";
 import { useLangFromSearch, type Lang } from "@/lib/i18n";
 import type { EventEntry } from "@/lib/types";
 
-export default async function NearbyPage({ searchParams }: { searchParams: Promise<{ lng?: string }> }) {
+export default async function NearbyPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ lng?: string; focus?: string }>;
+}) {
   const sp = await searchParams;
   const lang: Lang = useLangFromSearch(sp);
+  const focusId = sp.focus ? decodeURIComponent(sp.focus) : undefined;
   const [eventsAll, popularStations] = await Promise.all([
     getEventsByStation(),
     getPopularStations(),
@@ -34,7 +39,7 @@ export default async function NearbyPage({ searchParams }: { searchParams: Promi
     <>
       <SiteHeader lang={lang} />
       <main className="relative pb-0">
-        <NearbyClient events={events} stations={stations} lang={lang} />
+        <NearbyClient events={events} stations={stations} focusId={focusId} lang={lang} />
       </main>
       <BottomTabNav lang={lang} />
     </>

@@ -48,8 +48,7 @@ export function EventCard({
   const fallback = event.en_fallback === "ko_original" && lang === "en";
   const status = getEventStatus(event.start, event.end);
   const dimmed = status === "past";
-  const lngQs = lang === "ko" ? "?lng=ko" : "";
-  const routeHref = `/route/${encodeURIComponent(event.id)}${lngQs}`;
+  const routeHref = `/nearby?focus=${encodeURIComponent(event.id)}${lang === "ko" ? "&lng=ko" : ""}`;
 
   return (
     <div
