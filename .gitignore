@@ -60,3 +60,5 @@ desktop.ini
 
 # Local Claude settings (개인 권한 설정은 커밋하지 않음)
 .claude/settings.local.json
+apps/*/dist-web/
+.playwright-mcp/
