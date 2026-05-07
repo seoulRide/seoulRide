@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
 import { BottomTabNav } from "@/components/BottomTabNav";
-import { RouteClient, type ExplorerEvent } from "@/components/RouteClient";
+import { RouteClient } from "@/components/RouteClient";
+import type { ExplorerEvent } from "@/components/EventExplorer";
 import { getEventsByStation } from "@/lib/data";
 import { haversineKm } from "@/lib/route-geometry";
 import { useLangFromSearch, type Lang } from "@/lib/i18n";
@@ -20,17 +21,16 @@ export default async function RoutePage({
   const sp = await searchParams;
   const lang: Lang = useLangFromSearch(sp);
   const eventsAll = await getEventsByStation();
-
   const decoded = decodeURIComponent(eventId);
 
-  // Flatten all events with coords, dedupe by id (keep the closest occurrence by station distance).
-  const seen = new Map<string, ExplorerEvent>();
+  // Flatten unique events with coords; tie-break duplicates by closest station distance.
+  const flat = new Map<string, ExplorerEvent & { _station_distance_km: number }>();
   for (const sid in eventsAll) {
     for (const e of eventsAll[sid]) {
       if (e.lat == null || e.lng == null) continue;
-      const existing = seen.get(e.id);
+      const existing = flat.get(e.id);
       if (existing && existing._station_distance_km <= e.distance_km) continue;
-      seen.set(e.id, {
+      flat.set(e.id, {
         id: e.id,
         title_ko: e.title_ko,
         title_en: e.title_en,
@@ -47,21 +47,18 @@ export default async function RoutePage({
     }
   }
 
-  const anchor = seen.get(decoded);
+  const anchor = flat.get(decoded);
   if (!anchor) notFound();
 
-  // Nearby = events within radius, sorted by distance from anchor, capped.
-  const nearby: ExplorerEvent[] = [];
-  for (const e of seen.values()) {
-    if (e.id === anchor.id) continue;
-    const d = haversineKm({ lat: anchor.lat, lng: anchor.lng }, { lat: e.lat, lng: e.lng });
-    if (d <= NEARBY_RADIUS_KM) nearby.push({ ...e, _from_anchor_km: d });
-  }
-  nearby.sort((a, b) => (a._from_anchor_km ?? 0) - (b._from_anchor_km ?? 0));
-  const events: ExplorerEvent[] = [
-    { ...anchor, _from_anchor_km: 0 },
-    ...nearby.slice(0, NEARBY_CAP),
-  ];
+  const nearby = [...flat.values()]
+    .filter((e) => e.id !== anchor.id)
+    .map((e) => ({ e, d: haversineKm({ lat: anchor.lat, lng: anchor.lng }, { lat: e.lat, lng: e.lng }) }))
+    .filter((x) => x.d <= NEARBY_RADIUS_KM)
+    .sort((a, b) => a.d - b.d)
+    .slice(0, NEARBY_CAP)
+    .map((x) => x.e);
+
+  const events: ExplorerEvent[] = [anchor, ...nearby].map(stripInternal);
 
   return (
     <>
@@ -72,4 +69,12 @@ export default async function RoutePage({
       <BottomTabNav lang={lang} />
     </>
   );
+}
+
+function stripInternal(
+  e: ExplorerEvent & { _station_distance_km?: number },
+): ExplorerEvent {
+  const { _station_distance_km: _drop, ...rest } = e;
+  void _drop;
+  return rest;
 }
