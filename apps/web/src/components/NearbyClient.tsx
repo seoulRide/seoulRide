@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { EventExplorer, type ExplorerEvent } from "./EventExplorer";
+import { EventExplorer, type BikeStation, type ExplorerEvent } from "./EventExplorer";
 import type { EventEntry } from "@/lib/types";
 import { haversineKm } from "@/lib/route-geometry";
 import { isMobileUA } from "@/lib/map-app-links";
@@ -13,7 +13,15 @@ const MIN_NEARBY = 8;
 const FALLBACK_FILL_CAP = 30;
 const HARD_CAP = 60;
 
-export function NearbyClient({ events: allEvents, lang }: { events: EventEntry[]; lang: Lang }) {
+export function NearbyClient({
+  events: allEvents,
+  stations,
+  lang,
+}: {
+  events: EventEntry[];
+  stations?: BikeStation[];
+  lang: Lang;
+}) {
   const { origin, locStatus, requestLocation } = useGeolocation();
   const [mobile, setMobile] = useState(false);
   useEffect(() => { setMobile(isMobileUA()); }, []);
@@ -86,6 +94,7 @@ export function NearbyClient({ events: allEvents, lang }: { events: EventEntry[]
   return (
     <EventExplorer
       events={events}
+      stations={stations}
       lang={lang}
       origin={origin}
       originGranted={locStatus === "granted"}

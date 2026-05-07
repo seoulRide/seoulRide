@@ -2,14 +2,22 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { EventExplorer, type ExplorerEvent } from "./EventExplorer";
+import { EventExplorer, type BikeStation, type ExplorerEvent } from "./EventExplorer";
 import { isMobileUA } from "@/lib/map-app-links";
 import { useGeolocation } from "@/lib/use-geolocation";
 import { t, type Lang } from "@/lib/i18n";
 
 export type { ExplorerEvent };
 
-export function RouteClient({ events, lang }: { events: ExplorerEvent[]; lang: Lang }) {
+export function RouteClient({
+  events,
+  stations,
+  lang,
+}: {
+  events: ExplorerEvent[];
+  stations?: BikeStation[];
+  lang: Lang;
+}) {
   const { origin, locStatus, requestLocation } = useGeolocation();
   const [mobile, setMobile] = useState(false);
   useEffect(() => { setMobile(isMobileUA()); }, []);
@@ -55,6 +63,7 @@ export function RouteClient({ events, lang }: { events: ExplorerEvent[]; lang: L
   return (
     <EventExplorer
       events={events}
+      stations={stations}
       lang={lang}
       origin={origin}
       originGranted={locStatus === "granted"}

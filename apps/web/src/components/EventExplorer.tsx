@@ -1,7 +1,7 @@
 "use client";
 
-import { forwardRef, useEffect, useRef, useState, type ComponentType, type ReactNode } from "react";
-import { NaverMap, type NaverMapHandle, type NaverMapMarker } from "./NaverMap";
+import { forwardRef, useEffect, useMemo, useRef, useState, type ComponentType, type ReactNode } from "react";
+import { NaverMap, type NaverMapHandle, type NaverMapMarker, type NaverMapNamedMarker } from "./NaverMap";
 import { haversineKm, formatDistance } from "@/lib/route-geometry";
 import { bicycleAppLinks, type MapAppProvider } from "@/lib/map-app-links";
 import { getEventStatus } from "@/lib/event-status";
@@ -22,6 +22,8 @@ const CATEGORY_LABEL: Record<ExplorerEvent["category"], { en: string; ko: string
   experience: { en: "Experience", ko: "체험" },
 };
 
+const STATION_ICON_HTML = `<div style="width:12px;height:12px;border-radius:9999px;background:#fff;border:2.5px solid #047857;box-shadow:0 1px 2px rgba(0,0,0,0.2);"></div>`;
+
 export interface ExplorerEvent {
   id: string;
   title_ko: string;
@@ -36,8 +38,17 @@ export interface ExplorerEvent {
   url: string;
 }
 
+export interface BikeStation {
+  station_no: string;
+  name: string;
+  lat: number;
+  lng: number;
+}
+
 export interface EventExplorerProps {
   events: ExplorerEvent[];
+  /** Optional bike stations to draw as small distinct markers underneath the event markers. */
+  stations?: BikeStation[];
   lang: Lang;
   origin: { lat: number; lng: number };
   originGranted: boolean;
@@ -51,6 +62,7 @@ export interface EventExplorerProps {
 
 export function EventExplorer({
   events,
+  stations,
   lang,
   origin,
   originGranted,
@@ -79,6 +91,19 @@ export function EventExplorer({
     lng: e.lng,
     intensity: e.id === selectedId ? 0.95 : 0.4,
   }));
+
+  const stationMarkers: NaverMapNamedMarker[] = useMemo(
+    () =>
+      (stations ?? []).map((s) => ({
+        id: `station-${s.station_no}`,
+        lat: s.lat,
+        lng: s.lng,
+        html: STATION_ICON_HTML,
+        anchor: { x: 6, y: 6 },
+        zIndex: 100,
+      })),
+    [stations],
+  );
 
   // Pan map when selection changes.
   useEffect(() => {
@@ -121,12 +146,12 @@ export function EventExplorer({
       <NaverMap
         ref={mapRef}
         markers={markers}
+        extraMarkers={stationMarkers}
         selectedId={selectedId}
         center={fallbackCenter}
         zoom={14}
         here={originGranted ? origin : null}
         onMarkerClick={onMarkerClick}
-        showBicycleLayer
         className="h-[100svh] w-full"
       />
 
@@ -196,7 +221,7 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
       ref={ref}
       data-id={event.id}
       className={[
-        "shrink-0 w-[80vw] max-w-md rounded-2xl bg-white dark:bg-zinc-950 border shadow-lg p-4 flex flex-col gap-2.5",
+        "shrink-0 w-[80vw] max-w-md rounded-2xl bg-white dark:bg-zinc-950 border shadow-lg p-4 flex flex-col gap-2",
         selected
           ? "border-emerald-500 ring-2 ring-emerald-500/30"
           : "border-zinc-200 dark:border-zinc-800",
@@ -232,38 +257,40 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
           </>
         )}
       </div>
-      <h3 className="text-base font-semibold leading-tight line-clamp-2">{title}</h3>
+      <h3 className="text-base font-semibold leading-tight line-clamp-2 min-h-[2.6em]">{title}</h3>
       <p className="text-xs text-zinc-500 line-clamp-1">{venue}</p>
 
-      <div className="flex gap-2 pt-1">
-        {links.map((l) => {
-          const Icon = PROVIDER_ICON[l.provider];
-          return (
-            <a
-              key={l.provider}
-              href={l.url}
-              target={mobile ? undefined : "_blank"}
-              rel="noreferrer noopener"
-              aria-label={`${l.label} — ${title}`}
-              className="flex flex-1 items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 py-2.5 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
-            >
-              <Icon className="h-6 w-6" />
-              <span className="sr-only">{l.label}</span>
-            </a>
-          );
-        })}
+      {/* Footer pinned to the card bottom — buttons + event-page link don't shift with title length */}
+      <div className="mt-auto flex flex-col gap-2 pt-3">
+        {event.url && (
+          <a
+            href={event.url}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="self-center text-xs text-emerald-600 hover:underline"
+          >
+            {t("route.event_link", lang)} ↗
+          </a>
+        )}
+        <div className="flex justify-center gap-3">
+          {links.map((l) => {
+            const Icon = PROVIDER_ICON[l.provider];
+            return (
+              <a
+                key={l.provider}
+                href={l.url}
+                target={mobile ? undefined : "_blank"}
+                rel="noreferrer noopener"
+                aria-label={`${l.label} — ${title}`}
+                className="flex h-14 w-14 items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
+              >
+                <Icon className="h-7 w-7" />
+                <span className="sr-only">{l.label}</span>
+              </a>
+            );
+          })}
+        </div>
       </div>
-
-      {event.url && (
-        <a
-          href={event.url}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="text-xs text-emerald-600 hover:underline pt-0.5"
-        >
-          {t("route.event_link", lang)} ↗
-        </a>
-      )}
     </div>
   );
 });

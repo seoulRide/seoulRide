@@ -2,8 +2,8 @@ import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
 import { BottomTabNav } from "@/components/BottomTabNav";
 import { RouteClient } from "@/components/RouteClient";
-import type { ExplorerEvent } from "@/components/EventExplorer";
-import { getEventsByStation } from "@/lib/data";
+import type { BikeStation, ExplorerEvent } from "@/components/EventExplorer";
+import { getEventsByStation, getPopularStations } from "@/lib/data";
 import { haversineKm } from "@/lib/route-geometry";
 import { useLangFromSearch, type Lang } from "@/lib/i18n";
 
@@ -20,8 +20,17 @@ export default async function RoutePage({
   const { eventId } = await params;
   const sp = await searchParams;
   const lang: Lang = useLangFromSearch(sp);
-  const eventsAll = await getEventsByStation();
+  const [eventsAll, popularStations] = await Promise.all([
+    getEventsByStation(),
+    getPopularStations(),
+  ]);
   const decoded = decodeURIComponent(eventId);
+  const stations: BikeStation[] = popularStations.map((s) => ({
+    station_no: s.station_no,
+    name: s.station_name_ko,
+    lat: s.lat,
+    lng: s.lng,
+  }));
 
   // Flatten unique events with coords; tie-break duplicates by closest station distance.
   const flat = new Map<string, ExplorerEvent & { _station_distance_km: number }>();
@@ -64,7 +73,7 @@ export default async function RoutePage({
     <>
       <SiteHeader lang={lang} />
       <main className="relative">
-        <RouteClient events={events} lang={lang} />
+        <RouteClient events={events} stations={stations} lang={lang} />
       </main>
       <BottomTabNav lang={lang} />
     </>

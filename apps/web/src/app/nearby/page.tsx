@@ -1,14 +1,24 @@
 import { SiteHeader } from "@/components/SiteHeader";
 import { BottomTabNav } from "@/components/BottomTabNav";
 import { NearbyClient } from "@/components/NearbyClient";
-import { getEventsByStation } from "@/lib/data";
+import type { BikeStation } from "@/components/EventExplorer";
+import { getEventsByStation, getPopularStations } from "@/lib/data";
 import { useLangFromSearch, type Lang } from "@/lib/i18n";
 import type { EventEntry } from "@/lib/types";
 
 export default async function NearbyPage({ searchParams }: { searchParams: Promise<{ lng?: string }> }) {
   const sp = await searchParams;
   const lang: Lang = useLangFromSearch(sp);
-  const eventsAll = await getEventsByStation();
+  const [eventsAll, popularStations] = await Promise.all([
+    getEventsByStation(),
+    getPopularStations(),
+  ]);
+  const stations: BikeStation[] = popularStations.map((s) => ({
+    station_no: s.station_no,
+    name: s.station_name_ko,
+    lat: s.lat,
+    lng: s.lng,
+  }));
 
   // Flatten unique events, prefer the closest occurrence (lowest distance_km from any station)
   const map = new Map<string, EventEntry>();
@@ -24,7 +34,7 @@ export default async function NearbyPage({ searchParams }: { searchParams: Promi
     <>
       <SiteHeader lang={lang} />
       <main className="relative pb-0">
-        <NearbyClient events={events} lang={lang} />
+        <NearbyClient events={events} stations={stations} lang={lang} />
       </main>
       <BottomTabNav lang={lang} />
     </>
