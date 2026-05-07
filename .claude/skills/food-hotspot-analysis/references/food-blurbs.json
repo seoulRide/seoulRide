@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "description": "정적 음식 카테고리 blurb dict. food-recommender-agent가 자치구·카테고리 키로 lookup. {gu_en} 토큰 치환만 허용.",
+    "version": 1
+  },
+  "default": {
+    "korean_food": {
+      "label_ko": "한식",
+      "label_en": "Korean Cuisine",
+      "blurb_en": "{gu_en} offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+    },
+    "korean_bbq": {
+      "label_ko": "한식 (고기)",
+      "label_en": "Korean BBQ",
+      "blurb_en": "Look for grilled-meat (gogi-jip) restaurants in {gu_en} — pork belly (samgyeopsal) is the most popular cut and almost always served with side dishes (banchan) for free."
+    },
+    "noodle": {
+      "label_ko": "면요리",
+      "label_en": "Noodles & Dumplings",
+      "blurb_en": "{gu_en} has noodle shops worth visiting — try kalguksu (knife-cut noodle soup) or naengmyeon (cold noodles) depending on the season."
+    },
+    "cafe": {
+      "label_ko": "카페",
+      "label_en": "Cafés",
+      "blurb_en": "{gu_en} is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal fruit-based menus."
+    },
+    "bakery": {
+      "label_ko": "베이커리",
+      "label_en": "Bakeries & Pastry",
+      "blurb_en": "Korean bakeries in {gu_en} sell soft milk bread, red-bean buns (anpang), and seasonal pastries. Look for chains like Tous Les Jours or independent ovens near subway exits."
+    },
+    "street_food": {
+      "label_ko": "길거리음식",
+      "label_en": "Street Food",
+      "blurb_en": "Street stalls in {gu_en} serve tteokbokki (spicy rice cakes), hotteok (sweet pancakes), and odeng (fish-cake skewers) — best after sunset and very cash-friendly."
+    },
+    "japanese": {
+      "label_ko": "일식",
+      "label_en": "Japanese",
+      "blurb_en": "Japanese izakaya and ramen shops are common in {gu_en}, often clustered near office buildings. Lunch sets (donburi, set meals) are usually the best value."
+    },
+    "chinese": {
+      "label_ko": "중식",
+      "label_en": "Chinese (Korean-style)",
+      "blurb_en": "Korean-Chinese restaurants in {gu_en} serve jajangmyeon (black-bean noodles) and tangsuyuk (sweet & sour pork) — uniquely localized and worth trying."
+    },
+    "western": {
+      "label_ko": "양식",
+      "label_en": "Western",
+      "blurb_en": "Western options in {gu_en} range from pasta houses to brunch cafés, with prices comparable to mid-tier restaurants in major Western cities."
+    },
+    "dessert": {
+      "label_ko": "디저트",
+      "label_en": "Desserts",
+      "blurb_en": "Dessert culture is strong in {gu_en} — bingsu (shaved ice with toppings) in summer and yakgwa or seasonal cakes year-round."
+    },
+    "_carryall": {
+      "label_ko": "다양한 음식",
+      "label_en": "Mixed Local Eats",
+      "blurb_en": "{gu_en} has a healthy mix of local restaurants — ask staff for the day's recommendation (oneul-ui chuchon) if you don't read Korean."
+    }
+  }
+}

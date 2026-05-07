@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "seoulRide" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "Map" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Events" [ref=e7] [cursor=pointer]:
+          - /url: /events
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /about
+        - link "KO" [ref=e9] [cursor=pointer]:
+          - /url: /station/ST-1199?lng=ko
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]: "#1 · Seongdong-gu"
+        - generic [ref=e14]: · spike
+      - heading "서울숲 관리사무소" [level=1] [ref=e15]
+      - paragraph [ref=e16]: 서울특별시 성동구 성수동1가 678-1 서울숲 관리사무소
+      - generic [ref=e17]:
+        - generic [ref=e18]: "715"
+        - generic [ref=e19]: rentals
+    - generic [ref=e20]:
+      - complementary [ref=e21]:
+        - generic [ref=e22]:
+          - heading "Weather & ride score" [level=2] [ref=e23]
+          - generic [ref=e24]:
+            - generic [ref=e26]: Seongdong-gu
+            - generic [ref=e28]:
+              - generic [ref=e29]: "90"
+              - generic [ref=e30]: / 100
+            - generic [ref=e31]: Great for cycling
+            - generic [ref=e32]:
+              - generic [ref=e33]: 18°C
+              - generic [ref=e34]: 💧 30%
+              - generic [ref=e35]: 🌬 3.9 m/s
+        - generic [ref=e36]:
+          - heading "What to eat" [level=2] [ref=e37]
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: Seongdong-gu
+              - generic "estimated_consumption + curated_categories" [ref=e41]: est.
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - generic [ref=e44]: Cafés
+                - paragraph [ref=e45]: Seongdong-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus.
+              - listitem [ref=e46]:
+                - generic [ref=e47]: Korean Cuisine
+                - paragraph [ref=e48]: Seongdong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal.
+      - generic [ref=e49]:
+        - heading "Events nearby (30)" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - link "Experience 0.02 km away ⓘ [서울숲]나도 서울숲 탐험가(연중) 서울숲 방문자센터 2026-01-01 ~ 2026-12-31 Free" [ref=e52] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251222133912753206
+            - generic [ref=e53]:
+              - generic [ref=e54]: Experience
+              - generic [ref=e55]: 0.02 km away
+              - generic "Original Korean name" [ref=e56]: ⓘ
+            - heading "[서울숲]나도 서울숲 탐험가(연중)" [level=4] [ref=e57]
+            - generic [ref=e58]: 서울숲 방문자센터
+            - generic [ref=e59]:
+              - generic [ref=e60]: 2026-01-01 ~ 2026-12-31
+              - generic [ref=e61]: Free
+          - link "Festival 0.04 km away ⓘ 2026 서울국제정원박람회 서울숲 일대 2026-05-01 ~ 2026-10-27 Free" [ref=e62] [cursor=pointer]:
+            - /url: https://www.seoul.go.kr/festa/garden/
+            - generic [ref=e63]:
+              - generic [ref=e64]: Festival
+              - generic [ref=e65]: 0.04 km away
+              - generic "Original Korean name" [ref=e66]: ⓘ
+            - heading "2026 서울국제정원박람회" [level=4] [ref=e67]
+            - generic [ref=e68]: 서울숲 일대
+            - generic [ref=e69]:
+              - generic [ref=e70]: 2026-05-01 ~ 2026-10-27
+              - generic [ref=e71]: Free
+          - link "Festival 0.04 km away ⓘ 2026 서로장터 서울광장, 서울숲, 양재시민의 숲, 잠수교 2026-04-26 ~ 2026-11-01 Free" [ref=e72] [cursor=pointer]:
+            - /url: https://www.instagram.com/seoul.local.market/
+            - generic [ref=e73]:
+              - generic [ref=e74]: Festival
+              - generic [ref=e75]: 0.04 km away
+              - generic "Original Korean name" [ref=e76]: ⓘ
+            - heading "2026 서로장터" [level=4] [ref=e77]
+            - generic [ref=e78]: 서울광장, 서울숲, 양재시민의 숲, 잠수교
+            - generic [ref=e79]:
+              - generic [ref=e80]: 2026-04-26 ~ 2026-11-01
+              - generic [ref=e81]: Free
+          - link "Festival 0.04 km away ⓘ [2026 서울가든페스티벌] 한지꽃 만들기 체험 서울숲 야외무대 2026-05-16 ~ 2026-05-17 유료" [ref=e82] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260421092952168972
+            - generic [ref=e83]:
+              - generic [ref=e84]: Festival
+              - generic [ref=e85]: 0.04 km away
+              - generic "Original Korean name" [ref=e86]: ⓘ
+            - heading "[2026 서울가든페스티벌] 한지꽃 만들기 체험" [level=4] [ref=e87]
+            - generic [ref=e88]: 서울숲 야외무대
+            - generic [ref=e89]:
+              - generic [ref=e90]: 2026-05-16 ~ 2026-05-17
+              - generic [ref=e91]: 유료
+          - link "Experience 0.04 km away ⓘ (서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램 서울숲 생태학습장 2026-05-06 ~ 2026-06-24 Free" [ref=e92] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260420110001461539
+            - generic [ref=e93]:
+              - generic [ref=e94]: Experience
+              - generic [ref=e95]: 0.04 km away
+              - generic "Original Korean name" [ref=e96]: ⓘ
+            - heading "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램" [level=4] [ref=e97]
+            - generic [ref=e98]: 서울숲 생태학습장
+            - generic [ref=e99]:
+              - generic [ref=e100]: 2026-05-06 ~ 2026-06-24
+              - generic [ref=e101]: Free
+          - link "Experience 0.04 km away ⓘ (서울숲_4회차 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램 서울숲 생태학습장 2026-05-02 ~ 2026-06-27 Free" [ref=e102] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260420153625944555
+            - generic [ref=e103]:
+              - generic [ref=e104]: Experience
+              - generic [ref=e105]: 0.04 km away
+              - generic "Original Korean name" [ref=e106]: ⓘ
+            - heading "(서울숲_4회차 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램" [level=4] [ref=e107]
+            - generic [ref=e108]: 서울숲 생태학습장
+            - generic [ref=e109]:
+              - generic [ref=e110]: 2026-05-02 ~ 2026-06-27
+              - generic [ref=e111]: Free
+          - link "Concert 0.04 km away ⓘ [2026 서울가든페스티벌] 서울숲 야외무대 음악 공연 서울숲 야외무대 2026-05-16 ~ 2026-06-07 Free" [ref=e112] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260420150701261795
+            - generic [ref=e113]:
+              - generic [ref=e114]: Concert
+              - generic [ref=e115]: 0.04 km away
+              - generic "Original Korean name" [ref=e116]: ⓘ
+            - heading "[2026 서울가든페스티벌] 서울숲 야외무대 음악 공연" [level=4] [ref=e117]
+            - generic [ref=e118]: 서울숲 야외무대
+            - generic [ref=e119]:
+              - generic [ref=e120]: 2026-05-16 ~ 2026-06-07
+              - generic [ref=e121]: Free
+          - link "Festival 0.04 km away ⓘ [2026 서울가든페스티벌] 공원한컷 사진찍기 서울숲 야외무대 2026-05-16 ~ 2026-05-17 유료" [ref=e122] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260421131943066426
+            - generic [ref=e123]:
+              - generic [ref=e124]: Festival
+              - generic [ref=e125]: 0.04 km away
+              - generic "Original Korean name" [ref=e126]: ⓘ
+            - heading "[2026 서울가든페스티벌] 공원한컷 사진찍기" [level=4] [ref=e127]
+            - generic [ref=e128]: 서울숲 야외무대
+            - generic [ref=e129]:
+              - generic [ref=e130]: 2026-05-16 ~ 2026-05-17
+              - generic [ref=e131]: 유료
+          - link "Experience 0.04 km away ⓘ [은평구] 서울국제정원박람회 \"나무야 놀자\" 목공 프로그램-트레이(쟁반) 만들기 & 우드버닝 서울숲 군마상 뒤 2026-05-12 ~ 2026-05-15 유료" [ref=e132] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260430135023781717
+            - generic [ref=e133]:
+              - generic [ref=e134]: Experience
+              - generic [ref=e135]: 0.04 km away
+              - generic "Original Korean name" [ref=e136]: ⓘ
+            - heading "[은평구] 서울국제정원박람회 \"나무야 놀자\" 목공 프로그램-트레이(쟁반) 만들기 & 우드버닝" [level=4] [ref=e137]
+            - generic [ref=e138]: 서울숲 군마상 뒤
+            - generic [ref=e139]:
+              - generic [ref=e140]: 2026-05-12 ~ 2026-05-15
+              - generic [ref=e141]: 유료
+          - link "Experience 0.04 km away ⓘ [노원구] 국제정원박람회 \"나무야 놀자\" 목공프로그램 서울숲 군마상 뒤 2026-05-13 ~ 2026-05-15 유료" [ref=e142] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260430192051383173
+            - generic [ref=e143]:
+              - generic [ref=e144]: Experience
+              - generic [ref=e145]: 0.04 km away
+              - generic "Original Korean name" [ref=e146]: ⓘ
+            - heading "[노원구] 국제정원박람회 \"나무야 놀자\" 목공프로그램" [level=4] [ref=e147]
+            - generic [ref=e148]: 서울숲 군마상 뒤
+            - generic [ref=e149]:
+              - generic [ref=e150]: 2026-05-13 ~ 2026-05-15
+              - generic [ref=e151]: 유료
+          - link "Experience 0.04 km away ⓘ [양천구] 국제정원박람회 목공체험 문화프로그램 (가드닝 바구니 만들기) 서울숲 2026-05-11 ~ 2026-05-15 유료" [ref=e152] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260504121804103510
+            - generic [ref=e153]:
+              - generic [ref=e154]: Experience
+              - generic [ref=e155]: 0.04 km away
+              - generic "Original Korean name" [ref=e156]: ⓘ
+            - heading "[양천구] 국제정원박람회 목공체험 문화프로그램 (가드닝 바구니 만들기)" [level=4] [ref=e157]
+            - generic [ref=e158]: 서울숲
+            - generic [ref=e159]:
+              - generic [ref=e160]: 2026-05-11 ~ 2026-05-15
+              - generic [ref=e161]: 유료
+          - link "Experience 0.07 km away ⓘ [구로구] 국제정원박람회\"나무야 놀자\"목공프로그램(무전원우드스피커) [구로구]국제정원박람회&quot;나무야 놀자&quot; 목공체험 2026-05-11 ~ 2026-05-15 유료" [ref=e162] [cursor=pointer]:
+            - /url: https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260430161007383156
+            - generic [ref=e163]:
+              - generic [ref=e164]: Experience
+              - generic [ref=e165]: 0.07 km away
+              - generic "Original Korean name" [ref=e166]: ⓘ
+            - heading "[구로구] 국제정원박람회\"나무야 놀자\"목공프로그램(무전원우드스피커)" [level=4] [ref=e167]
+            - generic [ref=e168]: "[구로구]국제정원박람회&quot;나무야 놀자&quot; 목공체험"
+            - generic [ref=e169]:
+              - generic [ref=e170]: 2026-05-11 ~ 2026-05-15
+              - generic [ref=e171]: 유료
+    - generic [ref=e172]: "Data: Seoul Open Data Plaza, Korea Meteorological Administration"
+  - button "Open Next.js Dev Tools" [ref=e178] [cursor=pointer]:
+    - img [ref=e179]

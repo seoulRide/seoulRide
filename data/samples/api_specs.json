@@ -1,0 +1,102 @@
+{
+  "서울시+공공자전거+따릉이+외국인+대여정보(월별).xls": {
+    "service_name": [
+      "서울시 공공자전거 따릉이 외국인 대여정보(월별)"
+    ],
+    "description": [
+      "서울특별시 공공자전거 월별 외국인 대여정보입니다."
+    ],
+    "sample_urls": [
+      "http://openapi.seoul.go.kr:8088/sample/xml/cycleForeignerRentMonthInfo/1/5/"
+    ],
+    "table_count": 0,
+    "tables_preview": []
+  },
+  "서울시+공공자전거+따릉이+외국인+대여정보(일별).xls": {
+    "service_name": [
+      "서울시 공공자전거 따릉이 외국인 대여정보(일별)"
+    ],
+    "description": [
+      "서울특별시 공공자전거 외국인 일별 이용정보입니다.\n대여일자, 대여소번호, 대여소, 대여건수, 반납건수 정보를 제공합니다."
+    ],
+    "sample_urls": [
+      "http://openapi.seoul.go.kr:8088/sample/xml/cycleForeignerRentDayInfo/1/5/"
+    ],
+    "table_count": 0,
+    "tables_preview": []
+  },
+  "서울시+문화행사+정보.xls": {
+    "service_name": [
+      "서울시 문화행사 정보"
+    ],
+    "description": [
+      "서울문화포털에서 제공하는 문화행사 정보입니다.\n분류, 자치구, 공연/행사명, 장소, 날짜, 기관명, 이용대상, 이용요금, 출연자, 프로그램, 홈페이지, 문의, 위치(위/경도), 시작일, 종료일, 유/무료, 행사시간 등의 정보를 제공합니다.\n* 원천시스템 : 서울문화포털(https://culture.seoul.go.kr)에 등록되어 있는 문화행사 정보를 제공"
+    ],
+    "sample_urls": [
+      "https://culture.seoul.go.kr)에",
+      "http://openapi.seoul.go.kr:8088/sample/xml/culturalEventInfo/1/5/"
+    ],
+    "table_count": 0,
+    "tables_preview": []
+  },
+  "서울시+문화행사+공공서비스예약+정보.xls": {
+    "service_name": [
+      "서울시 문화행사 공공서비스예약 정보"
+    ],
+    "description": [
+      "서울시 및 산하기관, 자치구의 문화행사 예약정보를 제공합니다. (이용종료된 데이터는 제외)\n예약은 http://yeyak.seoul.go.kr 에서 직접 하셔야 하며, 데이터별 [바로가기 URL]항목을 통해서 해당정보의 상세내용을 조회하시기 바랍니다.\n※ 제공되는 데이터는 연계시간 차이로 일부 차이가 날 수 있으니 양해 바랍니다. \n※ 컬럼정보 중 NOTI"
+    ],
+    "sample_urls": [
+      "http://yeyak.seoul.go.kr",
+      "http://openAPI.seoul.go.kr:8088/sample/xml/ListPublicReservationCulture/1/5/",
+      "http://openAPI.seoul.go.kr:8088/sample/xml/ListPublicReservationCulture/1/5/콘서트"
+    ],
+    "table_count": 0,
+    "tables_preview": []
+  },
+  "서울시+영문+공공서비스예약+정보.xls": {
+    "service_name": [
+      "서울시 영문 공공서비스예약 정보"
+    ],
+    "description": [
+      "서울시 및 산하기관, 자치구의 체육시설, 시설대관, 교육, 문화행사, 진료 예약 영문 정보를 제공합니다.(이용종료된 데이터는 제외)\n예약은 http://yeyak.seoul.go.kr 에서 직접 하셔야 합니다.\n바로가기 URL을 통해서 해당정보의 상세내용을 조회하시기 바랍니다.\n※ 제공되는 데이터는 연계시간 차이로 일부 차이가 날 수 있으니 양해 바랍니다."
+    ],
+    "sample_urls": [
+      "http://yeyak.seoul.go.kr",
+      "http://openAPI.seoul.go.kr:8088/sample/xml/ListPublicReservationEnglish/1/5/",
+      "http://openAPI.seoul.go.kr:8088/sample/xml/ListPublicReservationEnglish/1/5/Tennis"
+    ],
+    "table_count": 0,
+    "tables_preview": []
+  },
+  "서울시+세종문화회관+공연+및+전시+정보.xls": {
+    "service_name": [
+      "서울시 세종문화회관 공연 및 전시 정보"
+    ],
+    "description": [
+      "세종문화회관의 공연 및 전시 정보 데이터 입니다\n(공연일자, 할인정보 등 확인이 가능합니다)\n※ 2011년 데이터부터 제공됩니다."
+    ],
+    "sample_urls": [
+      "http://openAPI.seoul.go.kr:8088/sample/xml/SJWPerform/1/5",
+      "http://openapi.seoul.go.kr:8088/sample/xml/SJWPerform/1/5/chpi2007060415"
+    ],
+    "table_count": 0,
+    "tables_preview": []
+  },
+  "서울시+상권분석서비스(소비-상권).xls": {
+    "service_name": [
+      "서울시 상권분석서비스(소비-상권)"
+    ],
+    "description": [
+      "서울시 상권 영역 내 추정 소비 정보를 제공합니다.\n※ 소비 - 행정동, 자치구, 서울시를 집계한 데이터와 소비 - 상권 영역 집계 데이터는 서로 다른 데이터를 사용합니다.\n※ 행정동보다 작은 상권크기의 데이터의 제공이 어려워 더 이상 갱신되지 않습니다.\n\n상권분석서비스 데이터셋에서 제공하던 월 평균 소득 금액 데이터는 데이터 수급 중단으로(2020년) 인"
+    ],
+    "sample_urls": [
+      "https://tasis.nts.go.kr)",
+      "https://www.data.go.kr/data/3046077/fileData.do",
+      "http://openapi.seoul.go.kr:8088/sample/xml/trdarNcmCnsmp/1/5/",
+      "http://openapi.seoul.go.kr:8088/sample/xml/trdarNcmCnsmp/1/5/20241"
+    ],
+    "table_count": 0,
+    "tables_preview": []
+  }
+}

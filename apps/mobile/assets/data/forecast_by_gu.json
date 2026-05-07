@@ -1,0 +1,1946 @@
+{
+  "Seongdong-gu": {
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 18,
+      "wind_ms": 3.9,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 75,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 18,
+        "wind_ms": 3.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 75,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 18,
+        "wind_ms": 2.9,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Mapo-gu": {
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 17,
+      "wind_ms": 3.5,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 80,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 17,
+        "wind_ms": 3.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 80,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.1,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 13,
+        "wind_ms": 2.2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 13,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Gangdong-gu": {
+    "gu_ko": "강동구",
+    "gu_en": "Gangdong-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 19,
+      "wind_ms": 4.4,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 65,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 19,
+        "wind_ms": 4.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 65,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 18,
+        "wind_ms": 2.8,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 80,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 18,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.1,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.7,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Eunpyeong-gu": {
+    "gu_ko": "은평구",
+    "gu_en": "Eunpyeong-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 17,
+      "wind_ms": 3.5,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 80,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 17,
+        "wind_ms": 3.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 80,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.1,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 13,
+        "wind_ms": 2.2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 13,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Guro-gu": {
+    "gu_ko": "구로구",
+    "gu_en": "Guro-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 18,
+      "wind_ms": 4,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 80,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 18,
+        "wind_ms": 4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 80,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.9,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Jung-gu": {
+    "gu_ko": "중구",
+    "gu_en": "Jung-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 18,
+      "wind_ms": 3.7,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 75,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 18,
+        "wind_ms": 3.7,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 75,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.9,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Seodaemun-gu": {
+    "gu_ko": "서대문구",
+    "gu_en": "Seodaemun-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 17,
+      "wind_ms": 3.5,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 80,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 17,
+        "wind_ms": 3.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 80,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.1,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 13,
+        "wind_ms": 2.2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 13,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Seongbuk-gu": {
+    "gu_ko": "성북구",
+    "gu_en": "Seongbuk-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 18,
+      "wind_ms": 3.9,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 75,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 18,
+        "wind_ms": 3.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 75,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 18,
+        "wind_ms": 2.9,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Gwangjin-gu": {
+    "gu_ko": "광진구",
+    "gu_en": "Gwangjin-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 19,
+      "wind_ms": 4.4,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 65,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 19,
+        "wind_ms": 4.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 65,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 18,
+        "wind_ms": 2.8,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 80,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 18,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.1,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.7,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Seocho-gu": {
+    "gu_ko": "서초구",
+    "gu_en": "Seocho-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 19,
+      "wind_ms": 4.5,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 70,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 19,
+        "wind_ms": 4.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 70,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 18,
+        "wind_ms": 3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.1,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 90,
+        "ts": "20260507_1900",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.7,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Yangcheon-gu": {
+    "gu_ko": "양천구",
+    "gu_en": "Yangcheon-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 17,
+      "wind_ms": 3.9,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 80,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 17,
+        "wind_ms": 3.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 80,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.9,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Dongdaemun-gu": {
+    "gu_ko": "동대문구",
+    "gu_en": "Dongdaemun-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 18,
+      "wind_ms": 3.9,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 75,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 18,
+        "wind_ms": 3.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 75,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 18,
+        "wind_ms": 2.9,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Gangseo-gu": {
+    "gu_ko": "강서구",
+    "gu_en": "Gangseo-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 17,
+      "wind_ms": 3.9,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 80,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 17,
+        "wind_ms": 3.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 80,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.9,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Jongno-gu": {
+    "gu_ko": "종로구",
+    "gu_en": "Jongno-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 18,
+      "wind_ms": 3.7,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 75,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 18,
+        "wind_ms": 3.7,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 75,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.9,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Jungnang-gu": {
+    "gu_ko": "중랑구",
+    "gu_en": "Jungnang-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 18,
+      "wind_ms": 4.1,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 70,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 18,
+        "wind_ms": 4.1,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 70,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Yongsan-gu": {
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 18,
+      "wind_ms": 3.9,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 75,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 18,
+        "wind_ms": 3.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 75,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.7,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Nowon-gu": {
+    "gu_ko": "노원구",
+    "gu_en": "Nowon-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 17,
+      "wind_ms": 3.3,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 80,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 17,
+        "wind_ms": 3.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 80,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.1,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 13,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  },
+  "Yeongdeungpo-gu": {
+    "gu_ko": "영등포구",
+    "gu_en": "Yeongdeungpo-gu",
+    "issued_at": "2026-05-07T14:00:00+09:00",
+    "mocked": false,
+    "now": {
+      "temp_c": 17,
+      "wind_ms": 3.9,
+      "sky": 4,
+      "pty": 0,
+      "rain_prob": 30,
+      "rain_mm": 0,
+      "reh": 80,
+      "ride_score": 90,
+      "label_en": "Great for cycling"
+    },
+    "next_24h": [
+      {
+        "temp_c": 17,
+        "wind_ms": 3.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 80,
+        "ts": "20260507_1500",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 17,
+        "wind_ms": 2.9,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1600",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.6,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1700",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 16,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 1,
+        "rain_prob": 60,
+        "rain_mm": 1,
+        "reh": 85,
+        "ts": "20260507_1800",
+        "ride_score": 0
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 1.9,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_1900",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 15,
+        "wind_ms": 2.4,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2000",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.3,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 90,
+        "ts": "20260507_2100",
+        "ride_score": 90
+      },
+      {
+        "temp_c": 14,
+        "wind_ms": 2.5,
+        "sky": 4,
+        "pty": 0,
+        "rain_prob": 30,
+        "rain_mm": 0,
+        "reh": 85,
+        "ts": "20260507_2200",
+        "ride_score": 90
+      }
+    ],
+    "warnings": []
+  }
+}

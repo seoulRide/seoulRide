@@ -1,0 +1,201 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "seoulRide" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "KO" [ref=e6] [cursor=pointer]:
+          - /url: /?lng=ko
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - heading "Seoul, on a foreigner's bike." [level=1] [ref=e10]
+        - paragraph [ref=e11]: Top stations rented by international visitors, plus events and food within walking distance.
+      - generic [ref=e12]:
+        - generic [ref=e14]: Seongdong-gu
+        - generic [ref=e16]:
+          - generic [ref=e17]: "90"
+          - generic [ref=e18]: / 100
+        - generic [ref=e19]: Great for cycling
+        - generic [ref=e20]:
+          - generic [ref=e21]: 18°C
+          - generic [ref=e22]: 💧 30%
+          - generic [ref=e23]: 🌬 3.9 m/s
+    - heading "Popular bike stations" [level=2] [ref=e25]
+    - generic [ref=e27]:
+      - heading "Top 12" [level=2] [ref=e28]
+      - generic [ref=e29]:
+        - link "1 Seongdong-gu Spike 서울숲 관리사무소 서울특별시 성동구 성수동1가 678-1 서울숲 관리사무소 715 rentals" [ref=e30] [cursor=pointer]:
+          - /url: /station/ST-1199
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - generic [ref=e33]: "1"
+              - generic [ref=e34]: Seongdong-gu
+            - generic [ref=e35]: Spike
+          - heading "서울숲 관리사무소" [level=3] [ref=e36]
+          - generic [ref=e37]: 서울특별시 성동구 성수동1가 678-1 서울숲 관리사무소
+          - generic [ref=e38]:
+            - generic [ref=e39]: "715"
+            - generic [ref=e40]: rentals
+        - link "2 Mapo-gu Spike 서강대역 2번출구 앞 서울특별시 마포구 노고산동 112-13 서강대역 2번출구 앞 588 rentals" [ref=e41] [cursor=pointer]:
+          - /url: /station/ST-207
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: "2"
+              - generic [ref=e45]: Mapo-gu
+            - generic [ref=e46]: Spike
+          - heading "서강대역 2번출구 앞" [level=3] [ref=e47]
+          - generic [ref=e48]: 서울특별시 마포구 노고산동 112-13 서강대역 2번출구 앞
+          - generic [ref=e49]:
+            - generic [ref=e50]: "588"
+            - generic [ref=e51]: rentals
+        - link "3 Gangdong-gu Spike 성내동 434-28 서울특별시 강동구 성내동 434-28 339 rentals" [ref=e52] [cursor=pointer]:
+          - /url: /station/ST-502
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - generic [ref=e55]: "3"
+              - generic [ref=e56]: Gangdong-gu
+            - generic [ref=e57]: Spike
+          - heading "성내동 434-28" [level=3] [ref=e58]
+          - generic [ref=e59]: 서울특별시 강동구 성내동 434-28
+          - generic [ref=e60]:
+            - generic [ref=e61]: "339"
+            - generic [ref=e62]: rentals
+        - link "4 Eunpyeong-gu Spike 불광역 8번출구 서울특별시 은평구 불광동 276-6 불광역 8번출구 309 rentals" [ref=e63] [cursor=pointer]:
+          - /url: /station/ST-474
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e66]: "4"
+              - generic [ref=e67]: Eunpyeong-gu
+            - generic [ref=e68]: Spike
+          - heading "불광역 8번출구" [level=3] [ref=e69]
+          - generic [ref=e70]: 서울특별시 은평구 불광동 276-6 불광역 8번출구
+          - generic [ref=e71]:
+            - generic [ref=e72]: "309"
+            - generic [ref=e73]: rentals
+        - link "5 Guro-gu Spike 구로구 개봉동 202-42 서울특별시 구로구 경인로40길 47 구로구 개봉동 202-42 300 rentals" [ref=e74] [cursor=pointer]:
+          - /url: /station/ST-870
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e77]: "5"
+              - generic [ref=e78]: Guro-gu
+            - generic [ref=e79]: Spike
+          - heading "구로구 개봉동 202-42" [level=3] [ref=e80]
+          - generic [ref=e81]: 서울특별시 구로구 경인로40길 47 구로구 개봉동 202-42
+          - generic [ref=e82]:
+            - generic [ref=e83]: "300"
+            - generic [ref=e84]: rentals
+        - link "6 Jung-gu Spike 저동2가 22-1 서울특별시 중구 저동2가 22-1 291 rentals" [ref=e85] [cursor=pointer]:
+          - /url: /station/ST-2525
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]: "6"
+              - generic [ref=e89]: Jung-gu
+            - generic [ref=e90]: Spike
+          - heading "저동2가 22-1" [level=3] [ref=e91]
+          - generic [ref=e92]: 서울특별시 중구 저동2가 22-1
+          - generic [ref=e93]:
+            - generic [ref=e94]: "291"
+            - generic [ref=e95]: rentals
+        - link "7 Seodaemun-gu Spike 홍제동 295-33 서울특별시 서대문구 홍제동 295-33 279 rentals" [ref=e96] [cursor=pointer]:
+          - /url: /station/ST-2217
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: "7"
+              - generic [ref=e100]: Seodaemun-gu
+            - generic [ref=e101]: Spike
+          - heading "홍제동 295-33" [level=3] [ref=e102]
+          - generic [ref=e103]: 서울특별시 서대문구 홍제동 295-33
+          - generic [ref=e104]:
+            - generic [ref=e105]: "279"
+            - generic [ref=e106]: rentals
+        - link "8 Seongbuk-gu Spike 한성대입구역6번출구 뒤 서울특별시 성북구 동소문로 1 한성대입구역6번출구 뒤 254 rentals" [ref=e107] [cursor=pointer]:
+          - /url: /station/ST-825
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - generic [ref=e110]: "8"
+              - generic [ref=e111]: Seongbuk-gu
+            - generic [ref=e112]: Spike
+          - heading "한성대입구역6번출구 뒤" [level=3] [ref=e113]
+          - generic [ref=e114]: 서울특별시 성북구 동소문로 1 한성대입구역6번출구 뒤
+          - generic [ref=e115]:
+            - generic [ref=e116]: "254"
+            - generic [ref=e117]: rentals
+        - link "9 Seongbuk-gu Spike 길음8골어린이공원 옆 서울특별시 성북구 길음로13길 22 길음8골어린이공원 옆 241 rentals" [ref=e118] [cursor=pointer]:
+          - /url: /station/ST-1210
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]: "9"
+              - generic [ref=e122]: Seongbuk-gu
+            - generic [ref=e123]: Spike
+          - heading "길음8골어린이공원 옆" [level=3] [ref=e124]
+          - generic [ref=e125]: 서울특별시 성북구 길음로13길 22 길음8골어린이공원 옆
+          - generic [ref=e126]:
+            - generic [ref=e127]: "241"
+            - generic [ref=e128]: rentals
+        - link "10 Gwangjin-gu Spike 광나루역 3번 출구 서울특별시 광진구 아차산로 552 광나루역 3번 출구 233 rentals" [ref=e129] [cursor=pointer]:
+          - /url: /station/ST-387
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - generic [ref=e132]: "10"
+              - generic [ref=e133]: Gwangjin-gu
+            - generic [ref=e134]: Spike
+          - heading "광나루역 3번 출구" [level=3] [ref=e135]
+          - generic [ref=e136]: 서울특별시 광진구 아차산로 552 광나루역 3번 출구
+          - generic [ref=e137]:
+            - generic [ref=e138]: "233"
+            - generic [ref=e139]: rentals
+        - link "11 Gwangjin-gu Spike 광양중학교 앞 서울특별시 광진구 자양로3길 7 광양중학교 앞 202 rentals" [ref=e140] [cursor=pointer]:
+          - /url: /station/ST-113
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]: "11"
+              - generic [ref=e144]: Gwangjin-gu
+            - generic [ref=e145]: Spike
+          - heading "광양중학교 앞" [level=3] [ref=e146]
+          - generic [ref=e147]: 서울특별시 광진구 자양로3길 7 광양중학교 앞
+          - generic [ref=e148]:
+            - generic [ref=e149]: "202"
+            - generic [ref=e150]: rentals
+        - link "12 Seocho-gu Spike 반포대로316옆 반포한강공원입구 서울특별시 서초구 반포대로316옆 반포한강공원입구 197 rentals" [ref=e151] [cursor=pointer]:
+          - /url: /station/ST-3010
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - generic [ref=e154]: "12"
+              - generic [ref=e155]: Seocho-gu
+            - generic [ref=e156]: Spike
+          - heading "반포대로316옆 반포한강공원입구" [level=3] [ref=e157]
+          - generic [ref=e158]: 서울특별시 서초구 반포대로316옆 반포한강공원입구
+          - generic [ref=e159]:
+            - generic [ref=e160]: "197"
+            - generic [ref=e161]: rentals
+    - generic [ref=e162]: "Data: Seoul Open Data Plaza, Korea Meteorological Administration"
+  - navigation "Primary" [ref=e163]:
+    - list [ref=e164]:
+      - listitem [ref=e165]:
+        - link "Map" [ref=e166] [cursor=pointer]:
+          - /url: /
+          - img [ref=e167]
+          - generic [ref=e170]: Map
+      - listitem [ref=e171]:
+        - link "Nearby" [ref=e172] [cursor=pointer]:
+          - /url: /nearby
+          - img [ref=e173]
+          - generic [ref=e176]: Nearby
+      - listitem [ref=e177]:
+        - link "Events" [ref=e178] [cursor=pointer]:
+          - /url: /events
+          - img [ref=e179]
+          - generic [ref=e182]: Events
+      - listitem [ref=e183]:
+        - link "About" [ref=e184] [cursor=pointer]:
+          - /url: /about
+          - img [ref=e185]
+          - generic [ref=e188]: About
+      - listitem [ref=e189]:
+        - link "Switch language to KO" [ref=e190] [cursor=pointer]:
+          - /url: /?lng=ko
+          - generic [ref=e191]: KO
+          - generic [ref=e192]: Lang
+  - button "Open Next.js Dev Tools" [ref=e198] [cursor=pointer]:
+    - img [ref=e199]

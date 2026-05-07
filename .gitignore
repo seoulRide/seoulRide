@@ -1,0 +1,62 @@
+# Environment & secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Node / pnpm
+node_modules/
+.pnpm-store/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+.turbo/
+
+# Vercel
+.vercel/
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Test/coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Harness intermediate artifacts (regeneratable, may contain API responses)
+_workspace/
+_workspace_prev_*/
+
+# Cached API responses (regeneratable, may contain ToS-restricted data)
+data/cache/
+
+# Python (xls 파싱 시 사용)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local Claude settings (개인 권한 설정은 커밋하지 않음)
+.claude/settings.local.json

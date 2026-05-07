@@ -1,0 +1,73 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "seoulRide" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "KO" [ref=e6] [cursor=pointer]:
+          - /url: /about?lng=ko
+  - main [ref=e7]:
+    - generic [ref=e8]:
+      - heading "About seoulRide" [level=1] [ref=e9]
+      - paragraph [ref=e10]: A small, opinionated guide for foreign visitors who want to explore Seoul on a Ttareungi (public bike).
+    - generic [ref=e11]:
+      - heading "Data sources" [level=2] [ref=e12]
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - text: •
+          - strong [ref=e15]: Bike rentals by foreigners
+          - text: — Seoul Open Data Plaza (cycleForeignerRentMonthInfo, cycleForeignerRentDayInfo)
+        - listitem [ref=e16]:
+          - text: •
+          - strong [ref=e17]: Cultural events
+          - text: — Seoul Open Data Plaza (culturalEventInfo, ListPublicReservationCulture/English)
+        - listitem [ref=e18]:
+          - text: •
+          - strong [ref=e19]: Sejong Center performances
+          - text: — Seoul Open Data Plaza (SJWPerform)
+        - listitem [ref=e20]:
+          - text: •
+          - strong [ref=e21]: Consumption / food activity
+          - text: — Seoul Open Data Plaza (trdarNcmCnsmp). Estimate-based.
+        - listitem [ref=e22]:
+          - text: •
+          - strong [ref=e23]: Weather forecast
+          - text: — Korea Meteorological Administration apihub (단기예보)
+        - listitem [ref=e24]:
+          - text: •
+          - strong [ref=e25]: Map tiles
+          - text: — © OpenStreetMap contributors
+    - generic [ref=e26]:
+      - heading "Notes" [level=2] [ref=e27]
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - text: • Food recommendations are
+          - emphasis [ref=e30]: directional
+          - text: — they reflect district-level consumption signals plus curated category labels, not specific restaurants.
+        - listitem [ref=e31]: • Korean event titles without an English match are shown in their original Korean form. Look for the small ⓘ next to the title — searching for the original name often returns better results on local maps.
+        - listitem [ref=e32]: • Distance is straight-line. Seoul streets often follow rivers and hills, so plan a few extra minutes.
+    - generic [ref=e33]: Built with public data. Not affiliated with the City of Seoul.
+  - navigation "Primary" [ref=e34]:
+    - list [ref=e35]:
+      - listitem [ref=e36]:
+        - link "Map" [ref=e37] [cursor=pointer]:
+          - /url: /
+          - img [ref=e38]
+          - generic [ref=e41]: Map
+      - listitem [ref=e42]:
+        - link "Events" [ref=e43] [cursor=pointer]:
+          - /url: /events
+          - img [ref=e44]
+          - generic [ref=e47]: Events
+      - listitem [ref=e48]:
+        - link "About" [ref=e49] [cursor=pointer]:
+          - /url: /about
+          - img [ref=e50]
+          - generic [ref=e53]: About
+      - listitem [ref=e54]:
+        - link "Switch language to KO" [ref=e55] [cursor=pointer]:
+          - /url: /about?lng=ko
+          - generic [ref=e56]: KO
+          - generic [ref=e57]: Lang
+  - button "Open Next.js Dev Tools" [ref=e63] [cursor=pointer]:
+    - img [ref=e64]

@@ -1,0 +1,56 @@
+{
+  "data/raw/서울시+공공자전거+따릉이+외국인+대여정보(월별).xls": {
+    "error": "`Import lxml` failed.  Use pip or conda to install the lxml package."
+  },
+  "data/raw/서울시+공공자전거+따릉이+외국인+대여정보(일별).xls": {
+    "error": "`Import lxml` failed.  Use pip or conda to install the lxml package."
+  },
+  "data/raw/서울시+문화행사+정보.xls": {
+    "error": "`Import lxml` failed.  Use pip or conda to install the lxml package."
+  },
+  "data/raw/서울시+문화행사+공공서비스예약+정보.xls": {
+    "error": "`Import lxml` failed.  Use pip or conda to install the lxml package."
+  },
+  "data/raw/서울시+영문+공공서비스예약+정보.xls": {
+    "error": "`Import lxml` failed.  Use pip or conda to install the lxml package."
+  },
+  "data/raw/서울시+세종문화회관+공연+및+전시+정보.xls": {
+    "error": "`Import lxml` failed.  Use pip or conda to install the lxml package."
+  },
+  "data/raw/서울시+상권분석서비스(소비-상권).xls": {
+    "error": "`Import lxml` failed.  Use pip or conda to install the lxml package."
+  },
+  "station_master.csv": {
+    "rows": 3412,
+    "cols": [
+      "대여소_ID",
+      "주소1",
+      "주소2",
+      "위도",
+      "경도"
+    ],
+    "sample": [
+      {
+        "대여소_ID": "ST-999",
+        "주소1": "서울특별시 양천구 목동서로 280",
+        "주소2": "목동아파트 8단지 상가동",
+        "위도": 0.0,
+        "경도": 0.0
+      },
+      {
+        "대여소_ID": "ST-998",
+        "주소1": "서울특별시 양천구 목동서로 130",
+        "주소2": "목동아파트 4단지 상가동",
+        "위도": 0.0,
+        "경도": 0.0
+      },
+      {
+        "대여소_ID": "ST-997",
+        "주소1": "서울특별시 양천구 목동중앙로 49",
+        "주소2": "목동3단지 시내버스정류장",
+        "위도": 37.53439,
+        "경도": 126.869598
+      }
+    ]
+  }
+}

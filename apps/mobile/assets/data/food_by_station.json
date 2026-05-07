@@ -1,0 +1,1002 @@
+{
+  "ST-1199": {
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seongdong-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seongdong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-207": {
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_bbq",
+        "label_ko": "한식 (고기)",
+        "label_en": "Korean BBQ",
+        "blurb_en": "Look for grilled-meat (gogi-jip) restaurants in Mapo-gu — pork belly (samgyeopsal) is the most popular cut and almost always served with banchan."
+      },
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Mapo-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-502": {
+    "gu_ko": "강동구",
+    "gu_en": "Gangdong-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Gangdong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "noodle",
+        "label_ko": "면요리",
+        "label_en": "Noodles & Dumplings",
+        "blurb_en": "Gangdong-gu has noodle shops worth visiting — try kalguksu or naengmyeon depending on the season."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-474": {
+    "gu_ko": "은평구",
+    "gu_en": "Eunpyeong-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Eunpyeong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "bakery",
+        "label_ko": "베이커리",
+        "label_en": "Bakeries",
+        "blurb_en": "Korean bakeries in Eunpyeong-gu sell soft milk bread, anpang, and seasonal pastries — look near subway exits."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-870": {
+    "gu_ko": "구로구",
+    "gu_en": "Guro-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Guro-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "noodle",
+        "label_ko": "면요리",
+        "label_en": "Noodles & Dumplings",
+        "blurb_en": "Guro-gu has noodle shops worth visiting — try kalguksu or naengmyeon depending on the season."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-2525": {
+    "gu_ko": "중구",
+    "gu_en": "Jung-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Jung-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Jung-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-2217": {
+    "gu_ko": "서대문구",
+    "gu_en": "Seodaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seodaemun-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seodaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-825": {
+    "gu_ko": "성북구",
+    "gu_en": "Seongbuk-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seongbuk-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seongbuk-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-1210": {
+    "gu_ko": "성북구",
+    "gu_en": "Seongbuk-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seongbuk-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seongbuk-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-387": {
+    "gu_ko": "광진구",
+    "gu_en": "Gwangjin-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_bbq",
+        "label_ko": "한식 (고기)",
+        "label_en": "Korean BBQ",
+        "blurb_en": "Look for grilled-meat (gogi-jip) restaurants in Gwangjin-gu — pork belly (samgyeopsal) is the most popular cut and almost always served with banchan."
+      },
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Gwangjin-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-113": {
+    "gu_ko": "광진구",
+    "gu_en": "Gwangjin-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_bbq",
+        "label_ko": "한식 (고기)",
+        "label_en": "Korean BBQ",
+        "blurb_en": "Look for grilled-meat (gogi-jip) restaurants in Gwangjin-gu — pork belly (samgyeopsal) is the most popular cut and almost always served with banchan."
+      },
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Gwangjin-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-3010": {
+    "gu_ko": "서초구",
+    "gu_en": "Seocho-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_bbq",
+        "label_ko": "한식 (고기)",
+        "label_en": "Korean BBQ",
+        "blurb_en": "Look for grilled-meat (gogi-jip) restaurants in Seocho-gu — pork belly (samgyeopsal) is the most popular cut and almost always served with banchan."
+      },
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seocho-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-311": {
+    "gu_ko": "양천구",
+    "gu_en": "Yangcheon-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Yangcheon-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "bakery",
+        "label_ko": "베이커리",
+        "label_en": "Bakeries",
+        "blurb_en": "Korean bakeries in Yangcheon-gu sell soft milk bread, anpang, and seasonal pastries — look near subway exits."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-565": {
+    "gu_ko": "성북구",
+    "gu_en": "Seongbuk-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seongbuk-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seongbuk-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-369": {
+    "gu_ko": "동대문구",
+    "gu_en": "Dongdaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Dongdaemun-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Dongdaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-475": {
+    "gu_ko": "은평구",
+    "gu_en": "Eunpyeong-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Eunpyeong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "bakery",
+        "label_ko": "베이커리",
+        "label_en": "Bakeries",
+        "blurb_en": "Korean bakeries in Eunpyeong-gu sell soft milk bread, anpang, and seasonal pastries — look near subway exits."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-212": {
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_bbq",
+        "label_ko": "한식 (고기)",
+        "label_en": "Korean BBQ",
+        "blurb_en": "Look for grilled-meat (gogi-jip) restaurants in Mapo-gu — pork belly (samgyeopsal) is the most popular cut and almost always served with banchan."
+      },
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Mapo-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-211": {
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_bbq",
+        "label_ko": "한식 (고기)",
+        "label_en": "Korean BBQ",
+        "blurb_en": "Look for grilled-meat (gogi-jip) restaurants in Mapo-gu — pork belly (samgyeopsal) is the most popular cut and almost always served with banchan."
+      },
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Mapo-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-249": {
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seongdong-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seongdong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-312": {
+    "gu_ko": "양천구",
+    "gu_en": "Yangcheon-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Yangcheon-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "bakery",
+        "label_ko": "베이커리",
+        "label_en": "Bakeries",
+        "blurb_en": "Korean bakeries in Yangcheon-gu sell soft milk bread, anpang, and seasonal pastries — look near subway exits."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-314": {
+    "gu_ko": "양천구",
+    "gu_en": "Yangcheon-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Yangcheon-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "bakery",
+        "label_ko": "베이커리",
+        "label_en": "Bakeries",
+        "blurb_en": "Korean bakeries in Yangcheon-gu sell soft milk bread, anpang, and seasonal pastries — look near subway exits."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-321": {
+    "gu_ko": "양천구",
+    "gu_en": "Yangcheon-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Yangcheon-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "bakery",
+        "label_ko": "베이커리",
+        "label_en": "Bakeries",
+        "blurb_en": "Korean bakeries in Yangcheon-gu sell soft milk bread, anpang, and seasonal pastries — look near subway exits."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-2214": {
+    "gu_ko": "서대문구",
+    "gu_en": "Seodaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seodaemun-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seodaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-272": {
+    "gu_ko": "동대문구",
+    "gu_en": "Dongdaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Dongdaemun-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Dongdaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-106": {
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seongdong-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seongdong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-3407": {
+    "gu_ko": "양천구",
+    "gu_en": "Yangcheon-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Yangcheon-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "bakery",
+        "label_ko": "베이커리",
+        "label_en": "Bakeries",
+        "blurb_en": "Korean bakeries in Yangcheon-gu sell soft milk bread, anpang, and seasonal pastries — look near subway exits."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-353": {
+    "gu_ko": "서대문구",
+    "gu_en": "Seodaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seodaemun-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seodaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-3415": {
+    "gu_ko": "강서구",
+    "gu_en": "Gangseo-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Gangseo-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "noodle",
+        "label_ko": "면요리",
+        "label_en": "Noodles & Dumplings",
+        "blurb_en": "Gangseo-gu has noodle shops worth visiting — try kalguksu or naengmyeon depending on the season."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-393": {
+    "gu_ko": "동대문구",
+    "gu_en": "Dongdaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Dongdaemun-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Dongdaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-2219": {
+    "gu_ko": "서대문구",
+    "gu_en": "Seodaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seodaemun-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seodaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-181": {
+    "gu_ko": "종로구",
+    "gu_en": "Jongno-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Jongno-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Jongno-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-510": {
+    "gu_ko": "강서구",
+    "gu_en": "Gangseo-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Gangseo-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "noodle",
+        "label_ko": "면요리",
+        "label_en": "Noodles & Dumplings",
+        "blurb_en": "Gangseo-gu has noodle shops worth visiting — try kalguksu or naengmyeon depending on the season."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-853": {
+    "gu_ko": "중랑구",
+    "gu_en": "Jungnang-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Jungnang-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "noodle",
+        "label_ko": "면요리",
+        "label_en": "Noodles & Dumplings",
+        "blurb_en": "Jungnang-gu has noodle shops worth visiting — try kalguksu or naengmyeon depending on the season."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-315": {
+    "gu_ko": "양천구",
+    "gu_en": "Yangcheon-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Yangcheon-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "bakery",
+        "label_ko": "베이커리",
+        "label_en": "Bakeries",
+        "blurb_en": "Korean bakeries in Yangcheon-gu sell soft milk bread, anpang, and seasonal pastries — look near subway exits."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-182": {
+    "gu_ko": "종로구",
+    "gu_en": "Jongno-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Jongno-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Jongno-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-585": {
+    "gu_ko": "중랑구",
+    "gu_en": "Jungnang-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Jungnang-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "noodle",
+        "label_ko": "면요리",
+        "label_en": "Noodles & Dumplings",
+        "blurb_en": "Jungnang-gu has noodle shops worth visiting — try kalguksu or naengmyeon depending on the season."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-359": {
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seongdong-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seongdong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-329": {
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Yongsan-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Yongsan-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-3410": {
+    "gu_ko": "서대문구",
+    "gu_en": "Seodaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seodaemun-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seodaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-111": {
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seongdong-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seongdong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-114": {
+    "gu_ko": "광진구",
+    "gu_en": "Gwangjin-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_bbq",
+        "label_ko": "한식 (고기)",
+        "label_en": "Korean BBQ",
+        "blurb_en": "Look for grilled-meat (gogi-jip) restaurants in Gwangjin-gu — pork belly (samgyeopsal) is the most popular cut and almost always served with banchan."
+      },
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Gwangjin-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-609": {
+    "gu_ko": "노원구",
+    "gu_en": "Nowon-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Nowon-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "noodle",
+        "label_ko": "면요리",
+        "label_en": "Noodles & Dumplings",
+        "blurb_en": "Nowon-gu has noodle shops worth visiting — try kalguksu or naengmyeon depending on the season."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-302": {
+    "gu_ko": "영등포구",
+    "gu_en": "Yeongdeungpo-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Yeongdeungpo-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Yeongdeungpo-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-829": {
+    "gu_ko": "강서구",
+    "gu_en": "Gangseo-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Gangseo-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "noodle",
+        "label_ko": "면요리",
+        "label_en": "Noodles & Dumplings",
+        "blurb_en": "Gangseo-gu has noodle shops worth visiting — try kalguksu or naengmyeon depending on the season."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-108": {
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seongdong-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seongdong-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-209": {
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_bbq",
+        "label_ko": "한식 (고기)",
+        "label_en": "Korean BBQ",
+        "blurb_en": "Look for grilled-meat (gogi-jip) restaurants in Mapo-gu — pork belly (samgyeopsal) is the most popular cut and almost always served with banchan."
+      },
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Mapo-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-322": {
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Yongsan-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Yongsan-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-347": {
+    "gu_ko": "서대문구",
+    "gu_en": "Seodaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "cafe",
+        "label_ko": "카페",
+        "label_en": "Cafés",
+        "blurb_en": "Seodaemun-gu is dotted with specialty coffee shops, especially in walkable side streets. Many double as dessert spots with seasonal menus."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Seodaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-398": {
+    "gu_ko": "동대문구",
+    "gu_en": "Dongdaemun-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Dongdaemun-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      },
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Dongdaemun-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  },
+  "ST-119": {
+    "gu_ko": "종로구",
+    "gu_en": "Jongno-gu",
+    "activity_score": 0.7,
+    "top_categories": [
+      {
+        "category": "korean_food",
+        "label_ko": "한식",
+        "label_en": "Korean Cuisine",
+        "blurb_en": "Jongno-gu offers a solid Korean cuisine scene — try local rice and stew houses (baekban) on side streets for an authentic, affordable meal."
+      },
+      {
+        "category": "street_food",
+        "label_ko": "길거리음식",
+        "label_en": "Street Food",
+        "blurb_en": "Street stalls in Jongno-gu serve tteokbokki, hotteok, and odeng — best after sunset and very cash-friendly."
+      }
+    ],
+    "data_source": "estimated_consumption + curated_categories"
+  }
+}
