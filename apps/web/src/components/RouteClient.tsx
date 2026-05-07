@@ -233,7 +233,7 @@ export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
                   <div className="text-center text-[11px] uppercase tracking-widest text-zinc-500 font-semibold">
                     {t("route.open_in_app", lang)}
                   </div>
-                  <div className="flex justify-center gap-2">
+                  <div className="flex gap-2">
                     {appLinks.map((l) => {
                       const Icon = PROVIDER_ICON[l.provider];
                       return (
@@ -243,7 +243,7 @@ export function RouteClient({ event, lang }: { event: EventInfo; lang: Lang }) {
                           target={mobile ? undefined : "_blank"}
                           rel="noreferrer noopener"
                           aria-label={l.label}
-                          className="flex min-w-[6rem] items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 px-10 py-3 shadow-sm transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
+                          className="flex flex-1 items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 py-3 shadow-sm transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
                         >
                           <Icon className="h-7 w-7" />
                           <span className="sr-only">{l.label}</span>
