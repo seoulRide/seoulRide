@@ -41,9 +41,15 @@ export default async function EventsPage({
   const buckets: Record<StatusKey, EventEntry[]> = { ongoing: [], upcoming: [], past: [] };
   for (const e of all) buckets[getEventStatus(e.start, e.end, now)].push(e);
 
-  buckets.ongoing.sort((a, b) => (a.end || a.start).localeCompare(b.end || b.start));
-  buckets.upcoming.sort((a, b) => a.start.localeCompare(b.start));
-  buckets.past.sort((a, b) => (b.end || b.start).localeCompare(a.end || a.start));
+  // Unified sort: start ASC, ties broken by end ASC (soonest ending first).
+  const byStartThenEnd = (a: EventEntry, b: EventEntry) => {
+    const cs = a.start.localeCompare(b.start);
+    if (cs !== 0) return cs;
+    return (a.end || a.start).localeCompare(b.end || b.start);
+  };
+  buckets.ongoing.sort(byStartThenEnd);
+  buckets.upcoming.sort(byStartThenEnd);
+  buckets.past.sort(byStartThenEnd);
 
   const counts: Record<StatusKey, number> = {
     ongoing: buckets.ongoing.length,
