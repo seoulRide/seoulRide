@@ -130,11 +130,16 @@ export function EventExplorer({
     }));
   }, [stations, origin, originGranted, selectedId, events]);
 
-  // Pan map when selection changes.
+  // Pan map when selection changes. Compensate for the bottom carousel:
+  // shift the target south so the marker ends up in the visually open
+  // upper half of the screen instead of behind a card.
+  // 1 deg latitude ≈ 14660 px at zoom 14 in Seoul (~37.5° N, Mercator).
   useEffect(() => {
     const e = events.find((x) => x.id === selectedId);
     if (!e) return;
-    mapRef.current?.panTo(e.lat, e.lng);
+    const carouselH = scrollerRef.current?.offsetHeight ?? 240;
+    const offsetLat = (carouselH / 2) * (1 / 14660);
+    mapRef.current?.panTo(e.lat - offsetLat, e.lng);
   }, [selectedId, events]);
 
   // Detect the centered card via IntersectionObserver.
