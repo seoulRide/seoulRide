@@ -1,120 +1,130 @@
 /**
- * Reddit fetcher (anonymous JSON endpoint — no OAuth needed).
+ * Reddit fetcher via Atom RSS (no OAuth, no app registration needed).
  *
- * Pulls /r/seoul + /r/korea top-of-day and hot-of-day, dedupes, filters out
- * removed/NSFW posts, and writes a uniform RawArticle[] to
+ * Reddit blocks the anonymous JSON endpoint from datacenter IPs (e.g.
+ * GitHub Actions runners) but the .rss endpoints stay open. Pulls
+ * /r/seoul + /r/korea top-of-day and hot, parses Atom XML with cheerio
+ * (xmlMode), and writes a uniform RawArticle[] to
  * _workspace/05_trending/raw/reddit.json.
  *
  *   pnpm trending:fetch:reddit
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import * as cheerio from "cheerio";
 import { PATHS } from "../lib/env.ts";
 import type { RawArticle, RawSource } from "./types.ts";
 
-const USER_AGENT = "seoulRide/0.1 (https://github.com/dev.hibi/seoulRide)";
-const SUBS: Array<{ name: "seoul" | "korea"; source: RawSource }> = [
-  { name: "seoul", source: "reddit_seoul" },
-  { name: "korea", source: "reddit_korea" },
+const USER_AGENT = "seoulRide/0.1 (https://github.com/seoulRide/seoulRide)";
+
+const FEEDS: Array<{ url: string; source: RawSource; label: string }> = [
+  { url: "https://www.reddit.com/r/seoul/top/.rss?t=day", source: "reddit_seoul", label: "r/seoul top/day" },
+  { url: "https://www.reddit.com/r/seoul/.rss",            source: "reddit_seoul", label: "r/seoul hot" },
+  { url: "https://www.reddit.com/r/korea/top/.rss?t=day", source: "reddit_korea", label: "r/korea top/day" },
+  { url: "https://www.reddit.com/r/korea/.rss",            source: "reddit_korea", label: "r/korea hot" },
 ];
-const SORTS = ["top", "hot"] as const;
-const PER_PAGE = 25;
-const T_TOP = "day"; // "top" only — "hot" doesn't take a t window
 
-interface RedditChild {
-  data: {
-    id: string;
-    title: string;
-    selftext: string;
-    permalink: string;
-    url: string;
-    score: number;
-    num_comments: number;
-    created_utc: number;
-    is_self: boolean;
-    over_18: boolean;
-    stickied: boolean;
-    link_flair_text: string | null;
-    author: string;
-    subreddit: string;
-  };
+interface Parsed {
+  id: string;          // "t3_xxxx" → strip to xxxx
+  title: string;
+  link: string;
+  author: string;
+  updated: string;     // ISO
+  bodyHtml: string;    // entry content (HTML-escaped Reddit table)
 }
 
-interface RedditListing {
-  data: { children: RedditChild[] };
-}
-
-async function fetchListing(sub: string, sort: string): Promise<RedditChild[]> {
-  const u = new URL(`https://www.reddit.com/r/${sub}/${sort}.json`);
-  u.searchParams.set("limit", String(PER_PAGE));
-  if (sort === "top") u.searchParams.set("t", T_TOP);
-  u.searchParams.set("raw_json", "1");
-  const res = await fetch(u, { headers: { "User-Agent": USER_AGENT } });
+async function fetchFeed(url: string): Promise<string> {
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": USER_AGENT,
+      Accept: "application/atom+xml",
+    },
+  });
   if (!res.ok) {
     const body = await res.text().catch(() => "");
-    throw new Error(`Reddit ${res.status} for ${u.toString()}: ${body.slice(0, 200)}`);
+    throw new Error(`Reddit RSS ${res.status} for ${url}: ${body.slice(0, 200)}`);
   }
-  const json = (await res.json()) as RedditListing;
-  return json?.data?.children ?? [];
+  return res.text();
 }
 
-function isInteresting(c: RedditChild): boolean {
-  const d = c.data;
-  if (d.over_18) return false;
-  if (d.stickied) return false;
-  // mod-removed posts
-  if (d.selftext === "[removed]" || d.selftext === "[deleted]") return false;
-  // crosspost / non-content meta
-  if (d.title.startsWith("Daily Discussion") || d.title.startsWith("Weekly")) return false;
+function parseFeed(xml: string): Parsed[] {
+  const $ = cheerio.load(xml, { xmlMode: true });
+  const out: Parsed[] = [];
+  $("entry").each((_i, el) => {
+    const title = $(el).find("> title").text().trim();
+    if (!title) return;
+    // Reddit posts use link[rel=alternate] for the post URL; fall back to first <link>.
+    let link = $(el).find("> link[rel='alternate']").attr("href") ?? "";
+    if (!link) link = $(el).find("> link").first().attr("href") ?? "";
+    const id = $(el).find("> id").text().replace(/^t3_/, "");
+    const author = $(el).find("> author > name").text().replace(/^\/u\//, "");
+    const updated = $(el).find("> updated").text();
+    const bodyHtml = $(el).find("> content").first().text();
+    if (!id || !link) return;
+    out.push({ id, title, link, author, updated, bodyHtml });
+  });
+  return out;
+}
+
+/** Extract just the post body text from Reddit's RSS content table. */
+function extractSelftext(bodyHtml: string): string {
+  if (!bodyHtml) return "";
+  const $ = cheerio.load(bodyHtml);
+  // Reddit wraps the post body inside <div class="md">. Anything outside is
+  // boilerplate ("submitted by …", thumbnail, comment count, etc).
+  const md = $("div.md").first();
+  if (md.length === 0) return "";
+  return md.text().replace(/\s+/g, " ").trim();
+}
+
+function isInteresting(title: string, body: string): boolean {
+  if (!title) return false;
+  if (/^(daily|weekly) (discussion|thread|free)/i.test(title)) return false;
+  // Reddit removed-content sentinels
+  if (body === "[removed]" || body === "[deleted]") return false;
   return true;
-}
-
-function toArticle(c: RedditChild, source: RawSource, fetched_at: string): RawArticle {
-  const d = c.data;
-  const body = (d.selftext || "").trim();
-  const snippet = body.length > 0
-    ? body.slice(0, 280)
-    : `[link post] ${d.url}`;
-  return {
-    id: `reddit_${d.id}`,
-    source,
-    url: `https://www.reddit.com${d.permalink}`,
-    title: d.title,
-    body,
-    snippet,
-    published_at: new Date(d.created_utc * 1000).toISOString(),
-    fetched_at,
-    metadata: {
-      score: d.score,
-      num_comments: d.num_comments,
-      author: d.author,
-      flair: d.link_flair_text ?? null,
-      subreddit: d.subreddit,
-      external_link: d.is_self ? null : d.url,
-    },
-  };
 }
 
 async function main() {
   const fetched_at = new Date().toISOString();
   const seen = new Set<string>();
   const out: RawArticle[] = [];
-  let totalFetched = 0;
+  let totalParsed = 0;
 
-  for (const sub of SUBS) {
-    for (const sort of SORTS) {
-      console.log(`⟳ /r/${sub.name}/${sort}…`);
-      const children = await fetchListing(sub.name, sort);
-      totalFetched += children.length;
-      for (const c of children) {
-        if (!isInteresting(c)) continue;
-        const article = toArticle(c, sub.source, fetched_at);
-        if (seen.has(article.id)) continue;
-        seen.add(article.id);
-        out.push(article);
+  for (const feed of FEEDS) {
+    try {
+      console.log(`⟳ ${feed.label}…`);
+      const xml = await fetchFeed(feed.url);
+      const entries = parseFeed(xml);
+      totalParsed += entries.length;
+      for (const e of entries) {
+        const body = extractSelftext(e.bodyHtml);
+        if (!isInteresting(e.title, body)) continue;
+        const articleId = `reddit_${e.id}`;
+        if (seen.has(articleId)) continue;
+        seen.add(articleId);
+        const snippet = body.length > 0
+          ? body.slice(0, 280)
+          : `[link post] ${e.link}`;
+        out.push({
+          id: articleId,
+          source: feed.source,
+          url: e.link,
+          title: e.title,
+          body,
+          snippet,
+          published_at: e.updated || fetched_at,
+          fetched_at,
+          metadata: {
+            author: e.author,
+            feed: feed.label,
+          },
+        });
       }
-      // Reddit suggests ~1s pause between requests for unauthenticated calls.
-      await new Promise((r) => setTimeout(r, 1100));
+      // Polite pause between feeds.
+      await new Promise((r) => setTimeout(r, 800));
+    } catch (e) {
+      console.warn(`  ! ${feed.label}:`, e instanceof Error ? e.message : e);
     }
   }
 
@@ -122,7 +132,7 @@ async function main() {
   await fs.mkdir(outDir, { recursive: true });
   const outFile = path.join(outDir, "reddit.json");
   await fs.writeFile(outFile, JSON.stringify(out, null, 2), "utf8");
-  console.log(`\n✓ ${out.length} unique posts (filtered from ${totalFetched}) → ${outFile}`);
+  console.log(`\n✓ ${out.length} unique posts (parsed ${totalParsed} entries) → ${outFile}`);
 }
 
 main().catch((e) => {
