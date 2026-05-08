@@ -252,18 +252,17 @@ export function EventExplorer({
     [events],
   );
 
-  // Card click → advance exactly one event in the direction of the clicked
-  // card relative to the currently active one (not directly to the clicked
-  // card). Clicking the active card itself is a no-op.
+  // Card click → focus that specific card (jump directly to it). Distinct
+  // from chevron / keyboard which step ±1 each press.
   const onCardClick = useCallback(
     (id: string) => {
       const clickedIdx = events.findIndex((e) => e.id === id);
-      const activeIdx = targetIdxRef.current;
       if (clickedIdx < 0) return;
-      if (clickedIdx === activeIdx) return;
-      advanceBy(clickedIdx > activeIdx ? 1 : -1);
+      if (clickedIdx === targetIdxRef.current) return;
+      targetIdxRef.current = clickedIdx;
+      cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
     },
-    [events, advanceBy],
+    [events],
   );
 
   const selectedIndex = useMemo(() => events.findIndex((e) => e.id === selectedId), [events, selectedId]);
