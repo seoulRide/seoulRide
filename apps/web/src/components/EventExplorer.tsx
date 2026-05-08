@@ -285,25 +285,24 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
       <h3 className="text-base font-semibold leading-tight line-clamp-2 min-h-[2.6em]">{title}</h3>
       <p className="text-xs text-zinc-500 line-clamp-1">{venue}</p>
 
-      {/* Footer pinned to card bottom — labeled link + route section so users
-          aren't guessing what bare brand icons mean */}
+      {/* Footer pinned to card bottom — labeled link + inline route row */}
       <div className="mt-auto flex flex-col gap-3 pt-3">
         {event.url && (
           <a
             href={event.url}
             target="_blank"
             rel="noreferrer noopener"
-            className="self-center inline-flex items-center gap-1.5 text-xs font-medium text-emerald-600 hover:underline"
+            className="self-center inline-flex items-center gap-1.5 text-sm font-medium text-emerald-600 hover:underline"
           >
             <span aria-hidden>🔗</span>
             <span>{t("route.visit_homepage", lang)}</span>
           </a>
         )}
-        <div className="flex flex-col gap-2 border-t border-zinc-100 dark:border-zinc-800 pt-3">
-          <div className="text-center text-[10px] uppercase tracking-widest text-zinc-500 font-semibold">
+        <div className="flex items-center justify-between gap-3 border-t border-zinc-100 dark:border-zinc-800 pt-3">
+          <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-200">
             {t("route.section_title", lang)}
-          </div>
-          <div className="flex justify-center gap-3">
+          </span>
+          <div className="flex gap-2">
             {links.map((l) => {
               const Icon = PROVIDER_ICON[l.provider];
               return (
@@ -313,9 +312,9 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
                   target={mobile ? undefined : "_blank"}
                   rel="noreferrer noopener"
                   aria-label={`${l.label} — ${title}`}
-                  className="flex h-14 w-14 items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
                 >
-                  <Icon className="h-7 w-7" />
+                  <Icon className="h-5 w-5" />
                   <span className="sr-only">{l.label}</span>
                 </a>
               );
