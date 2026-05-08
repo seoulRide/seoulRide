@@ -41,21 +41,23 @@ export default function MapWrapper({
 
   const max = useMemo(() => Math.max(1, ...stations.map((s) => s.rent_total)), [stations]);
 
-  // Heatmap circles — translucent emerald discs at every popular station.
-  // Larger radius + higher per-disc opacity so single stations are visible
-  // and dense overlaps clearly darken. sqrt for a gentler curve so the
-  // busiest stations don't overwhelm.
+  // Heatmap circles — radius and color both scale with rent_total. Hot
+  // stations (red) → mid (amber) → low (emerald) on a smooth HSL gradient.
+  // sqrt for a gentler radius curve so the busiest stations don't dominate.
   const heatCircles: NaverMapHeatCircle[] = useMemo(
     () =>
       stations.map((s) => {
-        const norm = Math.sqrt(s.rent_total / max); // 0..1, sqrt-shaped
+        const norm = s.rent_total / max; // 0..1 linear (used for color)
+        const radiusNorm = Math.sqrt(norm); // 0..1 sqrt (used for radius)
+        // HSL hue: 140 (emerald) at low → 0 (red) at high.
+        const hue = Math.round(140 - norm * 140);
         return {
           id: `heat-${s.station_no}`,
           lat: s.lat,
           lng: s.lng,
-          radius: 400 + norm * 1500, // 400m ~ 1900m
-          fillColor: "#059669", // emerald-600 — darker for contrast
-          fillOpacity: 0.22,
+          radius: 400 + radiusNorm * 1500, // 400m ~ 1900m
+          fillColor: `hsl(${hue}, 78%, 48%)`,
+          fillOpacity: 0.28,
         };
       }),
     [stations, max],
