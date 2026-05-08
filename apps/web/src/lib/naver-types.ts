@@ -39,6 +39,7 @@ export interface NaverMarker {
   getPosition(): NaverLatLng;
   setIcon(icon: { content: string | HTMLElement; anchor?: NaverPoint; size?: NaverPoint }): void;
   setZIndex(z: number): void;
+  setVisible(visible: boolean): void;
 }
 
 export interface NaverPolyline {
@@ -70,6 +71,7 @@ export interface NaverNamespace {
       icon?: { content: string | HTMLElement; anchor?: NaverPoint; size?: NaverPoint };
       zIndex?: number;
       clickable?: boolean;
+      visible?: boolean;
     }) => NaverMarker;
     BicycleLayer: new () => NaverBicycleLayer;
     Polyline: new (opts: {

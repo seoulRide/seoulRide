@@ -38,6 +38,9 @@ export interface NaverMapNamedMarker {
   /** Anchor pixel offset so the marker tip lands on (lat,lng). */
   anchor?: { x: number; y: number };
   zIndex?: number;
+  /** Hide the marker when the current map zoom is below this threshold.
+   *  Useful for dense low-priority markers that would clutter wide views. */
+  minZoom?: number;
 }
 
 export interface NaverMapHandle {
@@ -136,7 +139,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
   const mapRef = useRef<NaverMapInstance | null>(null);
   const [mapReady, setMapReady] = useState(false);
   const markersRef = useRef<Map<string, { marker: NaverMarker; listener: NaverEventListener | null }>>(new Map());
-  const namedMarkersRef = useRef<Map<string, NaverMarker>>(new Map());
+  const namedMarkersRef = useRef<Map<string, { marker: NaverMarker; minZoom?: number }>>(new Map());
   const polylinesRef = useRef<Map<string, NaverPolyline>>(new Map());
   const hereMarkerRef = useRef<NaverMarker | null>(null);
   const bicycleLayerRef = useRef<NaverBicycleLayer | null>(null);
@@ -294,21 +297,25 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     const map = mapRef.current;
     if (!n || !map) return;
     const present = new Set((extraMarkers ?? []).map((m) => m.id));
-    for (const [id, m] of namedMarkersRef.current) {
+    for (const [id, entry] of namedMarkersRef.current) {
       if (!present.has(id)) {
-        m.setMap(null);
+        entry.marker.setMap(null);
         namedMarkersRef.current.delete(id);
       }
     }
+    const currentZoom = map.getZoom();
     for (const m of extraMarkers ?? []) {
       const node = document.createElement("div");
       node.innerHTML = m.html;
       const anchor = m.anchor ? new n.maps.Point(m.anchor.x, m.anchor.y) : new n.maps.Point(12, 12);
+      const visible = m.minZoom == null || currentZoom >= m.minZoom;
       const existing = namedMarkersRef.current.get(m.id);
       if (existing) {
-        existing.setPosition(new n.maps.LatLng(m.lat, m.lng));
-        existing.setIcon({ content: node, anchor });
-        existing.setZIndex(m.zIndex ?? 5000);
+        existing.marker.setPosition(new n.maps.LatLng(m.lat, m.lng));
+        existing.marker.setIcon({ content: node, anchor });
+        existing.marker.setZIndex(m.zIndex ?? 5000);
+        existing.marker.setVisible(visible);
+        existing.minZoom = m.minZoom;
       } else {
         const marker = new n.maps.Marker({
           position: new n.maps.LatLng(m.lat, m.lng),
@@ -316,8 +323,9 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
           icon: { content: node, anchor },
           zIndex: m.zIndex ?? 5000,
           clickable: false,
+          visible,
         });
-        namedMarkersRef.current.set(m.id, marker);
+        namedMarkersRef.current.set(m.id, { marker, minZoom: m.minZoom });
       }
     }
   }, [extraMarkers, mapReady]);
@@ -336,6 +344,23 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
       bicycleLayerRef.current.setMap(null);
     }
   }, [showBicycleLayer, mapReady]);
+
+  // Zoom-gated visibility for named markers with `minZoom`. One listener per
+  // map lifetime; flips visibility on every zoom change.
+  useEffect(() => {
+    const n = window.naver;
+    const map = mapRef.current;
+    if (!n || !map) return;
+    const apply = () => {
+      const z = map.getZoom();
+      for (const entry of namedMarkersRef.current.values()) {
+        if (entry.minZoom == null) continue;
+        entry.marker.setVisible(z >= entry.minZoom);
+      }
+    };
+    const listener = n.maps.Event.addListener(map, "zoom_changed", apply);
+    return () => { n.maps.Event.removeListener(listener); };
+  }, [mapReady]);
 
   // "here" (current location) overlay
   useEffect(() => {
@@ -371,7 +396,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
         entry.marker.setMap(null);
       }
       markersRef.current.clear();
-      for (const m of namedMarkersRef.current.values()) m.setMap(null);
+      for (const entry of namedMarkersRef.current.values()) entry.marker.setMap(null);
       namedMarkersRef.current.clear();
       for (const p of polylinesRef.current.values()) p.setMap(null);
       polylinesRef.current.clear();

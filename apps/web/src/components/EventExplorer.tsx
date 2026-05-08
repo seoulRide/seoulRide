@@ -91,6 +91,9 @@ export function EventExplorer({
     intensity: e.id === selectedId ? 0.95 : 0.4,
   }));
 
+  // Station markers: only show when zoomed in enough that 3K+ dots aren't
+  // visual noise. minZoom 14 = neighborhood-level detail. The popular-50
+  // event markers are unaffected (separate `markers` array).
   const stationMarkers: NaverMapNamedMarker[] = useMemo(
     () =>
       (stations ?? []).map((s) => ({
@@ -100,6 +103,7 @@ export function EventExplorer({
         html: STATION_ICON_HTML,
         anchor: { x: 6, y: 6 },
         zIndex: 100,
+        minZoom: 14,
       })),
     [stations],
   );
