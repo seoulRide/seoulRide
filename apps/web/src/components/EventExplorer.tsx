@@ -230,35 +230,40 @@ export function EventExplorer({
     cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   };
 
-  // Desktop carousel arrows: scroll the carousel by exactly one card width.
-  // Pixel-based scrollBy (not scrollIntoView based on selectedId) so rapid
-  // clicks don't race with the IntersectionObserver — every click moves
-  // exactly one card forward, regardless of when selectedId catches up.
+  // Track the carousel's target index in a ref so advanceBy is exact and
+  // doesn't race with the IntersectionObserver. scrollBy + smooth + scroll-
+  // snap-mandatory can overshoot and snap two cards forward; scrolling a
+  // specific card's ref into center never does.
+  const targetIdxRef = useRef(0);
+  useEffect(() => {
+    const i = events.findIndex((e) => e.id === selectedId);
+    if (i >= 0) targetIdxRef.current = i;
+  }, [selectedId, events]);
+
   const advanceBy = useCallback(
     (delta: number) => {
-      const root = scrollerRef.current;
-      if (!root) return;
-      // Card width (80vw) + flex gap-3 (12px). Use the rendered viewport
-      // width so this stays accurate when the user resizes the browser.
-      const step = root.clientWidth * 0.8 + 12;
-      root.scrollBy({ left: delta * step, behavior: "smooth" });
+      const next = targetIdxRef.current + delta;
+      if (next < 0 || next >= events.length) return;
+      targetIdxRef.current = next;
+      const targetId = events[next]?.id;
+      if (!targetId) return;
+      cardRefs.current.get(targetId)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
     },
-    [],
+    [events],
   );
 
   // Card click → advance exactly one event in the direction of the clicked
-  // card relative to the currently active one. Clicking any card to the
-  // right moves +1 (not directly to that card), and similarly for the left.
-  // Clicking the active card itself is a no-op.
+  // card relative to the currently active one (not directly to the clicked
+  // card). Clicking the active card itself is a no-op.
   const onCardClick = useCallback(
     (id: string) => {
       const clickedIdx = events.findIndex((e) => e.id === id);
-      const activeIdx = events.findIndex((e) => e.id === selectedId);
-      if (clickedIdx < 0 || activeIdx < 0) return;
+      const activeIdx = targetIdxRef.current;
+      if (clickedIdx < 0) return;
       if (clickedIdx === activeIdx) return;
       advanceBy(clickedIdx > activeIdx ? 1 : -1);
     },
-    [events, selectedId, advanceBy],
+    [events, advanceBy],
   );
 
   const selectedIndex = useMemo(() => events.findIndex((e) => e.id === selectedId), [events, selectedId]);
