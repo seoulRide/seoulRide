@@ -1,0 +1,222 @@
+[
+  {
+    "station_no": "ST-181",
+    "station_name_ko": "SK 서린빌딩 앞",
+    "gu_ko": "종로구",
+    "gu_en": "Jongno-gu",
+    "mention_count": 63,
+    "sentiment_avg": 0.6190476190476191,
+    "summary_ko": "종로구: 경복궁, 서촌, 조계사 등 역사 명소 관광객 증가 중. 야간 트레킹·역사 투어 이벤트 진행 중.",
+    "summary_en": "Jongno-gu: Gyeongbokgung, Seochon, Jogyesa attract tourists. Ongoing night trekking/history tours at nearby events.",
+    "related_event_ids": [
+      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-04-20",
+      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-04-20",
+      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-04-20",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-04-20",
+      "중구 수요일 달밤에서 별밤으로 남산 야간 트레킹|매경미디어센터빌딩|2026-05-06"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t6384e/i_mapped_1000_seoul_restaurants_locals_actually/",
+        "title": "I mapped 1,000 Seoul restaurants locals actually go to",
+        "snippet": "I work in Jongno and walk past tons of tourists every day. And I kept thinking that these people probably want to eat somewhere real, not just whatever shows up on Google Maps.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t645do/lotus_lanterns_everywhere_for_buddhas_birthday/",
+        "title": "lotus lanterns everywhere for Buddha's Birthday",
+        "snippet": "Beyond the well-known spots like Jogyesa and Bongeunsa",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
+        "source": "visit_seoul"
+      }
+    ],
+    "updated_at": "2026-05-08T04:21:46.783Z"
+  },
+  {
+    "station_no": "ST-1199",
+    "station_name_ko": "서울숲 관리사무소",
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "mention_count": 46,
+    "sentiment_avg": 0.782608695652174,
+    "summary_ko": "성동구: 서울숲 일대 패션 팝업·체험형 콘텐츠 인기. 2026 서울국제정원박람회 예정.",
+    "summary_en": "Seongdong-gu: Seoul Forest area buzzes with pop-ups/experiential content. 2026 Seoul International Garden Expo upcoming.",
+    "related_event_ids": [
+      "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
+      "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
+      "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
+      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06",
+      "(서울숲_4회차 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-02"
+    ],
+    "sources": [
+      {
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://www.polinews.co.kr/news/articleView.html?idxno=730529",
+        "title": "삼성물산 패션부문, 성수동 팝업 '공간 경험'으로 승부…체험형 매장 잇...",
+        "snippet": "삼성물산 패션부문, 성수동 팝업 '공간 경험'으로 승부…체험형 매장 잇... 업계에서는 성수동이 패션 브랜드들의 실험형 플랫폼 역할을 하고 있다는 분석도 나온다. 패션과 전시, 카페, 팝업 콘텐츠가 결합되면서 젊은 소비층과 관광객 유입이 이어지고 있기 때문이다.",
+        "source": "naver_news"
+      },
+      {
+        "url": "http://www.econonews.co.kr/news/articleView.html?idxno=437760",
+        "title": "영풍문고, 서울숲에 기부정원·야외도서관 조성",
+        "snippet": "영풍문고, 서울숲에 기부정원·야외도서관 조성",
+        "source": "naver_news"
+      },
+      {
+        "url": "http://www.econonews.co.kr/news/articleView.html?idxno=437760",
+        "title": "영풍문고, 서울숲에 기부정원·야외도서관 조성",
+        "snippet": "서울숲 일대는 최근 성수동 문화·상업권 성장과 맞물려 전시·팝업·체험형 콘텐츠가 집중되는 공간으로 변화하고",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-05-08T04:21:46.783Z"
+  },
+  {
+    "station_no": "ST-207",
+    "station_name_ko": "서강대역 2번출구 앞",
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "mention_count": 42,
+    "sentiment_avg": 0.38095238095238093,
+    "summary_ko": "마포구: 홍대·연남동 카페·맛집 수요 있지만, 최근 외국인 간 폭행 사건 발생. 문화 행사 중.",
+    "summary_en": "Mapo-gu: Hongdae/Yeonnam-dong cafes/restaurants popular, but recent assault incident. Ongoing cultural events.",
+    "related_event_ids": [
+      "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
+      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 주말 오후 3시|신촌 일대|2026-02-01",
+      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 주말 오후3시|신촌 일대|2026-02-01",
+      "[마포구립서강도서관] 5월/어린이메이킹 [행복맘껏time] 두 번째 일요일은 해봄공간 오픈데이|마포구립서강도서관 4층 어린이자료실 해봄|2026-05-10",
+      "[마포구립서강도서관] 5월 문화프로그램 안내|마포구립서강도서관|2026-05-02"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t6c75s/hongdae_yesterday_a_chiense_woman_was_assaulted/",
+        "title": "Hongdae yesterday: A Chiense woman was assaulted by Chinese men after she denied to give her social account",
+        "snippet": "A Chiense woman was assaulted by Chinese men after she denied to give her social account in front of the Korean bbq restaurant in Hongdae",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t6c75s/hongdae_yesterday_a_chiense_woman_was_assaulted/",
+        "title": "Hongdae yesterday: A Chiense woman was assaulted by Chinese men after she denied to give her social account",
+        "snippet": "A Chiense woman was assaulted by Chinese men after she denied to give her social account in front of the Korean bbq restaurant in Hongdae",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t62z8h/social_student_accomodation/",
+        "title": "Social student accomodation",
+        "snippet": "I’m currently looking at places around Hongdae. I don’t mind commuting, and the most important thing is living in a nice area with lots of cafés, shops, and other students around.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like ... Mangwon-dong",
+        "source": "visit_seoul"
+      }
+    ],
+    "updated_at": "2026-05-08T04:21:46.783Z"
+  },
+  {
+    "station_no": "ST-2525",
+    "station_name_ko": "저동2가 22-1",
+    "gu_ko": "중구",
+    "gu_en": "Jung-gu",
+    "mention_count": 18,
+    "sentiment_avg": 0.4444444444444444,
+    "summary_ko": "중구: 명동 외국인 관광객 밀집. 남산 봉수대 체험·야간 트레킹 이벤트 진행 중.",
+    "summary_en": "Jung-gu: Crowded Myeongdong with foreign tourists. Namsan beacon tower events/night treks ongoing.",
+    "related_event_ids": [
+      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-04-20",
+      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-04-20",
+      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-04-20",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-04-20",
+      "중구 수요일 달밤에서 별밤으로 남산 야간 트레킹|매경미디어센터빌딩|2026-05-06"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/korea/comments/1t6ur5w/260508_n_seoul_tower_at_namsan_mountain/",
+        "title": "260508 N Seoul Tower at Namsan Mountain",
+        "snippet": "260508 N Seoul Tower at Namsan Mountain",
+        "source": "reddit_korea"
+      },
+      {
+        "url": "https://www.reddit.com/r/korea/comments/1t6ur5w/260508_n_seoul_tower_at_namsan_mountain/",
+        "title": "260508 N Seoul Tower at Namsan Mountain",
+        "snippet": "260508 N Seoul Tower at Namsan Mountain",
+        "source": "reddit_korea"
+      },
+      {
+        "url": "https://biz.heraldcorp.com/article/10733687?ref=naver",
+        "title": "中·日 황금연휴 효과…명동, 활짝 웃었다",
+        "snippet": "한국 연휴와 겹쳐 외국 관광객 북적 올리브영·백화점·면세점 매출 급증",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.tournews21.com/news/articleView.html?idxno=134401",
+        "title": "\" 5월 펀서울\"... 도심 곳곳 체험·공연·축제 등 가족 문화행사 '풍성'",
+        "snippet": "남산 봉수대에서는 봉수의식 재현을 비롯해 마술·어린이 무예시범·체험 프로그램 등...",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-05-08T04:21:46.783Z"
+  },
+  {
+    "station_no": "ST-329",
+    "station_name_ko": "서빙고동 금호맨션 앞",
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "mention_count": 19,
+    "sentiment_avg": 0.21052631578947367,
+    "summary_ko": "용산구: 이태원 주변 관광지 무인사진관 밀집. 용산가족공원 텃밭 분양·유아 교육 프로그램 진행 중.",
+    "summary_en": "Yongsan-gu: Itaewon area has many self-photo booths. Yong-san Family Park offers garden plots/child education programs.",
+    "related_event_ids": [
+      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
+      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
+      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
+      "(토) 용산가족공원 숲티어링|용산가족공원|2026-05-02",
+      "용산가족공원 꼬물꼬물 호기심 숲 (유아단체)|용산가족공원|2026-05-06"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t68n1i/hidden_place_in_seoul_hbc/",
+        "title": "Hidden Place in seoul HBC",
+        "snippet": "I found it good beers and Music room!",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/korea/comments/1t65d8u/8_student_activists_detained_after_attempting_to/",
+        "title": "8 student activists detained after attempting to enter U.S. Embassy",
+        "snippet": "8 student activists detained after attempting to enter U.S. Embassy",
+        "source": "reddit_korea"
+      },
+      {
+        "url": "https://www.etoday.co.kr/news/view/2579857",
+        "title": "1인가구 따라가는 무인점포...관악·강서 '빨래방', 학군지는 '스터디카...",
+        "snippet": "무인사진관은 서울 전역에 총 374개가 있는데 전체의 약 29%가 홍대(마포구 소재), 익선동과 서촌 등(종로구 소재), 이태원(용산구 소재) 주요 관광지 3곳에 쏠려 있었다.",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.joongangenews.com/news/articleView.html?idxno=517702",
+        "title": "동서식품, 카누 바리스타 챔피언십 참가자 모집...커피 인재 발굴 나선...",
+        "snippet": "예선은 오는 7월 13일부터 16일까지 서울 한남동 맥심플랜트에서 열린다.",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-05-08T04:21:46.783Z"
+  }
+]
