@@ -1,21 +1,22 @@
 import { SiteHeader } from "@/components/SiteHeader";
 import { BottomTabNav } from "@/components/BottomTabNav";
-import { EventCard } from "@/components/EventCard";
+import { CategoryFilter } from "@/components/CategoryFilter";
 import { WeatherWidget } from "@/components/WeatherWidget";
 import { TrendingHero } from "@/components/TrendingHero";
 import MapWrapper from "@/components/MapWrapper";
-import { getPopularStations, getWeatherByGu, getEventsByStation, getTrending } from "@/lib/data";
+import { getPopularStations, getWeatherByGu, getEventsByStation, getTrending, getAllStationsLite } from "@/lib/data";
 import { t, useLangFromSearch, type Lang } from "@/lib/i18n";
 import { recommendTopEvents } from "@/lib/recommend";
 
 export default async function HomePage({ searchParams }: { searchParams: Promise<{ lng?: string }> }) {
   const sp = await searchParams;
   const lang: Lang = useLangFromSearch(sp);
-  const [stations, weather, eventsByStation, trending] = await Promise.all([
+  const [stations, weather, eventsByStation, trending, allStations] = await Promise.all([
     getPopularStations(),
     getWeatherByGu(),
     getEventsByStation(),
     getTrending(),
+    getAllStationsLite(),
   ]);
 
   const top = stations[0];
@@ -43,7 +44,7 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
 
         <section className="space-y-4">
           <h2 className="text-xs uppercase tracking-widest text-zinc-500">{t("section.popular", lang)}</h2>
-          <MapWrapper stations={stations} lang={lang} />
+          <MapWrapper stations={stations} allStations={allStations} lang={lang} />
         </section>
 
         <section className="space-y-4">
@@ -51,13 +52,7 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
             {t("home.section.recommended", lang)} · {recommended.length}
           </h2>
           <p className="text-sm text-zinc-500 max-w-prose">{t("home.section.recommended_sub", lang)}</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-            {recommended.map((e) => {
-              const anchor = lang === "ko" ? e.anchor_station_name_ko : e.anchor_station_name_ko;
-              const subtitle = `${t("card.near_station", lang)}: ${anchor} (${e.anchor_rent_total.toLocaleString()})`;
-              return <EventCard key={e.id} event={e} lang={lang} subtitle={subtitle} />;
-            })}
-          </div>
+          <CategoryFilter events={recommended} lang={lang} />
         </section>
 
         <footer className="pt-10 pb-4 text-xs text-zinc-500 border-t border-zinc-200 dark:border-zinc-800">

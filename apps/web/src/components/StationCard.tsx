@@ -27,7 +27,7 @@ export function StationCard({ station, lang, hero = false }: { station: PopularS
           <Badge variant="secondary" className="text-[11px]">{gu}</Badge>
         </div>
         {station.is_outlier && (
-          <Badge className="bg-amber-100 text-amber-900 hover:bg-amber-100 text-[11px]">{lang === "ko" ? "급증" : "Spike"}</Badge>
+          <Badge className="bg-amber-100 text-amber-900 hover:bg-amber-100 text-[11px]">{t("card.spike", lang)}</Badge>
         )}
       </div>
       <h3 className={[

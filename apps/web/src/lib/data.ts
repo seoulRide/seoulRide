@@ -13,10 +13,18 @@ import {
 } from "./types";
 
 const WS = path.resolve(process.cwd(), "../../_workspace");
+const MOBILE_ASSETS = path.resolve(process.cwd(), "../mobile/assets/data");
 
 async function readJson<T>(rel: string, parser: { parse: (x: unknown) => T }): Promise<T> {
   const txt = await fs.readFile(path.join(WS, rel), "utf8");
   return parser.parse(JSON.parse(txt));
+}
+
+/** Read a committed mobile-assets JSON; used as a build-time fallback when
+ *  pipeline outputs aren't checked in. */
+async function readMobileJson<T = unknown>(filename: string): Promise<T> {
+  const txt = await fs.readFile(path.join(MOBILE_ASSETS, filename), "utf8");
+  return JSON.parse(txt) as T;
 }
 
 export async function getPopularStations(): Promise<PopularStation[]> {
@@ -59,4 +67,20 @@ export async function getStationMaster(): Promise<StationMasterEntry[]> {
   const txt = await fs.readFile(path.join(WS, "01_ingest/station_master.normalized.json"), "utf8");
   _stationMaster = JSON.parse(txt) as StationMasterEntry[];
   return _stationMaster;
+}
+
+/** Lean station list for client maps — only id/name/lat/lng. ~3,335 entries.
+ *  Reads the committed lite snapshot from apps/mobile/assets/data so it's
+ *  available in CI/Vercel builds without the pipeline output. */
+export interface StationLite {
+  station_no: string;
+  name: string;
+  lat: number;
+  lng: number;
+}
+let _stationLite: StationLite[] | null = null;
+export async function getAllStationsLite(): Promise<StationLite[]> {
+  if (_stationLite) return _stationLite;
+  _stationLite = await readMobileJson<StationLite[]>("station_master.lite.json");
+  return _stationLite;
 }

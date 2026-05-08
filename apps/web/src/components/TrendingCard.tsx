@@ -2,12 +2,12 @@ import Link from "next/link";
 import type { TrendingEntry } from "@/lib/types";
 import { type Lang } from "@/lib/i18n";
 
-const SOURCE_LABEL: Record<TrendingEntry["sources"][number]["source"], string> = {
-  reddit_seoul: "r/seoul",
-  reddit_korea: "r/korea",
-  visit_seoul: "Visit Seoul",
-  naver_news: "NAVER 뉴스",
-  timeout_seoul: "Time Out Seoul",
+const SOURCE_LABEL: Record<TrendingEntry["sources"][number]["source"], { ko: string; en: string }> = {
+  reddit_seoul: { ko: "r/seoul", en: "r/seoul" },
+  reddit_korea: { ko: "r/korea", en: "r/korea" },
+  visit_seoul: { ko: "Visit Seoul", en: "Visit Seoul" },
+  naver_news: { ko: "네이버 뉴스", en: "NAVER News" },
+  timeout_seoul: { ko: "Time Out Seoul", en: "Time Out Seoul" },
 };
 
 export function TrendingCard({
@@ -61,7 +61,7 @@ export function TrendingCard({
             key={p}
             className="rounded-full border border-zinc-200 dark:border-zinc-800 px-1.5 py-0.5"
           >
-            {SOURCE_LABEL[p]}
+            {SOURCE_LABEL[p][lang]}
           </span>
         ))}
       </div>

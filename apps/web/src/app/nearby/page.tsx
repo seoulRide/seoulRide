@@ -2,7 +2,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { BottomTabNav } from "@/components/BottomTabNav";
 import { NearbyClient } from "@/components/NearbyClient";
 import type { BikeStation } from "@/components/EventExplorer";
-import { getEventsByStation, getPopularStations } from "@/lib/data";
+import { getEventsByStation, getAllStationsLite } from "@/lib/data";
 import { useLangFromSearch, type Lang } from "@/lib/i18n";
 import type { EventEntry } from "@/lib/types";
 
@@ -14,13 +14,13 @@ export default async function NearbyPage({
   const sp = await searchParams;
   const lang: Lang = useLangFromSearch(sp);
   const focusId = sp.focus ? decodeURIComponent(sp.focus) : undefined;
-  const [eventsAll, popularStations] = await Promise.all([
+  const [eventsAll, allStations] = await Promise.all([
     getEventsByStation(),
-    getPopularStations(),
+    getAllStationsLite(),
   ]);
-  const stations: BikeStation[] = popularStations.map((s) => ({
+  const stations: BikeStation[] = allStations.map((s) => ({
     station_no: s.station_no,
-    name: s.station_name_ko,
+    name: s.name,
     lat: s.lat,
     lng: s.lng,
   }));

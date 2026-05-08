@@ -102,7 +102,7 @@ export default async function StationPage({
         <header className="space-y-2">
           <div className="flex items-center gap-2 text-xs uppercase tracking-wider text-zinc-500">
             <span>#{station.rank_overall} · {gu}</span>
-            {station.is_outlier && <span className="text-amber-600">· spike</span>}
+            {station.is_outlier && <span className="text-amber-600">· {t("card.spike", lang).toLowerCase()}</span>}
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-[1.05]">{name}</h1>
           <p className="text-sm sm:text-base text-zinc-500">{station.address}</p>
