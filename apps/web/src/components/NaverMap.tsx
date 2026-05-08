@@ -47,6 +47,7 @@ export interface NaverMapHandle {
   panTo(lat: number, lng: number): void;
   setZoom(level: number): void;
   getInstance(): NaverMapInstance | null;
+  getContainer(): HTMLDivElement | null;
 }
 
 interface NaverMapProps {
@@ -159,6 +160,9 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
       const m = mapRef.current;
       if (!m) return;
       m.setZoom(z, true);
+    },
+    getContainer() {
+      return containerRef.current;
     },
     getInstance() {
       return mapRef.current;

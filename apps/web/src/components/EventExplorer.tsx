@@ -155,32 +155,49 @@ export function EventExplorer({
     }));
   }, [stations, origin, originGranted, selectedId, events]);
 
-  // Pan map when selection changes. The carousel (and BottomTabNav on mobile)
-  // covers the bottom portion of the visible area, so the marker should sit
-  // above the geometric center, in the visible "open" region.
+  // Pan map when selection changes. Compute the offset directly from the
+  // actual viewport rects of the map container and the carousel — survives
+  // mobile quirks (URL-bar collapse changing svh, safe-area insets, DPR).
   //
-  // Use NAVER's panBy with screen pixels — zoom-independent and exact, no
-  // Mercator math or projection-API ambiguity. setCenter snaps instantly to
-  // the marker; panBy(0, offsetPx) shifts the camera south by `offsetPx`
-  // screen px, making the marker appear that many pixels higher on screen.
+  // Strategy: aim the marker at the geometric mid-point of the *visible*
+  // map region (between the SiteHeader/banner above and the carousel below).
+  // panBy is in real screen pixels so the result matches what's on screen.
   useEffect(() => {
     if (!mapInstReady) return;
     const e = events.find((x) => x.id === selectedId);
     if (!e) return;
     const handle = mapRef.current;
     const map = handle?.getInstance();
+    const container = handle?.getContainer();
     const n = window.naver;
-    if (!handle || !map || !n) return;
+    if (!handle || !map || !n || typeof window === "undefined") return;
 
     map.setCenter(new n.maps.LatLng(e.lat, e.lng));
 
-    // Empirically, half the carousel's measured height is the right amount of
-    // upward shift — it lands the marker in the middle of the uncovered map.
-    // (BottomTabNav cancels out roughly with SiteHeader, so we don't need to
-    // include them in the offset.)
-    const carouselH = scrollerRef.current?.offsetHeight || 120;
-    const offsetPx = Math.round(carouselH / 2);
+    const HEADER_H = 56; // sticky SiteHeader
+    const BANNER_H = 36; // floating event title pill on top of the map
+    const TAB_H = 56;    // BottomTabNav (md:hidden)
+
+    const mapRect = container?.getBoundingClientRect();
+    const scrollerRect = scrollerRef.current?.getBoundingClientRect();
+    const isDesktop = window.matchMedia("(min-width: 768px)").matches;
+
+    const visibleTop = HEADER_H + BANNER_H;
+    // On mobile carousel sits above BottomTabNav. On desktop tab nav is hidden.
+    const visibleBottom = scrollerRect
+      ? scrollerRect.top
+      : window.innerHeight - (isDesktop ? 0 : TAB_H);
+    const desiredScreenY = (visibleTop + visibleBottom) / 2;
+
+    const mapCenterScreenY = mapRect ? mapRect.top + mapRect.height / 2 : window.innerHeight / 2;
+    const offsetPx = Math.round(mapCenterScreenY - desiredScreenY);
+
     if (offsetPx > 0) {
+      map.panBy(new n.maps.Point(0, offsetPx));
+    } else if (offsetPx < 0) {
+      // marker should appear *below* geometric center (rare — narrow carousel
+      // + tall header). panBy with a negative y shifts camera north → marker
+      // appears down on screen.
       map.panBy(new n.maps.Point(0, offsetPx));
     }
   }, [selectedId, events, mapInstReady]);
