@@ -133,8 +133,10 @@ async function extractOne(client: OpenAI, a: RawArticle): Promise<PlaceMention[]
 
 async function main() {
   const env = await loadEnv();
-  const apiKey = env.SOLAR_API_KEY;
-  if (!apiKey) throw new Error("SOLAR_API_KEY missing");
+  // CI doesn't ship .env.local — fall back to process.env (the GitHub Actions
+  // workflow injects SOLAR_API_KEY there from the repo secret).
+  const apiKey = process.env.SOLAR_API_KEY || env.SOLAR_API_KEY;
+  if (!apiKey) throw new Error("SOLAR_API_KEY missing (.env.local or process.env)");
 
   const client = new OpenAI({ apiKey, baseURL: "https://api.upstage.ai/v1" });
 

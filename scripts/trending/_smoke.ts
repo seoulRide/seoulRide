@@ -9,9 +9,9 @@ import { loadEnv } from "../lib/env.ts";
 
 async function main() {
   const env = await loadEnv();
-  const apiKey = env.SOLAR_API_KEY;
+  const apiKey = process.env.SOLAR_API_KEY || env.SOLAR_API_KEY;
   if (!apiKey) {
-    console.error("✗ SOLAR_API_KEY not found in .env.local");
+    console.error("✗ SOLAR_API_KEY not found (.env.local or process.env)");
     process.exit(1);
   }
 

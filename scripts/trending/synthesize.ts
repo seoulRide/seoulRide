@@ -106,8 +106,8 @@ function buildUserContent(top: AggregatedEntry[], eventTitlesById: Map<string, {
 
 async function main() {
   const env = await loadEnv();
-  const apiKey = env.SOLAR_API_KEY;
-  if (!apiKey) throw new Error("SOLAR_API_KEY missing");
+  const apiKey = process.env.SOLAR_API_KEY || env.SOLAR_API_KEY;
+  if (!apiKey) throw new Error("SOLAR_API_KEY missing (.env.local or process.env)");
 
   const wsDir = PATHS.workspace;
   const [aggTxt, eventsTxt] = await Promise.all([
