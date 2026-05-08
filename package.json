@@ -11,7 +11,8 @@
     "curate:food": "tsx scripts/curation/food-by-station.ts",
     "fetch:weather": "tsx scripts/curation/weather-by-gu.ts",
     "qa": "tsx scripts/qa/run-checks.ts",
-    "pipeline": "pnpm ingest && pnpm analyze:bike && pnpm curate:events && pnpm curate:food && pnpm fetch:weather && pnpm qa"
+    "pipeline": "pnpm ingest && pnpm analyze:bike && pnpm curate:events && pnpm curate:food && pnpm fetch:weather && pnpm qa",
+    "trending:smoke": "tsx scripts/trending/_smoke.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
@@ -19,5 +20,8 @@
     "tsx": "^4.20.0",
     "typescript": "^5.7.0",
     "zod": "^3.24.0"
+  },
+  "dependencies": {
+    "openai": "^6.37.0"
   }
 }
