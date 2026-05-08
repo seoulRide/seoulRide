@@ -1,6 +1,7 @@
 "use client";
 
-import { forwardRef, useEffect, useMemo, useRef, useState, type ComponentType, type ReactNode } from "react";
+import { forwardRef, useCallback, useEffect, useMemo, useRef, useState, type ComponentType, type ReactNode } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { NaverMap, type NaverMapHandle, type NaverMapMarker, type NaverMapNamedMarker } from "./NaverMap";
 import { haversineKm, formatDistance } from "@/lib/route-geometry";
 import { bicycleAppLinks, type MapAppProvider } from "@/lib/map-app-links";
@@ -229,6 +230,41 @@ export function EventExplorer({
     cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   };
 
+  // Desktop carousel arrows: advance to prev/next card by scrolling its ref
+  // into center. Re-uses the marker-click pattern so IntersectionObserver
+  // picks up the new active card and the map pan + selection follow.
+  const advanceBy = useCallback(
+    (delta: number) => {
+      const idx = events.findIndex((e) => e.id === selectedId);
+      if (idx < 0) return;
+      const target = events[idx + delta];
+      if (!target) return;
+      cardRefs.current.get(target.id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    },
+    [events, selectedId],
+  );
+
+  const selectedIndex = useMemo(() => events.findIndex((e) => e.id === selectedId), [events, selectedId]);
+  const canPrev = selectedIndex > 0;
+  const canNext = selectedIndex >= 0 && selectedIndex < events.length - 1;
+
+  // Keyboard ←/→ on the carousel scroller (focusable via tabIndex below).
+  useEffect(() => {
+    const root = scrollerRef.current;
+    if (!root) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        advanceBy(-1);
+      } else if (e.key === "ArrowRight") {
+        e.preventDefault();
+        advanceBy(1);
+      }
+    };
+    root.addEventListener("keydown", onKey);
+    return () => root.removeEventListener("keydown", onKey);
+  }, [advanceBy]);
+
   const fallbackCenter = initialCenter ?? (events[0] ? { lat: events[0].lat, lng: events[0].lng } : origin);
 
   return (
@@ -251,7 +287,10 @@ export function EventExplorer({
 
       <div
         ref={scrollerRef}
-        className="fixed inset-x-0 bottom-[calc(3.5rem+env(safe-area-inset-bottom))] md:bottom-0 z-30 overflow-x-auto overflow-y-hidden pb-3 pt-2 [&::-webkit-scrollbar]:hidden"
+        tabIndex={0}
+        role="region"
+        aria-label={lang === "ko" ? "행사 카드 캐러셀" : "Event cards carousel"}
+        className="fixed inset-x-0 bottom-[calc(3.5rem+env(safe-area-inset-bottom))] md:bottom-0 z-30 overflow-x-auto overflow-y-hidden pb-3 pt-2 outline-none [&::-webkit-scrollbar]:hidden"
         style={{ scrollbarWidth: "none", scrollSnapType: "x mandatory" }}
       >
         {/* Inner row uses pl-[10vw] for the start padding and an explicit
@@ -282,6 +321,34 @@ export function EventExplorer({
           <div className="shrink-0 w-[10vw]" aria-hidden />
         </div>
       </div>
+
+      {/* Desktop-only carousel arrows. Mobile uses touch drag. */}
+      {events.length > 1 && (
+        <div
+          className="pointer-events-none fixed inset-x-0 bottom-[calc(3.5rem+env(safe-area-inset-bottom))] md:bottom-0 z-40 hidden md:flex justify-between px-4 pb-3 pt-2"
+          style={{ height: scrollerRef.current?.offsetHeight ?? undefined }}
+          aria-hidden
+        >
+          <button
+            type="button"
+            onClick={() => advanceBy(-1)}
+            disabled={!canPrev}
+            aria-label={lang === "ko" ? "이전 행사" : "Previous event"}
+            className="pointer-events-auto self-center inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/95 dark:bg-zinc-900/95 backdrop-blur shadow-md border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-200 transition hover:bg-zinc-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:pointer-events-none"
+          >
+            <ChevronLeft className="h-5 w-5" />
+          </button>
+          <button
+            type="button"
+            onClick={() => advanceBy(1)}
+            disabled={!canNext}
+            aria-label={lang === "ko" ? "다음 행사" : "Next event"}
+            className="pointer-events-auto self-center inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/95 dark:bg-zinc-900/95 backdrop-blur shadow-md border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-200 transition hover:bg-zinc-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:pointer-events-none"
+          >
+            <ChevronRight className="h-5 w-5" />
+          </button>
+        </div>
+      )}
     </div>
   );
 }
