@@ -204,6 +204,13 @@ export function EventExplorer({
   }, [selectedId, events, mapInstReady]);
 
   // Detect the centered card via IntersectionObserver.
+  // selectedId is read from a ref so that calling setSelectedId from the
+  // click handlers (the eager visual update) doesn't re-create the observer
+  // mid-scroll — re-creation re-fires initial intersection events for the
+  // current scroll position, which would override the just-set click target
+  // with whatever happened to be visible at that instant.
+  const selectedIdRef = useRef(selectedId);
+  selectedIdRef.current = selectedId;
   useEffect(() => {
     const root = scrollerRef.current;
     if (!root) return;
@@ -216,14 +223,14 @@ export function EventExplorer({
         }
         if (best && best.intersectionRatio >= 0.6) {
           const id = (best.target as HTMLElement).dataset.id;
-          if (id && id !== selectedId) setSelectedId(id);
+          if (id && id !== selectedIdRef.current) setSelectedId(id);
         }
       },
       { root, threshold: [0.4, 0.6, 0.8, 1] },
     );
     cardRefs.current.forEach((node) => obs.observe(node));
     return () => obs.disconnect();
-  }, [events, selectedId]);
+  }, [events]);
 
   const onMarkerClick = (id: string) => {
     setSelectedId(id);
