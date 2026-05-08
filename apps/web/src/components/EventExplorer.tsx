@@ -247,6 +247,9 @@ export function EventExplorer({
       targetIdxRef.current = next;
       const targetId = events[next]?.id;
       if (!targetId) return;
+      // Update visual focus immediately so the ring follows the click;
+      // IntersectionObserver will reconfirm the same id after scroll settles.
+      setSelectedId(targetId);
       cardRefs.current.get(targetId)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
     },
     [events],
@@ -260,6 +263,7 @@ export function EventExplorer({
       if (clickedIdx < 0) return;
       if (clickedIdx === targetIdxRef.current) return;
       targetIdxRef.current = clickedIdx;
+      setSelectedId(id);
       cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
     },
     [events],
