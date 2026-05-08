@@ -56,9 +56,9 @@ export default function MapWrapper({
           id: `heat-${s.station_no}`,
           lat: s.lat,
           lng: s.lng,
-          radius: 200 + radiusNorm * 1700, // 200m ~ 1900m (smaller floor)
-          fillColor: `hsl(${hue}, 80%, 50%)`,
-          fillOpacity: 0.1 + norm * 0.25, // 0.10 ~ 0.35
+          radius: 120 + radiusNorm * 1000, // 120m ~ 1120m (smaller)
+          fillColor: `hsl(${hue}, 95%, 50%)`, // higher saturation
+          fillOpacity: 0.12 + norm * 0.3, // 0.12 ~ 0.42
         };
       }),
     [stations, max],
