@@ -1,0 +1,60 @@
+name: trending-daily
+
+# Daily refresh of _workspace/05_trending/trending.json — the AI hotplace
+# pipeline (Reddit + Visit Seoul + NAVER → Solar Pro 2 extract + synthesize).
+# Runs at 21:00 UTC = 06:00 KST so the home page hero is fresh before the
+# Korean morning.
+
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch: # manual trigger for first run / debugging
+
+permissions:
+  contents: write # needed to commit + push trending.json
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    concurrency:
+      group: trending-daily
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install root dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run trending pipeline
+        env:
+          SOLAR_API_KEY: ${{ secrets.SOLAR_API_KEY }}
+        run: pnpm trending:run
+
+      - name: Verify trending.json
+        run: |
+          test -s _workspace/05_trending/trending.json
+          jq 'length' _workspace/05_trending/trending.json
+
+      - name: Commit + push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _workspace/05_trending/trending.json
+          if git diff --cached --quiet; then
+            echo "No change."
+          else
+            git commit -m "chore(trending): daily refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

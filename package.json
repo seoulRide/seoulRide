@@ -18,7 +18,8 @@
     "trending:fetch:naver": "tsx scripts/trending/fetch_naver_news.ts",
     "trending:extract": "tsx scripts/trending/extract.ts",
     "trending:aggregate": "tsx scripts/trending/aggregate.ts",
-    "trending:synthesize": "tsx scripts/trending/synthesize.ts"
+    "trending:synthesize": "tsx scripts/trending/synthesize.ts",
+    "trending:run": "tsx scripts/trending/run.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

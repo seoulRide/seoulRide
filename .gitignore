@@ -34,11 +34,13 @@ coverage/
 # Harness intermediate artifacts (regeneratable, may contain API responses)
 _workspace/*
 _workspace_prev_*/
-# Exception: trending pipeline ships a committed sample so the UI has a
-# fallback shape before the daily cron has produced trending.json.
+# Exception: the daily AI trending pipeline commits its canonical output +
+# a baked-in sample so the UI never renders a blank hero. Other intermediate
+# artifacts under 05_trending/ (raw/, extracted/, aggregated.json) stay ignored.
 !_workspace/05_trending/
 _workspace/05_trending/*
 !_workspace/05_trending/trending.sample.json
+!_workspace/05_trending/trending.json
 
 # Cached API responses (regeneratable, may contain ToS-restricted data)
 data/cache/
