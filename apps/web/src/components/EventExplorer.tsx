@@ -322,19 +322,18 @@ export function EventExplorer({
         </div>
       </div>
 
-      {/* Desktop-only carousel arrows. Mobile uses touch drag. */}
+      {/* Desktop-only carousel arrows. Mobile uses touch drag. Each button is
+          a standalone fixed element parked at ~vertical mid of the carousel
+          row (~5rem from viewport bottom = roughly half of a typical card
+          height of ~200 px). */}
       {events.length > 1 && (
-        <div
-          className="pointer-events-none fixed inset-x-0 bottom-[calc(3.5rem+env(safe-area-inset-bottom))] md:bottom-0 z-40 hidden md:flex justify-between px-4 pb-3 pt-2"
-          style={{ height: scrollerRef.current?.offsetHeight ?? undefined }}
-          aria-hidden
-        >
+        <>
           <button
             type="button"
             onClick={() => advanceBy(-1)}
             disabled={!canPrev}
             aria-label={lang === "ko" ? "이전 행사" : "Previous event"}
-            className="pointer-events-auto self-center inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/95 dark:bg-zinc-900/95 backdrop-blur shadow-md border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-200 transition hover:bg-zinc-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:pointer-events-none"
+            className="hidden md:inline-flex fixed left-4 bottom-[5rem] z-40 h-11 w-11 items-center justify-center rounded-full bg-white/95 dark:bg-zinc-900/95 backdrop-blur shadow-lg border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-200 transition hover:bg-zinc-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:cursor-not-allowed"
           >
             <ChevronLeft className="h-5 w-5" />
           </button>
@@ -343,11 +342,11 @@ export function EventExplorer({
             onClick={() => advanceBy(1)}
             disabled={!canNext}
             aria-label={lang === "ko" ? "다음 행사" : "Next event"}
-            className="pointer-events-auto self-center inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/95 dark:bg-zinc-900/95 backdrop-blur shadow-md border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-200 transition hover:bg-zinc-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:pointer-events-none"
+            className="hidden md:inline-flex fixed right-4 bottom-[5rem] z-40 h-11 w-11 items-center justify-center rounded-full bg-white/95 dark:bg-zinc-900/95 backdrop-blur shadow-lg border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-200 transition hover:bg-zinc-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:cursor-not-allowed"
           >
             <ChevronRight className="h-5 w-5" />
           </button>
-        </div>
+        </>
       )}
     </div>
   );
