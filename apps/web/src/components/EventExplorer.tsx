@@ -290,33 +290,60 @@ export function EventExplorer({
   // otherwise it overrides the eager selection with whatever happens to be
   // visible mid-animation. Touch/wheel scrolling on mobile leaves this null,
   // so the observer drives selectedId normally during a swipe.
+  //
+  // Lock release: prefer the native `scrollend` event (fires once smooth
+  // scroll settles, handles long-distance jumps cleanly). Fall back to a
+  // 2000ms timer in case scrollend doesn't fire (browser, no-op scrollTo, …).
   const scrollLockIdRef = useRef<string | null>(null);
   const scrollLockTimerRef = useRef<number | null>(null);
+  const scrollLockEndHandlerRef = useRef<(() => void) | null>(null);
   const lockSelectionTo = useCallback((id: string) => {
     scrollLockIdRef.current = id;
+    const scroller = scrollerRef.current;
     if (scrollLockTimerRef.current != null) window.clearTimeout(scrollLockTimerRef.current);
-    // Smooth scrollIntoView typically lands within ~400-500ms; release the
-    // lock a bit after that so the observer can resume for swipes.
-    scrollLockTimerRef.current = window.setTimeout(() => {
+    if (scroller && scrollLockEndHandlerRef.current) {
+      scroller.removeEventListener("scrollend", scrollLockEndHandlerRef.current);
+    }
+    const release = () => {
       scrollLockIdRef.current = null;
-    }, 600);
+      if (scrollLockTimerRef.current != null) {
+        window.clearTimeout(scrollLockTimerRef.current);
+        scrollLockTimerRef.current = null;
+      }
+      if (scroller && scrollLockEndHandlerRef.current) {
+        scroller.removeEventListener("scrollend", scrollLockEndHandlerRef.current);
+        scrollLockEndHandlerRef.current = null;
+      }
+    };
+    scrollLockEndHandlerRef.current = release;
+    scroller?.addEventListener("scrollend", release, { once: true });
+    scrollLockTimerRef.current = window.setTimeout(release, 2000);
   }, []);
   useEffect(() => () => {
     if (scrollLockTimerRef.current != null) window.clearTimeout(scrollLockTimerRef.current);
+    const scroller = scrollerRef.current;
+    if (scroller && scrollLockEndHandlerRef.current) {
+      scroller.removeEventListener("scrollend", scrollLockEndHandlerRef.current);
+    }
   }, []);
 
   // Explicit center-scroll: scrollIntoView({ inline: "center" }) was leaving
   // the card at the visible left edge in some scroll-snap mandatory cases
   // (browser interpretation of "center" differs from snap-align center).
   // Compute scrollLeft directly so the card's center always lines up with
-  // the scroller's visual center.
+  // the scroller's visual center. Defer to the next animation frame so the
+  // measurement happens after React's render commit (the card may have been
+  // resized by becoming the focused pin holder).
   const scrollCardToCenter = useCallback((id: string) => {
-    const scroller = scrollerRef.current;
-    const card = cardRefs.current.get(id);
-    if (!scroller || !card) return;
-    const cardCenter = card.offsetLeft + card.offsetWidth / 2;
-    const target = cardCenter - scroller.clientWidth / 2;
-    scroller.scrollTo({ left: target, behavior: "smooth" });
+    const run = () => {
+      const scroller = scrollerRef.current;
+      const card = cardRefs.current.get(id);
+      if (!scroller || !card) return;
+      const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+      const target = cardCenter - scroller.clientWidth / 2;
+      scroller.scrollTo({ left: target, behavior: "smooth" });
+    };
+    requestAnimationFrame(run);
   }, []);
 
   const advanceBy = useCallback(
