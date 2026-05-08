@@ -2,12 +2,28 @@
 
 import { useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { NaverMap, type NaverMapHandle, type NaverMapMarker, type NaverMapNamedMarker } from "./NaverMap";
+import { NaverMap, type NaverMapHandle, type NaverMapMarker, type NaverMapNamedMarker, type NaverMapHeatCircle } from "./NaverMap";
 import type { PopularStation } from "@/lib/types";
 import type { StationLite } from "@/lib/data";
 import type { Lang } from "@/lib/i18n";
 
-const ALL_STATION_ICON_HTML = `<div style="width:8px;height:8px;border-radius:9999px;background:rgba(82,82,91,0.45);border:1px solid rgba(255,255,255,0.85);"></div>`;
+// Top-3 bike marker — emerald bike icon + medal-colored rank badge.
+function bikeMarkerHtml(rank: 1 | 2 | 3): string {
+  const medalBg = rank === 1 ? "#fbbf24" : rank === 2 ? "#cbd5e1" : "#b45309"; // gold / silver / bronze
+  const medalFg = rank === 2 ? "#1f2937" : "#fff";
+  return `
+    <div style="position:relative;width:44px;height:44px;">
+      <div style="width:44px;height:44px;border-radius:9999px;background:#fff;border:2.5px solid #047857;box-shadow:0 3px 8px rgba(0,0,0,0.3);display:flex;align-items:center;justify-content:center;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#047857" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="18.5" cy="17.5" r="3.5"/>
+          <circle cx="5.5" cy="17.5" r="3.5"/>
+          <circle cx="15" cy="5" r="1"/>
+          <path d="M12 17.5V14l-3-3 4-3 2 3h2"/>
+        </svg>
+      </div>
+      <div style="position:absolute;top:-4px;right:-4px;width:20px;height:20px;border-radius:9999px;background:${medalBg};color:${medalFg};font-weight:800;font-size:12px;display:flex;align-items:center;justify-content:center;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.3);">${rank}</div>
+    </div>`;
+}
 
 export default function MapWrapper({
   stations,
@@ -24,49 +40,65 @@ export default function MapWrapper({
   const lngQs = lang === "ko" ? "?lng=ko" : "";
 
   const max = useMemo(() => Math.max(1, ...stations.map((s) => s.rent_total)), [stations]);
-  const markers: NaverMapMarker[] = useMemo(
+
+  // Heatmap circles — translucent emerald discs at every popular station.
+  // Radius scales with rent_total (sqrt for a gentler curve so the busiest
+  // stations don't overwhelm). Overlap produces denser blobs in hot areas.
+  const heatCircles: NaverMapHeatCircle[] = useMemo(
     () =>
-      stations.map((s) => ({
-        id: s.station_no,
-        lat: s.lat,
-        lng: s.lng,
-        intensity: s.rent_total / max,
-      })),
+      stations.map((s) => {
+        const norm = Math.sqrt(s.rent_total / max); // 0..1, sqrt-shaped
+        return {
+          id: `heat-${s.station_no}`,
+          lat: s.lat,
+          lng: s.lng,
+          radius: 250 + norm * 1100, // 250m ~ 1350m
+          fillColor: "#10b981",
+          fillOpacity: 0.13,
+        };
+      }),
     [stations, max],
   );
 
-  // All-station background dots — render every station that isn't already a popular
-  // marker, so the map shows the broader bike network without double-stacking.
-  const popularSet = useMemo(() => new Set(stations.map((s) => s.station_no)), [stations]);
-  const stationDots: NaverMapNamedMarker[] = useMemo(
+  // Top-3 stations get the bike icon + medal badge.
+  const top3 = useMemo(
+    () => [...stations].sort((a, b) => a.rank_overall - b.rank_overall).slice(0, 3),
+    [stations],
+  );
+  const top3Markers: NaverMapNamedMarker[] = useMemo(
     () =>
-      (allStations ?? [])
-        .filter((s) => !popularSet.has(s.station_no))
-        .map((s) => ({
-          id: `bg-${s.station_no}`,
-          lat: s.lat,
-          lng: s.lng,
-          html: ALL_STATION_ICON_HTML,
-          anchor: { x: 4, y: 4 },
-          zIndex: 50,
-        })),
-    [allStations, popularSet],
+      top3.map((s, i) => ({
+        id: `top3-${s.station_no}`,
+        lat: s.lat,
+        lng: s.lng,
+        html: bikeMarkerHtml((i + 1) as 1 | 2 | 3),
+        anchor: { x: 22, y: 22 },
+        zIndex: 9000,
+        clickable: true,
+      })),
+    [top3],
   );
 
+  // (Future): also keep the broader station network if passed in. Currently
+  // unused on home for perf; preserved as a typed prop.
+  void allStations;
+  void selected;
+
   const onClick = (id: string) => {
-    const s = stations.find((x) => x.station_no === id);
+    const stripped = id.startsWith("top3-") ? id.slice(5) : id;
+    const s = stations.find((x) => x.station_no === stripped);
     if (!s) return;
-    setSelected(id);
+    setSelected(stripped);
     mapRef.current?.panTo(s.lat, s.lng);
-    setTimeout(() => router.push(`/station/${encodeURIComponent(id)}${lngQs}`), 320);
+    setTimeout(() => router.push(`/station/${encodeURIComponent(stripped)}${lngQs}`), 320);
   };
 
   return (
     <NaverMap
       ref={mapRef}
-      markers={markers}
-      extraMarkers={stationDots}
-      selectedId={selected}
+      markers={[]}
+      extraMarkers={top3Markers}
+      heatCircles={heatCircles}
       onMarkerClick={onClick}
       zoom={11}
       fitBounds

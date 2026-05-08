@@ -7,6 +7,7 @@ import type {
   NaverEventListener,
   NaverPolyline,
   NaverBicycleLayer,
+  NaverCircle,
 } from "@/lib/naver-types";
 
 export interface NaverMapMarker {
@@ -27,6 +28,19 @@ export interface NaverMapPolyline {
   dashed?: boolean;
 }
 
+/** Translucent emerald (or other color) circles drawn under markers — used
+ *  as a poor-person's heatmap by overlapping many of them. */
+export interface NaverMapHeatCircle {
+  id: string;
+  lat: number;
+  lng: number;
+  /** Radius in meters. */
+  radius: number;
+  fillColor?: string;
+  /** 0..1. Default 0.15. */
+  fillOpacity?: number;
+}
+
 /** Distinct named markers (e.g. rental/return/event), rendered separately
  *  from the bulk `markers` array so they don't compete for ids. */
 export interface NaverMapNamedMarker {
@@ -41,6 +55,8 @@ export interface NaverMapNamedMarker {
   /** Hide the marker when the current map zoom is below this threshold.
    *  Useful for dense low-priority markers that would clutter wide views. */
   minZoom?: number;
+  /** When true, the marker is clickable and `onMarkerClick(id)` fires on tap. */
+  clickable?: boolean;
 }
 
 export interface NaverMapHandle {
@@ -66,6 +82,9 @@ interface NaverMapProps {
   polylines?: NaverMapPolyline[];
   /** Optional named markers (rental, return, event venue, ...). */
   extraMarkers?: NaverMapNamedMarker[];
+  /** Translucent circles drawn beneath markers — overlap to produce a
+   *  blob/heatmap effect. */
+  heatCircles?: NaverMapHeatCircle[];
   /** Overlay NAVER's bicycle road tile layer on top of the base map. */
   showBicycleLayer?: boolean;
 }
@@ -132,6 +151,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     here = null,
     polylines,
     extraMarkers,
+    heatCircles,
     showBicycleLayer = false,
   },
   ref,
@@ -140,10 +160,11 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
   const mapRef = useRef<NaverMapInstance | null>(null);
   const [mapReady, setMapReady] = useState(false);
   const markersRef = useRef<Map<string, { marker: NaverMarker; listener: NaverEventListener | null }>>(new Map());
-  const namedMarkersRef = useRef<Map<string, { marker: NaverMarker; minZoom?: number }>>(new Map());
+  const namedMarkersRef = useRef<Map<string, { marker: NaverMarker; minZoom?: number; listener: NaverEventListener | null }>>(new Map());
   const polylinesRef = useRef<Map<string, NaverPolyline>>(new Map());
   const hereMarkerRef = useRef<NaverMarker | null>(null);
   const bicycleLayerRef = useRef<NaverBicycleLayer | null>(null);
+  const heatCirclesRef = useRef<Map<string, NaverCircle>>(new Map());
   const onClickRef = useRef(onMarkerClick);
   onClickRef.current = onMarkerClick;
 
@@ -303,6 +324,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     const present = new Set((extraMarkers ?? []).map((m) => m.id));
     for (const [id, entry] of namedMarkersRef.current) {
       if (!present.has(id)) {
+        if (entry.listener) n.maps.Event.removeListener(entry.listener);
         entry.marker.setMap(null);
         namedMarkersRef.current.delete(id);
       }
@@ -313,6 +335,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
       node.innerHTML = m.html;
       const anchor = m.anchor ? new n.maps.Point(m.anchor.x, m.anchor.y) : new n.maps.Point(12, 12);
       const visible = m.minZoom == null || currentZoom >= m.minZoom;
+      const clickable = m.clickable === true;
       const existing = namedMarkersRef.current.get(m.id);
       if (existing) {
         existing.marker.setPosition(new n.maps.LatLng(m.lat, m.lng));
@@ -326,13 +349,53 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
           map,
           icon: { content: node, anchor },
           zIndex: m.zIndex ?? 5000,
-          clickable: false,
+          clickable,
           visible,
         });
-        namedMarkersRef.current.set(m.id, { marker, minZoom: m.minZoom });
+        const listener = clickable
+          ? n.maps.Event.addListener(marker, "click", () => onClickRef.current?.(m.id))
+          : null;
+        namedMarkersRef.current.set(m.id, { marker, minZoom: m.minZoom, listener });
       }
     }
   }, [extraMarkers, mapReady]);
+
+  // Heat circles — translucent emerald discs that overlap to suggest density.
+  useEffect(() => {
+    const n = window.naver;
+    const map = mapRef.current;
+    if (!n || !map) return;
+    const present = new Set((heatCircles ?? []).map((c) => c.id));
+    for (const [id, circle] of heatCirclesRef.current) {
+      if (!present.has(id)) {
+        circle.setMap(null);
+        heatCirclesRef.current.delete(id);
+      }
+    }
+    for (const c of heatCircles ?? []) {
+      const opts = {
+        center: new n.maps.LatLng(c.lat, c.lng),
+        radius: c.radius,
+        map,
+        strokeWeight: 0,
+        fillColor: c.fillColor ?? "#10b981",
+        fillOpacity: c.fillOpacity ?? 0.15,
+        clickable: false,
+        zIndex: 10,
+      };
+      const existing = heatCirclesRef.current.get(c.id);
+      if (existing) {
+        existing.setCenter(new n.maps.LatLng(c.lat, c.lng));
+        existing.setRadius(c.radius);
+        existing.setOptions({
+          fillColor: opts.fillColor,
+          fillOpacity: opts.fillOpacity,
+        });
+      } else {
+        heatCirclesRef.current.set(c.id, new n.maps.Circle(opts));
+      }
+    }
+  }, [heatCircles, mapReady]);
 
   // Bicycle road layer (toggle on/off)
   useEffect(() => {
@@ -400,10 +463,15 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
         entry.marker.setMap(null);
       }
       markersRef.current.clear();
-      for (const entry of namedMarkersRef.current.values()) entry.marker.setMap(null);
+      for (const entry of namedMarkersRef.current.values()) {
+        if (entry.listener && n) n.maps.Event.removeListener(entry.listener);
+        entry.marker.setMap(null);
+      }
       namedMarkersRef.current.clear();
       for (const p of polylinesRef.current.values()) p.setMap(null);
       polylinesRef.current.clear();
+      for (const c of heatCirclesRef.current.values()) c.setMap(null);
+      heatCirclesRef.current.clear();
       if (hereMarkerRef.current) {
         hereMarkerRef.current.setMap(null);
         hereMarkerRef.current = null;

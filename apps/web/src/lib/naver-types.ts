@@ -55,6 +55,13 @@ export interface NaverPolyline {
   setOptions(options: Record<string, unknown>): void;
 }
 
+export interface NaverCircle {
+  setMap(map: NaverMap | null): void;
+  setCenter(latlng: NaverLatLng): void;
+  setRadius(radius: number): void;
+  setOptions(options: Record<string, unknown>): void;
+}
+
 export interface NaverBicycleLayer {
   setMap(map: NaverMap | null): void;
   getMap(): NaverMap | null;
@@ -81,6 +88,18 @@ export interface NaverNamespace {
       visible?: boolean;
     }) => NaverMarker;
     BicycleLayer: new () => NaverBicycleLayer;
+    Circle: new (opts: {
+      center: NaverLatLng;
+      radius: number;
+      map?: NaverMap;
+      strokeColor?: string;
+      strokeWeight?: number;
+      strokeOpacity?: number;
+      fillColor?: string;
+      fillOpacity?: number;
+      clickable?: boolean;
+      zIndex?: number;
+    }) => NaverCircle;
     Polyline: new (opts: {
       path: NaverLatLng[];
       map?: NaverMap;
