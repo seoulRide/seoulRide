@@ -246,11 +246,20 @@ export function EventExplorer({
     [],
   );
 
-  // Card-body click → scroll that card to center. Lets the user advance the
-  // carousel by clicking on a peeking neighbor card, no chevrons needed.
-  const onCardClick = useCallback((id: string) => {
-    cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-  }, []);
+  // Card click → advance exactly one event in the direction of the clicked
+  // card relative to the currently active one. Clicking any card to the
+  // right moves +1 (not directly to that card), and similarly for the left.
+  // Clicking the active card itself is a no-op.
+  const onCardClick = useCallback(
+    (id: string) => {
+      const clickedIdx = events.findIndex((e) => e.id === id);
+      const activeIdx = events.findIndex((e) => e.id === selectedId);
+      if (clickedIdx < 0 || activeIdx < 0) return;
+      if (clickedIdx === activeIdx) return;
+      advanceBy(clickedIdx > activeIdx ? 1 : -1);
+    },
+    [events, selectedId, advanceBy],
+  );
 
   const selectedIndex = useMemo(() => events.findIndex((e) => e.id === selectedId), [events, selectedId]);
   const canPrev = selectedIndex > 0;
