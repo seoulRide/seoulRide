@@ -10,7 +10,7 @@
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { PATHS } from "../lib/env.ts";
+import { PATHS, readWorkspaceText } from "../lib/env.ts";
 import type { RawSource } from "./types.ts";
 
 interface PlaceMention {
@@ -160,8 +160,8 @@ async function main() {
   const wsDir = PATHS.workspace;
   const [mentionsTxt, stationsTxt, eventsTxt] = await Promise.all([
     fs.readFile(path.join(wsDir, "05_trending", "extracted", "mentions.json"), "utf8"),
-    fs.readFile(path.join(wsDir, "02_analytics", "popular_stations.json"), "utf8"),
-    fs.readFile(path.join(wsDir, "03_curation", "events_by_station.json"), "utf8"),
+    readWorkspaceText("02_analytics/popular_stations.json"),
+    readWorkspaceText("03_curation/events_by_station.json"),
   ]);
   const rows = JSON.parse(mentionsTxt) as ExtractedRow[];
   const stations = JSON.parse(stationsTxt) as PopularStation[];

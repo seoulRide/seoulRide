@@ -13,7 +13,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import OpenAI from "openai";
-import { loadEnv, PATHS } from "../lib/env.ts";
+import { loadEnv, PATHS, readWorkspaceText } from "../lib/env.ts";
 import type { RawSource } from "./types.ts";
 
 const TOP_N = 5;
@@ -112,7 +112,7 @@ async function main() {
   const wsDir = PATHS.workspace;
   const [aggTxt, eventsTxt] = await Promise.all([
     fs.readFile(path.join(wsDir, "05_trending", "aggregated.json"), "utf8"),
-    fs.readFile(path.join(wsDir, "03_curation", "events_by_station.json"), "utf8"),
+    readWorkspaceText("03_curation/events_by_station.json"),
   ]);
   const aggregated = JSON.parse(aggTxt) as AggregatedEntry[];
   const eventsByStation = JSON.parse(eventsTxt) as Record<
