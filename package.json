@@ -13,7 +13,9 @@
     "qa": "tsx scripts/qa/run-checks.ts",
     "pipeline": "pnpm ingest && pnpm analyze:bike && pnpm curate:events && pnpm curate:food && pnpm fetch:weather && pnpm qa",
     "trending:smoke": "tsx scripts/trending/_smoke.ts",
-    "trending:fetch:reddit": "tsx scripts/trending/fetch_reddit.ts"
+    "trending:fetch:reddit": "tsx scripts/trending/fetch_reddit.ts",
+    "trending:fetch:visit-seoul": "tsx scripts/trending/fetch_visit_seoul.ts",
+    "trending:fetch:naver": "tsx scripts/trending/fetch_naver_news.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
@@ -23,6 +25,7 @@
     "zod": "^3.24.0"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "openai": "^6.37.0"
   }
 }
