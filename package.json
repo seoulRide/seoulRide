@@ -12,7 +12,8 @@
     "fetch:weather": "tsx scripts/curation/weather-by-gu.ts",
     "qa": "tsx scripts/qa/run-checks.ts",
     "pipeline": "pnpm ingest && pnpm analyze:bike && pnpm curate:events && pnpm curate:food && pnpm fetch:weather && pnpm qa",
-    "trending:smoke": "tsx scripts/trending/_smoke.ts"
+    "trending:smoke": "tsx scripts/trending/_smoke.ts",
+    "trending:fetch:reddit": "tsx scripts/trending/fetch_reddit.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
