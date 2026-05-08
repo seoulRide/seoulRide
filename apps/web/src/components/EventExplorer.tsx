@@ -22,7 +22,17 @@ const CATEGORY_LABEL: Record<ExplorerEvent["category"], { en: string; ko: string
   experience: { en: "Experience", ko: "체험" },
 };
 
-const STATION_ICON_HTML = `<div style="width:12px;height:12px;border-radius:9999px;background:#fff;border:2.5px solid #047857;box-shadow:0 1px 2px rgba(0,0,0,0.2);"></div>`;
+// White circular backdrop + small emerald bike icon (lucide-style strokes).
+// Stays legible on any map tile and reads as "bike station" at a glance.
+const STATION_ICON_HTML = `
+  <div style="width:22px;height:22px;border-radius:9999px;background:#fff;border:1.5px solid #047857;box-shadow:0 1px 2px rgba(0,0,0,0.25);display:flex;align-items:center;justify-content:center;">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#047857" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="18.5" cy="17.5" r="3.5"/>
+      <circle cx="5.5" cy="17.5" r="3.5"/>
+      <circle cx="15" cy="5" r="1"/>
+      <path d="M12 17.5V14l-3-3 4-3 2 3h2"/>
+    </svg>
+  </div>`;
 
 export interface ExplorerEvent {
   id: string;
@@ -151,7 +161,7 @@ export function EventExplorer({
       lat: s.lat,
       lng: s.lng,
       html: STATION_ICON_HTML,
-      anchor: { x: 6, y: 6 },
+      anchor: { x: 11, y: 11 },
       zIndex: 100,
     }));
   }, [stations, origin, originGranted, selectedId, events]);
