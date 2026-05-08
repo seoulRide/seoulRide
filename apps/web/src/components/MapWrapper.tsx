@@ -41,23 +41,24 @@ export default function MapWrapper({
 
   const max = useMemo(() => Math.max(1, ...stations.map((s) => s.rent_total)), [stations]);
 
-  // Heatmap circles — radius and color both scale with rent_total. Hot
-  // stations (red) → mid (amber) → low (emerald) on a smooth HSL gradient.
-  // sqrt for a gentler radius curve so the busiest stations don't dominate.
+  // Heatmap circles — radius, color, AND opacity all scale with volume so
+  // hot stations punch through. Stacked low-volume green discs no longer
+  // drown out red hotspots: low stations contribute tiny + faint discs,
+  // top stations contribute big + strong red.
   const heatCircles: NaverMapHeatCircle[] = useMemo(
     () =>
       stations.map((s) => {
-        const norm = s.rent_total / max; // 0..1 linear (used for color)
-        const radiusNorm = Math.sqrt(norm); // 0..1 sqrt (used for radius)
+        const norm = s.rent_total / max; // 0..1 linear
+        const radiusNorm = Math.sqrt(norm); // 0..1 sqrt — gentler radius curve
         // HSL hue: 140 (emerald) at low → 0 (red) at high.
         const hue = Math.round(140 - norm * 140);
         return {
           id: `heat-${s.station_no}`,
           lat: s.lat,
           lng: s.lng,
-          radius: 400 + radiusNorm * 1500, // 400m ~ 1900m
-          fillColor: `hsl(${hue}, 78%, 48%)`,
-          fillOpacity: 0.28,
+          radius: 200 + radiusNorm * 1700, // 200m ~ 1900m (smaller floor)
+          fillColor: `hsl(${hue}, 80%, 50%)`,
+          fillOpacity: 0.1 + norm * 0.25, // 0.10 ~ 0.35
         };
       }),
     [stations, max],
