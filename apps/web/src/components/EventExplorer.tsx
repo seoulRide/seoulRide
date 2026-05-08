@@ -305,6 +305,20 @@ export function EventExplorer({
     if (scrollLockTimerRef.current != null) window.clearTimeout(scrollLockTimerRef.current);
   }, []);
 
+  // Explicit center-scroll: scrollIntoView({ inline: "center" }) was leaving
+  // the card at the visible left edge in some scroll-snap mandatory cases
+  // (browser interpretation of "center" differs from snap-align center).
+  // Compute scrollLeft directly so the card's center always lines up with
+  // the scroller's visual center.
+  const scrollCardToCenter = useCallback((id: string) => {
+    const scroller = scrollerRef.current;
+    const card = cardRefs.current.get(id);
+    if (!scroller || !card) return;
+    const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+    const target = cardCenter - scroller.clientWidth / 2;
+    scroller.scrollTo({ left: target, behavior: "smooth" });
+  }, []);
+
   const advanceBy = useCallback(
     (delta: number) => {
       const next = targetIdxRef.current + delta;
@@ -314,24 +328,24 @@ export function EventExplorer({
       if (!targetId) return;
       lockSelectionTo(targetId);
       setSelectedId(targetId);
-      cardRefs.current.get(targetId)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      scrollCardToCenter(targetId);
     },
-    [events, lockSelectionTo],
+    [events, lockSelectionTo, scrollCardToCenter],
   );
 
-  // Card click → focus that specific card (jump directly to it). Distinct
-  // from chevron / keyboard which step ±1 each press.
+  // Card click → focus that specific card (jump directly to it). Drops the
+  // same-index early return so a marker tap on the already-focused event
+  // still re-centers if the user had drifted via swipe.
   const onCardClick = useCallback(
     (id: string) => {
       const clickedIdx = events.findIndex((e) => e.id === id);
       if (clickedIdx < 0) return;
-      if (clickedIdx === targetIdxRef.current) return;
       targetIdxRef.current = clickedIdx;
       lockSelectionTo(id);
       setSelectedId(id);
-      cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      scrollCardToCenter(id);
     },
-    [events, lockSelectionTo],
+    [events, lockSelectionTo, scrollCardToCenter],
   );
 
   // Marker click → strip the `evt-` prefix and route through the same
