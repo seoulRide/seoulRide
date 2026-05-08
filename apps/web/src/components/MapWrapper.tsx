@@ -25,6 +25,8 @@ function bikeMarkerHtml(rank: 1 | 2 | 3): string {
     </div>`;
 }
 
+const REFERENCE_ZOOM = 11; // initial zoom for the home map
+
 export default function MapWrapper({
   stations,
   allStations,
@@ -37,9 +39,15 @@ export default function MapWrapper({
   const router = useRouter();
   const mapRef = useRef<NaverMapHandle>(null);
   const [selected, setSelected] = useState<string | null>(null);
+  const [zoom, setZoom] = useState(REFERENCE_ZOOM);
   const lngQs = lang === "ko" ? "?lng=ko" : "";
 
   const max = useMemo(() => Math.max(1, ...stations.map((s) => s.rent_total)), [stations]);
+
+  // Each zoom step doubles pixels-per-meter, so radius (in meters) needs
+  // to halve to keep on-screen pixel size constant. Clamp to >= 1 so the
+  // circles never grow when the user zooms out below the reference.
+  const zoomScale = Math.max(1, Math.pow(2, zoom - REFERENCE_ZOOM));
 
   // Heatmap circles — radius, color, AND opacity all scale with volume so
   // hot stations punch through. Stacked low-volume green discs no longer
@@ -58,12 +66,12 @@ export default function MapWrapper({
           id: `heat-${s.station_no}`,
           lat: s.lat,
           lng: s.lng,
-          radius: 80 + radiusNorm * 600, // 80m ~ 680m
+          radius: (80 + radiusNorm * 600) / zoomScale, // shrinks as user zooms in
           fillColor: `hsl(150, 70%, ${lightness}%)`,
           fillOpacity: 0.25 + norm * 0.4, // 0.25 ~ 0.65
         };
       }),
-    [stations, max],
+    [stations, max, zoomScale],
   );
 
   // Top-3 stations get the bike icon + medal badge.
@@ -106,7 +114,8 @@ export default function MapWrapper({
       extraMarkers={top3Markers}
       heatCircles={heatCircles}
       onMarkerClick={onClick}
-      zoom={11}
+      onZoomChange={setZoom}
+      zoom={REFERENCE_ZOOM}
       fitBounds
       className="h-[55vh] sm:h-[60vh] md:h-[68vh] w-full rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-sm"
     />

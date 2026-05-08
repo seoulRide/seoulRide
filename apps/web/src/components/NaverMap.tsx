@@ -85,6 +85,8 @@ interface NaverMapProps {
   /** Translucent circles drawn beneath markers — overlap to produce a
    *  blob/heatmap effect. */
   heatCircles?: NaverMapHeatCircle[];
+  /** Fired with the current zoom level on init and on every zoom_changed. */
+  onZoomChange?: (zoom: number) => void;
   /** Overlay NAVER's bicycle road tile layer on top of the base map. */
   showBicycleLayer?: boolean;
 }
@@ -153,6 +155,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     extraMarkers,
     heatCircles,
     showBicycleLayer = false,
+    onZoomChange,
   },
   ref,
 ) {
@@ -412,8 +415,11 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     }
   }, [showBicycleLayer, mapReady]);
 
-  // Zoom-gated visibility for named markers with `minZoom`. One listener per
-  // map lifetime; flips visibility on every zoom change.
+  // Zoom listener: gated visibility for named markers with `minZoom`,
+  // and a callback to consumers that want to react to zoom (e.g. shrink
+  // heatmap circles on zoom-in).
+  const onZoomChangeRef = useRef(onZoomChange);
+  onZoomChangeRef.current = onZoomChange;
   useEffect(() => {
     const n = window.naver;
     const map = mapRef.current;
@@ -424,7 +430,9 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
         if (entry.minZoom == null) continue;
         entry.marker.setVisible(z >= entry.minZoom);
       }
+      onZoomChangeRef.current?.(z);
     };
+    apply(); // emit initial zoom
     const listener = n.maps.Event.addListener(map, "zoom_changed", apply);
     return () => { n.maps.Event.removeListener(listener); };
   }, [mapReady]);
