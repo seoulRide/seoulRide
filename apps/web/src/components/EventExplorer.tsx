@@ -2,7 +2,7 @@
 
 import { forwardRef, useCallback, useEffect, useMemo, useRef, useState, type ComponentType, type ReactNode } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { NaverMap, type NaverMapHandle, type NaverMapMarker, type NaverMapNamedMarker } from "./NaverMap";
+import { NaverMap, type NaverMapHandle, type NaverMapNamedMarker } from "./NaverMap";
 import { haversineKm, formatDistance } from "@/lib/route-geometry";
 import { bicycleAppLinks, type MapAppProvider } from "@/lib/map-app-links";
 import { getEventStatus } from "@/lib/event-status";
@@ -33,6 +33,19 @@ const STATION_ICON_HTML = `
       <path d="M12 17.5V14l-3-3 4-3 2 3h2"/>
     </svg>
   </div>`;
+
+// Focused event = teardrop pin. Anchor at the tip (bottom-center of the SVG).
+const EVENT_PIN_HTML = `
+  <div style="width:36px;height:44px;filter:drop-shadow(0 3px 6px rgba(0,0,0,0.35));">
+    <svg width="36" height="44" viewBox="0 0 24 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M12 0 C5.37 0 0 5.37 0 12 c0 9 12 18 12 18 s12-9 12-18 c0-6.63-5.37-12-12-12 z" fill="#10b981" stroke="#fff" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="4" fill="#fff"/>
+    </svg>
+  </div>`;
+
+// Non-focused event = small green dot.
+const EVENT_DOT_HTML = `
+  <div style="width:14px;height:14px;border-radius:9999px;background:#10b981;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.3);"></div>`;
 
 export interface ExplorerEvent {
   id: string;
@@ -120,12 +133,24 @@ export function EventExplorer({
     }
   }, [events, selectedId]);
 
-  const markers: NaverMapMarker[] = events.map((e) => ({
-    id: e.id,
-    lat: e.lat,
-    lng: e.lng,
-    intensity: e.id === selectedId ? 0.95 : 0.4,
-  }));
+  // Event markers: focused = pin (teardrop), others = small green dot.
+  const eventMarkers: NaverMapNamedMarker[] = useMemo(
+    () =>
+      events.map((e) => {
+        const isSelected = e.id === selectedId;
+        return {
+          id: `evt-${e.id}`,
+          lat: e.lat,
+          lng: e.lng,
+          html: isSelected ? EVENT_PIN_HTML : EVENT_DOT_HTML,
+          // Pin's tip is at (18, 44) for the 36×44 svg; dot anchors at center.
+          anchor: isSelected ? { x: 18, y: 44 } : { x: 7, y: 7 },
+          zIndex: isSelected ? 9000 : 200,
+          clickable: true,
+        };
+      }),
+    [events, selectedId],
+  );
 
   // Station markers — pick only the 5 nearest to the user + 5 nearest to the
   // currently focused event. Dedupe overlap. Keeps the map readable instead
@@ -248,10 +273,7 @@ export function EventExplorer({
     return () => obs.disconnect();
   }, [events]);
 
-  const onMarkerClick = (id: string) => {
-    setSelectedId(id);
-    cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-  };
+  // Defined later (after lockSelectionTo); see useCallback below.
 
   // Track the carousel's target index in a ref so advanceBy is exact and
   // doesn't race with the IntersectionObserver. scrollBy + smooth + scroll-
@@ -312,6 +334,17 @@ export function EventExplorer({
     [events, lockSelectionTo],
   );
 
+  // Marker click → strip the `evt-` prefix and route through the same
+  // direct-jump path as a card click. Fixes the user-reported case where
+  // tapping a marker should focus that exact event index.
+  const onMarkerClick = useCallback(
+    (rawId: string) => {
+      const id = rawId.startsWith("evt-") ? rawId.slice(4) : rawId;
+      onCardClick(id);
+    },
+    [onCardClick],
+  );
+
   const selectedIndex = useMemo(() => events.findIndex((e) => e.id === selectedId), [events, selectedId]);
   const canPrev = selectedIndex > 0;
   const canNext = selectedIndex >= 0 && selectedIndex < events.length - 1;
@@ -339,8 +372,8 @@ export function EventExplorer({
     <div className="relative">
       <NaverMap
         ref={mapRef}
-        markers={markers}
-        extraMarkers={stationMarkers}
+        markers={[]}
+        extraMarkers={[...eventMarkers, ...stationMarkers]}
         selectedId={selectedId}
         center={fallbackCenter}
         zoom={14}
