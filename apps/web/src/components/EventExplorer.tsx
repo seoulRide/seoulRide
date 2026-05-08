@@ -223,7 +223,13 @@ export function EventExplorer({
         }
         if (best && best.intersectionRatio >= 0.6) {
           const id = (best.target as HTMLElement).dataset.id;
-          if (id && id !== selectedIdRef.current) setSelectedId(id);
+          if (!id) return;
+          // While a click-driven scroll is in flight, only the locked target
+          // can update selection — transitional cards mid-animation must not
+          // override the explicit user choice.
+          const locked = scrollLockIdRef.current;
+          if (locked && id !== locked) return;
+          if (id !== selectedIdRef.current) setSelectedId(id);
         }
       },
       { root, threshold: [0.4, 0.6, 0.8, 1] },
@@ -247,6 +253,26 @@ export function EventExplorer({
     if (i >= 0) targetIdxRef.current = i;
   }, [selectedId, events]);
 
+  // While the user-driven scroll (click / chevron / keyboard) is in progress,
+  // any IntersectionObserver fire for transitional cards must be ignored —
+  // otherwise it overrides the eager selection with whatever happens to be
+  // visible mid-animation. Touch/wheel scrolling on mobile leaves this null,
+  // so the observer drives selectedId normally during a swipe.
+  const scrollLockIdRef = useRef<string | null>(null);
+  const scrollLockTimerRef = useRef<number | null>(null);
+  const lockSelectionTo = useCallback((id: string) => {
+    scrollLockIdRef.current = id;
+    if (scrollLockTimerRef.current != null) window.clearTimeout(scrollLockTimerRef.current);
+    // Smooth scrollIntoView typically lands within ~400-500ms; release the
+    // lock a bit after that so the observer can resume for swipes.
+    scrollLockTimerRef.current = window.setTimeout(() => {
+      scrollLockIdRef.current = null;
+    }, 600);
+  }, []);
+  useEffect(() => () => {
+    if (scrollLockTimerRef.current != null) window.clearTimeout(scrollLockTimerRef.current);
+  }, []);
+
   const advanceBy = useCallback(
     (delta: number) => {
       const next = targetIdxRef.current + delta;
@@ -254,12 +280,11 @@ export function EventExplorer({
       targetIdxRef.current = next;
       const targetId = events[next]?.id;
       if (!targetId) return;
-      // Update visual focus immediately so the ring follows the click;
-      // IntersectionObserver will reconfirm the same id after scroll settles.
+      lockSelectionTo(targetId);
       setSelectedId(targetId);
       cardRefs.current.get(targetId)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
     },
-    [events],
+    [events, lockSelectionTo],
   );
 
   // Card click → focus that specific card (jump directly to it). Distinct
@@ -270,10 +295,11 @@ export function EventExplorer({
       if (clickedIdx < 0) return;
       if (clickedIdx === targetIdxRef.current) return;
       targetIdxRef.current = clickedIdx;
+      lockSelectionTo(id);
       setSelectedId(id);
       cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
     },
-    [events],
+    [events, lockSelectionTo],
   );
 
   const selectedIndex = useMemo(() => events.findIndex((e) => e.id === selectedId), [events, selectedId]);
