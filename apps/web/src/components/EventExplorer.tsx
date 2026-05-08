@@ -91,22 +91,44 @@ export function EventExplorer({
     intensity: e.id === selectedId ? 0.95 : 0.4,
   }));
 
-  // Station markers: only show when zoomed in enough that 3K+ dots aren't
-  // visual noise. minZoom 14 = neighborhood-level detail. The popular-50
-  // event markers are unaffected (separate `markers` array).
-  const stationMarkers: NaverMapNamedMarker[] = useMemo(
-    () =>
-      (stations ?? []).map((s) => ({
-        id: `station-${s.station_no}`,
-        lat: s.lat,
-        lng: s.lng,
-        html: STATION_ICON_HTML,
-        anchor: { x: 6, y: 6 },
-        zIndex: 100,
-        minZoom: 14,
-      })),
-    [stations],
-  );
+  // Station markers — pick only the 5 nearest to the user + 5 nearest to the
+  // currently focused event. Dedupe overlap. Keeps the map readable instead
+  // of dropping 3,335 dots at once.
+  const stationMarkers: NaverMapNamedMarker[] = useMemo(() => {
+    if (!stations || stations.length === 0) return [];
+    const selected = events.find((e) => e.id === selectedId);
+    const distSorted = (anchor: { lat: number; lng: number }) =>
+      stations
+        .map((s) => ({ s, d: haversineKm(anchor, { lat: s.lat, lng: s.lng }) }))
+        .sort((a, b) => a.d - b.d)
+        .slice(0, 5)
+        .map((x) => x.s);
+
+    const seen = new Set<string>();
+    const ordered: BikeStation[] = [];
+    if (originGranted) {
+      for (const s of distSorted(origin)) {
+        if (seen.has(s.station_no)) continue;
+        seen.add(s.station_no);
+        ordered.push(s);
+      }
+    }
+    if (selected) {
+      for (const s of distSorted({ lat: selected.lat, lng: selected.lng })) {
+        if (seen.has(s.station_no)) continue;
+        seen.add(s.station_no);
+        ordered.push(s);
+      }
+    }
+    return ordered.map((s) => ({
+      id: `station-${s.station_no}`,
+      lat: s.lat,
+      lng: s.lng,
+      html: STATION_ICON_HTML,
+      anchor: { x: 6, y: 6 },
+      zIndex: 100,
+    }));
+  }, [stations, origin, originGranted, selectedId, events]);
 
   // Pan map when selection changes.
   useEffect(() => {
