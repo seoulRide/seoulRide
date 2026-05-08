@@ -312,7 +312,7 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
                 target={mobile ? undefined : "_blank"}
                 rel="noreferrer noopener"
                 aria-label={`${l.label} — ${title}`}
-                className="flex h-10 w-10 items-center justify-center rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
+                className="flex h-10 w-10 items-center justify-center rounded-lg transition-colors hover:bg-zinc-100 dark:hover:bg-zinc-800"
               >
                 <Icon className="h-5 w-5" />
                 <span className="sr-only">{l.label}</span>
