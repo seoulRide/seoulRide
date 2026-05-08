@@ -155,38 +155,34 @@ export function EventExplorer({
     }));
   }, [stations, origin, originGranted, selectedId, events]);
 
-  // Pan map when selection changes. Compensate for the visual obstructions:
-  // SiteHeader/banner above + carousel + BottomTabNav below. Marker should
-  // sit at the visible center of the uncovered region.
+  // Pan map when selection changes. The carousel (and BottomTabNav on mobile)
+  // covers the bottom portion of the visible area, so the marker should sit
+  // above the geometric center, in the visible "open" region.
   //
-  // Convert a screen-pixel offset to a latitude delta using Web-Mercator at
-  // the map's current zoom — closed-form, no projection-API ambiguity.
-  //   1 deg lat ≈ cos(lat) × 360 / (256 × 2^zoom) px on screen (Mercator).
+  // Use NAVER's panBy with screen pixels — zoom-independent and exact, no
+  // Mercator math or projection-API ambiguity. setCenter snaps instantly to
+  // the marker; panBy(0, offsetPx) shifts the camera south by `offsetPx`
+  // screen px, making the marker appear that many pixels higher on screen.
   useEffect(() => {
     if (!mapInstReady) return;
     const e = events.find((x) => x.id === selectedId);
     if (!e) return;
     const handle = mapRef.current;
     const map = handle?.getInstance();
-    if (!handle || !map) return;
+    const n = window.naver;
+    if (!handle || !map || !n) return;
 
-    const TOP_OBSTRUCTION = 96; // SiteHeader 56 + status banner ~40
-    const carouselH = scrollerRef.current?.offsetHeight || 280;
-    const BOTTOM_OBSTRUCTION = carouselH + 56; // carousel + BottomTabNav
-    const offsetPx = Math.max(0, (BOTTOM_OBSTRUCTION - TOP_OBSTRUCTION) / 2);
+    map.setCenter(new n.maps.LatLng(e.lat, e.lng));
 
-    if (offsetPx === 0) {
-      handle.panTo(e.lat, e.lng);
-      return;
+    // Empirically, half the carousel's measured height is the right amount of
+    // upward shift — it lands the marker in the middle of the uncovered map.
+    // (BottomTabNav cancels out roughly with SiteHeader, so we don't need to
+    // include them in the offset.)
+    const carouselH = scrollerRef.current?.offsetHeight || 120;
+    const offsetPx = Math.round(carouselH / 2);
+    if (offsetPx > 0) {
+      map.panBy(new n.maps.Point(0, offsetPx));
     }
-
-    const zoom = map.getZoom();
-    // Mercator: pixel↔lat scale at this latitude/zoom.
-    const degPerPx = (Math.cos((e.lat * Math.PI) / 180) * 360) / (256 * Math.pow(2, zoom));
-    const latOffset = offsetPx * degPerPx;
-    // Camera south of marker by `offsetPx` screen pixels → marker appears
-    // exactly `offsetPx` pixels above the map's geometric center.
-    handle.panTo(e.lat - latOffset, e.lng);
   }, [selectedId, events, mapInstReady]);
 
   // Detect the centered card via IntersectionObserver.
