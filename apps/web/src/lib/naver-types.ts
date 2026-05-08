@@ -22,12 +22,19 @@ export interface NaverLatLngBounds {
   extend(latlng: NaverLatLng): void;
 }
 
+export interface NaverProjection {
+  fromCoordToOffset(latlng: NaverLatLng): NaverPoint;
+  fromOffsetToCoord(point: NaverPoint): NaverLatLng;
+}
+
 export interface NaverMap {
   setCenter(latlng: NaverLatLng): void;
   panTo(latlng: NaverLatLng, opts?: { duration?: number; easing?: string }): void;
+  panBy(point: NaverPoint): void;
   setZoom(level: number, useEffect?: boolean): void;
   getZoom(): number;
   getCenter(): NaverLatLng;
+  getProjection(): NaverProjection;
   fitBounds(bounds: NaverLatLngBounds, padding?: number | { top: number; right: number; bottom: number; left: number }): void;
   refresh(): void;
   destroy(): void;
