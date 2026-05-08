@@ -253,19 +253,7 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
       ].join(" ")}
       style={{ scrollSnapAlign: "center" }}
     >
-      {event.url && (
-        <a
-          href={event.url}
-          target="_blank"
-          rel="noreferrer noopener"
-          aria-label={t("route.event_link", lang)}
-          title={t("route.event_link", lang)}
-          className="absolute top-2.5 right-2.5 inline-flex h-8 w-8 items-center justify-center rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 text-base leading-none"
-        >
-          🔗
-        </a>
-      )}
-      <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-semibold pr-9">
+      <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-semibold">
         <span
           className={[
             "px-1.5 py-0.5 rounded",
@@ -297,25 +285,42 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
       <h3 className="text-base font-semibold leading-tight line-clamp-2 min-h-[2.6em]">{title}</h3>
       <p className="text-xs text-zinc-500 line-clamp-1">{venue}</p>
 
-      {/* Footer pinned to the card bottom — buttons don't shift with title length */}
-      <div className="mt-auto flex flex-col gap-2 pt-3">
-        <div className="flex justify-center gap-3">
-          {links.map((l) => {
-            const Icon = PROVIDER_ICON[l.provider];
-            return (
-              <a
-                key={l.provider}
-                href={l.url}
-                target={mobile ? undefined : "_blank"}
-                rel="noreferrer noopener"
-                aria-label={`${l.label} — ${title}`}
-                className="flex h-14 w-14 items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
-              >
-                <Icon className="h-7 w-7" />
-                <span className="sr-only">{l.label}</span>
-              </a>
-            );
-          })}
+      {/* Footer pinned to card bottom — labeled link + route section so users
+          aren't guessing what bare brand icons mean */}
+      <div className="mt-auto flex flex-col gap-3 pt-3">
+        {event.url && (
+          <a
+            href={event.url}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="self-center inline-flex items-center gap-1.5 text-xs font-medium text-emerald-600 hover:underline"
+          >
+            <span aria-hidden>🔗</span>
+            <span>{t("route.visit_homepage", lang)}</span>
+          </a>
+        )}
+        <div className="flex flex-col gap-2 border-t border-zinc-100 dark:border-zinc-800 pt-3">
+          <div className="text-center text-[10px] uppercase tracking-widest text-zinc-500 font-semibold">
+            {t("route.section_title", lang)}
+          </div>
+          <div className="flex justify-center gap-3">
+            {links.map((l) => {
+              const Icon = PROVIDER_ICON[l.provider];
+              return (
+                <a
+                  key={l.provider}
+                  href={l.url}
+                  target={mobile ? undefined : "_blank"}
+                  rel="noreferrer noopener"
+                  aria-label={`${l.label} — ${title}`}
+                  className="flex h-14 w-14 items-center justify-center rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
+                >
+                  <Icon className="h-7 w-7" />
+                  <span className="sr-only">{l.label}</span>
+                </a>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>
