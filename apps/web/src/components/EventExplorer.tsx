@@ -131,37 +131,36 @@ export function EventExplorer({
   }, [stations, origin, originGranted, selectedId, events]);
 
   // Pan map when selection changes. Compensate for the visual obstructions:
-  // SiteHeader covers the top, the carousel + tab nav cover the bottom. The
-  // marker should land at the visible center of the *uncovered* region, which
-  // is shifted from the map's geometric center by (bottom - top) / 2.
+  // SiteHeader/banner above + carousel + BottomTabNav below. Marker should
+  // sit at the visible center of the uncovered region.
   //
-  // Use NAVER's projection to do this in pixels — zoom-aware, accurate at any
-  // zoom level (the previous lat-degree approximation broke at zoom > 14).
+  // Convert a screen-pixel offset to a latitude delta using Web-Mercator at
+  // the map's current zoom — closed-form, no projection-API ambiguity.
+  //   1 deg lat ≈ cos(lat) × 360 / (256 × 2^zoom) px on screen (Mercator).
   useEffect(() => {
     const e = events.find((x) => x.id === selectedId);
     if (!e) return;
     const handle = mapRef.current;
     const map = handle?.getInstance();
-    const n = window.naver;
-    if (!handle || !map || !n) return;
+    if (!handle || !map) return;
 
-    const TOP_OBSTRUCTION = 96; // SiteHeader 56px + status banner ~40px
-    const BOTTOM_OBSTRUCTION = (scrollerRef.current?.offsetHeight ?? 240) + 56; // carousel + BottomTabNav (mobile)
-    const offsetPx = (BOTTOM_OBSTRUCTION - TOP_OBSTRUCTION) / 2;
+    const TOP_OBSTRUCTION = 96; // SiteHeader 56 + status banner ~40
+    const carouselH = scrollerRef.current?.offsetHeight || 280;
+    const BOTTOM_OBSTRUCTION = carouselH + 56; // carousel + BottomTabNav
+    const offsetPx = Math.max(0, (BOTTOM_OBSTRUCTION - TOP_OBSTRUCTION) / 2);
 
-    if (offsetPx <= 0) {
+    if (offsetPx === 0) {
       handle.panTo(e.lat, e.lng);
       return;
     }
 
-    // Marker should sit `offsetPx` ABOVE the geometric center → shift the
-    // panTo target south by `offsetPx` in screen pixels. Convert via the
-    // map's current projection so zoom changes don't break it.
-    const projection = map.getProjection();
-    const markerWorldPx = projection.fromCoordToOffset(new n.maps.LatLng(e.lat, e.lng));
-    const targetWorldPx = new n.maps.Point(markerWorldPx.x, markerWorldPx.y + offsetPx);
-    const targetLatLng = projection.fromOffsetToCoord(targetWorldPx);
-    handle.panTo(targetLatLng.lat(), targetLatLng.lng());
+    const zoom = map.getZoom();
+    // Mercator: pixel↔lat scale at this latitude/zoom.
+    const degPerPx = (Math.cos((e.lat * Math.PI) / 180) * 360) / (256 * Math.pow(2, zoom));
+    const latOffset = offsetPx * degPerPx;
+    // Camera south of marker by `offsetPx` screen pixels → marker appears
+    // exactly `offsetPx` pixels above the map's geometric center.
+    handle.panTo(e.lat - latOffset, e.lng);
   }, [selectedId, events]);
 
   // Detect the centered card via IntersectionObserver.
