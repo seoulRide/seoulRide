@@ -314,11 +314,16 @@ export function EventExplorer({
         className="fixed inset-x-0 bottom-[calc(3.5rem+env(safe-area-inset-bottom))] md:bottom-0 z-30 overflow-x-auto overflow-y-hidden pb-3 pt-2 outline-none [&::-webkit-scrollbar]:hidden"
         style={{ scrollbarWidth: "none", scrollSnapType: "x mandatory" }}
       >
-        {/* Inner row uses pl-[10vw] for the start padding and an explicit
-            shrink-0 spacer at the end. padding-right on a flex+overflow-x
-            scroller doesn't always reserve scroll space in Chromium, so
-            without the spacer the last card can't snap to center. */}
-        <div className="flex items-stretch gap-3 pl-[10vw]">
+        {/* Start/end padding scales with viewport so the first AND last card
+            can snap to viewport center on every breakpoint. Cards are
+            w-[80vw] max-w-md (28rem cap on desktop); padding therefore must
+            be max(10vw, (100vw - 28rem) / 2) so card_center == 50vw. End
+            uses an explicit shrink-0 spacer because Chromium doesn't reserve
+            scroll space for padding-right on flex+overflow-x. */}
+        <div
+          className="flex items-stretch gap-3"
+          style={{ paddingInlineStart: "max(10vw, calc((100vw - 28rem) / 2))" }}
+        >
           {events.map((e) => (
             <ExplorerCard
               key={e.id}
@@ -340,7 +345,11 @@ export function EventExplorer({
               {lang === "ko" ? "주변 행사가 없습니다." : "No events found nearby."}
             </div>
           )}
-          <div className="shrink-0 w-[10vw]" aria-hidden />
+          <div
+            className="shrink-0"
+            style={{ width: "max(10vw, calc((100vw - 28rem) / 2))" }}
+            aria-hidden
+          />
         </div>
       </div>
 
