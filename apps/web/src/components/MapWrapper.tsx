@@ -58,7 +58,7 @@ export default function MapWrapper({
           id: `heat-${s.station_no}`,
           lat: s.lat,
           lng: s.lng,
-          radius: 120 + radiusNorm * 1000, // 120m ~ 1120m
+          radius: 80 + radiusNorm * 600, // 80m ~ 680m
           fillColor: `hsl(150, 70%, ${lightness}%)`,
           fillOpacity: 0.25 + norm * 0.4, // 0.25 ~ 0.65
         };
