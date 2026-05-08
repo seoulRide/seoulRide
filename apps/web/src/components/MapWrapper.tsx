@@ -50,19 +50,17 @@ export default function MapWrapper({
       stations.map((s) => {
         const norm = s.rent_total / max; // 0..1 linear
         const radiusNorm = Math.sqrt(norm); // 0..1 sqrt — gentler radius curve
-        // HSL hue: 145 (emerald) at low → 25 (warm orange/coral) at high.
-        // Stops short of pure red so the hottest stations read as "hot
-        // place" rather than "danger / alert".
-        const hue = Math.round(145 - norm * 120);
-        // Saturation also tapers down at the hot end so orange feels softer.
-        const sat = Math.round(95 - norm * 20); // 95% → 75%
+        // Single emerald hue. Volume only varies lightness (and slightly
+        // opacity) — dark, saturated green for hot stations; light, pale
+        // green for low-volume ones.
+        const lightness = Math.round(72 - norm * 42); // 72% → 30%
         return {
           id: `heat-${s.station_no}`,
           lat: s.lat,
           lng: s.lng,
           radius: 120 + radiusNorm * 1000, // 120m ~ 1120m
-          fillColor: `hsl(${hue}, ${sat}%, 52%)`,
-          fillOpacity: 0.2 + norm * 0.45, // 0.20 ~ 0.65
+          fillColor: `hsl(150, 70%, ${lightness}%)`,
+          fillOpacity: 0.25 + norm * 0.4, // 0.25 ~ 0.65
         };
       }),
     [stations, max],
