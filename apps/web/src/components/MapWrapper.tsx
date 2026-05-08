@@ -57,7 +57,7 @@ export default function MapWrapper({
           lat: s.lat,
           lng: s.lng,
           radius: 120 + radiusNorm * 1000, // 120m ~ 1120m (smaller)
-          fillColor: `hsl(${hue}, 95%, 50%)`, // higher saturation
+          fillColor: `hsl(${hue}, 100%, 50%)`, // max saturation
           fillOpacity: 0.12 + norm * 0.3, // 0.12 ~ 0.42
         };
       }),
