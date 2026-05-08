@@ -2,10 +2,17 @@
 
 import { useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { NaverMap, type NaverMapHandle, type NaverMapMarker, type NaverMapNamedMarker, type NaverMapHeatCircle } from "./NaverMap";
+import { NaverMap, type NaverMapHandle, type NaverMapMarker, type NaverMapNamedMarker } from "./NaverMap";
 import type { PopularStation } from "@/lib/types";
 import type { StationLite } from "@/lib/data";
 import type { Lang } from "@/lib/i18n";
+
+// HTML circle marker for the heatmap. Pixel-sized so it stays the same on
+// screen regardless of zoom (visually shrinks relative to map content as
+// the user zooms in).
+function heatMarkerHtml(diameterPx: number, lightness: number, opacity: number): string {
+  return `<div style="width:${diameterPx}px;height:${diameterPx}px;border-radius:9999px;background:hsla(150,70%,${lightness}%,${opacity});pointer-events:none;"></div>`;
+}
 
 // Top-3 bike marker — emerald bike icon + medal-colored rank badge.
 function bikeMarkerHtml(rank: 1 | 2 | 3): string {
@@ -25,8 +32,6 @@ function bikeMarkerHtml(rank: 1 | 2 | 3): string {
     </div>`;
 }
 
-const REFERENCE_ZOOM = 11; // initial zoom for the home map
-
 export default function MapWrapper({
   stations,
   allStations,
@@ -39,39 +44,31 @@ export default function MapWrapper({
   const router = useRouter();
   const mapRef = useRef<NaverMapHandle>(null);
   const [selected, setSelected] = useState<string | null>(null);
-  const [zoom, setZoom] = useState(REFERENCE_ZOOM);
   const lngQs = lang === "ko" ? "?lng=ko" : "";
 
   const max = useMemo(() => Math.max(1, ...stations.map((s) => s.rent_total)), [stations]);
 
-  // Each zoom step doubles pixels-per-meter, so radius (in meters) needs
-  // to halve to keep on-screen pixel size constant. Clamp to >= 1 so the
-  // circles never grow when the user zooms out below the reference.
-  const zoomScale = Math.max(1, Math.pow(2, zoom - REFERENCE_ZOOM));
-
-  // Heatmap circles — radius, color, AND opacity all scale with volume so
-  // hot stations punch through. Stacked low-volume green discs no longer
-  // drown out red hotspots: low stations contribute tiny + faint discs,
-  // top stations contribute big + strong red.
-  const heatCircles: NaverMapHeatCircle[] = useMemo(
+  // Heatmap markers — pixel-sized HTML circles. Constant on-screen size
+  // regardless of zoom (zoom in → map detail grows but markers stay the
+  // same px, so they visually "shrink" relative to the map content).
+  const heatMarkers: NaverMapNamedMarker[] = useMemo(
     () =>
       stations.map((s) => {
-        const norm = s.rent_total / max; // 0..1 linear
-        const radiusNorm = Math.sqrt(norm); // 0..1 sqrt — gentler radius curve
-        // Single emerald hue. Volume only varies lightness (and slightly
-        // opacity) — dark, saturated green for hot stations; light, pale
-        // green for low-volume ones.
-        const lightness = Math.round(72 - norm * 42); // 72% → 30%
+        const norm = s.rent_total / max;
+        const radiusNorm = Math.sqrt(norm);
+        const diameter = Math.round(20 + radiusNorm * 40); // 20px ~ 60px
+        const lightness = Math.round(72 - norm * 42); // 72% (low) → 30% (high)
+        const opacity = 0.25 + norm * 0.4; // 0.25 ~ 0.65
         return {
           id: `heat-${s.station_no}`,
           lat: s.lat,
           lng: s.lng,
-          radius: (80 + radiusNorm * 600) / zoomScale, // shrinks as user zooms in
-          fillColor: `hsl(150, 70%, ${lightness}%)`,
-          fillOpacity: 0.25 + norm * 0.4, // 0.25 ~ 0.65
+          html: heatMarkerHtml(diameter, lightness, opacity),
+          anchor: { x: diameter / 2, y: diameter / 2 },
+          zIndex: 20,
         };
       }),
-    [stations, max, zoomScale],
+    [stations, max],
   );
 
   // Top-3 stations get the bike icon + medal badge.
@@ -111,11 +108,9 @@ export default function MapWrapper({
     <NaverMap
       ref={mapRef}
       markers={[]}
-      extraMarkers={top3Markers}
-      heatCircles={heatCircles}
+      extraMarkers={[...heatMarkers, ...top3Markers]}
       onMarkerClick={onClick}
-      onZoomChange={setZoom}
-      zoom={REFERENCE_ZOOM}
+      zoom={11}
       fitBounds
       className="h-[55vh] sm:h-[60vh] md:h-[68vh] w-full rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-sm"
     />
