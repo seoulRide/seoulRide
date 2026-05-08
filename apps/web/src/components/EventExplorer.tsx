@@ -74,6 +74,31 @@ export function EventExplorer({
   const cardRefs = useRef<Map<string, HTMLElement>>(new Map());
 
   const [selectedId, setSelectedId] = useState<string>(events[0]?.id ?? "");
+  const [mapInstReady, setMapInstReady] = useState(false);
+
+  // Wait for the underlying NAVER map instance to finish initializing.
+  // mapRef is a stable handle from forwardRef, but `handle.getInstance()`
+  // returns null until NaverMap's internal init effect runs — without this
+  // probe, the panTo useEffect fires once before init and never again,
+  // skipping the offset compensation entirely.
+  useEffect(() => {
+    if (mapInstReady) return;
+    let cancelled = false;
+    let raf: number | null = null;
+    const check = () => {
+      if (cancelled) return;
+      if (mapRef.current?.getInstance()) {
+        setMapInstReady(true);
+        return;
+      }
+      raf = requestAnimationFrame(check);
+    };
+    check();
+    return () => {
+      cancelled = true;
+      if (raf != null) cancelAnimationFrame(raf);
+    };
+  }, [mapInstReady]);
 
   // Keep selection valid when the events list shifts (e.g. /nearby recomputes after GPS grant).
   useEffect(() => {
@@ -138,6 +163,7 @@ export function EventExplorer({
   // the map's current zoom — closed-form, no projection-API ambiguity.
   //   1 deg lat ≈ cos(lat) × 360 / (256 × 2^zoom) px on screen (Mercator).
   useEffect(() => {
+    if (!mapInstReady) return;
     const e = events.find((x) => x.id === selectedId);
     if (!e) return;
     const handle = mapRef.current;
@@ -161,7 +187,7 @@ export function EventExplorer({
     // Camera south of marker by `offsetPx` screen pixels → marker appears
     // exactly `offsetPx` pixels above the map's geometric center.
     handle.panTo(e.lat - latOffset, e.lng);
-  }, [selectedId, events]);
+  }, [selectedId, events, mapInstReady]);
 
   // Detect the centered card via IntersectionObserver.
   useEffect(() => {
