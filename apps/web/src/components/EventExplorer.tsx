@@ -230,19 +230,27 @@ export function EventExplorer({
     cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
   };
 
-  // Desktop carousel arrows: advance to prev/next card by scrolling its ref
-  // into center. Re-uses the marker-click pattern so IntersectionObserver
-  // picks up the new active card and the map pan + selection follow.
+  // Desktop carousel arrows: scroll the carousel by exactly one card width.
+  // Pixel-based scrollBy (not scrollIntoView based on selectedId) so rapid
+  // clicks don't race with the IntersectionObserver — every click moves
+  // exactly one card forward, regardless of when selectedId catches up.
   const advanceBy = useCallback(
     (delta: number) => {
-      const idx = events.findIndex((e) => e.id === selectedId);
-      if (idx < 0) return;
-      const target = events[idx + delta];
-      if (!target) return;
-      cardRefs.current.get(target.id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      const root = scrollerRef.current;
+      if (!root) return;
+      // Card width (80vw) + flex gap-3 (12px). Use the rendered viewport
+      // width so this stays accurate when the user resizes the browser.
+      const step = root.clientWidth * 0.8 + 12;
+      root.scrollBy({ left: delta * step, behavior: "smooth" });
     },
-    [events, selectedId],
+    [],
   );
+
+  // Card-body click → scroll that card to center. Lets the user advance the
+  // carousel by clicking on a peeking neighbor card, no chevrons needed.
+  const onCardClick = useCallback((id: string) => {
+    cardRefs.current.get(id)?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+  }, []);
 
   const selectedIndex = useMemo(() => events.findIndex((e) => e.id === selectedId), [events, selectedId]);
   const canPrev = selectedIndex > 0;
@@ -311,6 +319,7 @@ export function EventExplorer({
               mobile={mobile}
               selected={e.id === selectedId}
               lang={lang}
+              onCardClick={onCardClick}
             />
           ))}
           {events.length === 0 && (
@@ -359,10 +368,11 @@ interface ExplorerCardProps {
   mobile: boolean;
   selected: boolean;
   lang: Lang;
+  onCardClick: (id: string) => void;
 }
 
 const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function ExplorerCard(
-  { event, origin, originGranted, mobile, selected, lang },
+  { event, origin, originGranted, mobile, selected, lang, onCardClick },
   ref,
 ) {
   const title = lang === "ko" ? event.title_ko : event.title_en;
@@ -381,11 +391,20 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
     <div
       ref={ref}
       data-id={event.id}
+      onClick={() => onCardClick(event.id)}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onCardClick(event.id);
+        }
+      }}
       className={[
-        "relative shrink-0 w-[80vw] max-w-md rounded-2xl bg-white dark:bg-zinc-950 border shadow-lg p-4 flex flex-col gap-2",
+        "relative shrink-0 w-[80vw] max-w-md rounded-2xl bg-white dark:bg-zinc-950 border shadow-lg p-4 flex flex-col gap-2 cursor-pointer outline-none",
         selected
           ? "border-emerald-500 ring-2 ring-emerald-500/30"
-          : "border-zinc-200 dark:border-zinc-800",
+          : "border-zinc-200 dark:border-zinc-800 focus-visible:ring-2 focus-visible:ring-zinc-400",
       ].join(" ")}
       style={{ scrollSnapAlign: "center" }}
     >
@@ -429,6 +448,7 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
             href={event.url}
             target="_blank"
             rel="noreferrer noopener"
+            onClick={(e) => e.stopPropagation()}
             className="inline-flex items-center gap-1.5 text-sm font-medium text-emerald-600 hover:underline"
           >
             <span aria-hidden>🔗</span>
@@ -447,6 +467,7 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
                 href={l.url}
                 target={mobile ? undefined : "_blank"}
                 rel="noreferrer noopener"
+                onClick={(e) => e.stopPropagation()}
                 aria-label={`${l.label} — ${title}`}
                 className="flex h-10 w-10 items-center justify-center rounded-lg border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
               >
