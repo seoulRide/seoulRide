@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 75,
-    "sentiment_avg": 0.52,
-    "summary_ko": "종로구 서촌과 통인시장 일대에 한옥과 도시락 카페가 인기. 광화문 수문장 교대의식 추천. (mention 75, sent 0.52)",
-    "summary_en": "Jongno-gu's Seochon and Tongin Market attract visitors for hanok houses and Lunchbox Café. Gwanghwamun guard ceremony is a highlight. (75, 0.52)",
+    "mention_count": 59,
+    "sentiment_avg": 0.4067796610169492,
+    "summary_ko": "종로구 익선동, MZ세대 '핫플 성지'로 팝업스토어 및 카페 거리 인파 몰림. 역사 투어 프로그램 다수.",
+    "summary_en": "Jongno-gu's Ikseon-dong is a 'hot spot' for MZs with pop-ups and crowded cafes. Multiple history tours available.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-04-20",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-04-20",
@@ -17,47 +17,47 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t719w4/where_to_find_pokémon_cards_in_dongmye/",
-        "title": "Where to find Pokémon cards in dongmye?",
-        "snippet": "Where to find Pokémon cards in dongmye? Checked most of the nice to cu's. Can't find anything anywhere I've looked.",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1t7y1ku/hitlers_righthand_man_richard_foerster_and_nazi/",
+        "title": "‘Hitler’s right-hand man’ Richard Foerster and Nazi editor Peter Winkelnkemper enjoy Korean cuisine and kisaeng entertainment at a Seoul press banquet, May 11, 1939",
+        "snippet": "The banquet took place in colonial Seoul (Gyeongseong), with specific mentions of venues in the city.",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Started the day at Gyeongbokgung Palace...the largest and most iconic palace in the city and was once the main royal palace during the Joseon Dynasty",
-        "source": "visit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1t7y1ku/hitlers_righthand_man_richard_foerster_and_nazi/",
+        "title": "‘Hitler’s right-hand man’ Richard Foerster and Nazi editor Peter Winkelnkemper enjoy Korean cuisine and kisaeng entertainment at a Seoul press banquet, May 11, 1939",
+        "snippet": "The banquet was held at Meigetsukan, a venue in Seoul decorated with Japanese and Nazi flags.",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony",
-        "source": "visit_seoul"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16056288",
+        "title": "윤세아, 익선동 야외 세트에서 포즈…'러브 미' 여운 잇는 현장",
+        "snippet": "배우 윤세아(김보영, 48세)가 익선동에서 촬영 대기 중인 모습을 전했다. 9일 올라온 게시물에는 윤세아가 익선동 한 공간에서 수증기가 피어오르는 물가에 몸을 낮춘 채 한 손을 내민 장면이 담겼다. 주변에는 바위와...",
+        "source": "naver_news"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "The area west of Gyeongbokgung is Seochon Village...a cute little neighborhood with hanok houses and so many hidden gems",
-        "source": "visit_seoul"
+        "url": "https://www.mk.co.kr/article/12032492",
+        "title": "\"할인·가성비로 고객 모은다\" … 오프뷰티, 올해 100개 출점",
+        "snippet": "서울 익선동",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-08T22:06:09.686Z"
+    "updated_at": "2026-05-09T21:47:52.036Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 58,
-    "sentiment_avg": 0.7758620689655172,
-    "summary_ko": "성동구 서울숲은 야간 포켓몬 스팟으로 인기. 성수 카페 거리도 MZ세대에게 주목. (mention 58, sent 0.78)",
-    "summary_en": "Seongdong-gu's Seoul Forest is a nighttime Pokémon hotspot. Seongsu's cafes draw MZ generations. (58, 0.78)",
+    "mention_count": 41,
+    "sentiment_avg": 0.6097560975609756,
+    "summary_ko": "성동구 서울숲, MZ세대 인기 카페·팝업스토어 밀집. 야간 포켓몬·정원 체험 프로그램 진행 중.",
+    "summary_en": "Seongdong-gu's Seoul Forest is popular for MZs with cafes, pop-ups, and nighttime Pokémon/ garden events.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
       "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
-      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06",
-      "(서울숲_4회차 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-02"
+      "[2026 서울가든페스티벌] 한지꽃 만들기 체험|서울숲 야외무대|2026-05-16",
+      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06"
     ],
     "sources": [
       {
@@ -73,73 +73,73 @@
         "source": "reddit_korea"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
-        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
-        "source": "visit_seoul"
+        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092161776",
+        "title": "\"홍대 지고 성수 뜬다\" 게임 마케팅 중심지 이동",
+        "snippet": "쿠로게임즈는 주로 홍대에서 진행하던 명조 관련 카페 이벤트와 삼성스토어 행사를 올해는 성수동에서 대형 무대를 갖춘 체험형 이벤트로 개최했다. 넥슨도 성수동을 중심으로 마케팅 활동을 확대하고 있다.",
+        "source": "naver_news"
       },
       {
-        "url": "https://news.mtn.co.kr/news-detail/2026050819174278294",
-        "title": "K-푸드 통했다…외식업계, 외국인 특수 '톡톡'",
-        "snippet": "성수·강남·잠실 등 주요 관광 상권에서도 매출 상승세가 이어지고 있다는 설명이다",
+        "url": "https://www.newscj.com/news/articleView.html?idxno=3399584",
+        "title": "[르포] '팝업 성지' 성수 만든 인파… \"제2의 이태원 될까 걱정\"",
+        "snippet": "MZ세대 사이에서 명소로 꼽히는 유명 디저트 카페와 베이커리가 즐비한 성수동 일대 골목은 팝업스토어 못지않은 수십명의 시민들이 길게 늘어선 모습을 쉽게 볼 수 있었다. 친구들과 성수를 자주 찾는다는",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-08T22:06:09.686Z"
+    "updated_at": "2026-05-09T21:47:52.036Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 47,
-    "sentiment_avg": 0.425531914893617,
-    "summary_ko": "마포구 홍대 주변은 나이트라이프로 유명. 서강대역 근처는 문화시설 및 역사 전시가 진행 중. (mention 47, sent 0.43)",
-    "summary_en": "Mapo-gu's Hongdae is known for nightlife. Sogang Station area has cultural events and history exhibits. (47, 0.43)",
+    "mention_count": 43,
+    "sentiment_avg": 0.4418604651162791,
+    "summary_ko": "마포구 홍대·연남동, 일부 카페 폐업·화재 사건 발생. 신촌 도보 투어·도서관 프로그램 진행 중.",
+    "summary_en": "Mapo-gu's Hongdae·Yeonnam-dong: some cafes closed/incident. Shinchon walking tours and library events ongoing.",
     "related_event_ids": [
       "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 주말 오후 3시|신촌 일대|2026-02-01",
       "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 주말 오후3시|신촌 일대|2026-02-01",
-      "[마포구립서강도서관] 5월/어린이메이킹 [행복맘껏time] 두 번째 일요일은 해봄공간 오픈데이|마포구립서강도서관 4층 어린이자료실 해봄|2026-05-10",
-      "[마포구립서강도서관] 5월 문화프로그램 안내|마포구립서강도서관|2026-05-02"
+      "[마포구립서강도서관] 5월/초등 고학년을 위한 ai 강연 [꿈꾸는 it 놀이터]|마포구립서강도서관 3층 세미나실|2026-05-16",
+      "[마포구립서강도서관] 5월/어린이메이킹 [행복맘껏time] 두 번째 일요일은 해봄공간 오픈데이|마포구립서강도서관 4층 어린이자료실 해봄|2026-05-10"
     ],
     "sources": [
       {
+        "url": "https://www.reddit.com/r/seoul/comments/1t8axpg/foods_i_miss_any_leads_appreciated/",
+        "title": "Foods I miss - any leads appreciated",
+        "snippet": "Addictea closed in hongdae and wanpo is apparently never open anymore",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t7ycet/looking_for_company_group_for_koreanbbq/",
+        "title": "Looking for company / group for KoreanBBQ",
+        "snippet": "We are staying in the Hongdae region and are looking to go out later today (8pm-9pm)",
+        "source": "reddit_seoul"
+      },
+      {
         "url": "https://www.reddit.com/r/seoul/comments/1t71e2f/i_like_the_weather_today/",
         "title": "I like the weather today :-)",
-        "snippet": "I like the weather today :-) Seoul, Digital Media City",
+        "snippet": "Seoul, Digital Media City",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t6z4mj/mapo_thermal_power_station_industrial_heritage/",
-        "title": "Mapo thermal power station _ industrial heritage",
-        "snippet": "The place on the ground in the process of undergrounding is the current park known as ‘Mapo Saebit Culture Forest’, which faces the Han River and Yeouido.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1t6z4mj/mapo_thermal_power_station_industrial_heritage/",
-        "title": "Mapo thermal power station _ industrial heritage",
-        "snippet": "The Dangin-ri thermal power station, located in Mapo, supplied electricity to the Seoul area from 1930 to the present day.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1t6z4mj/mapo_thermal_power_station_industrial_heritage/",
-        "title": "Mapo thermal power station _ industrial heritage",
-        "snippet": "The Dangin-ri thermal power station, located in Mapo, supplied electricity to the Seoul area from 1930 to the present day.",
-        "source": "reddit_seoul"
+        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092161776",
+        "title": "\"홍대 지고 성수 뜬다\" 게임 마케팅 중심지 이동",
+        "snippet": "쿠로게임즈는 주로 홍대에서 진행하던 명조 관련 카페 이벤트와 삼성스토어 행사를 올해는 성수동에서 대형 무대를 갖춘 체험형 이벤트로 개최했다.",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-08T22:06:09.686Z"
+    "updated_at": "2026-05-09T21:47:52.036Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 20,
-    "sentiment_avg": 0.45,
-    "summary_ko": "용산구 이태원·한남동 일대에 외국인 친화적 바/클럽이 분포. 서빙고동 근처는 용산가족공원 프로그램 진행. (mention 20, sent 0.45)",
-    "summary_en": "Yongsan-gu's Itaewon and Hannam-dong have international bars. Seobinggo-dong area has Yongsan park events. (20, 0.45)",
+    "mention_count": 27,
+    "sentiment_avg": 0.25925925925925924,
+    "summary_ko": "용산구 용산전자상가·테크노마트, 전자상가로 유명. 용산가족공원 텃밭·숲 체험 프로그램 진행 중.",
+    "summary_en": "Yongsan-gu's Yongsan Electronics Market/Techno Mart is popular. Yongsan Family Park offers garden/forest events.",
     "related_event_ids": [
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
@@ -149,41 +149,41 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t75sr4/where_are_the_pubs_where_i_can_meet_other/",
-        "title": "Where are the pubs where I can meet other foreigners?",
-        "snippet": "Itaewon is a well-known district in Seoul where many foreigners live and visit, making it a good place to find pubs and bars with an international crowd.",
+        "url": "https://www.reddit.com/r/seoul/comments/1t83756/국립중앙_박물관_용산가족공원/",
+        "title": "국립중앙 박물관 & 용산가족공원",
+        "snippet": "국립중앙 박물관 & 용산가족공원",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t75sr4/where_are_the_pubs_where_i_can_meet_other/",
-        "title": "Where are the pubs where I can meet other foreigners?",
-        "snippet": "Hannam-dong has a growing number of international residents and offers a mix of trendy bars and lounges where foreigners might gather.",
+        "url": "https://www.reddit.com/r/seoul/comments/1t83756/국립중앙_박물관_용산가족공원/",
+        "title": "국립중앙 박물관 & 용산가족공원",
+        "snippet": "국립중앙 박물관 & 용산가족공원",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t75sr4/where_are_the_pubs_where_i_can_meet_other/",
-        "title": "Where are the pubs where I can meet other foreigners?",
-        "snippet": "The Ellers in Itaewon is a popular pub that caters to an international crowd, often hosting events and live music.",
+        "url": "https://www.reddit.com/r/seoul/comments/1t82w09/tickets_for_may_22_michael_yo_live_7pm/",
+        "title": "Tickets for May 22 Michael Yo live 7PM",
+        "snippet": "The performance is on May 22 at 7 PM in Yongsan-gu.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t75sr4/where_are_the_pubs_where_i_can_meet_other/",
-        "title": "Where are the pubs where I can meet other foreigners?",
-        "snippet": "The Factory in Itaewon is a well-known bar and club that attracts a diverse group of people, including many foreigners.",
+        "url": "https://www.reddit.com/r/seoul/comments/1t8aio5/cheap_electronics_in_korea/",
+        "title": "Cheap electronics in Korea",
+        "snippet": "Yongsan Electronics Market (용산전자상가) in Yongsan-gu is a well-known district for affordable electronics, including headsets, tablets, and digital devices. It's a popular destination for both locals and tourists seeking budget-friendly tech options.",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-08T22:06:09.686Z"
+    "updated_at": "2026-05-09T21:47:52.036Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 21,
-    "sentiment_avg": 0.2857142857142857,
-    "summary_ko": "중구 명동·남산 일대에 역사 투어 및 야행 프로그램 진행. 명동 중심가에는 세종호텔 시위도 발생. (mention 21, sent 0.29)",
-    "summary_en": "Jung-gu's Myeongdong and Namsan have history tours. Myeongdong has protests near Sejong Hotel. (21, 0.29)",
+    "mention_count": 23,
+    "sentiment_avg": 0.13043478260869565,
+    "summary_ko": "중구 남산·명동, 역사 투어·야행 프로그램 다수. 일부 지역에서 집회·시위 발생.",
+    "summary_en": "Jung-gu's Namsan·Myeong-dong: multiple history tours. Some protests/assemblies in the area.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-04-20",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-04-20",
@@ -193,16 +193,16 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t76ys7/22m_from_england_seoul_nightlife/",
-        "title": "22M from England Seoul nightlife",
-        "snippet": "I’m staying in the Myongdong area",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1t7p67a/the_¼_yang_koreas_littleknown_cupronickel_crisis/",
+        "title": "The ¼ Yang: Korea’s Little-Known Cupronickel Crisis",
+        "snippet": "The ¼ yang quickly dominated markets in central regions near Seoul, Pyongyang and Incheon by 1900",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t72om8/late_arrival_at_1_am_in_seoul_whats_the_cheapest/",
-        "title": "Late arrival at 1 AM in Seoul! What’s the cheapest and fastest way to get to Myeongdong?",
-        "snippet": "Late arrival at 1 AM in Seoul! What’s the cheapest and fastest way to get to Myeongdong?",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1t6ur5w/260508_n_seoul_tower_at_namsan_mountain/",
+        "title": "260508 N Seoul Tower at Namsan Mountain",
+        "snippet": "260508 N Seoul Tower at Namsan Mountain",
+        "source": "reddit_korea"
       },
       {
         "url": "https://www.reddit.com/r/korea/comments/1t6ur5w/260508_n_seoul_tower_at_namsan_mountain/",
@@ -211,12 +211,12 @@
         "source": "reddit_korea"
       },
       {
-        "url": "https://www.reddit.com/r/korea/comments/1t6ur5w/260508_n_seoul_tower_at_namsan_mountain/",
-        "title": "260508 N Seoul Tower at Namsan Mountain",
-        "snippet": "260508 N Seoul Tower at Namsan Mountain",
-        "source": "reddit_korea"
+        "url": "https://www.tournews21.com/news/articleView.html?idxno=134401",
+        "title": "\" 5월 펀서울\"... 도심 곳곳 체험·공연·축제 등 가족 문화행사 '풍성'",
+        "snippet": "남산 봉수대에서는 봉수의식 재현을 비롯해 마술·어린이 무예시범·체험 프로그램 등...",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-08T22:06:09.686Z"
+    "updated_at": "2026-05-09T21:47:52.036Z"
   }
 ]
