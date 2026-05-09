@@ -7,6 +7,7 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://seoulride.site"),
   title: "seoulRide — Where foreigners ride in Seoul",
   description:
     "Top Seoul bike-share stations rented by foreign visitors, plus nearby cultural events, food, and weather.",
@@ -25,6 +26,22 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
   formatDetection: { telephone: false },
+  openGraph: {
+    type: "website",
+    url: "https://seoulride.site",
+    siteName: "seoulRide",
+    title: "seoulRide — Where foreigners ride in Seoul",
+    description:
+      "Top Seoul bike-share stations rented by foreign visitors, plus nearby cultural events, food, and weather.",
+    images: [{ url: "/icon-512.png", width: 512, height: 512, alt: "seoulRide" }],
+  },
+  twitter: {
+    card: "summary",
+    title: "seoulRide — Where foreigners ride in Seoul",
+    description:
+      "Top Seoul bike-share stations rented by foreign visitors, plus nearby cultural events, food, and weather.",
+    images: ["/icon-512.png"],
+  },
 };
 
 export const viewport: Viewport = {
