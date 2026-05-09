@@ -3,12 +3,10 @@ import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
 import { BottomTabNav } from "@/components/BottomTabNav";
 import { EventCard } from "@/components/EventCard";
-import { FoodCard } from "@/components/FoodCard";
 import { WeatherWidget } from "@/components/WeatherWidget";
 import {
   getStationById,
   getEventsByStation,
-  getFoodByStation,
   getWeatherByGu,
 } from "@/lib/data";
 import { t, useLangFromSearch, type Lang } from "@/lib/i18n";
@@ -18,6 +16,7 @@ import {
   type EventStatus,
 } from "@/lib/event-status";
 import type { EventEntry } from "@/lib/types";
+import { stationDisplayName } from "@/lib/station-names-en";
 
 const STATUS_KEYS: EventStatus[] = ["ongoing", "upcoming", "past"];
 
@@ -39,15 +38,13 @@ export default async function StationPage({
   const station = await getStationById(decoded);
   if (!station) notFound();
 
-  const [eventsAll, foodAll, weatherAll] = await Promise.all([
+  const [eventsAll, weatherAll] = await Promise.all([
     getEventsByStation(),
-    getFoodByStation(),
     getWeatherByGu(),
   ]);
   const events = (eventsAll[station.station_no] ?? []).slice().sort(compareEventsByStartThenEnd);
-  const food = foodAll[station.station_no] ?? null;
   const weather = station.gu_en ? weatherAll[station.gu_en] : null;
-  const name = station.station_name_ko;
+  const name = stationDisplayName(station.station_no, station.station_name_ko, station.station_name_en, lang);
   const gu = lang === "ko" ? station.gu_ko : station.gu_en ?? station.gu_ko;
 
   // Bucket events by status
@@ -112,17 +109,11 @@ export default async function StationPage({
           </div>
         </header>
 
-        {/* Mobile: weather/food before events. md+: aside layout. */}
+        {/* Mobile: weather before events. md+: aside layout. */}
         <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <aside className="md:col-span-1 md:order-2 space-y-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 sm:gap-4 md:gap-6">
-            <div className="space-y-3">
-              <h2 className="text-xs uppercase tracking-widest text-zinc-500">{t("section.weather", lang)}</h2>
-              {weather && <WeatherWidget w={weather} lang={lang} />}
-            </div>
-            <div className="space-y-3">
-              <h2 className="text-xs uppercase tracking-widest text-zinc-500">{t("section.food_nearby", lang)}</h2>
-              {food && <FoodCard food={food} lang={lang} />}
-            </div>
+          <aside className="md:col-span-1 md:order-2 space-y-3">
+            <h2 className="text-xs uppercase tracking-widest text-zinc-500">{t("section.weather", lang)}</h2>
+            {weather && <WeatherWidget w={weather} lang={lang} />}
           </aside>
           <div className="md:col-span-2 md:order-1 space-y-4">
             <div className="flex items-baseline justify-between">

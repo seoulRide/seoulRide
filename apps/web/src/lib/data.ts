@@ -4,7 +4,6 @@ import path from "node:path";
 import {
   PopularStations,
   EventsByStation,
-  FoodByStation,
   WeatherByGu,
   TrendingByStation,
   type PopularStation,
@@ -33,10 +32,6 @@ export async function getPopularStations(): Promise<PopularStation[]> {
 
 export async function getEventsByStation() {
   return readJson("03_curation/events_by_station.json", EventsByStation);
-}
-
-export async function getFoodByStation() {
-  return readJson("03_curation/food_by_station.json", FoodByStation);
 }
 
 export async function getWeatherByGu() {

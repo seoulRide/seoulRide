@@ -1,9 +1,8 @@
 import { ScrollView, View, Text, StyleSheet, Pressable } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { getStationById, getEventsForStation, getFoodForStation, getWeatherForGu } from "../../src/lib/data";
+import { getStationById, getEventsForStation, getWeatherForGu } from "../../src/lib/data";
 import { EventCard } from "../../src/components/EventCard";
-import { FoodCard } from "../../src/components/FoodCard";
 import { WeatherWidget } from "../../src/components/WeatherWidget";
 import { useLang } from "../../src/lib/lang-store";
 import { t } from "../../src/lib/i18n";
@@ -29,7 +28,6 @@ export default function StationScreen() {
   }
 
   const events = getEventsForStation(station.station_no);
-  const food = getFoodForStation(station.station_no);
   const weather = getWeatherForGu(station.gu_en);
   const gu = lang === "ko" ? station.gu_ko : station.gu_en ?? station.gu_ko;
 
@@ -56,15 +54,6 @@ export default function StationScreen() {
             <Text style={styles.label}>{t("section.weather", lang)}</Text>
             <View style={{ marginTop: space.sm }}>
               <WeatherWidget w={weather} lang={lang} />
-            </View>
-          </View>
-        )}
-
-        {food && (
-          <View style={{ marginTop: space.xl }}>
-            <Text style={styles.label}>{t("section.food_nearby", lang)}</Text>
-            <View style={{ marginTop: space.sm }}>
-              <FoodCard food={food} lang={lang} />
             </View>
           </View>
         )}

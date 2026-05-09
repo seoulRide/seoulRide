@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://seoulride.site"),
   title: "seoulRide — Where foreigners ride in Seoul",
   description:
-    "Top Seoul bike-share stations rented by foreign visitors, plus nearby cultural events, food, and weather.",
+    "Top Seoul bike-share stations rented by foreign visitors, plus nearby cultural events and weather.",
   manifest: "/manifest.webmanifest",
   applicationName: "seoulRide",
   appleWebApp: {
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     siteName: "seoulRide",
     title: "seoulRide — Where foreigners ride in Seoul",
     description:
-      "Top Seoul bike-share stations rented by foreign visitors, plus nearby cultural events, food, and weather.",
+      "Top Seoul bike-share stations rented by foreign visitors, plus nearby cultural events and weather.",
     images: [{ url: "/icon-512.png", width: 512, height: 512, alt: "seoulRide" }],
   },
   twitter: {
     card: "summary",
     title: "seoulRide — Where foreigners ride in Seoul",
     description:
-      "Top Seoul bike-share stations rented by foreign visitors, plus nearby cultural events, food, and weather.",
+      "Top Seoul bike-share stations rented by foreign visitors, plus nearby cultural events and weather.",
     images: ["/icon-512.png"],
   },
 };

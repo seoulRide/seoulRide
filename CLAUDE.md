@@ -4,7 +4,7 @@
 
 ## 데이터 소스
 
-- 서울 OpenAPI: `cycleForeignerRentMonthInfo`, `cycleForeignerRentDayInfo`, `culturalEventInfo`, `ListPublicReservationCulture`, `ListPublicReservationEnglish`, `SJWPerform`, `trdarNcmCnsmp`
+- 서울 OpenAPI: `cycleForeignerRentMonthInfo`, `cycleForeignerRentDayInfo`, `culturalEventInfo`, `ListPublicReservationCulture`, `ListPublicReservationEnglish`, `SJWPerform`
 - 따릉이 대여소 마스터 CSV (위경도, CP949)
 - 기상청 apihub `https://apihub.kma.go.kr` (예특보)
 
@@ -25,7 +25,8 @@ SOLAR_API_KEY=...                     # Upstage Solar API (트렌딩 핫플레�
 
 **정적 카피 정책 — LLM 미사용 (변함 없음):**
 - 행사 영문: `ListPublicReservationEnglish` 데이터셋 매칭, 미매칭 시 한국어 원어 유지
-- 음식 영문: `.claude/skills/food-hotspot-analysis/references/food-blurbs.json` 정적 dict
+- 대여소 영문: 50개 인기 대여소만 `apps/web/src/lib/station-names-en.ts` 정적 dict로 override
+- 음식 추천: 자체 큐레이션 폐기. 외부 지도 앱 위임 (자전거 라우팅과 동일 패턴)
 
 **예외 — `_workspace/05_trending/` (multi-stage AI 파이프라인 산출물):**
 외부 동적 신호(영어권 뉴스·여행 커뮤니티 + 한국어 buzz)를 우리 정적 데이터(50개 인기 대여소·행사·날씨)와 매일 1회 합성. 정적 데이터로 못 만드는 결과 — "이번 주 외국인 관점에서 어디가 뜨고 있나" — 을 만들기 때문에 LLM 사용이 정당. 클리셰(번역·요약·챗봇)와는 다름.
@@ -39,7 +40,7 @@ SOLAR_API_KEY=...                     # Upstage Solar API (트렌딩 핫플레�
 
 ## 하네스: seoulRide 앱 빌드/운영
 
-**목표:** 외국인 따릉이 데이터 → 인기 대여소 도출 → 주변 행사·음식·날씨 큐레이션 → Next.js UI를 일관된 워크플로우로 빌드/유지.
+**목표:** 외국인 따릉이 데이터 → 인기 대여소 도출 → 주변 행사·날씨 큐레이션 → Next.js UI를 일관된 워크플로우로 빌드/유지.
 
 **트리거:** seoulRide, 따릉이, 외국인 자전거, 서울 문화행사, 라이딩 추천, 데이터 갱신, 재실행 등 본 도메인 작업 요청 시 `seoulride-orchestrator` 스킬을 사용. 단순 질문(예: "이 컬럼 의미가 뭐야?")은 직접 응답.
 
@@ -59,3 +60,4 @@ SOLAR_API_KEY=...                     # Upstage Solar API (트렌딩 핫플레�
 | 2026-05-07 | TMAP 보행자 폴백 제거 → 외부 지도 앱(Google/NAVER/Kakao) 자전거 길찾기 딥링크 위임 + NAVER `BicycleLayer` 오버레이 | map-app-links.ts 신규, NaverMap `showBicycleLayer` prop, naver-types `BicycleLayer`, RouteClient 재작성, types.ts `RouteResponse` 삭제, `/api/route` + tmap-pedestrian.ts 삭제, i18n 카피 교체, `TMAP_APP_KEY` env 제거 | 자전거 라우팅을 직접 호출하면 제휴(TMAP) 또는 외부 키(ORS)가 필요한데, 외국인 사용자는 어차피 턴바이턴 안내용으로 지도 앱을 열기 때문에 라우팅을 외부 앱에 위임하는 게 운영·비용·정확도 모두 우위 |
 | 2026-05-08 | `/route/[id]` 페이지 삭제 → `/nearby?focus={eventId}`로 병합. EventExplorer/NearbyClient 공유, 행사 카드 클릭 시 `/nearby?focus=`로 이동. 따릉이 인기 대여소 50개 마커, BicycleLayer 오버레이 제거, 행사 사이트 링크는 카드 우상단 🔗 이모지로 이동, 카루셀 하단 BottomTabNav만큼 띄움 | EventExplorer.tsx (footer pin + emoji + bottom offset + station markers), NearbyClient.tsx (focusId prop), nearby/page.tsx (?focus 처리), route/[eventId]/page.tsx (redirect로 단축), RouteClient.tsx 삭제, EventCard 링크 변경 | 외부 지도 앱 위임 후 `/route`와 `/nearby`가 사실상 동일 화면이 되어 중복. focus 쿼리 한 줄로 두 진입점이 자연스럽게 합쳐짐 |
 | 2026-05-08 | 트렌딩 핫플레이스 AI 파이프라인 추가 (Reddit + Visit Seoul + NAVER → Solar Pro 2 추출/합성) | `scripts/trending/` (fetchers + extract + aggregate + synthesize + run.ts), `_workspace/05_trending/`, `apps/web/src/lib/types.ts` (TrendingEntry), `apps/web/src/lib/data.ts` (getTrending), `apps/web/src/components/TrendingHero.tsx` + `TrendingCard.tsx`, `apps/web/src/app/page.tsx` 임베드, `.github/workflows/trending-daily.yml`, `SOLAR_API_KEY` env, `openai`+`cheerio` deps | 외부 동적 buzz와 우리 정적 데이터를 매일 합성해서 정적 데이터만으론 못 만드는 결과("이번 주 외국인 관점 뜨는 곳")를 추가. Solar는 Korean 학습 + Anthropic 대비 10-25배 저렴해 한국어 NER에 적합 |
+| 2026-05-09 | FoodCard 전면 폐기 — 상권(`trdarNcmCnsmp`) API 호출 + 정적 음식 큐레이션 dict + activity_score 모두 제거 | apps/web FoodCard·getFoodByStation·FoodEntry/FoodByStation·food i18n 키, apps/mobile FoodCard·FoodEntry, scripts/curation/food-by-station.ts, scripts/ingest/run-all.ts(trdarNcmCnsmp), scripts/qa(food cross-coverage), scripts/lib/env.ts mapping, package.json `curate:food`+pipeline, `_workspace/{01_ingest/trdarNcmCnsmp.*,03_curation/food_*}`, `apps/mobile/assets/data/food_by_station.json`, about 페이지 데이터 출처, CLAUDE.md 데이터 소스/정책 | 음식은 외국인 사용자가 NAVER 지도/Google Maps에서 직접 찾는 게 사진·평점·실시간 정보로 우위. 우리 자체 큐레이션은 정적 dict + 자치구 평균 → activity_score=0.7 상수, UI에 노출도 안 됨. 데드코드 정리하고 외부 지도 위임 정책(자전거 라우팅과 동일)으로 일관 |
