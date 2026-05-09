@@ -1,0 +1,59 @@
+services:
+  web:
+    build:
+      context: ..
+      dockerfile: infra/web/Dockerfile
+      args:
+        NEXT_PUBLIC_NAVER_MAP_CLIENT_ID: ${NEXT_PUBLIC_NAVER_MAP_CLIENT_ID}
+    image: seoulride-web:latest
+    container_name: seoulride-web
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      SEOUL_OPEN_API_KEY: ${SEOUL_OPEN_API_KEY:-}
+      KMA_API_KEY: ${KMA_API_KEY:-}
+      SOLAR_API_KEY: ${SOLAR_API_KEY:-}
+      NEXT_PUBLIC_NAVER_MAP_CLIENT_ID: ${NEXT_PUBLIC_NAVER_MAP_CLIENT_ID}
+    expose:
+      - "3000"
+    networks:
+      - seoulride-net
+
+  nginx:
+    build:
+      context: ..
+      dockerfile: infra/nginx/Dockerfile
+    image: seoulride-nginx:latest
+    container_name: seoulride-nginx
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:80:80"
+      - "0.0.0.0:443:443"
+    volumes:
+      - certbot-etc:/etc/letsencrypt:ro
+      - certbot-www:/var/www/certbot
+    depends_on:
+      - web
+    networks:
+      - seoulride-net
+
+  certbot:
+    image: certbot/certbot:latest
+    container_name: seoulride-certbot
+    restart: unless-stopped
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - certbot-www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew --webroot -w /var/www/certbot --quiet; sleep 12h & wait $${!}; done'"
+
+networks:
+  seoulride-net:
+    driver: bridge
+
+volumes:
+  certbot-etc:
+    name: seoulride-certs
+    external: true
+  certbot-www:
+    name: seoulride-certbot-www
+    external: true

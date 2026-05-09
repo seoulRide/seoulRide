@@ -1,0 +1,15 @@
+**/node_modules
+**/.next
+**/.turbo
+**/.vercel
+**/dist
+**/build
+**/.git
+**/.env
+**/.env.*
+!**/.env.example
+**/*.log
+**/coverage
+**/.playwright-mcp
+**/_workspace_prev_*
+infra/mysql-data
