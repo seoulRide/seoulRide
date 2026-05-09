@@ -4,6 +4,7 @@ import { useMemo, useState, type ReactNode } from "react";
 import { EventCard } from "./EventCard";
 import { t, type Lang } from "@/lib/i18n";
 import type { RecommendedEvent } from "@/lib/recommend";
+import { stationDisplayName } from "@/lib/station-names-en";
 
 const CATEGORIES = ["concert", "exhibition", "festival", "performance", "experience"] as const;
 type Category = typeof CATEGORIES[number];
@@ -61,7 +62,7 @@ export function CategoryFilter({ events, lang }: { events: RecommendedEvent[]; l
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
           {visible.map((e) => {
-            const anchor = e.anchor_station_name_ko;
+            const anchor = stationDisplayName(e.anchor_station_no, e.anchor_station_name_ko, null, lang);
             const subtitle = `${t("card.near_station", lang)}: ${anchor} (${e.anchor_rent_total.toLocaleString()})`;
             return <EventCard key={e.id} event={e} lang={lang} subtitle={subtitle} />;
           })}
