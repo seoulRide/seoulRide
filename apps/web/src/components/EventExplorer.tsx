@@ -418,6 +418,7 @@ export function EventExplorer({
         selectedId={selectedId}
         center={fallbackCenter}
         zoom={14}
+        minZoom={11}
         here={originGranted ? origin : null}
         onMarkerClick={onMarkerClick}
         className="h-[100svh] w-full"

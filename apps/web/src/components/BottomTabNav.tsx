@@ -64,7 +64,7 @@ export function BottomTabNav({ lang }: { lang: Lang }) {
 
   return (
     <nav
-      className="md:hidden fixed inset-x-0 bottom-0 z-40 border-t border-zinc-200 dark:border-zinc-800 bg-white/90 dark:bg-zinc-950/90 backdrop-blur pb-safe"
+      className="md:hidden fixed inset-x-0 bottom-0 z-[1000] border-t border-zinc-200 dark:border-zinc-800 bg-white/90 dark:bg-zinc-950/90 backdrop-blur pb-safe"
       aria-label="Primary"
     >
       <ul className="flex items-stretch justify-around h-14">

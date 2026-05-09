@@ -76,7 +76,7 @@ export interface NaverNamespace {
     Point: new (x: number, y: number) => NaverPoint;
     Map: new (
       container: HTMLElement | string,
-      opts: { center: NaverLatLng; zoom?: number; minZoom?: number; maxZoom?: number; zoomControl?: boolean; mapTypeControl?: boolean; scaleControl?: boolean; logoControl?: boolean; mapDataControl?: boolean }
+      opts: { center: NaverLatLng; zoom?: number; minZoom?: number; maxZoom?: number; zoomControl?: boolean; mapTypeControl?: boolean; scaleControl?: boolean; logoControl?: boolean; logoControlOptions?: { position: number }; mapDataControl?: boolean }
     ) => NaverMap;
     Marker: new (opts: {
       position: NaverLatLng;
@@ -115,6 +115,20 @@ export interface NaverNamespace {
     Event: {
       addListener(target: object, type: string, handler: (...args: unknown[]) => void): NaverEventListener;
       removeListener(listener: NaverEventListener): void;
+    };
+    Position?: {
+      TOP_LEFT: number;
+      TOP_CENTER: number;
+      TOP_RIGHT: number;
+      LEFT_TOP: number;
+      LEFT_CENTER: number;
+      LEFT_BOTTOM: number;
+      RIGHT_TOP: number;
+      RIGHT_CENTER: number;
+      RIGHT_BOTTOM: number;
+      BOTTOM_LEFT: number;
+      BOTTOM_CENTER: number;
+      BOTTOM_RIGHT: number;
     };
   };
 }

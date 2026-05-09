@@ -72,6 +72,8 @@ interface NaverMapProps {
   center?: { lat: number; lng: number };
   /** Naver zoom: 0~21, higher = closer. ~11 fits Seoul */
   zoom?: number;
+  /** Lower bound on zoom (user can't zoom out below this). */
+  minZoom?: number;
   className?: string;
   onMarkerClick?: (id: string) => void;
   /** When true, ensure all markers are visible on initial render (auto-fit bounds). */
@@ -147,6 +149,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     selectedId,
     center,
     zoom = 11,
+    minZoom,
     className,
     onMarkerClick,
     fitBounds = false,
@@ -201,7 +204,9 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     const map = new n.maps.Map(containerRef.current, {
       center: new n.maps.LatLng(c.lat, c.lng),
       zoom,
+      minZoom,
       logoControl: true,
+      logoControlOptions: { position: n.maps.Position?.TOP_LEFT ?? 0 },
       mapDataControl: false,
       mapTypeControl: false,
       scaleControl: false,
@@ -209,7 +214,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
     });
     mapRef.current = map;
     setMapReady(true);
-  }, [center, zoom]);
+  }, [center, zoom, minZoom]);
 
   useEffect(() => {
     if (!key) return;
