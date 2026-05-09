@@ -2,10 +2,11 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import type { PopularStation } from "@/lib/types";
 import { t, type Lang } from "@/lib/i18n";
+import { stationDisplayName } from "@/lib/station-names-en";
 
 export function StationCard({ station, lang, hero = false }: { station: PopularStation; lang: Lang; hero?: boolean }) {
   const lngQs = lang === "ko" ? "?lng=ko" : "";
-  const name = lang === "ko" ? station.station_name_ko : station.station_name_ko; // Korean original
+  const name = stationDisplayName(station.station_no, station.station_name_ko, station.station_name_en, lang);
   const gu = lang === "ko" ? station.gu_ko : station.gu_en ?? station.gu_ko;
   return (
     <Link

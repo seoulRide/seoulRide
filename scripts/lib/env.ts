@@ -35,7 +35,6 @@ export const PATHS = {
 const MOBILE_FALLBACK: Record<string, string> = {
   "02_analytics/popular_stations.json": "popular_stations.json",
   "03_curation/events_by_station.json": "events_by_station.json",
-  "03_curation/food_by_station.json": "food_by_station.json",
   "04_weather/forecast_by_gu.json": "forecast_by_gu.json",
 };
 

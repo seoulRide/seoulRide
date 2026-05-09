@@ -38,20 +38,6 @@ export const EventEntry = z.object({
 });
 export type EventEntry = z.infer<typeof EventEntry>;
 
-export type FoodCategory = {
-  category: string;
-  label_ko: string;
-  label_en: string;
-  blurb_en: string;
-};
-export type FoodEntry = {
-  gu_ko: string;
-  gu_en: string | null;
-  activity_score: number;
-  top_categories: FoodCategory[];
-  data_source: string;
-};
-
 export type WeatherForecast = {
   gu_ko: string;
   gu_en: string;

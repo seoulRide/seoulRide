@@ -10,7 +10,6 @@ const SERVICES = [
   { service: "ListPublicReservationCulture", maxRows: 5000 },
   { service: "ListPublicReservationEnglish", maxRows: 5000 },
   { service: "SJWPerform",                   maxRows: 3000 },
-  { service: "trdarNcmCnsmp",                maxRows: 30000 },
 ] as const;
 
 async function main() {
@@ -116,20 +115,6 @@ function normalize(service: string, rows: any[]): any[] {
         // 세종문화회관 좌표 고정
         lat: 37.5725,
         lng: 126.9760,
-      }));
-    case "trdarNcmCnsmp":
-      return rows.map((r) => ({
-        qtr: String(r.STDR_YYQU_CD ?? ""),
-        trdar_cd: String(r.TRDAR_CD ?? ""),
-        trdar_nm: String(r.TRDAR_CD_NM ?? ""),
-        trdar_se_cd: String(r.TRDAR_SE_CD ?? ""),
-        trdar_se_nm: String(r.TRDAR_SE_CD_NM ?? ""),
-        income_avg: Number(r.MT_AVRG_INCOME_AMT ?? 0),
-        expenditure_total: Number(r.EXPNDTR_TOTAMT ?? 0),
-        food_expenditure: Number(r.FDSTFFS_EXPNDTR_TOTAMT ?? 0),
-        culture_expenditure: Number(r.CLTUR_EXPNDTR_TOTAMT ?? 0),
-        leisure_expenditure: Number(r.LSR_EXPNDTR_TOTAMT ?? 0),
-        clothing_expenditure: Number(r.CLTHS_FTWR_EXPNDTR_TOTAMT ?? 0),
       }));
     default:
       return rows;

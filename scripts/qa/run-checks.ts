@@ -45,12 +45,6 @@ async function main() {
   if (distViolations) issues.push({ sev: "major", what: `${distViolations} events exceeded gu radius`, owner: "cultural-events-agent" });
   if (missingTitle) issues.push({ sev: "major", what: `${missingTitle} events missing title_ko`, owner: "cultural-events-agent" });
 
-  // food_by_station
-  const food: Record<string, any> = JSON.parse(await fs.readFile(path.join(ws, "03_curation/food_by_station.json"), "utf8"));
-  facts.push(`food.stations = ${Object.keys(food).length}`);
-  const noCats = Object.values(food).filter((v: any) => !v.top_categories?.length);
-  if (noCats.length) issues.push({ sev: "major", what: `${noCats.length} stations with empty top_categories`, owner: "food-recommender-agent" });
-
   // weather
   const weather: Record<string, any> = JSON.parse(await fs.readFile(path.join(ws, "04_weather/forecast_by_gu.json"), "utf8"));
   facts.push(`weather.districts = ${Object.keys(weather).length}`);
@@ -61,11 +55,9 @@ async function main() {
   const badScore = Object.values(weather).filter((v: any) => v.now.ride_score < 0 || v.now.ride_score > 100);
   if (badScore.length) issues.push({ sev: "critical", what: `${badScore.length} districts have ride_score out of [0,100]`, owner: "weather-agent" });
 
-  // cross-coverage: every popular station should appear in events_by_station + food_by_station
+  // cross-coverage: every popular station should appear in events_by_station
   const missingEvents = stations.filter((s) => !(s.station_no in events));
-  const missingFood = stations.filter((s) => !(s.station_no in food));
   if (missingEvents.length) issues.push({ sev: "major", what: `${missingEvents.length} stations missing in events_by_station` });
-  if (missingFood.length) issues.push({ sev: "major", what: `${missingFood.length} stations missing in food_by_station` });
 
   // Build report
   const crit = issues.filter((i) => i.sev === "critical").length;

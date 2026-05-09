@@ -41,23 +41,6 @@ export type EventEntry = z.infer<typeof EventEntry>;
 export const EventsByStation = z.record(z.string(), z.array(EventEntry));
 export type EventsByStation = z.infer<typeof EventsByStation>;
 
-export const FoodCategory = z.object({
-  category: z.string(),
-  label_ko: z.string(),
-  label_en: z.string(),
-  blurb_en: z.string(),
-});
-export const FoodEntry = z.object({
-  gu_ko: z.string(),
-  gu_en: z.string().nullable(),
-  activity_score: z.number(),
-  top_categories: z.array(FoodCategory),
-  data_source: z.string(),
-});
-export type FoodEntry = z.infer<typeof FoodEntry>;
-export const FoodByStation = z.record(z.string(), FoodEntry);
-export type FoodByStation = z.infer<typeof FoodByStation>;
-
 export const WeatherForecast = z.object({
   gu_ko: z.string(),
   gu_en: z.string(),

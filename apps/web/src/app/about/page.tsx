@@ -29,7 +29,6 @@ export default async function AboutPage({ searchParams }: { searchParams: Promis
             <li>• <strong>{ko ? "외국인 따릉이 대여 데이터" : "Bike rentals by foreigners"}</strong> — {ko ? "서울 열린데이터광장" : "Seoul Open Data Plaza"} (cycleForeignerRentMonthInfo, cycleForeignerRentDayInfo)</li>
             <li>• <strong>{ko ? "문화행사" : "Cultural events"}</strong> — {ko ? "서울 열린데이터광장" : "Seoul Open Data Plaza"} (culturalEventInfo, ListPublicReservationCulture/English)</li>
             <li>• <strong>{ko ? "세종문화회관 공연" : "Sejong Center performances"}</strong> — {ko ? "서울 열린데이터광장" : "Seoul Open Data Plaza"} (SJWPerform)</li>
-            <li>• <strong>{ko ? "소비/음식 활동" : "Consumption / food activity"}</strong> — {ko ? "서울 열린데이터광장 (trdarNcmCnsmp). 추정치 기반." : "Seoul Open Data Plaza (trdarNcmCnsmp). Estimate-based."}</li>
             <li>• <strong>{ko ? "기상예보" : "Weather forecast"}</strong> — {ko ? "기상청 apihub (단기예보)" : "Korea Meteorological Administration apihub (단기예보)"}</li>
             <li>• <strong>{ko ? "지도 타일" : "Map tiles"}</strong> — © OpenStreetMap contributors</li>
           </ul>

@@ -7,6 +7,7 @@ import type { EventEntry } from "@/lib/types";
 import { haversineKm } from "@/lib/route-geometry";
 import { isMobileUA } from "@/lib/map-app-links";
 import { useGeolocation } from "@/lib/use-geolocation";
+import { getEventStatus } from "@/lib/event-status";
 import { t, type Lang } from "@/lib/i18n";
 
 const SEARCH_RADIUS_KM = 3;
@@ -30,12 +31,15 @@ export function NearbyClient({
   const [mobile, setMobile] = useState(false);
   useEffect(() => { setMobile(isMobileUA()); }, []);
 
+  // Drop events that have already ended — only show ongoing + upcoming.
+  // (focusId stays in if provided, even if its status is past, so a shared
+  // link to a finished event still resolves to its event card.)
   const allWithCoords = useMemo(
     () =>
-      allEvents.filter(
-        (e): e is EventEntry & { lat: number; lng: number } => e.lat != null && e.lng != null,
-      ),
-    [allEvents],
+      allEvents
+        .filter((e): e is EventEntry & { lat: number; lng: number } => e.lat != null && e.lng != null)
+        .filter((e) => e.id === focusId || getEventStatus(e.start, e.end) !== "past"),
+    [allEvents, focusId],
   );
 
   const focused = useMemo(

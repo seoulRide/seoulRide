@@ -111,6 +111,7 @@ export default function MapWrapper({
       extraMarkers={[...heatMarkers, ...top3Markers]}
       onMarkerClick={onClick}
       zoom={11}
+      minZoom={10}
       fitBounds
       className="h-[55vh] sm:h-[60vh] md:h-[68vh] w-full rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-sm"
     />

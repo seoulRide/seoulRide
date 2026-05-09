@@ -9,8 +9,16 @@ function scoreColor(s: number) {
   return "bg-red-500";
 }
 
+const RIDE_LABEL_KO: Record<string, string> = {
+  "Great for cycling": "라이딩 최적",
+  "Good — bring sunscreen/jacket": "괜찮음 — 자외선/외투 챙기기",
+  "Mild conditions, ride with care": "가능 — 주의 운행",
+  "Not recommended": "비추천",
+  "Skip cycling today": "오늘은 라이딩 건너뛰기",
+};
+
 export function WeatherWidget({ w, lang }: { w: WeatherForecast; lang: Lang }) {
-  const label = w.now.label_en;
+  const label = lang === "ko" ? RIDE_LABEL_KO[w.now.label_en] ?? w.now.label_en : w.now.label_en;
   const c = scoreColor(w.now.ride_score);
   return (
     <div className="rounded-xl border border-zinc-200 dark:border-zinc-800 p-4">
