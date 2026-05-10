@@ -433,7 +433,7 @@ export function EventExplorer({
         tabIndex={0}
         role="region"
         aria-label={lang === "ko" ? "행사 카드 캐러셀" : "Event cards carousel"}
-        className="fixed inset-x-0 bottom-[calc(3.5rem+env(safe-area-inset-bottom))] md:bottom-0 z-30 overflow-x-auto overflow-y-hidden pb-3 pt-2 outline-none [&::-webkit-scrollbar]:hidden"
+        className="fixed inset-x-0 bottom-[calc(3.5rem+env(safe-area-inset-bottom))] md:bottom-0 z-[100] overflow-x-auto overflow-y-hidden pb-3 pt-2 outline-none [&::-webkit-scrollbar]:hidden"
         style={{ scrollbarWidth: "none", scrollSnapType: "x mandatory" }}
       >
         {/* Start/end padding scales with viewport so the first AND last card
