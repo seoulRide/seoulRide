@@ -11,7 +11,7 @@
     "rent_total": 715,
     "rank_overall": 1,
     "rank_in_gu": 1,
-    "hotspot_z": 15.743,
+    "hotspot_z": 15.684,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -52,7 +52,7 @@
     "rent_total": 588,
     "rank_overall": 2,
     "rank_in_gu": 1,
-    "hotspot_z": 12.862,
+    "hotspot_z": 12.815,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -93,7 +93,7 @@
     "rent_total": 339,
     "rank_overall": 3,
     "rank_in_gu": 1,
-    "hotspot_z": 7.213,
+    "hotspot_z": 7.189,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -134,7 +134,7 @@
     "rent_total": 309,
     "rank_overall": 4,
     "rank_in_gu": 1,
-    "hotspot_z": 6.533,
+    "hotspot_z": 6.511,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -175,7 +175,7 @@
     "rent_total": 300,
     "rank_overall": 5,
     "rank_in_gu": 1,
-    "hotspot_z": 6.329,
+    "hotspot_z": 6.308,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -216,7 +216,7 @@
     "rent_total": 291,
     "rank_overall": 6,
     "rank_in_gu": 1,
-    "hotspot_z": 6.124,
+    "hotspot_z": 6.104,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -257,7 +257,7 @@
     "rent_total": 279,
     "rank_overall": 7,
     "rank_in_gu": 1,
-    "hotspot_z": 5.852,
+    "hotspot_z": 5.833,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -298,7 +298,7 @@
     "rent_total": 254,
     "rank_overall": 8,
     "rank_in_gu": 1,
-    "hotspot_z": 5.285,
+    "hotspot_z": 5.268,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -339,7 +339,7 @@
     "rent_total": 241,
     "rank_overall": 9,
     "rank_in_gu": 2,
-    "hotspot_z": 4.99,
+    "hotspot_z": 4.975,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -380,7 +380,7 @@
     "rent_total": 233,
     "rank_overall": 10,
     "rank_in_gu": 1,
-    "hotspot_z": 4.809,
+    "hotspot_z": 4.794,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -421,7 +421,7 @@
     "rent_total": 202,
     "rank_overall": 11,
     "rank_in_gu": 2,
-    "hotspot_z": 4.105,
+    "hotspot_z": 4.093,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -462,7 +462,7 @@
     "rent_total": 197,
     "rank_overall": 12,
     "rank_in_gu": 1,
-    "hotspot_z": 3.992,
+    "hotspot_z": 3.98,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -492,22 +492,6 @@
     ]
   },
   {
-    "station_no": "ST-311",
-    "station_name_ko": "오목로 344 청학빌딩",
-    "station_name_en": null,
-    "lat": 37.523628,
-    "lng": 126.875244,
-    "gu_ko": "양천구",
-    "gu_en": "Yangcheon-gu",
-    "address": "서울특별시 양천구 오목로 344 청학빌딩",
-    "rent_total": 197,
-    "rank_overall": 13,
-    "rank_in_gu": 1,
-    "hotspot_z": 3.992,
-    "is_outlier": true,
-    "monthly_series": []
-  },
-  {
     "station_no": "ST-565",
     "station_name_ko": "성북구 종암동 12-33",
     "station_name_en": null,
@@ -517,9 +501,9 @@
     "gu_en": "Seongbuk-gu",
     "address": "서울특별시 성북구 종암로3길 37-2 성북구 종암동 12-33",
     "rent_total": 196,
-    "rank_overall": 14,
+    "rank_overall": 13,
     "rank_in_gu": 3,
-    "hotspot_z": 3.969,
+    "hotspot_z": 3.958,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -549,22 +533,6 @@
     ]
   },
   {
-    "station_no": "ST-369",
-    "station_name_ko": "청계8가사거리 부근",
-    "station_name_en": null,
-    "lat": 37.571102,
-    "lng": 127.02356,
-    "gu_ko": "동대문구",
-    "gu_en": "Dongdaemun-gu",
-    "address": "서울특별시 동대문구 청계천로 417 청계8가사거리 부근",
-    "rent_total": 193,
-    "rank_overall": 15,
-    "rank_in_gu": 1,
-    "hotspot_z": 3.901,
-    "is_outlier": true,
-    "monthly_series": []
-  },
-  {
     "station_no": "ST-475",
     "station_name_ko": "연신내역 3번출구 인근",
     "station_name_en": null,
@@ -574,9 +542,9 @@
     "gu_en": "Eunpyeong-gu",
     "address": "서울특별시 은평구 불광동 304-5 연신내역 3번출구 인근",
     "rent_total": 192,
-    "rank_overall": 16,
+    "rank_overall": 14,
     "rank_in_gu": 2,
-    "hotspot_z": 3.879,
+    "hotspot_z": 3.867,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -606,38 +574,6 @@
     ]
   },
   {
-    "station_no": "ST-212",
-    "station_name_ko": "성암로 28 가좌행복주택",
-    "station_name_en": null,
-    "lat": 37.568295,
-    "lng": 126.915047,
-    "gu_ko": "마포구",
-    "gu_en": "Mapo-gu",
-    "address": "서울특별시 마포구 성암로 28 가좌행복주택",
-    "rent_total": 191,
-    "rank_overall": 17,
-    "rank_in_gu": 2,
-    "hotspot_z": 3.856,
-    "is_outlier": true,
-    "monthly_series": []
-  },
-  {
-    "station_no": "ST-211",
-    "station_name_ko": "마포구청역",
-    "station_name_en": null,
-    "lat": 37.560909,
-    "lng": 126.905495,
-    "gu_ko": "마포구",
-    "gu_en": "Mapo-gu",
-    "address": "서울특별시 마포구 망원동 477-23 마포구청역",
-    "rent_total": 189,
-    "rank_overall": 18,
-    "rank_in_gu": 3,
-    "hotspot_z": 3.811,
-    "is_outlier": true,
-    "monthly_series": []
-  },
-  {
     "station_no": "ST-249",
     "station_name_ko": "한양대후문역 부근 (양키캔들 앞)",
     "station_name_en": null,
@@ -647,9 +583,9 @@
     "gu_en": "Seongdong-gu",
     "address": "서울특별시 성동구 행당동 10 한양대후문역 부근 (양키캔들 앞)",
     "rent_total": 178,
-    "rank_overall": 19,
+    "rank_overall": 15,
     "rank_in_gu": 2,
-    "hotspot_z": 3.561,
+    "hotspot_z": 3.551,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -679,22 +615,6 @@
     ]
   },
   {
-    "station_no": "ST-312",
-    "station_name_ko": "남부법원검찰청 교차로",
-    "station_name_en": null,
-    "lat": 37.523254,
-    "lng": 126.864906,
-    "gu_ko": "양천구",
-    "gu_en": "Yangcheon-gu",
-    "address": "서울특별시 양천구 신정동 1095 남부법원검찰청 교차로",
-    "rent_total": 178,
-    "rank_overall": 20,
-    "rank_in_gu": 2,
-    "hotspot_z": 3.561,
-    "is_outlier": true,
-    "monthly_series": []
-  },
-  {
     "station_no": "ST-314",
     "station_name_ko": "신정3동주민센터",
     "station_name_en": null,
@@ -704,9 +624,9 @@
     "gu_en": "Yangcheon-gu",
     "address": "서울특별시 양천구 중앙로 209 신정3동주민센터",
     "rent_total": 170,
-    "rank_overall": 21,
-    "rank_in_gu": 3,
-    "hotspot_z": 3.379,
+    "rank_overall": 16,
+    "rank_in_gu": 1,
+    "hotspot_z": 3.37,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -745,9 +665,9 @@
     "gu_en": "Yangcheon-gu",
     "address": "서울특별시 양천구 신월동 790 한국SGI 양천문화회관 앞",
     "rent_total": 169,
-    "rank_overall": 22,
-    "rank_in_gu": 4,
-    "hotspot_z": 3.357,
+    "rank_overall": 17,
+    "rank_in_gu": 2,
+    "hotspot_z": 3.348,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -786,9 +706,9 @@
     "gu_en": "Seodaemun-gu",
     "address": "서울특별시 서대문구 수색로 100 DMC래미안e편한세상",
     "rent_total": 167,
-    "rank_overall": 23,
+    "rank_overall": 18,
     "rank_in_gu": 2,
-    "hotspot_z": 3.311,
+    "hotspot_z": 3.302,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -827,9 +747,9 @@
     "gu_en": "Dongdaemun-gu",
     "address": "서울특별시 동대문구 신설동 92-34 신설동역 10번출구 앞",
     "rent_total": 167,
-    "rank_overall": 24,
-    "rank_in_gu": 2,
-    "hotspot_z": 3.311,
+    "rank_overall": 19,
+    "rank_in_gu": 1,
+    "hotspot_z": 3.302,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -868,9 +788,9 @@
     "gu_en": "Seongdong-gu",
     "address": "서울특별시 성동구 뚝섬로 379 이마트 버스정류소 옆",
     "rent_total": 167,
-    "rank_overall": 25,
+    "rank_overall": 20,
     "rank_in_gu": 3,
-    "hotspot_z": 3.311,
+    "hotspot_z": 3.302,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -909,9 +829,9 @@
     "gu_en": "Yangcheon-gu",
     "address": "서울특별시 양천구 목동 413-3",
     "rent_total": 165,
-    "rank_overall": 26,
-    "rank_in_gu": 5,
-    "hotspot_z": 3.266,
+    "rank_overall": 21,
+    "rank_in_gu": 3,
+    "hotspot_z": 3.257,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -950,9 +870,9 @@
     "gu_en": "Seodaemun-gu",
     "address": "서울특별시 서대문구 현저동 102-53 독립문역 4번출구",
     "rent_total": 165,
-    "rank_overall": 27,
+    "rank_overall": 22,
     "rank_in_gu": 3,
-    "hotspot_z": 3.266,
+    "hotspot_z": 3.257,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -991,9 +911,9 @@
     "gu_en": "Gangseo-gu",
     "address": "서울특별시 강서구 강서도매시장로 72 강서농산물도매시장",
     "rent_total": 163,
-    "rank_overall": 28,
+    "rank_overall": 23,
     "rank_in_gu": 1,
-    "hotspot_z": 3.221,
+    "hotspot_z": 3.212,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1032,9 +952,9 @@
     "gu_en": "Dongdaemun-gu",
     "address": "서울특별시 동대문구 전농로 34 답십리초등학교 앞(현대시장 옆)",
     "rent_total": 154,
-    "rank_overall": 29,
-    "rank_in_gu": 3,
-    "hotspot_z": 3.016,
+    "rank_overall": 24,
+    "rank_in_gu": 2,
+    "hotspot_z": 3.009,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1073,9 +993,9 @@
     "gu_en": "Seodaemun-gu",
     "address": "서울특별시 서대문구 서소문로 45 SK리쳄블",
     "rent_total": 153,
-    "rank_overall": 30,
+    "rank_overall": 25,
     "rank_in_gu": 4,
-    "hotspot_z": 2.994,
+    "hotspot_z": 2.986,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1114,9 +1034,9 @@
     "gu_en": "Jongno-gu",
     "address": "서울특별시 종로구 서린동 93-2 SK 서린빌딩 앞",
     "rent_total": 150,
-    "rank_overall": 31,
+    "rank_overall": 26,
     "rank_in_gu": 1,
-    "hotspot_z": 2.926,
+    "hotspot_z": 2.918,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1155,9 +1075,9 @@
     "gu_en": "Gangseo-gu",
     "address": "서울특별시 강서구 방화동 614-287",
     "rent_total": 149,
-    "rank_overall": 32,
+    "rank_overall": 27,
     "rank_in_gu": 2,
-    "hotspot_z": 2.903,
+    "hotspot_z": 2.896,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1196,9 +1116,9 @@
     "gu_en": "Jungnang-gu",
     "address": "서울특별시 중랑구 숙선옹주로 66 중랑구 묵동 20-3",
     "rent_total": 149,
-    "rank_overall": 33,
+    "rank_overall": 28,
     "rank_in_gu": 1,
-    "hotspot_z": 2.903,
+    "hotspot_z": 2.896,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1228,22 +1148,6 @@
     ]
   },
   {
-    "station_no": "ST-315",
-    "station_name_ko": "서울출입국관리사무소 앞",
-    "station_name_en": null,
-    "lat": 37.51897,
-    "lng": 126.869965,
-    "gu_ko": "양천구",
-    "gu_en": "Yangcheon-gu",
-    "address": "서울특별시 양천구 신정동 319-3 서울출입국관리사무소 앞",
-    "rent_total": 147,
-    "rank_overall": 34,
-    "rank_in_gu": 6,
-    "hotspot_z": 2.858,
-    "is_outlier": true,
-    "monthly_series": []
-  },
-  {
     "station_no": "ST-182",
     "station_name_ko": "광화문 시민열린마당",
     "station_name_en": null,
@@ -1253,9 +1157,9 @@
     "gu_en": "Jongno-gu",
     "address": "서울특별시 종로구 세종로 76-5 광화문 시민열린마당",
     "rent_total": 145,
-    "rank_overall": 35,
+    "rank_overall": 29,
     "rank_in_gu": 2,
-    "hotspot_z": 2.812,
+    "hotspot_z": 2.805,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1294,9 +1198,9 @@
     "gu_en": "Jungnang-gu",
     "address": "서울특별시 중랑구 신내로16길 33 신내동 의료안심주택",
     "rent_total": 145,
-    "rank_overall": 36,
+    "rank_overall": 30,
     "rank_in_gu": 2,
-    "hotspot_z": 2.812,
+    "hotspot_z": 2.805,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1335,9 +1239,9 @@
     "gu_en": "Seongdong-gu",
     "address": "서울특별시 성동구 고산자로 260 성동광진 교육지원청 앞",
     "rent_total": 139,
-    "rank_overall": 37,
+    "rank_overall": 31,
     "rank_in_gu": 4,
-    "hotspot_z": 2.676,
+    "hotspot_z": 2.67,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1376,9 +1280,9 @@
     "gu_en": "Yongsan-gu",
     "address": "서울특별시 용산구 서빙고동 235-5 서빙고동 금호맨션 앞",
     "rent_total": 136,
-    "rank_overall": 38,
+    "rank_overall": 32,
     "rank_in_gu": 1,
-    "hotspot_z": 2.608,
+    "hotspot_z": 2.602,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1417,9 +1321,9 @@
     "gu_en": "Seodaemun-gu",
     "address": "서울특별시 서대문구 응암로 131",
     "rent_total": 134,
-    "rank_overall": 39,
+    "rank_overall": 33,
     "rank_in_gu": 5,
-    "hotspot_z": 2.563,
+    "hotspot_z": 2.557,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1458,9 +1362,9 @@
     "gu_en": "Seongdong-gu",
     "address": "서울특별시 성동구 아차산로 18 뚝섬역 5번 출구 정류소 옆",
     "rent_total": 130,
-    "rank_overall": 40,
+    "rank_overall": 34,
     "rank_in_gu": 5,
-    "hotspot_z": 2.472,
+    "hotspot_z": 2.466,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1499,9 +1403,9 @@
     "gu_en": "Gwangjin-gu",
     "address": "서울특별시 광진구 광나루로 355 광진메디컬앞",
     "rent_total": 126,
-    "rank_overall": 41,
+    "rank_overall": 35,
     "rank_in_gu": 3,
-    "hotspot_z": 2.381,
+    "hotspot_z": 2.376,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1540,9 +1444,9 @@
     "gu_en": "Nowon-gu",
     "address": "서울특별시 노원구 덕릉로131길 8 노원구 상계동 37-7",
     "rent_total": 125,
-    "rank_overall": 42,
+    "rank_overall": 36,
     "rank_in_gu": 1,
-    "hotspot_z": 2.359,
+    "hotspot_z": 2.354,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1577,9 +1481,9 @@
     "gu_en": "Yeongdeungpo-gu",
     "address": "서울특별시 영등포구 신길동263-76 도림신협 앞",
     "rent_total": 124,
-    "rank_overall": 43,
+    "rank_overall": 37,
     "rank_in_gu": 1,
-    "hotspot_z": 2.336,
+    "hotspot_z": 2.331,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1618,9 +1522,9 @@
     "gu_en": "Gangseo-gu",
     "address": "서울특별시 강서구 화곡로 지하 168 화곡역 6번출구",
     "rent_total": 121,
-    "rank_overall": 44,
+    "rank_overall": 38,
     "rank_in_gu": 3,
-    "hotspot_z": 2.268,
+    "hotspot_z": 2.263,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1659,9 +1563,9 @@
     "gu_en": "Seongdong-gu",
     "address": "서울특별시 성동구 왕십리로 지하77 서울숲역 4번 출구 옆",
     "rent_total": 119,
-    "rank_overall": 45,
+    "rank_overall": 39,
     "rank_in_gu": 6,
-    "hotspot_z": 2.222,
+    "hotspot_z": 2.218,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1700,9 +1604,9 @@
     "gu_en": "Mapo-gu",
     "address": "서울특별시 마포구 월드컵로25길 202",
     "rent_total": 116,
-    "rank_overall": 46,
-    "rank_in_gu": 4,
-    "hotspot_z": 2.154,
+    "rank_overall": 40,
+    "rank_in_gu": 2,
+    "hotspot_z": 2.15,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1741,9 +1645,9 @@
     "gu_en": "Yongsan-gu",
     "address": "서울특별시 용산구 원효로4가 109-10 목월공원 앞",
     "rent_total": 116,
-    "rank_overall": 47,
+    "rank_overall": 41,
     "rank_in_gu": 2,
-    "hotspot_z": 2.154,
+    "hotspot_z": 2.15,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1782,9 +1686,9 @@
     "gu_en": "Seodaemun-gu",
     "address": "서울특별시 서대문구 응암로 66 정명학원",
     "rent_total": 115,
-    "rank_overall": 48,
+    "rank_overall": 42,
     "rank_in_gu": 6,
-    "hotspot_z": 2.132,
+    "hotspot_z": 2.128,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1823,9 +1727,9 @@
     "gu_en": "Dongdaemun-gu",
     "address": "서울특별시 동대문구 천호대로 269 답십리역 1번출구",
     "rent_total": 115,
-    "rank_overall": 49,
-    "rank_in_gu": 4,
-    "hotspot_z": 2.132,
+    "rank_overall": 43,
+    "rank_in_gu": 3,
+    "hotspot_z": 2.128,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1864,9 +1768,9 @@
     "gu_en": "Jongno-gu",
     "address": "서울특별시 종로구 세종대로 지하189 세종로공원",
     "rent_total": 115,
-    "rank_overall": 50,
+    "rank_overall": 44,
     "rank_in_gu": 3,
-    "hotspot_z": 2.132,
+    "hotspot_z": 2.128,
     "is_outlier": true,
     "monthly_series": [
       {
@@ -1892,6 +1796,252 @@
       {
         "ym": "202512",
         "cnt": 3
+      }
+    ]
+  },
+  {
+    "station_no": "ST-511",
+    "station_name_ko": "강서구 공항동 산20-2",
+    "station_name_en": null,
+    "lat": 37.563347,
+    "lng": 126.810486,
+    "gu_ko": "강서구",
+    "gu_en": "Gangseo-gu",
+    "address": "서울특별시 강서구 방화동로 지하 30 강서구 공항동 산20-2",
+    "rent_total": 114,
+    "rank_overall": 45,
+    "rank_in_gu": 4,
+    "hotspot_z": 2.105,
+    "is_outlier": true,
+    "monthly_series": [
+      {
+        "ym": "202507",
+        "cnt": 21
+      },
+      {
+        "ym": "202508",
+        "cnt": 8
+      },
+      {
+        "ym": "202509",
+        "cnt": 26
+      },
+      {
+        "ym": "202510",
+        "cnt": 21
+      },
+      {
+        "ym": "202511",
+        "cnt": 27
+      },
+      {
+        "ym": "202512",
+        "cnt": 11
+      }
+    ]
+  },
+  {
+    "station_no": "ST-3009",
+    "station_name_ko": "서초구 동광로 몽마르뜨공원 입구",
+    "station_name_en": null,
+    "lat": 37.492889,
+    "lng": 127.002647,
+    "gu_ko": "서초구",
+    "gu_en": "Seocho-gu",
+    "address": "서울특별시 서초구 서초구 동광로 몽마르뜨공원 입구",
+    "rent_total": 113,
+    "rank_overall": 46,
+    "rank_in_gu": 2,
+    "hotspot_z": 2.082,
+    "is_outlier": true,
+    "monthly_series": [
+      {
+        "ym": "202507",
+        "cnt": 13
+      },
+      {
+        "ym": "202508",
+        "cnt": 22
+      },
+      {
+        "ym": "202509",
+        "cnt": 41
+      },
+      {
+        "ym": "202510",
+        "cnt": 21
+      },
+      {
+        "ym": "202511",
+        "cnt": 6
+      },
+      {
+        "ym": "202512",
+        "cnt": 10
+      }
+    ]
+  },
+  {
+    "station_no": "ST-3414",
+    "station_name_ko": "헌릉로 747",
+    "station_name_en": null,
+    "lat": 37.468056,
+    "lng": 127.120361,
+    "gu_ko": "강남구",
+    "gu_en": "Gangnam-gu",
+    "address": "서울특별시 강남구 헌릉로 747",
+    "rent_total": 113,
+    "rank_overall": 47,
+    "rank_in_gu": 1,
+    "hotspot_z": 2.082,
+    "is_outlier": true,
+    "monthly_series": [
+      {
+        "ym": "202507",
+        "cnt": 12
+      },
+      {
+        "ym": "202508",
+        "cnt": 30
+      },
+      {
+        "ym": "202509",
+        "cnt": 26
+      },
+      {
+        "ym": "202510",
+        "cnt": 25
+      },
+      {
+        "ym": "202511",
+        "cnt": 11
+      },
+      {
+        "ym": "202512",
+        "cnt": 9
+      }
+    ]
+  },
+  {
+    "station_no": "ST-493",
+    "station_name_ko": "천호대로 1005 현대백화점",
+    "station_name_en": null,
+    "lat": 37.538666,
+    "lng": 127.124245,
+    "gu_ko": "강동구",
+    "gu_en": "Gangdong-gu",
+    "address": "서울특별시 강동구 천호대로 1005 현대백화점",
+    "rent_total": 112,
+    "rank_overall": 48,
+    "rank_in_gu": 2,
+    "hotspot_z": 2.06,
+    "is_outlier": true,
+    "monthly_series": [
+      {
+        "ym": "202507",
+        "cnt": 26
+      },
+      {
+        "ym": "202508",
+        "cnt": 16
+      },
+      {
+        "ym": "202509",
+        "cnt": 25
+      },
+      {
+        "ym": "202510",
+        "cnt": 23
+      },
+      {
+        "ym": "202511",
+        "cnt": 12
+      },
+      {
+        "ym": "202512",
+        "cnt": 10
+      }
+    ]
+  },
+  {
+    "station_no": "ST-324",
+    "station_name_ko": "한강진역 2번 출구 앞",
+    "station_name_en": null,
+    "lat": 37.541153,
+    "lng": 127.002213,
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "address": "서울특별시 용산구 한남동 726-494 한강진역 2번 출구 앞",
+    "rent_total": 110,
+    "rank_overall": 49,
+    "rank_in_gu": 3,
+    "hotspot_z": 2.015,
+    "is_outlier": true,
+    "monthly_series": [
+      {
+        "ym": "202507",
+        "cnt": 12
+      },
+      {
+        "ym": "202508",
+        "cnt": 21
+      },
+      {
+        "ym": "202509",
+        "cnt": 32
+      },
+      {
+        "ym": "202510",
+        "cnt": 18
+      },
+      {
+        "ym": "202511",
+        "cnt": 25
+      },
+      {
+        "ym": "202512",
+        "cnt": 2
+      }
+    ]
+  },
+  {
+    "station_no": "ST-339",
+    "station_name_ko": "망원초록길 입구",
+    "station_name_en": null,
+    "lat": 37.551342,
+    "lng": 126.902672,
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "address": "서울특별시 마포구 마포나루길 467 망원초록길 입구",
+    "rent_total": 110,
+    "rank_overall": 50,
+    "rank_in_gu": 3,
+    "hotspot_z": 2.015,
+    "is_outlier": true,
+    "monthly_series": [
+      {
+        "ym": "202507",
+        "cnt": 20
+      },
+      {
+        "ym": "202508",
+        "cnt": 26
+      },
+      {
+        "ym": "202509",
+        "cnt": 28
+      },
+      {
+        "ym": "202510",
+        "cnt": 13
+      },
+      {
+        "ym": "202511",
+        "cnt": 17
+      },
+      {
+        "ym": "202512",
+        "cnt": 6
       }
     ]
   }
