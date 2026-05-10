@@ -103,10 +103,6 @@ export default async function StationPage({
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-[1.05]">{name}</h1>
           <p className="text-sm sm:text-base text-zinc-500">{station.address}</p>
-          <div className="flex items-baseline gap-2 pt-2">
-            <span className="text-4xl sm:text-5xl font-bold tabular-nums">{station.rent_total.toLocaleString()}</span>
-            <span className="text-sm text-zinc-500">{t("card.rentals", lang)}</span>
-          </div>
         </header>
 
         {/* Mobile: weather before events. md+: aside layout. */}

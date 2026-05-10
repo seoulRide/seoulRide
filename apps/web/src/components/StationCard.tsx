@@ -38,18 +38,6 @@ export function StationCard({ station, lang, hero = false }: { station: PopularS
         {name}
       </h3>
       <div className="mt-2 text-xs text-zinc-500 line-clamp-1">{station.address}</div>
-      <div className={[
-        "mt-4 flex items-baseline gap-2",
-        hero ? "md:mt-6" : "",
-      ].join(" ")}>
-        <span className={[
-          "font-semibold tabular-nums text-xl",
-          hero ? "md:text-4xl md:font-bold" : "",
-        ].join(" ")}>
-          {station.rent_total.toLocaleString()}
-        </span>
-        <span className="text-xs text-zinc-500">{t("card.rentals", lang)}</span>
-      </div>
     </Link>
   );
 }
