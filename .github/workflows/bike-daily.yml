@@ -1,0 +1,68 @@
+name: bike-daily
+
+# Daily refresh of foreigner-bike rentals → popular_stations.json.
+# Runs at 19:00 UTC = 04:00 KST so trending-daily (21:00 UTC = 06:00 KST)
+# can synthesize against the freshest popular-station ranking.
+
+on:
+  schedule:
+    - cron: "0 19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    concurrency:
+      group: bike-daily
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install root dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Ingest station master (CSV)
+        run: pnpm ingest:master
+
+      - name: Ingest Seoul OpenAPI services
+        env:
+          SEOUL_OPEN_API_KEY: ${{ secrets.SEOUL_OPEN_API_KEY }}
+        run: pnpm ingest
+
+      - name: Recompute popular stations
+        run: pnpm analyze:bike
+
+      - name: Sync committed mobile-assets fallback
+        run: cp _workspace/02_analytics/popular_stations.json apps/mobile/assets/data/popular_stations.json
+
+      - name: Verify output
+        run: |
+          test -s apps/mobile/assets/data/popular_stations.json
+          jq 'length' apps/mobile/assets/data/popular_stations.json
+
+      - name: Commit + push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apps/mobile/assets/data/popular_stations.json
+          if git diff --cached --quiet; then
+            echo "No change."
+          else
+            git commit -m "chore(bike): daily refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
