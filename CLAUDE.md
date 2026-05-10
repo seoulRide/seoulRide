@@ -4,7 +4,7 @@
 
 ## 데이터 소스
 
-- 서울 OpenAPI: `cycleForeignerRentMonthInfo`, `cycleForeignerRentDayInfo`, `culturalEventInfo`, `ListPublicReservationCulture`, `ListPublicReservationEnglish`, `SJWPerform`
+- 서울 OpenAPI: `cycleForeignerRentMonthInfo`, `culturalEventInfo`, `ListPublicReservationCulture`, `ListPublicReservationEnglish`, `SJWPerform`
 - 따릉이 대여소 마스터 CSV (위경도, CP949)
 - 기상청 apihub `https://apihub.kma.go.kr` (예특보)
 
