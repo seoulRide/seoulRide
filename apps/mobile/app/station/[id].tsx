@@ -44,11 +44,6 @@ export default function StationScreen() {
         <Text style={styles.title}>{station.station_name_ko}</Text>
         <Text style={styles.address}>{station.address}</Text>
 
-        <View style={styles.statRow}>
-          <Text style={styles.stat}>{station.rent_total.toLocaleString()}</Text>
-          <Text style={styles.statUnit}>{t("card.rentals", lang)}</Text>
-        </View>
-
         {weather && (
           <View style={{ marginTop: space.xl }}>
             <Text style={styles.label}>{t("section.weather", lang)}</Text>

@@ -26,10 +26,6 @@ export function StationCard({ station, lang, hero = false }: { station: PopularS
           {station.station_name_ko}
         </Text>
         <Text numberOfLines={1} style={styles.address}>{station.address}</Text>
-        <View style={styles.row}>
-          <Text style={[styles.count, hero && styles.countHero]}>{station.rent_total.toLocaleString()}</Text>
-          <Text style={styles.unit}>{t("card.rentals", lang)}</Text>
-        </View>
       </Pressable>
     </Link>
   );
