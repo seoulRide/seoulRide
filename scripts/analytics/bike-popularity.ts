@@ -39,7 +39,6 @@ async function main() {
   const ws = path.join(PATHS.workspace, "01_ingest");
   const stations: Station[] = JSON.parse(await fs.readFile(path.join(ws, "station_master.normalized.json"), "utf8"));
   const monthly: BikeRow[] = JSON.parse(await fs.readFile(path.join(ws, "cycleForeignerRentMonthInfo.normalized.json"), "utf8"));
-  const daily: BikeRow[]   = JSON.parse(await fs.readFile(path.join(ws, "cycleForeignerRentDayInfo.normalized.json"), "utf8"));
 
   // master index by digits-of(station_no_norm) — also by station_name fuzzy
   const byId = new Map<string, Station>();
@@ -81,25 +80,6 @@ async function main() {
     entry.rent += row.rent_cnt;
     if (row.ym) entry.ymSet.add(row.ym);
     if (row.ym) entry.series.set(row.ym, (entry.series.get(row.ym) ?? 0) + row.rent_cnt);
-  }
-
-  // Add daily as additional signal (already includes monthly periods sometimes)
-  // We treat daily separately for time pattern; for total ranking, prefer monthly
-  // (avoid double-counting). But for stations only present in daily, include.
-  const dailyOnly = new Map<string, { station: Station; rent: number }>();
-  for (const row of daily) {
-    const station = lookup(row);
-    if (!station) continue;
-    if (totalsByStation.has(station.station_no)) continue;
-    let e = dailyOnly.get(station.station_no);
-    if (!e) { e = { station, rent: 0 }; dailyOnly.set(station.station_no, e); }
-    e.rent += row.rent_cnt;
-  }
-  // Merge dailyOnly stations into totals (for stations that don't appear in monthly)
-  for (const [k, v] of dailyOnly) {
-    if (!totalsByStation.has(k)) {
-      totalsByStation.set(k, { station: v.station, rent: v.rent, ymSet: new Set(), series: new Map() });
-    }
   }
 
   // Build array

@@ -5,7 +5,6 @@ import { fetchAll } from "../lib/seoul-api.ts";
 
 const SERVICES = [
   { service: "cycleForeignerRentMonthInfo", maxRows: 30000 },
-  { service: "cycleForeignerRentDayInfo",   maxRows: 30000 },
   { service: "culturalEventInfo",           maxRows: 5000 },
   { service: "ListPublicReservationCulture", maxRows: 5000 },
   { service: "ListPublicReservationEnglish", maxRows: 5000 },
@@ -49,14 +48,6 @@ function normalize(service: string, rows: any[]): any[] {
     case "cycleForeignerRentMonthInfo":
       return rows.map((r) => ({
         ym: String(r.RNTL_YMD ?? "").replace(/-/g, "").slice(0, 6),
-        station_no: String(r.RNTL_NO ?? ""),
-        station_name: String(r.RNTL_NM ?? ""),
-        rent_cnt: Number(r.RNTL_QTY ?? 0),
-        rtn_cnt: Number(r.RTN_CNT ?? 0),
-      }));
-    case "cycleForeignerRentDayInfo":
-      return rows.map((r) => ({
-        date: String(r.RNTL_YMD ?? ""),
         station_no: String(r.RNTL_NO ?? ""),
         station_name: String(r.RNTL_NM ?? ""),
         rent_cnt: Number(r.RNTL_QTY ?? 0),
