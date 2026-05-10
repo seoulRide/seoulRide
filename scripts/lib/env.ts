@@ -4,18 +4,21 @@ import path from "node:path";
 const ROOT = path.resolve(import.meta.dirname, "../..");
 
 export async function loadEnv(): Promise<Record<string, string>> {
+  const out: Record<string, string> = {};
   const file = path.join(ROOT, ".env.local");
   try {
     const txt = await fs.readFile(file, "utf8");
-    const out: Record<string, string> = {};
     for (const line of txt.split("\n")) {
       const m = line.match(/^([A-Z_][A-Z0-9_]*)=(.*)$/);
       if (m) out[m[1]] = m[2].trim().replace(/^['"]|['"]$/g, "");
     }
-    return out;
   } catch {
-    return {};
+    // no .env.local — fall back entirely to process.env (CI path)
   }
+  for (const [k, v] of Object.entries(process.env)) {
+    if (v && !(k in out)) out[k] = v;
+  }
+  return out;
 }
 
 export const PATHS = {
