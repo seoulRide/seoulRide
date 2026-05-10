@@ -206,7 +206,7 @@ export const NaverMap = forwardRef<NaverMapHandle, NaverMapProps>(function Naver
       zoom,
       minZoom,
       logoControl: true,
-      logoControlOptions: { position: n.maps.Position?.TOP_LEFT ?? 0 },
+      logoControlOptions: { position: n.maps.Position?.TOP_RIGHT ?? 2 },
       mapDataControl: false,
       mapTypeControl: false,
       scaleControl: false,
