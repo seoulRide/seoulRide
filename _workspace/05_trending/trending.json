@@ -5,9 +5,9 @@
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
     "mention_count": 62,
-    "sentiment_avg": 0.4838709677419355,
-    "summary_ko": "종로구 서린빌딩 주변은 경복궁, 북촌한옥마을, 서촌으로 유명. 광화문 광장은 시위로 인해 부정적이기도. (mention 62, sent 0.48)",
-    "summary_en": "Jongno-gu's Seorin Bldg. area buzzes with Gyeongbokgung, Bukchon, Seochon. Gwanghwamun mixed due to protests. (62, 0.48)",
+    "sentiment_avg": 0.6451612903225806,
+    "summary_ko": "종로구 SK 서린빌딩 근처 경복궁 야간 개장과 세종대왕 동상, 북촌 한옥 마을 등 역사 명소 인기. 광화문 광장은 시위 주의.",
+    "summary_en": "Jongno-gu's SK Serin Building area buzzes with Gyeongbokgung night openings, King Sejong statue, Bukchon Hanok Village. Caution at Gwanghwamun Square protests.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-04-20",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-04-20",
@@ -17,85 +17,41 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t902b8/gyeongbokgung_tomorrow0511/",
-        "title": "Gyeongbokgung tomorrow.(05/11)",
-        "snippet": "Gyeongbokgung palace or Bukchon hanok village",
+        "url": "https://www.reddit.com/r/seoul/comments/1t9wsxd/old_seoul_vibes_at_dongmyo/",
+        "title": "Old Seoul vibes at Dongmyo",
+        "snippet": "Old Seoul vibes at Dongmyo",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t902b8/gyeongbokgung_tomorrow0511/",
-        "title": "Gyeongbokgung tomorrow.(05/11)",
-        "snippet": "Gyeongbokgung palace or Bukchon hanok village",
+        "url": "https://www.reddit.com/r/seoul/comments/1t9vld4/king_세종/",
+        "title": "King 세종",
+        "snippet": "While not explicitly mentioned in the snippet, the 'Statue of King Sejong' in Gwanghwamun Square (Jongno-gu) is a well-known Seoul landmark associated with King Sejong, which a foreign visitor could plausibly visit.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/korea/comments/1t8dma2/dmz_have_any_koreanborn_foreigners_felt_deep/",
-        "title": "DMZ - Have any Korean-born foreigners felt deep sadness or sorrow visiting the border?",
-        "snippet": "Gwanghwamun Square and Daewoo building (now Mercedes Benz- We Work building directly opp. Seoul station). Due to rioting and demonstrations which led to martial law/death of a civilian in front of my parents’ shops, business became increasingly challenging and we ended up moving ",
-        "source": "reddit_korea"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
-        "source": "visit_seoul"
-      }
-    ],
-    "updated_at": "2026-05-10T21:52:39.745Z"
-  },
-  {
-    "station_no": "ST-207",
-    "station_name_ko": "서강대역 2번출구 앞",
-    "gu_ko": "마포구",
-    "gu_en": "Mapo-gu",
-    "mention_count": 44,
-    "sentiment_avg": 0.4772727272727273,
-    "summary_ko": "마포구 서강대역 주변은 홍대, 연남동 인기로 카페/파티룸 증가. Addictea 폐점 등 일부 부정적. (44, 0.48)",
-    "summary_en": "Mapo-gu Sogang Univ. Stn. area near Hongdae/Yeonnam. Cafes/parties but some closures. (44, 0.48)",
-    "related_event_ids": [
-      "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
-      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 주말 오후 3시|신촌 일대|2026-02-01",
-      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 주말 오후3시|신촌 일대|2026-02-01",
-      "[마포구립서강도서관] 5월/초등 고학년을 위한 ai 강연 [꿈꾸는 it 놀이터]|마포구립서강도서관 3층 세미나실|2026-05-16",
-      "[마포구립서강도서관] 5월 문화프로그램 안내|마포구립서강도서관|2026-05-02"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1t8x1za/need_help_in_yeonnam/",
-        "title": "need help, in Yeonnam",
-        "snippet": "in Yeonnam",
+        "url": "https://www.reddit.com/r/seoul/comments/1ta4x3o/bukchon_hanok_village/",
+        "title": "Bukchon Hanok Village",
+        "snippet": "Bukchon Hanok Village",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9jebw/any_recs_for_body_scrub_for_men_in_seoul/",
-        "title": "Any recs for body scrub for men in Seoul?",
-        "snippet": "preferably in Hongdae or itaewon",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1t954wv/meetup_indoor_camping_party_room_in_hongdae_this/",
-        "title": "Meetup — Indoor camping party room in Hongdae this Sunday (May 17)!",
-        "snippet": "Indoor camping-style party room in Hongdae",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1t954wv/meetup_indoor_camping_party_room_in_hongdae_this/",
-        "title": "Meetup — Indoor camping party room in Hongdae this Sunday (May 17)!",
-        "snippet": "Indoor camping-style party room in Hongdae",
+        "url": "https://www.reddit.com/r/seoul/comments/1t9wuby/dont_miss_out_gyeongbokgung_palace_night_opening/",
+        "title": "Don't miss out: Gyeongbokgung Palace Night Opening starts next week (May 13 - June 14)",
+        "snippet": "Don't miss out: Gyeongbokgung Palace Night Opening starts next week (May 13 - June 14)",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-10T21:52:39.745Z"
+    "updated_at": "2026-05-11T22:12:18.725Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 41,
-    "sentiment_avg": 0.5365853658536586,
-    "summary_ko": "성동구 서울숲 주변은 성수동 도시재생 성공. MZ세대 선호 카페/공방 밀집. 2026 정원박람회 예정. (41, 0.54)",
-    "summary_en": "Seongdong-gu Seoul Forest area thrives with Seongsu-dong's revamped cafes/workshops. 2026 Garden Expo. (41, 0.54)",
+    "mention_count": 45,
+    "sentiment_avg": 0.5333333333333333,
+    "summary_ko": "성동구 서울숲 근처 성수동 카페거리와 라이프스타일 샵 탐방. 2026 정원 박람회 예정으로 관심 증가 중.",
+    "summary_en": "Seongdong-gu's Seoul Forest and Seongsu-dong cafes attract visitors. Upcoming 2026 Seoul International Garden Expo generates buzz.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
@@ -105,41 +61,129 @@
     ],
     "sources": [
       {
+        "url": "https://www.reddit.com/r/seoul/comments/1t9wtbn/seoul_forest_or_seongsudong_why_you_should/",
+        "title": "Seoul Forest or Seongsu-dong? Why you should actually do both in one day.",
+        "snippet": "Seoul Forest or Seongsu-dong? Why you should actually do both in one day.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t9wtbn/seoul_forest_or_seongsudong_why_you_should/",
+        "title": "Seoul Forest or Seongsu-dong? Why you should actually do both in one day.",
+        "snippet": "Seoul Forest or Seongsu-dong? Why you should actually do both in one day.",
+        "source": "reddit_seoul"
+      },
+      {
         "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "snippet": "aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong",
         "source": "visit_seoul"
       },
       {
-        "url": "https://www.seoul.co.kr/news/politics/local-election2026/2026/05/11/20260511005003?wlog_tag3=naver",
-        "title": "정원오 “용산 왜 내버려뒀나”… 오세훈 “文·朴 10년은 왜 빼나”",
-        "snippet": "문래동 예술촌, 성수동 모델을 서울 전역으로 확산시키겠다",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.ytn.co.kr/_ln/0101_202605101841368642",
-        "title": "정원오 \"관광객 3천만 달성하겠다...관광특구 신설\"",
-        "snippet": "성동구청장 재임 시절 버려진 공장 창고를 카페나 갤러리, 공방으로 재탄생시킨 도시재생 성공 사례를 들며, 문래동과 성수동 등의 모델을 서울 전역으로 확산시키겠다고 설명했습니다.",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.ytn.co.kr/_ln/0101_202605101841368642",
-        "title": "정원오 \"관광객 3천만 달성하겠다...관광특구 신설\"",
-        "snippet": "성동구청장 재임 시절 버려진 공장 창고를 카페나 갤러리, 공방으로 재탄생시킨 도시재생 성공 사례를 들며, 문래동과 성수동 등의 모델을 서울 전역으로 확산시키겠다고 설명했습니다.",
+        "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=50351",
+        "title": "이지홍 혼다코리아 대표, 올해 쌍끌이 전략 '부릉부릉'…4륜·2륜 車 투...",
+        "snippet": "혼다코리아가 이를 고려해 13일부터 31일까지 서울 성수동 한 카페에서 인기 이륜차 슈퍼커브를 전시한다고 12일 밝혔다.",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-10T21:52:39.745Z"
+    "updated_at": "2026-05-11T22:12:18.725Z"
+  },
+  {
+    "station_no": "ST-207",
+    "station_name_ko": "서강대역 2번출구 앞",
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "mention_count": 40,
+    "sentiment_avg": 0.65,
+    "summary_ko": "마포구 서강대역 인근 홍대, 난지 한강 캠핑장 등 젊은이들의 핫플레이스. 도서관 AI 강연 등 교육 행사도 진행 중.",
+    "summary_en": "Mapo-gu's Sogang Univ. Station area buzzes with Hongdae, Nanji Camping. Library AI talks and Shinchon walking tours ongoing.",
+    "related_event_ids": [
+      "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
+      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 주말 오후 3시|신촌 일대|2026-02-01",
+      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 주말 오후3시|신촌 일대|2026-02-01",
+      "[마포구립서강도서관] 5월/초등 고학년을 위한 ai 강연 [꿈꾸는 it 놀이터]|마포구립서강도서관 3층 세미나실|2026-05-16",
+      "[마포구립서강도서관] 5월 문화프로그램 안내|마포구립서강도서관|2026-05-02"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ta1pvq/hongdae_street/",
+        "title": "Hongdae street",
+        "snippet": "Hongdae street",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ta5zhn/hanwoo_bbq_meetup_at_nanji_hangang_camping_site/",
+        "title": "Hanwoo BBQ meetup at Nanji Hangang Camping Site in Seoul on May 13th Dinner 2spot open",
+        "snippet": "Hanwoo BBQ meetup at Nanji Hangang Camping Site in Seoul on May 13th",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ta0nk9/can_foreigners_attend_korean_university_festivals/",
+        "title": "Can foreigners attend Korean university festivals?",
+        "snippet": "The specific schools I saw are soongsil, yonsei and Hongik",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/korea/comments/1t9z5m0/pc_bang_guide_for_tourists_wrote_this_up_because/",
+        "title": "pc bang guide for tourists — wrote this up because I see the same questions every week",
+        "snippet": "a premium one in Hongdae or Dongdaemun are completely different experiences",
+        "source": "reddit_korea"
+      }
+    ],
+    "updated_at": "2026-05-11T22:12:18.725Z"
+  },
+  {
+    "station_no": "ST-2525",
+    "station_name_ko": "저동2가 22-1",
+    "gu_ko": "중구",
+    "gu_en": "Jung-gu",
+    "mention_count": 32,
+    "sentiment_avg": 0.375,
+    "summary_ko": "중구 저동2가 근처 명동 역사와 을지로 분위기 탐방. 이순신로드 걷기 프로그램 등 도보 관광 활성화 중.",
+    "summary_en": "Jung-gu's Jeodong 2-ga area features Myeongdong history tours and Euljiro vibes. Walking programs like Admiral Yi Road drive interest.",
+    "related_event_ids": [
+      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-04-20",
+      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-04-20",
+      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-04-20",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-04-20",
+      "중구 수요일 달밤에서 별밤으로 남산 야간 트레킹|매경미디어센터빌딩|2026-05-06"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t9uq30/myeongdong_now/",
+        "title": "Myeongdong now",
+        "snippet": "Myeongdong now",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1t9vld4/king_세종/",
+        "title": "King 세종",
+        "snippet": "King 세종 (Sejong) is referenced in the context of Seoul, and '세종대로' (Sejong-daero) is a major street in Seoul named after King Sejong, located in Jung-gu district. It is a plausible physical location a foreign visitor could visit.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ta0tgj/transit_in_incheon_airport/",
+        "title": "Transit in Incheon Airport",
+        "snippet": "Transit in Incheon Airport",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/korea/comments/1t9z5m0/pc_bang_guide_for_tourists_wrote_this_up_because/",
+        "title": "pc bang guide for tourists — wrote this up because I see the same questions every week",
+        "snippet": "a premium one in Hongdae or Dongdaemun are completely different experiences",
+        "source": "reddit_korea"
+      }
+    ],
+    "updated_at": "2026-05-11T22:12:18.725Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 25,
-    "sentiment_avg": 0.36,
-    "summary_ko": "용산구 서빙고동 주변은 이태원 접근. 용산가족공원 텃밭/체험 프로그램 진행. (25, 0.36)",
-    "summary_en": "Yongsan-gu Seobinggo-dong near Itaewon. Yongsan Family Park has gardening/forest activities. (25, 0.36)",
+    "mention_count": 28,
+    "sentiment_avg": 0.17857142857142858,
+    "summary_ko": "용산구 서빙고동 근처 이태원 클리닉, 경리단길 살롱 부클레 등 소수 명소. 한남동 리움미술관 인근은 시위 주의.",
+    "summary_en": "Yongsan-gu's Seobinggo-dong area has Itaewon clinics and Gyeongnidan-gil cafes. Protests near Hannam-dong's Leeum Museum noted.",
     "related_event_ids": [
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
@@ -149,72 +193,30 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9jebw/any_recs_for_body_scrub_for_men_in_seoul/",
-        "title": "Any recs for body scrub for men in Seoul?",
-        "snippet": "preferably in Hongdae or itaewon",
+        "url": "https://www.reddit.com/r/seoul/comments/1ta2i1t/looking_for_reality_check_foreign_physiotherapist/",
+        "title": "Looking for reality check: Foreign Physiotherapist with Master's in Seoul?",
+        "snippet": "I've been researching the Seoul market and I've heard that for foreigners with a Master's, there's a niche in international clinics (Itaewon/Gangnam) or high-end private hospitals (like Samsung or Severance) that pay significantly better than the local average to handle expat/VIP",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t92rzp/recommended_shopsplaces_that_sells_secondhand/",
-        "title": "Recommended shops/places that sells secondhand camera & lens",
-        "snippet": "I heard that Yongsan is the place but read that its not worth to go",
+        "url": "https://www.reddit.com/r/seoul/comments/1ta1lu0/review_a_creative_directors_journey_from_salon/",
+        "title": "[Review] A Creative Director's Journey from Salon there's to Salon Bouclé: The Pinnacle of Hair Artistry in Seoul",
+        "snippet": "Salon Bouclé in Gyeongnidan-gil",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/korea/comments/1t8dma2/dmz_have_any_koreanborn_foreigners_felt_deep/",
-        "title": "DMZ - Have any Korean-born foreigners felt deep sadness or sorrow visiting the border?",
-        "snippet": "Daewoo building (now Mercedes Benz- We Work building directly opp. Seoul station)",
-        "source": "reddit_korea"
+        "url": "https://www.reddit.com/r/seoul/comments/1ta1lu0/review_a_creative_directors_journey_from_salon/",
+        "title": "[Review] A Creative Director's Journey from Salon there's to Salon Bouclé: The Pinnacle of Hair Artistry in Seoul",
+        "snippet": "Salon Bouclé in Gyeongnidan-gil",
+        "source": "reddit_seoul"
       },
       {
-        "url": "https://www.etoday.co.kr/news/view/2579857",
-        "title": "1인가구 따라가는 무인점포...관악·강서 '빨래방', 학군지는 '스터디카...",
-        "snippet": "무인사진관은 서울 전역에 총 374개가 있는데 전체의 약 29%가 홍대(마포구 소재), 익선동과 서촌 등(종로구 소재), 이태원(용산구 소재) 주요 관광지 3곳에 쏠려 있었다",
+        "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605071651009320104987",
+        "title": "[더벨][K-갤러리 경영 리포트] 내실 다진 가나아트한남, 글로벌 확장 전...",
+        "snippet": "평창동이 비교적 접근성이 떨어지는 지역인만큼 지리적 약점을 보완하기 위해 한남동으로 전시 거점을... 2세 경영 체제가 본격화되면서 매출의 무게추 역시 한남동 사업 중심으로 이동한 것으로 풀이된다.",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-10T21:52:39.745Z"
-  },
-  {
-    "station_no": "ST-302",
-    "station_name_ko": "도림신협 앞",
-    "gu_ko": "영등포구",
-    "gu_en": "Yeongdeungpo-gu",
-    "mention_count": 18,
-    "sentiment_avg": 0.5555555555555556,
-    "summary_ko": "영등포구 도림신협 주변은 문래동 예술촌 영향. 영등포타임스퀘어/생활문화센터 프로그램 진행. (18, 0.56)",
-    "summary_en": "Yeongdeungpo-gu Dorim area near Mullae Art Village. Times Square/art programs. (18, 0.56)",
-    "related_event_ids": [
-      "[영등포문화재단] 2026 도림 생활문화센터 특별프로그램|도림 생활문화센터(영등포구 도신로 33길 4)|2026-04-02",
-      "[영등포문화재단] 도림생활문화센터 2026 사계절클래스 [봄] 프로그램|도림 생활문화센터|2026-03-18",
-      "서울형 키즈카페 영등포구 신길4동점|서울특별시 영등포구 신길로40길 5 육아종합지원센터 3층 (신길동)|2026-05-07"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1t836o3/yeouido_heaven/",
-        "title": "Yeouido heaven",
-        "snippet": "[reddit_seoul] Yeouido heaven",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
-        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "When you step into the first-floor atrium of Yeongdeungpo Times Square, a massive Christmas tree that seems to reach the ceiling welcomes you. It stands at an impressive 13 meters.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://www.seoul.co.kr/news/politics/local-election2026/2026/05/11/20260511005003?wlog_tag3=naver",
-        "title": "정원오 “용산 왜 내버려뒀나”… 오세훈 “文·朴 10년은 왜 빼나”",
-        "snippet": "문래동 예술촌, 성수동 모델을 서울 전역으로 확산시키겠다",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.ytn.co.kr/_ln/0101_202605101841368642",
-        "title": "정원오 \"관광객 3천만 달성하겠다...관광특구 신설\"",
-        "snippet": "성동구청장 재임 시절 버려진 공장 창고를 카페나 갤러리, 공방으로 재탄생시킨 도시재생 성공 사례를 들며, 문래동과 성수동 등의 모델을 서울 전역으로 확산시키겠다고 설명했습니다.",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-05-10T21:52:39.745Z"
+    "updated_at": "2026-05-11T22:12:18.725Z"
   }
 ]
