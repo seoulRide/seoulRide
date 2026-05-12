@@ -1,7 +1,9 @@
 name: trending-daily
 
-# Daily refresh of _workspace/05_trending/trending.json — the AI hotplace
-# pipeline (Reddit + Visit Seoul + NAVER → Solar Pro 2 extract + synthesize).
+# Daily refresh of the AI hotplace pipeline (Reddit + Visit Seoul + NAVER →
+# Solar Pro 2 extract + synthesize). Primary sink is Supabase (web reads via
+# anon key with 1h ISR). The committed mobile-assets snapshot is the offline
+# fallback.
 # Runs at 21:00 UTC = 06:00 KST so the home page hero is fresh before the
 # Korean morning.
 
@@ -53,11 +55,14 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: pnpm upsert:trending
 
+      - name: Sync committed mobile-assets fallback
+        run: cp _workspace/05_trending/trending.json apps/mobile/assets/data/trending.json
+
       - name: Commit + push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add _workspace/05_trending/trending.json
+          git add apps/mobile/assets/data/trending.json
           if git diff --cached --quiet; then
             echo "No change."
           else

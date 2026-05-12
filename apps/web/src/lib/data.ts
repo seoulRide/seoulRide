@@ -18,13 +18,15 @@ import { getSupabase, hasSupabase } from "./supabase";
 const WS = path.resolve(process.cwd(), "../../_workspace");
 const MOBILE_ASSETS = path.resolve(process.cwd(), "../mobile/assets/data");
 
-// When the pipeline output under _workspace/ is missing (fresh clone, CI),
-// fall back to the committed copy under apps/mobile/assets/data/. Keys here
-// are workspace-relative paths; values are mobile asset filenames.
+// Source of truth is Supabase. These local file paths only kick in when
+// SUPABASE_URL/ANON_KEY are unset (local dev) or a Supabase request fails.
+// Keys here are workspace-relative paths; values are mobile asset filenames
+// (committed daily by the bike-daily / events-daily / trending-daily crons).
 const MOBILE_FALLBACK: Record<string, string> = {
   "02_analytics/popular_stations.json": "popular_stations.json",
   "03_curation/events_by_station.json": "events_by_station.json",
-  "04_weather/forecast_by_gu.json": "forecast_by_gu.json",
+  "05_trending/trending.json": "trending.json",
+  "05_trending/trending.sample.json": "trending.sample.json",
 };
 
 async function readJson<T>(rel: string, parser: { parse: (x: unknown) => T }): Promise<T> {

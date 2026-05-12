@@ -31,16 +31,11 @@ coverage/
 .nyc_output/
 *.lcov
 
-# Harness intermediate artifacts (regeneratable, may contain API responses)
-_workspace/*
+# Harness intermediate artifacts (regeneratable, may contain API responses).
+# Source of truth for trending/popular_stations/events is now Supabase + the
+# committed mobile-assets fallback under apps/mobile/assets/data/.
+_workspace/
 _workspace_prev_*/
-# Exception: the daily AI trending pipeline commits its canonical output +
-# a baked-in sample so the UI never renders a blank hero. Other intermediate
-# artifacts under 05_trending/ (raw/, extracted/, aggregated.json) stay ignored.
-!_workspace/05_trending/
-_workspace/05_trending/*
-!_workspace/05_trending/trending.sample.json
-!_workspace/05_trending/trending.json
 
 # Cached API responses (regeneratable, may contain ToS-restricted data)
 data/cache/
