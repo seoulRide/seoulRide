@@ -4,14 +4,13 @@ name: trending-daily
 # Solar Pro 2 extract + synthesize). Primary sink is Supabase (web reads via
 # anon key with 1h ISR). The committed mobile-assets snapshot is the offline
 # fallback.
-# Runs at 23:00 UTC = 08:00 KST — last of three daily crons (bike 06:00 →
-# events 07:00 → trending 08:00), all shifted clear of the Korean gov't
-# system maintenance window (02:00~05:00 KST) per earlier outages on the
-# Seoul OpenAPI backend during early-morning hours.
+# Runs at 21:00 UTC = 06:00 KST in parallel with bike-daily and events-daily,
+# outside the Korean gov't system maintenance window (02:00~05:00 KST) per
+# earlier outages on the Seoul OpenAPI backend during early-morning hours.
 
 on:
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "0 21 * * *"
   workflow_dispatch: # manual trigger for first run / debugging
 
 permissions:

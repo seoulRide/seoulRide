@@ -1,14 +1,14 @@
 name: events-daily
 
 # Daily refresh of cultural events curated to popular stations.
-# Runs at 22:00 UTC = 07:00 KST — after bike-daily (06:00 KST) so the
-# committed popular_stations.json (mobile fallback) is fresh, and before
-# trending-daily (08:00 KST). All shifted +2h vs original schedule to
-# clear the Korean gov't system maintenance window (02:00~05:00 KST).
+# Runs at 21:00 UTC = 06:00 KST in parallel with bike-daily and trending-daily
+# (outside Korean gov't system maintenance window 02:00~05:00 KST). Reads
+# popular_stations from the committed mobile-assets fallback (yesterday's
+# snapshot) — fine because monthly-aggregate ranking is near-static.
 
 on:
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "0 21 * * *"
   workflow_dispatch:
 
 permissions:
