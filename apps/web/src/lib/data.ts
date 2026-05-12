@@ -68,12 +68,33 @@ export async function getPopularStations(): Promise<PopularStation[]> {
   return readJson("02_analytics/popular_stations.json", PopularStations);
 }
 
-// Module-level cache so /events doesn't re-read the 559 KB JSON + re-run
-// zod validation on every searchParams change (lang/status/price toggle).
+const getEventsByStationFromSupabase = unstable_cache(
+  async (): Promise<EventsByStationType> => {
+    const sb = getSupabase();
+    const { data, error } = await sb
+      .from("events_by_station")
+      .select("station_no, events");
+    if (error) throw error;
+    const obj: Record<string, unknown> = {};
+    for (const row of (data ?? []) as Array<{ station_no: string; events: unknown }>) {
+      obj[row.station_no] = row.events;
+    }
+    return EventsByStation.parse(obj);
+  },
+  ["events-by-station-v1"],
+  { revalidate: 3600, tags: ["events-by-station"] },
+);
+
+// Module-level cache so /events doesn't re-validate the same 50 station entries
+// on every searchParams change (lang/status/price toggle).
 let _eventsByStation: EventsByStationType | null = null;
 export async function getEventsByStation(): Promise<EventsByStationType> {
   if (_eventsByStation) return _eventsByStation;
-  _eventsByStation = await readJson("03_curation/events_by_station.json", EventsByStation);
+  if (hasSupabase()) {
+    _eventsByStation = await getEventsByStationFromSupabase();
+  } else {
+    _eventsByStation = await readJson("03_curation/events_by_station.json", EventsByStation);
+  }
   return _eventsByStation;
 }
 
@@ -85,12 +106,48 @@ export async function getWeatherByGu(): Promise<WeatherByGu> {
   return getCachedWeatherByGu(guList);
 }
 
+const getTrendingFromSupabase = unstable_cache(
+  async (): Promise<TrendingByStationType> => {
+    const sb = getSupabase();
+    const { data, error } = await sb
+      .from("trending")
+      .select(
+        "station_no, station_name_ko, gu_ko, gu_en, mention_count, sentiment_avg, summary_ko, summary_en, related_event_ids, sources, entry_updated_at",
+      )
+      .order("rank", { ascending: true });
+    if (error) throw error;
+    const reshaped = (data ?? []).map((r: Record<string, unknown>) => ({
+      station_no: r.station_no,
+      station_name_ko: r.station_name_ko,
+      gu_ko: r.gu_ko,
+      gu_en: r.gu_en,
+      mention_count: r.mention_count,
+      sentiment_avg: r.sentiment_avg,
+      summary_ko: r.summary_ko,
+      summary_en: r.summary_en,
+      related_event_ids: r.related_event_ids,
+      sources: r.sources,
+      updated_at: r.entry_updated_at ?? new Date().toISOString(),
+    }));
+    return TrendingByStation.parse(reshaped);
+  },
+  ["trending-v1"],
+  { revalidate: 3600, tags: ["trending"] },
+);
+
 /**
- * Returns the daily-refreshed trending list. Tries the canonical
- * `trending.json` first; falls back to `trending.sample.json` so the UI
- * still renders during Phase 1 before the live pipeline is wired up.
+ * Returns the daily-refreshed trending list. Reads from Supabase when
+ * configured; falls back to `_workspace/05_trending/trending.json` then to
+ * `trending.sample.json` so local dev without Supabase still renders.
  */
 export async function getTrending(): Promise<TrendingByStationType> {
+  if (hasSupabase()) {
+    try {
+      return await getTrendingFromSupabase();
+    } catch (e) {
+      console.warn("trending Supabase fetch failed, falling back to JSON:", e);
+    }
+  }
   try {
     return await readJson("05_trending/trending.json", TrendingByStation);
   } catch {
