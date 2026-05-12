@@ -13,6 +13,7 @@
     "upsert:popular_stations": "tsx scripts/upsert/popular_stations.ts",
     "upsert:events": "tsx scripts/upsert/events_by_station.ts",
     "upsert:trending": "tsx scripts/upsert/trending.ts",
+    "pick:recommendations": "tsx scripts/curation/recommendations-pick.ts",
     "qa": "tsx scripts/qa/run-checks.ts",
     "pipeline": "pnpm ingest && pnpm analyze:bike && pnpm curate:events && pnpm translate:events && pnpm translate:stations && pnpm qa",
     "trending:smoke": "tsx scripts/trending/_smoke.ts",

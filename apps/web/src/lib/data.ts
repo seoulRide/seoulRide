@@ -6,10 +6,12 @@ import {
   PopularStations,
   EventsByStation,
   TrendingByStation,
+  RecommendationPicks,
   type PopularStation,
   type StationMasterEntry,
   type TrendingByStation as TrendingByStationType,
   type EventsByStation as EventsByStationType,
+  type RecommendationPicks as RecommendationPicksType,
   type WeatherByGu,
 } from "./types";
 import { getCachedWeatherByGu } from "./weather";
@@ -148,6 +150,33 @@ export async function getTrending(): Promise<TrendingByStationType> {
     return await readJson("05_trending/trending.json", TrendingByStation);
   } catch {
     return readJson("05_trending/trending.sample.json", TrendingByStation);
+  }
+}
+
+const getAllRecommendationsFromSupabase = unstable_cache(
+  async (): Promise<RecommendationPicksType> => {
+    const sb = getSupabase();
+    const { data, error } = await sb
+      .from("daily_recommendations")
+      .select("anchor_station_no, rank, event_id, reason_ko, reason_en, distance_km")
+      .order("anchor_station_no", { ascending: true })
+      .order("rank", { ascending: true });
+    if (error) throw error;
+    return RecommendationPicks.parse(data);
+  },
+  ["recommendations-all-v1"],
+  { revalidate: 3600, tags: ["recommendations"] },
+);
+
+/** 모든 anchor의 AI 추천 picks를 한 번에 가져옴 (50 anchor × 5 = ~250 row).
+ *  웹앱은 사용자 geolocation으로 nearest anchor를 클라이언트에서 매칭. */
+export async function getAllRecommendations(): Promise<RecommendationPicksType> {
+  if (!hasSupabase()) return [];
+  try {
+    return await getAllRecommendationsFromSupabase();
+  } catch (e) {
+    console.warn("recommendations fetch failed:", e);
+    return [];
   }
 }
 

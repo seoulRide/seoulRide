@@ -60,6 +60,13 @@ export interface ExplorerEvent {
   start: string;
   end: string;
   url: string;
+  /** Optional AI-curated reason — present when this event is one of the
+   *  5 picks for the user's nearest popular bike station. */
+  pick?: {
+    rank: number;
+    reason_ko: string;
+    reason_en: string;
+  };
 }
 
 export interface BikeStation {
@@ -562,11 +569,19 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
         "relative shrink-0 w-[80vw] max-w-md rounded-2xl bg-white dark:bg-zinc-950 border shadow-lg p-4 flex flex-col gap-2 cursor-pointer outline-none",
         selected
           ? "border-emerald-500 ring-2 ring-emerald-500/30"
-          : "border-zinc-200 dark:border-zinc-800 focus-visible:ring-2 focus-visible:ring-zinc-400",
+          : event.pick
+            ? "border-violet-300 dark:border-violet-700 ring-1 ring-violet-200 dark:ring-violet-900 focus-visible:ring-2 focus-visible:ring-violet-400"
+            : "border-zinc-200 dark:border-zinc-800 focus-visible:ring-2 focus-visible:ring-zinc-400",
       ].join(" ")}
       style={{ scrollSnapAlign: "center" }}
     >
       <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-semibold">
+        {event.pick && (
+          <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-gradient-to-r from-violet-100 to-fuchsia-100 text-violet-700 dark:from-violet-950 dark:to-fuchsia-950 dark:text-violet-300">
+            <span aria-hidden>✨</span>
+            <span>{lang === "ko" ? `AI 추천 #${event.pick.rank}` : `AI Pick #${event.pick.rank}`}</span>
+          </span>
+        )}
         <span
           className={[
             "px-1.5 py-0.5 rounded",
@@ -597,6 +612,13 @@ const ExplorerCard = forwardRef<HTMLDivElement, ExplorerCardProps>(function Expl
       </div>
       <h3 className="text-base font-semibold leading-tight line-clamp-2 min-h-[2.6em]">{title}</h3>
       <p className="text-xs text-zinc-500 line-clamp-1">{venue}</p>
+      {event.pick && (
+        <p className="mt-1 text-xs italic text-violet-700 dark:text-violet-400 line-clamp-2 leading-snug">
+          <span aria-hidden className="mr-1">“</span>
+          {lang === "ko" ? event.pick.reason_ko : event.pick.reason_en}
+          <span aria-hidden className="ml-1">”</span>
+        </p>
+      )}
 
       {/* Footer pinned to card bottom — single row: external link on the left,
           route label + provider icons on the right */}

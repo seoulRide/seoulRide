@@ -113,3 +113,16 @@ export type TrendingEntry = z.infer<typeof TrendingEntry>;
 export const TrendingByStation = z.array(TrendingEntry);
 export type TrendingByStation = z.infer<typeof TrendingByStation>;
 
+/** AI-curated daily recommendation (one anchor's pick at given rank). */
+export const RecommendationPick = z.object({
+  anchor_station_no: z.string(),
+  rank: z.number(),
+  event_id: z.string(),
+  reason_ko: z.string(),
+  reason_en: z.string(),
+  distance_km: z.number(),
+});
+export type RecommendationPick = z.infer<typeof RecommendationPick>;
+export const RecommendationPicks = z.array(RecommendationPick);
+export type RecommendationPicks = z.infer<typeof RecommendationPicks>;
+

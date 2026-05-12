@@ -2,7 +2,12 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { BottomTabNav } from "@/components/BottomTabNav";
 import { NearbyClient } from "@/components/NearbyClient";
 import type { BikeStation } from "@/components/EventExplorer";
-import { getEventsByStation, getAllStationsLite } from "@/lib/data";
+import {
+  getEventsByStation,
+  getAllStationsLite,
+  getPopularStations,
+  getAllRecommendations,
+} from "@/lib/data";
 import { useLangFromSearch, type Lang } from "@/lib/i18n";
 import type { EventEntry } from "@/lib/types";
 
@@ -14,13 +19,21 @@ export default async function NearbyPage({
   const sp = await searchParams;
   const lang: Lang = useLangFromSearch(sp);
   const focusId = sp.focus ? decodeURIComponent(sp.focus) : undefined;
-  const [eventsAll, allStations] = await Promise.all([
+  const [eventsAll, allStations, popularStations, recommendations] = await Promise.all([
     getEventsByStation(),
     getAllStationsLite(),
+    getPopularStations(),
+    getAllRecommendations(),
   ]);
   const stations: BikeStation[] = allStations.map((s) => ({
     station_no: s.station_no,
     name: s.name,
+    lat: s.lat,
+    lng: s.lng,
+  }));
+  // Lean anchors list for the client (only fields needed for nearest-anchor matching).
+  const popularAnchors = popularStations.map((s) => ({
+    station_no: s.station_no,
     lat: s.lat,
     lng: s.lng,
   }));
@@ -39,7 +52,14 @@ export default async function NearbyPage({
     <>
       <SiteHeader lang={lang} />
       <main className="relative pb-0">
-        <NearbyClient events={events} stations={stations} focusId={focusId} lang={lang} />
+        <NearbyClient
+          events={events}
+          stations={stations}
+          popularAnchors={popularAnchors}
+          recommendations={recommendations}
+          focusId={focusId}
+          lang={lang}
+        />
       </main>
       <BottomTabNav lang={lang} />
     </>
