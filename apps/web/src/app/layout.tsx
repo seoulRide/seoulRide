@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { NaverSdkScript } from "@/components/NaverSdkScript";
+import { OnboardingGate } from "@/components/OnboardingGate";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -63,7 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           the static 100vh that min-h-screen resolves to leaks an extra strip
           underneath. */}
       <body className="min-h-dvh bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50">
-        {children}
+        <OnboardingGate>{children}</OnboardingGate>
         <NaverSdkScript />
       </body>
     </html>
