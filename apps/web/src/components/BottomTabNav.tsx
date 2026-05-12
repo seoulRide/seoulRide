@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { t, type Lang } from "@/lib/i18n";
 
-type TabName = "map" | "nearby" | "events" | "about";
+type TabName = "map" | "nearby" | "events";
 
 function TabIcon({ name, active }: { name: TabName; active: boolean }) {
   const opacity = active ? 1 : 0.6;
@@ -24,18 +24,10 @@ function TabIcon({ name, active }: { name: TabName; active: boolean }) {
       </svg>
     );
   }
-  if (name === "events") {
-    return (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" style={{ opacity }} aria-hidden>
-        <rect x="3" y="5" width="18" height="16" rx="2" />
-        <path d="M3 9h18M8 3v4M16 3v4" />
-      </svg>
-    );
-  }
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" style={{ opacity }} aria-hidden>
-      <circle cx="12" cy="12" r="9" />
-      <path d="M12 8v.01M11 12h1v4h1" />
+      <rect x="3" y="5" width="18" height="16" rx="2" />
+      <path d="M3 9h18M8 3v4M16 3v4" />
     </svg>
   );
 }
@@ -59,7 +51,6 @@ export function BottomTabNav({ lang }: { lang: Lang }) {
     },
     { name: "nearby", href: `/nearby${lngQs}`, label: t("nav.nearby", lang), match: (p) => p.startsWith("/nearby") },
     { name: "events", href: `/events${lngQs}`, label: t("nav.events", lang), match: (p) => p.startsWith("/events") },
-    { name: "about",  href: `/about${lngQs}`,  label: t("nav.about", lang),  match: (p) => p.startsWith("/about") },
   ];
 
   return (

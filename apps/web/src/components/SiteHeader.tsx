@@ -15,7 +15,6 @@ export function SiteHeader({ lang }: { lang: Lang }) {
           <Link className="hidden md:inline hover:underline" href={`/${lngQs}`}>{t("nav.home", lang)}</Link>
           <Link className="hidden md:inline hover:underline" href={`/nearby${lngQs}`}>{t("nav.nearby", lang)}</Link>
           <Link className="hidden md:inline hover:underline" href={`/events${lngQs}`}>{t("nav.events", lang)}</Link>
-          <Link className="hidden md:inline hover:underline" href={`/about${lngQs}`}>{t("nav.about", lang)}</Link>
           <LangToggle />
         </nav>
       </div>

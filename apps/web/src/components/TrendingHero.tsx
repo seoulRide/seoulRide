@@ -19,11 +19,6 @@ export function TrendingHero({
           {lang === "ko" ? "이번 주 뜨는 동네" : "Hot this week"}{" "}
           <span className="text-zinc-400 font-normal text-sm">({top.length})</span>
         </h2>
-        <span className="text-xs text-zinc-500">
-          {lang === "ko"
-            ? "외국인 관점 buzz · 매일 갱신"
-            : "Foreign-traveler buzz · daily refresh"}
-        </span>
       </header>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {top.map((entry) => (

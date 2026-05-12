@@ -58,7 +58,11 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50">
+      {/* min-h-dvh (dynamic viewport) keeps the bottom tab bar pinned to the
+          visual bottom on iOS Chrome when its tool-bar collapses on scroll;
+          the static 100vh that min-h-screen resolves to leaks an extra strip
+          underneath. */}
+      <body className="min-h-dvh bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50">
         {children}
         <NaverSdkScript />
       </body>
