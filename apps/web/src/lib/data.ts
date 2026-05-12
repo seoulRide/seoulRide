@@ -1,6 +1,7 @@
 import "server-only";
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { unstable_cache } from "next/cache";
 import {
   PopularStations,
   EventsByStation,
@@ -12,6 +13,7 @@ import {
   type WeatherByGu,
 } from "./types";
 import { getCachedWeatherByGu } from "./weather";
+import { getSupabase, hasSupabase } from "./supabase";
 
 const WS = path.resolve(process.cwd(), "../../_workspace");
 const MOBILE_ASSETS = path.resolve(process.cwd(), "../mobile/assets/data");
@@ -44,7 +46,25 @@ async function readMobileJson<T = unknown>(filename: string): Promise<T> {
   return JSON.parse(txt) as T;
 }
 
+const getPopularStationsFromSupabase = unstable_cache(
+  async (): Promise<PopularStation[]> => {
+    const sb = getSupabase();
+    const { data, error } = await sb
+      .from("popular_stations")
+      .select(
+        "station_no, station_name_ko, station_name_en, lat, lng, gu_ko, gu_en, address, rent_total, rank_overall, rank_in_gu, hotspot_z, is_outlier, monthly_series",
+      )
+      .order("rank_overall", { ascending: true });
+    if (error) throw error;
+    return PopularStations.parse(data);
+  },
+  ["popular-stations-v1"],
+  { revalidate: 3600, tags: ["popular-stations"] },
+);
+
 export async function getPopularStations(): Promise<PopularStation[]> {
+  if (hasSupabase()) return getPopularStationsFromSupabase();
+  // Local dev fallback when Supabase is not configured.
   return readJson("02_analytics/popular_stations.json", PopularStations);
 }
 
