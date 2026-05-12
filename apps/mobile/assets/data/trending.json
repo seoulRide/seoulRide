@@ -4,98 +4,54 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 62,
-    "sentiment_avg": 0.6451612903225806,
-    "summary_ko": "종로구 SK 서린빌딩 근처 경복궁 야간 개장과 세종대왕 동상, 북촌 한옥 마을 등 역사 명소 인기. 광화문 광장은 시위 주의.",
-    "summary_en": "Jongno-gu's SK Serin Building area buzzes with Gyeongbokgung night openings, King Sejong statue, Bukchon Hanok Village. Caution at Gwanghwamun Square protests.",
+    "mention_count": 73,
+    "sentiment_avg": 0.5205479452054794,
+    "summary_ko": "종로구 청계천과 광화문은 BTS 관련 명소로 ARMYs와 관광객이 찾지만, 창경궁과 북촌은 중립적 반응. 역사 도보 투어 활발.",
+    "summary_en": "Jongno-gu's Cheonggyecheon and Gwanghwamun attract ARMYs and tourists for BTS links, but Changgyeonggung and Bukchon have mixed interest. History walking tours are trending.",
     "related_event_ids": [
-      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-04-20",
-      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-04-20",
-      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-04-20",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-04-20",
-      "중구 수요일 달밤에서 별밤으로 남산 야간 트레킹|매경미디어센터빌딩|2026-05-06"
+      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
+      "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
+      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-07",
+      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-05-07",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-05-07"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9wsxd/old_seoul_vibes_at_dongmyo/",
-        "title": "Old Seoul vibes at Dongmyo",
-        "snippet": "Old Seoul vibes at Dongmyo",
+        "url": "https://www.reddit.com/r/seoul/comments/1taz14q/if_youre_in_seoul_dont_miss_the_lanterns_at/",
+        "title": "If you’re in Seoul, don’t miss the lanterns at Cheonggyecheon! (Buddha's Birthday celebration)",
+        "snippet": "If you’re in Seoul, don’t miss the lanterns at Cheonggyecheon! (Buddha's Birthday celebration)",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9vld4/king_세종/",
-        "title": "King 세종",
-        "snippet": "While not explicitly mentioned in the snippet, the 'Statue of King Sejong' in Gwanghwamun Square (Jongno-gu) is a well-known Seoul landmark associated with King Sejong, which a foreign visitor could plausibly visit.",
+        "url": "https://www.reddit.com/r/seoul/comments/1talafp/chang_gyeong_gung/",
+        "title": "Chang gyeong gung",
+        "snippet": "Chang gyeong gung",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ta4x3o/bukchon_hanok_village/",
-        "title": "Bukchon Hanok Village",
-        "snippet": "Bukchon Hanok Village",
+        "url": "https://www.reddit.com/r/seoul/comments/1tb29nb/btsrelated_public_places_in_korea_that_army_can/",
+        "title": "BTS-related public places in Korea that ARMY can visit respectfully",
+        "snippet": "BTS's 'Gwanghwamun' reference in their song 'I Need U' makes this historic site a point of interest for ARMYs.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9wuby/dont_miss_out_gyeongbokgung_palace_night_opening/",
-        "title": "Don't miss out: Gyeongbokgung Palace Night Opening starts next week (May 13 - June 14)",
-        "snippet": "Don't miss out: Gyeongbokgung Palace Night Opening starts next week (May 13 - June 14)",
+        "url": "https://www.reddit.com/r/seoul/comments/1tb29nb/btsrelated_public_places_in_korea_that_army_can/",
+        "title": "BTS-related public places in Korea that ARMY can visit respectfully",
+        "snippet": "BTS's 'I Need U' music video features Cheonggyecheon, a popular public stream in Seoul that ARMYs can visit.",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-11T22:12:18.725Z"
-  },
-  {
-    "station_no": "ST-1199",
-    "station_name_ko": "서울숲 관리사무소",
-    "gu_ko": "성동구",
-    "gu_en": "Seongdong-gu",
-    "mention_count": 45,
-    "sentiment_avg": 0.5333333333333333,
-    "summary_ko": "성동구 서울숲 근처 성수동 카페거리와 라이프스타일 샵 탐방. 2026 정원 박람회 예정으로 관심 증가 중.",
-    "summary_en": "Seongdong-gu's Seoul Forest and Seongsu-dong cafes attract visitors. Upcoming 2026 Seoul International Garden Expo generates buzz.",
-    "related_event_ids": [
-      "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
-      "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
-      "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
-      "[2026 서울가든페스티벌] 한지꽃 만들기 체험|서울숲 야외무대|2026-05-16",
-      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9wtbn/seoul_forest_or_seongsudong_why_you_should/",
-        "title": "Seoul Forest or Seongsu-dong? Why you should actually do both in one day.",
-        "snippet": "Seoul Forest or Seongsu-dong? Why you should actually do both in one day.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9wtbn/seoul_forest_or_seongsudong_why_you_should/",
-        "title": "Seoul Forest or Seongsu-dong? Why you should actually do both in one day.",
-        "snippet": "Seoul Forest or Seongsu-dong? Why you should actually do both in one day.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
-        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=50351",
-        "title": "이지홍 혼다코리아 대표, 올해 쌍끌이 전략 '부릉부릉'…4륜·2륜 車 투...",
-        "snippet": "혼다코리아가 이를 고려해 13일부터 31일까지 서울 성수동 한 카페에서 인기 이륜차 슈퍼커브를 전시한다고 12일 밝혔다.",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-05-11T22:12:18.725Z"
+    "updated_at": "2026-05-12T17:14:47.031Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 40,
-    "sentiment_avg": 0.65,
-    "summary_ko": "마포구 서강대역 인근 홍대, 난지 한강 캠핑장 등 젊은이들의 핫플레이스. 도서관 AI 강연 등 교육 행사도 진행 중.",
-    "summary_en": "Mapo-gu's Sogang Univ. Station area buzzes with Hongdae, Nanji Camping. Library AI talks and Shinchon walking tours ongoing.",
+    "mention_count": 46,
+    "sentiment_avg": 0.6304347826086957,
+    "summary_ko": "마포구 홍대 TAG 실내캠핑과 BTS 'Dope' 촬영지가 인기. 신촌 7080·대학 탐방 도보 투어 진행 중.",
+    "summary_en": "Mapo-gu's Hongdae features popular TAG Indoor Camping and BTS 'Dope' filming sites. Sinchon 7080 and university walking tours are ongoing.",
     "related_event_ids": [
       "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 주말 오후 3시|신촌 일대|2026-02-01",
@@ -105,118 +61,162 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ta1pvq/hongdae_street/",
-        "title": "Hongdae street",
-        "snippet": "Hongdae street",
+        "url": "https://www.reddit.com/r/seoul/comments/1tb0rbe/indoor_camping_party_room_in_hongdae_this/",
+        "title": "Indoor camping party room in Hongdae this Saturday (May 16)!",
+        "snippet": "TAG Indoor Camping in Hongdae — an indoor camping-style party room with campfire vibes. Pretty cool spot for a first-timer or if you just want to meet new people in a relaxed setting.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ta5zhn/hanwoo_bbq_meetup_at_nanji_hangang_camping_site/",
-        "title": "Hanwoo BBQ meetup at Nanji Hangang Camping Site in Seoul on May 13th Dinner 2spot open",
-        "snippet": "Hanwoo BBQ meetup at Nanji Hangang Camping Site in Seoul on May 13th",
+        "url": "https://www.reddit.com/r/seoul/comments/1tb0rbe/indoor_camping_party_room_in_hongdae_this/",
+        "title": "Indoor camping party room in Hongdae this Saturday (May 16)!",
+        "snippet": "TAG Indoor Camping in Hongdae — an indoor camping-style party room with campfire vibes. Pretty cool spot for a first-timer or if you just want to meet new people in a relaxed setting.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ta0nk9/can_foreigners_attend_korean_university_festivals/",
-        "title": "Can foreigners attend Korean university festivals?",
-        "snippet": "The specific schools I saw are soongsil, yonsei and Hongik",
+        "url": "https://www.reddit.com/r/seoul/comments/1tavjm1/lf_late_morning_to_evening_recommendations_in/",
+        "title": "LF late morning to evening recommendations in Seoul",
+        "snippet": "I have been around Myeongdong and Hongdae",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/korea/comments/1t9z5m0/pc_bang_guide_for_tourists_wrote_this_up_because/",
-        "title": "pc bang guide for tourists — wrote this up because I see the same questions every week",
-        "snippet": "a premium one in Hongdae or Dongdaemun are completely different experiences",
-        "source": "reddit_korea"
+        "url": "https://www.reddit.com/r/seoul/comments/1tb29nb/btsrelated_public_places_in_korea_that_army_can/",
+        "title": "BTS-related public places in Korea that ARMY can visit respectfully",
+        "snippet": "BTS's 'Dope' music video was filmed in parts of Hongdae, a bustling cultural area in Seoul popular with fans.",
+        "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-11T22:12:18.725Z"
+    "updated_at": "2026-05-12T17:14:47.031Z"
   },
   {
-    "station_no": "ST-2525",
-    "station_name_ko": "저동2가 22-1",
-    "gu_ko": "중구",
-    "gu_en": "Jung-gu",
+    "station_no": "ST-1199",
+    "station_name_ko": "서울숲 관리사무소",
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
     "mention_count": 32,
-    "sentiment_avg": 0.375,
-    "summary_ko": "중구 저동2가 근처 명동 역사와 을지로 분위기 탐방. 이순신로드 걷기 프로그램 등 도보 관광 활성화 중.",
-    "summary_en": "Jung-gu's Jeodong 2-ga area features Myeongdong history tours and Euljiro vibes. Walking programs like Admiral Yi Road drive interest.",
+    "sentiment_avg": 0.5625,
+    "summary_ko": "성동구 성수 카페 거리와 서울숲이 MZ세대와 팝업스토어로 붐비며, 2026 서울국제정원박람회 준비 중.",
+    "summary_en": "Seongdong-gu's Seongsu-dong cafes and Seoul Forest draw MZ crowds and pop-ups, with the 2026 Seoul International Garden Expo ahead.",
     "related_event_ids": [
-      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-04-20",
-      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-04-20",
-      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-04-20",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-04-20",
-      "중구 수요일 달밤에서 별밤으로 남산 야간 트레킹|매경미디어센터빌딩|2026-05-06"
+      "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
+      "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
+      "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
+      "[2026 서울가든페스티벌] 한지꽃 만들기 체험|서울숲 야외무대|2026-05-16",
+      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9uq30/myeongdong_now/",
-        "title": "Myeongdong now",
-        "snippet": "Myeongdong now",
-        "source": "reddit_seoul"
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "source": "visit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9vld4/king_세종/",
-        "title": "King 세종",
-        "snippet": "King 세종 (Sejong) is referenced in the context of Seoul, and '세종대로' (Sejong-daero) is a major street in Seoul named after King Sejong, located in Jung-gu district. It is a plausible physical location a foreign visitor could visit.",
-        "source": "reddit_seoul"
+        "url": "http://www.apparelnews.co.kr/news/news_view/?idx=225189",
+        "title": "'웰니스 경제' 부상…국내 시장 확산",
+        "snippet": "공간 측면에서도 성수, 한남 등 주요 상권을 중심으로 요가, 명상, 러닝 기반의...",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ta0tgj/transit_in_incheon_airport/",
-        "title": "Transit in Incheon Airport",
-        "snippet": "Transit in Incheon Airport",
-        "source": "reddit_seoul"
+        "url": "https://www.dt.co.kr/article/12062066?ref=naver",
+        "title": "[하재근의 족집게로 문화집기] 끝나지 않은 ‘포켓몬 열풍’",
+        "snippet": "성수동 카페 거리 4만명, 서울숲 12만명 등 성수동 일대에 무려 16만명이 모였다고 한다",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/korea/comments/1t9z5m0/pc_bang_guide_for_tourists_wrote_this_up_because/",
-        "title": "pc bang guide for tourists — wrote this up because I see the same questions every week",
-        "snippet": "a premium one in Hongdae or Dongdaemun are completely different experiences",
-        "source": "reddit_korea"
+        "url": "https://www.dt.co.kr/article/12062066?ref=naver",
+        "title": "[하재근의 족집게로 문화집기] 끝나지 않은 ‘포켓몬 열풍’",
+        "snippet": "성수동 카페 거리 4만명, 서울숲 12만명 등 성수동 일대에 무려 16만명이 모였다고 한다",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-11T22:12:18.725Z"
+    "updated_at": "2026-05-12T17:14:47.031Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 28,
-    "sentiment_avg": 0.17857142857142858,
-    "summary_ko": "용산구 서빙고동 근처 이태원 클리닉, 경리단길 살롱 부클레 등 소수 명소. 한남동 리움미술관 인근은 시위 주의.",
-    "summary_en": "Yongsan-gu's Seobinggo-dong area has Itaewon clinics and Gyeongnidan-gil cafes. Protests near Hannam-dong's Leeum Museum noted.",
+    "mention_count": 30,
+    "sentiment_avg": 0.5666666666666667,
+    "summary_ko": "용산구 남영역 근처 털보네 떡꼬치가 인기. 용산가족공원에서 텃밭 분양과 숲 체험 프로그램 진행 중.",
+    "summary_en": "Yongsan-gu's Teolbongne tteok-ppogi near Namyeon Station is trending. Yongsan Family Park offers plot leases and forest activities.",
     "related_event_ids": [
-      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
+      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "(토) 용산가족공원 숲티어링|용산가족공원|2026-05-02",
-      "용산가족공원 꼬물꼬물 호기심 숲 (유아단체)|용산가족공원|2026-05-06"
+      "(토) 내 손안의 작은 지구, 미니테라리움(성인)|용산가족공원|2026-05-09",
+      "(토) 용산가족공원 숲티어링|용산가족공원|2026-05-02"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ta2i1t/looking_for_reality_check_foreign_physiotherapist/",
-        "title": "Looking for reality check: Foreign Physiotherapist with Master's in Seoul?",
-        "snippet": "I've been researching the Seoul market and I've heard that for foreigners with a Master's, there's a niche in international clinics (Itaewon/Gangnam) or high-end private hospitals (like Samsung or Severance) that pay significantly better than the local average to handle expat/VIP",
+        "url": "https://www.reddit.com/r/seoul/comments/1tam9yz/seoul_night_view/",
+        "title": "Seoul Night view",
+        "snippet": "Seoul Night view",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ta1lu0/review_a_creative_directors_journey_from_salon/",
-        "title": "[Review] A Creative Director's Journey from Salon there's to Salon Bouclé: The Pinnacle of Hair Artistry in Seoul",
-        "snippet": "Salon Bouclé in Gyeongnidan-gil",
+        "url": "https://www.reddit.com/r/seoul/comments/1tap8q1/looking_for_a_떡꼬치_lover_in_seoul_whos_also/",
+        "title": "looking for a 떡꼬치 lover in seoul who's also learning korean lol",
+        "snippet": "also on me. i do work on language stuff so happy to nerd out about methods / apps if that's your thing, but zero pressure. just want to actually connect with learners irl. dm works best, or comment below if you prefer. seoul / near 남영역.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ta1lu0/review_a_creative_directors_journey_from_salon/",
-        "title": "[Review] A Creative Director's Journey from Salon there's to Salon Bouclé: The Pinnacle of Hair Artistry in Seoul",
-        "snippet": "Salon Bouclé in Gyeongnidan-gil",
+        "url": "https://www.reddit.com/r/seoul/comments/1tap8q1/looking_for_a_떡꼬치_lover_in_seoul_whos_also/",
+        "title": "looking for a 떡꼬치 lover in seoul who's also learning korean lol",
+        "snippet": "there's a freaking yummy 떡꼬치 spot near 남영역 (the famous 털보네) also on me.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605071651009320104987",
-        "title": "[더벨][K-갤러리 경영 리포트] 내실 다진 가나아트한남, 글로벌 확장 전...",
-        "snippet": "평창동이 비교적 접근성이 떨어지는 지역인만큼 지리적 약점을 보완하기 위해 한남동으로 전시 거점을... 2세 경영 체제가 본격화되면서 매출의 무게추 역시 한남동 사업 중심으로 이동한 것으로 풀이된다.",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/seoul/comments/1tb29nb/btsrelated_public_places_in_korea_that_army_can/",
+        "title": "BTS-related public places in Korea that ARMY can visit respectfully",
+        "snippet": "BTS's 'Yongyong' song is related to Yongsan Station, a major transportation hub in Seoul where ARMYs can visit respectfully.",
+        "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-11T22:12:18.725Z"
+    "updated_at": "2026-05-12T17:14:47.031Z"
+  },
+  {
+    "station_no": "ST-2525",
+    "station_name_ko": "저동2가 22-1",
+    "gu_ko": "중구",
+    "gu_en": "Jung-gu",
+    "mention_count": 29,
+    "sentiment_avg": 0.4482758620689655,
+    "summary_ko": "중구 남산·N서울타워와 서울로 7017이 밤경명으로 유명. 명동·동대문과 함께 역사 도보 투어 진행 중.",
+    "summary_en": "Jung-gu's Namsan, N Seoul Tower, and Seoul Road 7017 are famed for night views. Myeongdong and Dongdaemun history walking tours are active.",
+    "related_event_ids": [
+      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
+      "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
+      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-07",
+      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-05-07",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-05-07"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tam9yz/seoul_night_view/",
+        "title": "Seoul Night view",
+        "snippet": "Seoul Night view",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tam9yz/seoul_night_view/",
+        "title": "Seoul Night view",
+        "snippet": "Seoul Night view",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tavjm1/lf_late_morning_to_evening_recommendations_in/",
+        "title": "LF late morning to evening recommendations in Seoul",
+        "snippet": "I have been around Myeongdong and Hongdae",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tb29nb/btsrelated_public_places_in_korea_that_army_can/",
+        "title": "BTS-related public places in Korea that ARMY can visit respectfully",
+        "snippet": "BTS's 'I Need U' music video also features Seoul Road 7017, a notable elevated park in downtown Seoul.",
+        "source": "reddit_seoul"
+      }
+    ],
+    "updated_at": "2026-05-12T17:14:47.031Z"
   }
 ]
