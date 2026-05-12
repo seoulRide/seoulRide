@@ -47,6 +47,12 @@ jobs:
       - name: Recompute popular stations
         run: pnpm analyze:bike
 
+      - name: Upsert to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: pnpm upsert:popular_stations
+
       - name: Sync committed mobile-assets fallback
         run: cp _workspace/02_analytics/popular_stations.json apps/mobile/assets/data/popular_stations.json
 

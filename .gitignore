@@ -69,3 +69,7 @@ desktop.ini
 .claude/settings.local.json
 apps/*/dist-web/
 .playwright-mcp/
+.vercel
+
+# Supabase CLI runtime cache
+supabase/.temp/
