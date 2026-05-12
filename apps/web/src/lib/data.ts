@@ -87,17 +87,11 @@ const getEventsByStationFromSupabase = unstable_cache(
   { revalidate: 3600, tags: ["events-by-station"] },
 );
 
-// Module-level cache so /events doesn't re-validate the same 50 station entries
-// on every searchParams change (lang/status/price toggle).
-let _eventsByStation: EventsByStationType | null = null;
 export async function getEventsByStation(): Promise<EventsByStationType> {
-  if (_eventsByStation) return _eventsByStation;
-  if (hasSupabase()) {
-    _eventsByStation = await getEventsByStationFromSupabase();
-  } else {
-    _eventsByStation = await readJson("03_curation/events_by_station.json", EventsByStation);
-  }
-  return _eventsByStation;
+  // unstable_cache(revalidate: 3600) 이 이미 1h ISR 캐싱 처리. 추가
+  // module-level 캐시는 1회 채워지면 영원히 stale 반환하므로 제거.
+  if (hasSupabase()) return getEventsByStationFromSupabase();
+  return readJson("03_curation/events_by_station.json", EventsByStation);
 }
 
 export async function getWeatherByGu(): Promise<WeatherByGu> {
