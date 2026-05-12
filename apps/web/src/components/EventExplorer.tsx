@@ -429,12 +429,13 @@ export function EventExplorer({
         {topBanner}
       </div>
 
-      {/* My-location FAB. Pushed up enough to clear both the carousel (~150px
-          card + small breathing room) and the bottom tab bar on mobile, but
-          stays useful on desktop too where the carousel sits at bottom-0. */}
+      {/* My-location FAB at the bottom-right, just above the mobile tab bar
+          (BottomTabNav is h-14 = 56px and sits at fixed bottom-0). It will
+          overlap the right edge of the carousel — that side is empty space
+          anyway since cards are centered. */}
       <MyLocationFab
         lang={lang}
-        bottomOffset={210}
+        bottomOffset={56}
         onLocate={(lat, lng) => {
           mapRef.current?.panTo(lat, lng);
           mapRef.current?.setZoom(MY_LOCATION_FAB_DEFAULT_ZOOM);
