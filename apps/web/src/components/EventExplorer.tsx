@@ -3,6 +3,7 @@
 import { forwardRef, useCallback, useEffect, useMemo, useRef, useState, type ComponentType, type ReactNode } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { NaverMap, type NaverMapHandle, type NaverMapNamedMarker } from "./NaverMap";
+import { MyLocationFab, MY_LOCATION_FAB_DEFAULT_ZOOM } from "./MyLocationFab";
 import { haversineKm, formatDistance } from "@/lib/route-geometry";
 import { bicycleAppLinks, type MapAppProvider } from "@/lib/map-app-links";
 import { getEventStatus } from "@/lib/event-status";
@@ -427,6 +428,19 @@ export function EventExplorer({
       <div className="absolute top-3 left-3 right-3 flex justify-center pointer-events-none z-10">
         {topBanner}
       </div>
+
+      {/* My-location FAB at the bottom-right, just above the mobile tab bar
+          (BottomTabNav is h-14 = 56px and sits at fixed bottom-0). It will
+          overlap the right edge of the carousel — that side is empty space
+          anyway since cards are centered. */}
+      <MyLocationFab
+        lang={lang}
+        bottomOffset={56}
+        onLocate={(lat, lng) => {
+          mapRef.current?.panTo(lat, lng);
+          mapRef.current?.setZoom(MY_LOCATION_FAB_DEFAULT_ZOOM);
+        }}
+      />
 
       <div
         ref={scrollerRef}

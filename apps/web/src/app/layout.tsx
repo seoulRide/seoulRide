@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { NaverSdkScript } from "@/components/NaverSdkScript";
+import { OnboardingGate } from "@/components/OnboardingGate";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -58,8 +59,12 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50">
-        {children}
+      {/* min-h-dvh (dynamic viewport) keeps the bottom tab bar pinned to the
+          visual bottom on iOS Chrome when its tool-bar collapses on scroll;
+          the static 100vh that min-h-screen resolves to leaks an extra strip
+          underneath. */}
+      <body className="min-h-dvh bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50">
+        <OnboardingGate>{children}</OnboardingGate>
         <NaverSdkScript />
       </body>
     </html>
