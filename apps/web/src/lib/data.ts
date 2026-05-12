@@ -4,12 +4,13 @@ import path from "node:path";
 import {
   PopularStations,
   EventsByStation,
-  WeatherByGu,
   TrendingByStation,
   type PopularStation,
   type StationMasterEntry,
   type TrendingByStation as TrendingByStationType,
+  type WeatherByGu,
 } from "./types";
+import { getCachedWeatherByGu } from "./weather";
 
 const WS = path.resolve(process.cwd(), "../../_workspace");
 const MOBILE_ASSETS = path.resolve(process.cwd(), "../mobile/assets/data");
@@ -34,8 +35,12 @@ export async function getEventsByStation() {
   return readJson("03_curation/events_by_station.json", EventsByStation);
 }
 
-export async function getWeatherByGu() {
-  return readJson("04_weather/forecast_by_gu.json", WeatherByGu);
+export async function getWeatherByGu(): Promise<WeatherByGu> {
+  const popular = await getPopularStations();
+  const guSet = new Set<string>();
+  for (const s of popular) if (s.gu_en) guSet.add(s.gu_en);
+  const guList = [...guSet].sort();
+  return getCachedWeatherByGu(guList);
 }
 
 /**
