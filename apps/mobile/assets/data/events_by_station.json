@@ -18,7 +18,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
@@ -38,7 +39,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
@@ -58,7 +60,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울가든페스티벌] 한지꽃 만들기 체험|서울숲 야외무대|2026-05-16",
@@ -78,7 +81,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06",
@@ -98,7 +102,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(서울숲_4회차 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-02",
@@ -118,7 +123,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울가든페스티벌] 서울숲 야외무대 음악 공연|서울숲 야외무대|2026-05-16",
@@ -138,7 +144,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울가든페스티벌] 공원한컷 사진찍기|서울숲 야외무대|2026-05-16",
@@ -158,7 +165,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[은평구] 서울국제정원박람회 \"나무야 놀자\" 목공 프로그램-트레이(쟁반) 만들기 & 우드버닝|서울숲 군마상 뒤|2026-05-12",
@@ -178,7 +186,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[노원구] 국제정원박람회 \"나무야 놀자\" 목공프로그램|서울숲 군마상 뒤|2026-05-13",
@@ -198,7 +207,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[양천구] 국제정원박람회 목공체험 문화프로그램 (가드닝 바구니 만들기)|서울숲|2026-05-11",
@@ -218,7 +228,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[구로구] 국제정원박람회\"나무야 놀자\"목공프로그램(무전원우드스피커)|[구로구]국제정원박람회&quot;나무야 놀자&quot; 목공체험|2026-05-11",
@@ -238,7 +249,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "(도봉구) 국제정원박람회 \"나무야 놀자\" 목공프로그램|서울숲|2026-05-12",
@@ -258,7 +270,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "그 시절의 즐거움을, 지금 다시 함께 즐기는 축제 [낭만페스티벌]|언더스텐드에비뉴 중앙광장, 아트스텐드|2026-05-22",
@@ -278,7 +291,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서대문구] 국제정원박람회 \"나무야 놀자\" 목공프로그램|국제정원박람회 목공프로그램 장소|2026-05-14",
@@ -298,7 +312,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울숲 도시정원사의 정원산책 (5월)|서울숲 공영주차장 화장실 건물 앞|2026-05-07",
@@ -318,7 +333,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(중랑구)국제정원박람회\"나무야 놀자\" 목공 프로그램|서울숲|2026-05-11",
@@ -338,7 +354,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[강서구] 국제정원박람회 \"나무야 놀자\" 목공프로그램|서울숲|2026-05-13",
@@ -358,7 +375,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "수도박물관 전시 해설 예약|수도박물관|2025-01-02",
@@ -378,7 +396,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울 가드닝 크루] 청년 입문교육 참가자 모집|서울숲|2026-05-23",
@@ -398,7 +417,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[성동문화재단] 세계 영화 상영회 4회차 [스페인 영화]|성수아트홀|2026-05-13",
@@ -418,7 +438,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동구립성수도서관] 다문화인식개선 교육 인형극 [아랫마을에서 온 두루미]|성수아트홀 2층 성수책마루|2026-05-12",
@@ -438,7 +459,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동문화재단] 세계 영화 상영회 3회차 [인도 영화]|성수아트홀|2026-04-16",
@@ -458,7 +480,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 immersion 몰입|성수아트홀|2026-04-11",
@@ -478,7 +501,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 30,000 KRW · S 20,000 KRW"
     },
     {
       "id": "[서울숲 수요가드닝(8주 과정)] 'garden start_오늘부터 정원생활'|서울숲 생태학습장|2026-04-08",
@@ -498,7 +522,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "봄의 예술 산책, 건축과 음악을 거닐다|studio301 성수|2026-05-09",
@@ -518,7 +543,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 35,000 KRW"
     },
     {
       "id": "서울형 키즈카페 성동구 성수1가1동점(성수 키즈카페)|서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)|2026-05-07",
@@ -538,7 +564,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울숲 목요 가드닝 자원봉사(5월)|생태학습장|2026-05-07",
@@ -558,7 +585,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울숲 힐링 원예교실(5월)-일요일|생태학습장|2026-05-03",
@@ -578,7 +606,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서울숲] 유해 외래식물 쏙쏙 (5월)|생태학습장|2026-04-25",
@@ -598,7 +627,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-207": [
@@ -620,7 +650,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 주말 오후 3시|신촌 일대|2026-02-01",
@@ -640,7 +671,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 주말 오후3시|신촌 일대|2026-02-01",
@@ -660,7 +692,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 6월/읽는 인간_호모 부커스 ii. [유발 하라리의 『넥서스』 읽기]|서강도서관 3층 세미나실|2026-06-04",
@@ -680,7 +713,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 5월/초등 고학년을 위한 ai 강연 [꿈꾸는 it 놀이터]|마포구립서강도서관 3층 세미나실|2026-05-16",
@@ -700,7 +734,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 5월/어린이메이킹 [행복맘껏time] 두 번째 일요일은 해봄공간 오픈데이|마포구립서강도서관 4층 어린이자료실 해봄|2026-05-10",
@@ -720,7 +755,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 5월 문화프로그램 안내|마포구립서강도서관|2026-05-02",
@@ -740,7 +776,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 5월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 내 해봄|2026-05-02",
@@ -760,7 +797,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 5월/팟캐스트 서강도서관 피셜 67회 [사랑은 하트 모양이 아니야]|팟빵(온라인)|2026-05-01",
@@ -780,7 +818,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 4-6월/어린이강좌 [우리 함께 동화읽을래?, 동화동무씨동무]|마포구립서강도서관 3층 세미나실|2026-04-29",
@@ -800,7 +839,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 4월/도서관초대석 (박재연) 도서관의날·도서관주간 기념 도서관초대석 [당신의 취향은 당신 것이 아니다]|마포구립서강도서관 3층 세미나실|2026-04-17",
@@ -820,7 +860,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 4월/어린이메이킹 [행복맘껏time] (두 번째 일요일은 해봄공간 오픈데이)|마포구립서강도서관 4층 어린이자료실 해봄|2026-04-12",
@@ -840,7 +881,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 4월/어린이메이킹 [해봄아 노올자! 해봄맘껏time]|마포구립서강도서관 4층 어린이자료실 내 해봄|2026-04-02",
@@ -860,7 +902,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 2분기/어린이갤러리 [우리는 당신에 대해 조금 알고 있습니다]|마포구립서강도서관 4층 어린이자료실|2026-04-01",
@@ -880,7 +923,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 4월/행사 [4월 문화프로그램 안내]|마포구립서강도서관|2026-04-01",
@@ -900,7 +944,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 4월/팟캐스트 서강도서관 피셜 66회 [우리가 사랑한 거짓말]|온라인 팟빵|2026-04-01",
@@ -920,7 +965,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 3-4월/어린이전시·이벤트 [우리 함께 골라볼까?, 동화동무씨동무]|마포구립서강도서관 4층 어린이자료실|2026-03-23",
@@ -940,7 +986,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[마포구립서강도서관] 독서토론회 [2026년 목, 수다]|마포구립서강도서관 3층 book c|2026-01-22",
@@ -960,7 +1007,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[경의선숲길] 경의선숲길 나무한스푼 (평일 성인, 5월, 초록동색? 초록이색!)|경의선숲길 홍대입구역 6번 출구|2026-05-07",
@@ -980,7 +1028,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-502": [
@@ -1002,7 +1051,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울백제어린이박물관] 초등 2-3학년 학급 대상 [어린이백제연구소1] 땅속 백제 보물찾기 대작전(발굴)|서울백제어린이박물관 교육실, 전시실, 야외발굴체험장, 전시실 등|2026-04-07",
@@ -1022,7 +1072,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울백제어린이박물관] 유단체 대상 [서울역사생태탐험대1] 봄|서울백제어린이박물관(교육실, 전시실), 야외생태체험장, 전시실 등|2026-03-19",
@@ -1042,7 +1093,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[야간개관] 문화로 야금야금(夜金) 연계 \"백제왕성 달빛캠프\" 모집 안내|서울백제어린이박물관|2026-05-08",
@@ -1062,7 +1114,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[개인ㆍ단체관람]서울백제어린이박물관(구 몽촌역사관) 상설전시 관람 모집 안내|서울백제어린이박물관|2026-01-02",
@@ -1082,7 +1135,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울백제어린이박물관] 서울형 키즈카페 한성백제박물관점 5차 시범운영 참가 가족 모집|서울백제어린이박물관|2026-05-05",
@@ -1102,7 +1156,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 강동구 성내1동점(아이·맘 강동)|서울특별시 강동구 성내로6길 16 2층 (성내동)|2026-05-07",
@@ -1122,7 +1177,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "송파구 올림픽공원 숲해설|올림픽공원|2026-04-01",
@@ -1142,7 +1198,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토) 5월 서울역사문화답사 신청 안내|서울역사편찬원|2026-05-23",
@@ -1162,7 +1219,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 강동구 성내2동점(아이·맘 강동)|서울특별시 강동구 천호대로162길 70 1층, 2층 (성내동)|2026-05-07",
@@ -1182,7 +1240,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-474": [
@@ -1204,7 +1263,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "5,000 KRW"
     },
     {
       "id": "문예북흥 no.60 - 모차르트에 미친 사람, 방송/컬럼니스트 이채훈이 밝히는 모차르트의 비밀스러운 위대성-읽는 다큐멘터리 『모차르트 평전』|이호철북콘서트홀|2026-04-25",
@@ -1224,7 +1284,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "5,000 KRW"
     },
     {
       "id": "문예북흥 no.59 - 『들뢰즈, 괴물의 사유』를 통해 보는 국악인 원일의 시나위적 음악과 삶. 신神, 아我, 위爲, 하나가 되다.|이호철북콘서트홀|2026-04-11",
@@ -1244,7 +1305,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "5,000 KRW"
     },
     {
       "id": "[서울기록원] 2026년 예비 기록 전문가의 날|서울기록원 5층 컨퍼런스룸|2026-04-24",
@@ -1264,7 +1326,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울기록원] 가족대상 주말체험프로그램 [우리 잠시 안녕! 기록으로 다시 만나!]|서울기록원 3층 교육실|2026-04-16",
@@ -1284,7 +1347,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울기록원] 2026년 문화소외층, 시니어 대상 [기록으로 기억을 잇다!]|단체별 상이|2026-03-01",
@@ -1304,7 +1368,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울기록원] 전시 [어느 도시의 탑승록]|서울기록원 2층 제1전시실|2025-10-23",
@@ -1324,7 +1389,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울기록원] 기록으로 산책하기_서울의 공원 展|서울기록원 2층 제2전시실|2025-10-23",
@@ -1344,7 +1410,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울기록원] 어린이 기록체험실 <꼬불꼬불 기록 탐험> 2026년 5월 개별 관람|서울기록원|2026-05-01",
@@ -1364,7 +1431,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[은평문화재단] 숲속라이브(앙상블 아티스) [비올리스트 공세정의 love songs in spring]|은평문화예술회관 숲속극장|2026-05-27",
@@ -1384,7 +1452,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[은평문화재단] 은평문화재단*알테무지크서울 5월 [클래식 abc]|은평문화예술회관 숲속극장|2026-05-07",
@@ -1404,7 +1473,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[은평문화재단] 숲속라이브 [소리꾼 오단해의 풍류]|은평문화예술회관 숲속극장|2026-04-29",
@@ -1424,7 +1494,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "은평구 은평평화공원|서울특별시 은평구 서오릉로 지하47  (녹번동)|2026-05-07",
@@ -1444,7 +1515,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 은평구 불광2동점(은평아이맘놀이터)|서울특별시 은평구 불광로18길 6 2-3층 (불광동, 수리마을 들락날락)|2026-05-07",
@@ -1464,7 +1536,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 은평구 응암1동점(은평아이맘놀이터)|서울특별시 은평구 은평로 220 커뮤니티센터2동 1층 (주차 공간 없음)|2026-05-07",
@@ -1484,7 +1557,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[구산동도서관마을] 「에브리웨어 경제학」 김경곤 저자와의 만남(작가힙톡) : 세상의 흐름을 읽는 경제 문해력|구산동도서관마을 3층 힐링캠프|2026-05-08",
@@ -1504,7 +1578,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구산동도서관마을] 4월 클래식으로 시대를 읽는 시간 ⅰ : 태고의 음악부터 낭만주의 음악까지|구산동도서관마을 3층 힐링캠프|2026-04-03",
@@ -1524,7 +1599,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-870": [
@@ -1546,7 +1622,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구로구] 영어독서특강 [ai시대, 도서관을 활용한 스마트한 영어독서법]|구로문화누리도서관 4층 큰누리홀|2026-04-17",
@@ -1566,7 +1643,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구로문화누리도서관] 북토크 [지구의 끝에서 발견한 것은]|구로문화누리도서관 4층 큰누리홀|2026-04-12",
@@ -1586,7 +1664,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구로문화누리도서관] 인문학배움터: 서양철학 깊이읽기 [플라톤의 사심(思深)]|구로문화누리도서관 4층 배움누리2|2026-04-09",
@@ -1606,7 +1685,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 구로구 개봉1동점|서울특별시 구로구 경인로 318-15 2층 (개봉동)|2026-05-07",
@@ -1626,7 +1706,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "구로 정원지원센터 제4기 마을정원사|구로구 정원지원센터|2026-04-10",
@@ -1646,7 +1727,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "구로 정원지원센터 마을정원사 (심화과정)|구로구 정원지원센터|2026-04-13",
@@ -1666,7 +1748,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "구로 정원지원센터 원데이클래스 (5월)|구로구 정원지원센터|2026-04-20",
@@ -1686,7 +1769,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "구로 정원지원센터 (토) 가족이 있는 정원 (5월)|구로구 정원지원센터|2026-04-20",
@@ -1706,7 +1790,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "구로 정원지원센터 늘봄정원 (5월/ 어르신)|구로구 정원지원센터|2026-04-20",
@@ -1726,7 +1811,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "구로 정원지원센터 온정원 (5월)|구로구 정원지원센터|2026-04-22",
@@ -1746,7 +1832,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "구로 반려식물 클리닉 (26년5월)|구로구 정원지원센터|2026-05-01",
@@ -1766,7 +1853,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구로문화재단] 오감자극 영유아 공연 [얼굴과 얼굴 마주;봄]|구로창의아트홀|2026-04-17",
@@ -1786,7 +1874,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Stage 20,000 KRW · Seating 5,000 KRW"
     },
     {
       "id": "구로 재난안전체험장|구로재난안전체험장|2024-11-01",
@@ -1806,7 +1895,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 나의 도치에게 [최지예 작가와의 만남 : 내가 보내는 첫 번째 편지]|서울아트책보고 워크숍룸|2026-05-16",
@@ -1826,7 +1916,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 현대 소설 깊이 읽기 - 한유주 소설가|서울아트책보고 워크숍룸|2026-05-15",
@@ -1846,7 +1937,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 지구 생명을 살리는 산소 [김형진 박사님과 함께하는 산소 대탐험]|서울아트책보고 워크숍룸|2026-05-09",
@@ -1866,7 +1958,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 어린이날 특별 기획 가족 뮤지컬 [잃어버린 색을 찾아서]|서울아트책보고 열린무대|2026-05-05",
@@ -1886,7 +1979,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 처음 만나는 미술사 - 이소영 미술 교육인ㆍ미술 에세이스트|서울아트책보고 워크숍룸|2026-05-02",
@@ -1906,7 +2000,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 따끈따끈 말 베이커리 [주현조 작가와 함께 좋아하는 말로 빵 상상하기]|서울아트책보고 워크숍룸|2026-04-25",
@@ -1926,7 +2021,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 임수정 작가와 함께하는 '으쌰! 으쌰! 대단한 ○○씨!' [상황극과 미니북 만들기]|서울아트책보고 워크숍룸|2026-04-18",
@@ -1946,7 +2042,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 김난지 작가와 함께하는 그림책 속 주인공 되어 보기 : 나의 장화 화분에서는 어떤 식물이 자랄까?|서울아트책보고 워크숍룸|2026-04-11",
@@ -1966,7 +2063,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 열람실 큐레이션 연계프로그램 : [수집, 책, 디자인]|서울아트책보고 아트북 열람실|2026-04-11",
@@ -1986,7 +2084,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 나와 타인을 알아가는 글쓰기|서울아트책보고|2026-04-08",
@@ -2006,7 +2105,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울아트책보고] 처음 만나는 세계|서울아트책보고 북카페 앤 라운지|2026-03-10",
@@ -2026,7 +2126,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토) 처음 만나는 미술사 - 이소영 미술 교육인ㆍ미술 에세이스트|서울아트책보고|2026-05-02",
@@ -2046,7 +2147,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토) 처음 만나는 미술사 - 이소영 미술 에세이스트 (3회차)|서울아트책보고|2026-05-02",
@@ -2066,7 +2168,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-2525": [
@@ -2088,7 +2191,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
@@ -2108,7 +2212,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-04-20",
@@ -2128,7 +2233,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-04-20",
@@ -2148,7 +2254,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-04-20",
@@ -2168,7 +2275,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "중구 수요일 달밤에서 별밤으로 남산 야간 트레킹|매경미디어센터빌딩|2026-05-06",
@@ -2188,7 +2296,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토)서울 정원문화힐링센터(가드닝라운지)_4~5월 프로그램 예약 안내|서울 정원문화힐링센터|2026-04-19",
@@ -2208,7 +2317,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "2026년 짚공예 체험(매주 일요일 10:30~12:30)|남산골한옥마을|2026-03-09",
@@ -2228,7 +2338,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026년 미니솟대만들기( 매주 일) 14:00~16:00)|남산골한옥마을|2026-03-09",
@@ -2248,7 +2359,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026년 미니장승만들기(매주 토 10:30~12:30)|남산골한옥마을|2026-03-09",
@@ -2268,7 +2380,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026년 목편만들기(매주 토 14:00~16:00)|남산골한옥마을|2026-03-09",
@@ -2288,7 +2401,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "남산 기억로(중구 도보관광 프로그램)|남산골 한옥마을|2026-05-06",
@@ -2308,7 +2422,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[남산골한옥마을] 2026 남산골 상반기 한옥콘서트 [시공이음]|book 남산골한옥마을 이승업 가옥 / music 남산골한옥마을 민씨 가옥|2026-05-23",
@@ -2328,7 +2443,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "BOOK 15,000 KRW / MUSIC 30,000 KRW"
     },
     {
       "id": "[남산골한옥마을] 월간소반 : 주전부리|남산골한옥마을(서울시 중구)|2026-05-15",
@@ -2348,7 +2464,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[남산골한옥마을] 2026 남산골 어린이마을|남산골한옥마을 일대|2026-05-05",
@@ -2368,7 +2485,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Admission fee separate"
     },
     {
       "id": "[남산골한옥마을] 2026 남산골 전통체험 [예술가의 시간]|남산골한옥마을 전통가옥 프로그램별 상이|2026-04-03",
@@ -2388,7 +2506,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Varies by program"
     },
     {
       "id": "[남산골한옥마을] 남산골 전통혼례|관훈동 민씨가옥 안채 마당 (야외 혼례)|2026-03-28",
@@ -2408,7 +2527,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "1,534,500 KRW (VAT included) · Optional add-ons incur extra charges"
     }
   ],
   "ST-2217": [
@@ -2430,7 +2550,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서대문구] 인왕산 꽃호랑이 선생님과 숲에서 놀자- 매주 목요일|인왕산 유아숲 체험원|2026-03-26",
@@ -2450,7 +2571,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 서대문구 홍제3동점(키즈땅놀이터)|서울특별시 서대문구 세검정로 104 문화촌제일교회 1층 (홍제3동)|2026-05-07",
@@ -2470,7 +2592,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "(서대문구)해설가와 함께하는 오감정원 투어 [서대문구 관내 기관신청]|맛있는 생태정원(위뜰)|2026-04-01",
@@ -2490,7 +2613,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-825": [
@@ -2512,7 +2636,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 성북구 성북동점|서울특별시 성북구 성북로4길 21 2층 서울형키즈카페 성북동점 (동소문동1가)|2026-05-07",
@@ -2532,7 +2657,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "옛 서울시장 공관의 역사와 한양도성의 의미(2026년 5월)|한양도성 혜화동 전시안내센터(옛 시장공관)|2026-05-01",
@@ -2552,7 +2678,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "재능 혜화 마티네|jcc 재능아트센터 콘서트홀|2026-05-21",
@@ -2572,7 +2699,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW (10% off for JCC members)"
     },
     {
       "id": "손철주의 오래된 그림공부 [조선의 별별 일꾼들]|jcc크리에이티브센터 스튜디오|2026-04-22",
@@ -2592,7 +2720,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW (10% off for JCC members)"
     },
     {
       "id": "재능 혜화 마티네|jcc아트센터 콘서트홀|2026-04-16",
@@ -2612,7 +2741,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW (10% off for JCC members)"
     },
     {
       "id": "토마스 스트로넨 내한공연|jcc아트센터 콘서트홀|2026-04-11",
@@ -2632,7 +2762,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 88,000 KRW / S 77,000 KRW"
     },
     {
       "id": "서울형 키즈카페 종로구 혜화동점(종로 혜명 아이들 상상놀이터)|서울특별시 종로구 성균관로 91 올림픽기념국민생활관 2층 (혜화동)|2026-05-07",
@@ -2652,7 +2783,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "연극 [운베난트]|예스24스테이지 3관|2026-03-27",
@@ -2672,7 +2804,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 60,000 KRW"
     },
     {
       "id": "[종로문화재단] 2026 키우피우 오브제극축제 [봉장취]|종로 아이들극장|2026-05-14",
@@ -2692,7 +2825,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "30,000 KRW"
     },
     {
       "id": "[종로문화재단] 2026 키우피우 오브제극축제 [코 잃은 코끼리 코바]|종로 아이들극장|2026-05-07",
@@ -2712,7 +2846,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "30,000 KRW"
     },
     {
       "id": "[종로문화재단] 2026 키우피우 오브제극축제  [걸리버 여행기：zoom in out]|종로 아이들극장|2026-04-30",
@@ -2732,7 +2867,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "30,000 KRW"
     },
     {
       "id": "[종로문화재단] 아이들극장 기획초청 영유아공연 [봄여름가을겨울 슴숨슘]|종로아이들극장|2026-04-18",
@@ -2752,7 +2888,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "[성북여성문화센터] 2026 봄학기 수강생 모집|성북여성문화센터|2026-03-02",
@@ -2772,7 +2909,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Varies by program"
     },
     {
       "id": "[춘섬이의 거짓말] - 제47회 서울연극제 공식선정작|아르코예술극장 대극장|2026-05-22",
@@ -2792,7 +2930,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 40,000 KRW"
     },
     {
       "id": "융(c. g. jung)과 함께 읽는 회복의 12단계 대장정|온라인 zoom 또는 자기사랑 세미나실|2026-03-08",
@@ -2812,7 +2951,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "100,000 KRW (4-week unit)"
     },
     {
       "id": "[서울시지원/ 전액무료] ai 융합 주얼리 트렌드 md 및 비주얼 스타일링 실무|종로여성인력개발센터|2026-05-28",
@@ -2832,7 +2972,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울시지원/ 전액무료] ai 인사이트 공연문화콘텐츠 기획|종로여성인력개발센터|2026-05-12",
@@ -2852,7 +2993,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[종로여성인력개발센터] ai 파워드 문화·예술 프로젝트 기획 실무 마스터 실무 마스터|종로여성인력개발센터|2026-03-18",
@@ -2872,7 +3014,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성북근현대문학관] 길 위의 시인, 신경림|성북근현대문학관 1층 기획전시실|2025-12-12",
@@ -2892,7 +3035,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "성북 역사문화 도보탐방(성북동,석관동,정릉)|성북구청|2026-04-15",
@@ -2912,7 +3056,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토)사방을 여는 좌청룡 순성놀이|낙산공원>낙산공원 전시관|2026-05-02",
@@ -2932,7 +3077,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[예술가의집] 제26회 작곡가의방 [한정임]|예술가의집 다목적홀|2026-04-22",
@@ -2952,7 +3098,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-1210": [
@@ -2974,7 +3121,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 40,000 KRW"
     }
   ],
   "ST-387": [
@@ -2996,7 +3144,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "아차산 여가센터 5월 프로그램|아차산여가센터|2026-04-20",
@@ -3016,7 +3165,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[광진구] 아차산 치유의 숲길- 5월 산림치유 프로그램(토)- 가족|치유의 숲길(아차산어울림광장 주변)|2026-05-01",
@@ -3036,7 +3186,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[광진구] 아차산 치유의 숲길- 5월 산림치유 프로그램 - 성인|치유의 숲길(아차산어울림광장 주변)|2026-05-01",
@@ -3056,7 +3207,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[광진구] 아차산 치유의 숲길- 5월 산림치유 프로그램 - 사회적 배려 대상자|치유의 숲길(아차산어울림광장 주변)|2026-05-01",
@@ -3076,7 +3228,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[광진구] 아차산 치유의 숲길- 5월 산림치유 프로그램 - 청소년|치유의 숲길(아차산어울림광장 주변)|2026-05-01",
@@ -3096,7 +3249,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(5월)광진구숲해설-가족,성인 주말숲체험|광진구 아차산 어울림정원 광장|2026-05-02",
@@ -3116,7 +3270,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(5월)광진구숲해설-성인 ,가족주말(정원처방)|광진구 아차산 어울림정원 광장|2026-04-26",
@@ -3136,7 +3291,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(5,6월)광진구숲해설- 유아기관단체(평일)|광진구 아차산 어울림정원 광장|2026-05-02",
@@ -3156,7 +3312,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(5~11월)광진구숲해설-서울형정원처방(성인 누구나)|광진구 아차산 어울림정원 광장|2026-05-07",
@@ -3176,7 +3333,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(5~11월)광진구숲해설- 나무아래 힐링체험|광진구 아차산 어울림정원 광장|2026-04-28",
@@ -3196,7 +3354,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "뫼아리 수호대(주말)|아차산 생태공원(어울림광장)|2026-05-01",
@@ -3216,7 +3375,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-113": [],
@@ -3239,7 +3399,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화예술교육센터 서초] 6월, 음악가의 사적인 플레이리스트 [감동·기록·추억 사이에 ‘음악’이 있다]|서울문화예술교육센터 서초 1층 리스닝 룸|2026-06-13",
@@ -3259,7 +3420,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화예술교육센터 서초] 메이커스 워크숍 [몸의 앙상블 (2차)]|서울문화예술교육센터 서초 4층 멀티 스튜디오|2026-05-14",
@@ -3279,7 +3441,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화예술교육센터 서초] 음악의 여정 [음악을 탄생시킨 사물들]|서울문화예술교육센터 서초 3층 앙상블실1|2026-05-13",
@@ -3299,7 +3462,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화예술교육센터 서초] 5월, 음악가의 사적인 플레이리스트 [폭풍 뒤의 빛, 베토벤 음악의 서사]|서울문화예술교육센터 서초|2026-05-09",
@@ -3319,7 +3483,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화예술교육센터 서초] 음악의 집 4월, 계절이 흐르는 음악 [오래된 울림, 봄을 깨우다]|서울문화예술교육센터 서초 1층 더 라운지|2026-04-25",
@@ -3339,7 +3504,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화예술교육센터 서초] 상설 마티네콘서트 [스피리오 리사이틀]|서울문화예술교육센터 서초 5층 서울체임버홀|2026-04-07",
@@ -3359,7 +3525,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-311": [
@@ -3381,7 +3548,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "양천구 오목공원|서울특별시 양천구 목동서로 159-2  (목동)|2026-05-07",
@@ -3401,7 +3569,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "영등포 수변생태 정원처방 <가족과 함께하는 물가 숲길 체험>|안양천생태운영센터|2026-04-25",
@@ -3421,7 +3590,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "영등포 수변생태『서울둘레길 14코스』 안양천 수변 감성기행|안양천생태운영센터|2026-04-25",
@@ -3441,7 +3611,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-565": [
@@ -3463,7 +3634,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 성북구 종암동점|서울특별시 성북구 종암로19길 60 성북함께어울림센터, 2층 (종암동)|2026-05-07",
@@ -3483,7 +3655,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 성북구 월곡1동점|서울특별시 성북구 오패산로10길 19 육아종합지원센터 2층 (하월곡동)|2026-05-07",
@@ -3503,7 +3676,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-369": [
@@ -3525,7 +3699,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[sema 백남준기념관] 메가트론 랩소디 megatron rhapsody|sema 백남준기념관|2025-06-17",
@@ -3545,7 +3720,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[중구문화재단] 뮤지컬 [스윙 데이즈_암호명 a]|충무아트센터 대극장|2026-04-16",
@@ -3565,7 +3741,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "VIP 170,000 KRW · R 140,000 KRW · S 110,000 KRW · A 80,000 KRW"
     },
     {
       "id": "[중구문화재단] sac on screen : 베를린 필하모닉 카메라타|충무아트센터 씨네마|2026-04-16",
@@ -3585,7 +3762,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울시립미술관×중구문화재단] 협력전시 [sema collection: 청록미로]|충무아트센터 갤러리 g1|2026-04-15",
@@ -3605,7 +3783,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[중구문화재단] 2026년 상반기 4월 [씨네타운 중구]|충무아트센터 소극장 씨네마|2026-04-09",
@@ -3625,7 +3804,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[중구문화재단] 뮤지컬 [홍련]|충무아트센터 중극장 블랙|2026-02-28",
@@ -3645,7 +3825,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 75,000 KRW / S 65,000 KRW"
     }
   ],
   "ST-475": [
@@ -3667,7 +3848,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "5,000 KRW"
     },
     {
       "id": "문예북흥 no.60 - 모차르트에 미친 사람, 방송/컬럼니스트 이채훈이 밝히는 모차르트의 비밀스러운 위대성-읽는 다큐멘터리 『모차르트 평전』|이호철북콘서트홀|2026-04-25",
@@ -3687,7 +3869,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "5,000 KRW"
     },
     {
       "id": "문예북흥 no.59 - 『들뢰즈, 괴물의 사유』를 통해 보는 국악인 원일의 시나위적 음악과 삶. 신神, 아我, 위爲, 하나가 되다.|이호철북콘서트홀|2026-04-11",
@@ -3707,7 +3890,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "5,000 KRW"
     },
     {
       "id": "서울형 키즈카페 은평구 갈곡리공원점(은평아이맘놀이터)|서울특별시 은평구 갈현로41길 3 지하1층, 지상1층 (갈현동 ,주차공간 없음)|2026-05-07",
@@ -3727,7 +3911,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 은평구 불광2동점(은평아이맘놀이터)|서울특별시 은평구 불광로18길 6 2-3층 (불광동, 수리마을 들락날락)|2026-05-07",
@@ -3747,7 +3932,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[구산동도서관마을] 「에브리웨어 경제학」 김경곤 저자와의 만남(작가힙톡) : 세상의 흐름을 읽는 경제 문해력|구산동도서관마을 3층 힐링캠프|2026-05-08",
@@ -3767,7 +3953,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구산동도서관마을] 4월 클래식으로 시대를 읽는 시간 ⅰ : 태고의 음악부터 낭만주의 음악까지|구산동도서관마을 3층 힐링캠프|2026-04-03",
@@ -3787,7 +3974,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "은평구 은평평화공원|서울특별시 은평구 서오릉로 지하47  (녹번동)|2026-05-07",
@@ -3807,7 +3995,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-212": [
@@ -3829,7 +4018,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 서대문구 baby 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동) (남가좌동)|2026-05-07",
@@ -3849,7 +4039,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-211": [
@@ -3871,7 +4062,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[월드컵공원] 월간 공원산책 5월호 : 고흐의 배나무vs겸재의살구꽃|서부공원여가센터|2026-04-27",
@@ -3891,7 +4083,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[월드컵공원] 공원의 기억여행 - 난지도 역사 바로 알기(5월)|서부공원여가센터>월드컵공원>월드컵공원 누에체험관>서부공원여가센터>난지이야기관|2026-05-01",
@@ -3911,7 +4104,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-249": [
@@ -3933,7 +4127,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW (Seongdong residents 15,000 KRW)"
     },
     {
       "id": "[성동문화재단] 민쿠스발레 suite [돈키호테 & 라 바야데르]|소월아트홀|2026-05-02",
@@ -3953,7 +4148,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW (Seongdong residents 15,000 KRW)"
     },
     {
       "id": "[성동문화재단] 성동 미니어처 오페라 [세빌리아의 이발사]|소월아트홀 (월요일 휴관)|2026-04-17",
@@ -3973,7 +4169,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW (50% off for Seongdong residents, students, disabled, welfare cardholders)"
     },
     {
       "id": "[성동구] 찾아가는 숲해설|성동구|2026-04-01",
@@ -3993,7 +4190,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동구] 숲해설-건강한 숲나들이(어르신정원처방)|성동구|2026-05-12",
@@ -4013,7 +4211,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동문화재단] 성동구립도서관 [우리동네 북(book)돋움] 강연 프로그램|성동구립도서관|2026-05-30",
@@ -4033,7 +4232,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동구립도서관] 4월 영어스토리텔링 수업|성동구립도서관|2026-04-26",
@@ -4053,7 +4253,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-312": [
@@ -4075,7 +4276,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 양천구 오목공원점|서울특별시 양천구 목동서로 159-4 서울형 키즈카페 양천구 오목공원점 (목동)|2026-05-07",
@@ -4095,7 +4297,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "양천구 오목공원|서울특별시 양천구 목동서로 159-2  (목동)|2026-05-07",
@@ -4115,7 +4318,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-314": [
@@ -4137,7 +4341,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[양천구]신정산 계남유아숲체험원-(5월) 주말 가족 숲 프로그램(5월 16일)|신정산(계남) 유아숲체험원|2026-05-04",
@@ -4157,7 +4362,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[양천구]신정산 계남유아숲체험원-(5월) 평일 숲 교육 프로그램(5월 13일, 27일)|신정산(계남) 유아숲체험원|2026-05-04",
@@ -4177,7 +4383,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 양천구 신정4동점|서울특별시 양천구 은행정로 29 대한교회 후문 교육관 센터위드  4층 (신정동)|2026-05-07",
@@ -4197,7 +4404,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-321": [
@@ -4219,7 +4427,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서울문화예술교육센터 양천] 예술작업실 [사진으로 만나는 장면들]|서울문화예술교육센터 양천 다목적홀, 야외수조|2026-05-09",
@@ -4239,7 +4448,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화예술교육센터 양천] 예술 on [처음 만나는 미디어아트]|서울문화예술교육센터 양천 다목적홀, 야외수조|2026-04-07",
@@ -4259,7 +4469,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화예술교육센터 양천] 벽면드로잉 [하늘 땅, 나 너 우리!]|다목적홀(1회차), 서울문화예술교육센터 양천 스튜디오a(2~4회차)|2026-04-04",
@@ -4279,7 +4490,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화예술교육센터 양천] 우리가 궁금했던 예술 [미술로 떠나는 봄 여행, 중부유럽 미술관]|서울문화예술교육센터 양천 다목적홀|2026-04-04",
@@ -4299,7 +4511,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서서울 호수공원] 서서울 호수 어린이 생태탐험(토/가족, 5월 꽃과 곤충과 함께 봄맞이 하러 가요 )|서서울호수공원 관리사무소|2026-04-27",
@@ -4319,7 +4532,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화재단] 2026 어린이·가족 예술축제 [톡톡]|서울문화예술교육센터 양천, 서서울호수공원|2026-05-02",
@@ -4339,7 +4553,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서서울호수공원] 식물 곁들인 호수 한 바퀴 (평일 유아, 5월, 요술쟁이 나뭇잎)|서서울호수공원 후문안내소|2026-05-15",
@@ -4359,7 +4574,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 양천구 신월5동점|서울특별시 양천구 화곡로4길 10 신월5동주민센터 6층 (신월동)|2026-05-07",
@@ -4379,7 +4595,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-2214": [
@@ -4401,7 +4618,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[구립증산도서관] 스마트 아카데미 수강생 모집 (상반기)|구립증산도서관 1층 문화교육실|2026-05-07",
@@ -4421,7 +4639,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 2026 책과 함께하는 [에코 탐험대로 지구 지키기]|3층 어린이열람실|2026-04-29",
@@ -4441,7 +4660,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 4월 책 읽어주는 사서 [수요일은 책이랑 쑥쑥]|구립증산도서관 3층 가족열람실|2026-04-22",
@@ -4461,7 +4681,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 책이랑 놀자, 이렇게! 4월|구립증산도서관 지하문화강좌실|2026-04-18",
@@ -4481,7 +4702,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 2026 사서와 함께하는 독서 동아리 [씨앗] 1기|지하 1층 문화강좌실|2026-04-16",
@@ -4501,7 +4723,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 도서관 주간 기념 어린이 독서 캠프 [넘겨서 세계속으로]|구립증산도서관 지하 문화강좌실|2026-04-13",
@@ -4521,7 +4744,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 도서관의 날 기념 [팔랑팔랑 벚꽃 북크닉]|지하 문화강좌실 및 불광천|2026-04-12",
@@ -4541,7 +4765,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 2026 유아 독서 동아리 [책책박사] 1기|구립증산도서관 지하 문화강좌실|2026-04-09",
@@ -4561,7 +4786,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 책 따라 걷는 도서관 - 4월 원화 전시 [에너지 충전]|구립증산도서관 1층 로비 / 3층 어린이열람실|2026-04-02",
@@ -4581,7 +4807,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 가족열람실 4월 북큐레이션 [같이 나누자, 봄날]|3층 가족열람실|2026-04-01",
@@ -4601,7 +4828,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 테마로 즐기는 도서관 - 4월 테마전시체험전 [어린이의 아침]|지하 1층 북갤러리 및 3층 가족열람실|2026-04-01",
@@ -4621,7 +4849,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 재개관 기념 프로그램 [내가 그린 도서관의 한 장면] 디지털 드로잉 클래스|구립증산도서관 1층 문화교육실|2026-03-21",
@@ -4641,7 +4870,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 서대문구 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동)|2026-05-07",
@@ -4661,7 +4891,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 서대문구 baby 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동) (남가좌동)|2026-05-07",
@@ -4681,7 +4912,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "은평구 증산문화공원|서울특별시 은평구 증산동 263 은평구 증산문화공원(실외)|2026-05-07",
@@ -4701,7 +4933,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-272": [
@@ -4723,7 +4956,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "성동구 꽃재어린이공원|서울특별시 성동구 하왕십리동 1069  (응봉동)|2026-05-07",
@@ -4743,7 +4977,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[동대문문화재단] 브런치 콘서트 아트리움 - 국립오페라단: 국립오페라스튜디오|선농단역사문화관 지하 3층 중정|2026-05-13",
@@ -4763,7 +4998,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[동대문문화재단] 2026년 생생 국가유산 사업 [지구를 지키는 선농단] - 어린이도시농부학교|선농단역사문화관 및 선농단역사공원|2026-04-25",
@@ -4783,7 +5019,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-106": [
@@ -4805,7 +5042,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "사랑의 열매 복권기금 토크콘서트 [통通하는 시간]|kt&g 상상플래닛 커넥트홀|2026-05-16",
@@ -4825,7 +5063,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동문화재단] 세계 영화 상영회 4회차 [스페인 영화]|성수아트홀|2026-05-13",
@@ -4845,7 +5084,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동구립성수도서관] 다문화인식개선 교육 인형극 [아랫마을에서 온 두루미]|성수아트홀 2층 성수책마루|2026-05-12",
@@ -4865,7 +5105,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동문화재단] 세계 영화 상영회 3회차 [인도 영화]|성수아트홀|2026-04-16",
@@ -4885,7 +5126,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 immersion 몰입|성수아트홀|2026-04-11",
@@ -4905,7 +5147,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 30,000 KRW · S 20,000 KRW"
     },
     {
       "id": "서울숲 도시정원사의 정원산책 (5월)|서울숲 공영주차장 화장실 건물 앞|2026-05-07",
@@ -4925,7 +5168,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "그 시절의 즐거움을, 지금 다시 함께 즐기는 축제 [낭만페스티벌]|언더스텐드에비뉴 중앙광장, 아트스텐드|2026-05-22",
@@ -4945,7 +5189,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "수도박물관 전시 해설 예약|수도박물관|2025-01-02",
@@ -4965,7 +5210,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-3407": [
@@ -4987,7 +5233,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-353": [
@@ -5009,7 +5256,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "3,000 KRW per person (self-pay)"
     },
     {
       "id": "(토)엄마아빠와 함께하는 교과서 역사기행 [7차]|서대문형무소역사관|2026-05-16",
@@ -5029,7 +5277,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[딜쿠샤] 2025 광복 80주년 기념 딜쿠샤 작은전시 《독립, 일상에서 지킨 염원》|딜쿠샤(독립문역 3-1번 출구에서 도보 10분)|2025-07-15",
@@ -5049,7 +5298,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "딜쿠샤 전시해설 사전예약 (5월)|딜쿠샤|2026-05-01",
@@ -5069,7 +5319,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토)이회영기념관-벗집손클럽|이회영기념관|2026-03-07",
@@ -5089,7 +5340,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "(토)이회영기념관-벗집풀꽃학교|이회영기념관|2026-05-02",
@@ -5109,7 +5361,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 서대문구 천연동점|서울특별시 서대문구 독립문로8길 107 2층 (천연동)|2026-05-07",
@@ -5129,7 +5382,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-3415": [
@@ -5151,7 +5405,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "강서정원지원센터 정원 프로그램 (5월)|강서정원지원센터|2026-05-01",
@@ -5171,7 +5426,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 강서구 발산1동점|서울특별시 강서구 수명로2길 50  (내발산동) 2층 서울형 키즈카페|2026-05-07",
@@ -5191,7 +5447,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서울퓨처랩] 5월 | 서울 드론 레이스|서울퓨처랩 체험관|2026-05-01",
@@ -5211,7 +5468,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 배틀봇 워리어스|서울퓨처랩 체험관|2026-05-01",
@@ -5231,7 +5489,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 단체 예약 신청|서울퓨처랩 체험관|2026-05-01",
@@ -5251,7 +5510,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 야간 프로그램(18시30분&19시30분)|서울퓨처랩 체험관|2026-05-01",
@@ -5271,7 +5531,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 특강 | 자율주행 마스터|서울퓨처랩 체험관|2026-05-01",
@@ -5291,7 +5552,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 로봇 올림픽|서울퓨처랩 체험관|2026-05-01",
@@ -5311,7 +5573,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 퓨처 모빌리티|서울퓨처랩 체험관|2026-05-01",
@@ -5331,7 +5594,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 디지털 트윈 in 서울|서울퓨처랩 체험관|2026-05-01",
@@ -5351,7 +5615,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | vr 우주 탐험대|서울퓨처랩 체험관|2026-05-01",
@@ -5371,7 +5636,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 퓨처 스포츠|서울퓨처랩 체험관|2026-05-01",
@@ -5391,7 +5657,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | ai 웹툰 공작소|서울퓨처랩 체험관|2026-05-01",
@@ -5411,7 +5678,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 미래 옷 연구소|서울퓨처랩 체험관|2026-05-01",
@@ -5431,7 +5699,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 피지컬 ai 연구소|서울퓨처랩 체험관|2026-05-01",
@@ -5451,7 +5720,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-393": [
@@ -5473,7 +5743,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 동대문구 답십리1동점|서울특별시 동대문구 답십리로 130 309동 커뮤니티센터 내 (답십리동, 래미안위브)|2026-05-07",
@@ -5493,7 +5764,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[성동구립용답도서관] 2026 용답도서관 도서관의 날·도서관주간 [토끼 구름 토끼] 김진희 작가와의 만남|성동구립용답도서관|2026-04-12",
@@ -5513,7 +5785,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[동대문문화재단] 2026 답십리영화미디어아트센터 협력전시 [중간의 끝]|답십리영화미디어아트센터 1층 기획전시실, 홀|2026-04-22",
@@ -5533,7 +5806,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[답십리영화미디어아트센터] 2026 장비대여 안내|답십리영화미디어아트센터|2026-03-25",
@@ -5553,7 +5827,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울하수도과학관] 이름 없는 오염원 '비점' 미스테리!|서울하수도과학관|2026-04-11",
@@ -5573,7 +5848,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울하수도과학관] 날아라! 재이용수 물로켓|서울하수도과학관|2026-04-11",
@@ -5593,7 +5869,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울하수도과학관] 팡!팡! 우리 가족 재이용수 물로켓|서울하수도과학관|2026-04-11",
@@ -5613,7 +5890,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울하수도과학관 체험형 기획전] 오염코드404: 비점오염원을 찾아라!|서울하수도과학관 1층 로비|2026-04-07",
@@ -5633,7 +5911,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울하수도과학관] 하수처리장 견학|서울하수도과학관|2026-02-04",
@@ -5653,7 +5932,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-2219": [
@@ -5675,7 +5955,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서소문성지 역사박물관] 2026 기획 초대전 [안병철: 물성에서 생명으로]|서소문성지 역사박물관 기획전시실|2026-04-25",
@@ -5695,7 +5976,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "순례역사길 2코스(중구 도보관광 프로그램)|약현성당 앞|2026-04-20",
@@ -5715,7 +5997,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울문화재단] 제11회 서울문화예술포럼|서울문화재단 청년예술청 그레이홀|2026-04-16",
@@ -5735,7 +6018,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서대문 도보여행] (1코스) 독립의 열망을 품은 길, 의주로 - 주말 오후3시|충정로 일대|2026-02-01",
@@ -5755,7 +6039,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서대문 도보해설] (6코스) 기억의 공간, 서대문 독립공원 - 주말 오후 3시|충정로 일대|2026-02-01",
@@ -5775,7 +6060,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울시립교향악단] 2026 서울시향 우리동네 실내악 : 정동제일교회|정동제일교회 벧엘예배당|2026-04-13",
@@ -5795,7 +6081,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울시립미술관 서소문본관] 2026년 한국 근대 거장전 《유영국: 산은 내 안에 있다》|서울시립미술관 서소문본관 1층 전시실|2026-05-19",
@@ -5815,7 +6102,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울시립미술관 서소문본관] 2026 모두를 위한 예술 프로그램 [쉬운 미술관] 끝없는 이야기|서울시립미술관 서소문본관 3층 세마엘|2026-05-09",
@@ -5835,7 +6123,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울시립미술관 서소문본관] 난지미술창작스튜디오 20주년 기념전 《사랑의 기원》|서울시립미술관 서소문본관 2, 3층 전시실,|2026-04-30",
@@ -5855,7 +6144,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울시립미술관 서소문본관] 가나아트컬렉션 《기술의 저변: 경계에 선 장면들》|서울시립미술관 서소문본관 2층 가나아트컬렉션 전시실/상설 전시실|2026-04-16",
@@ -5875,7 +6165,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울시립미술관] 《지구울림 - 헤르츠앤도우》 토크 프로그램 [크로스워크, 청각적 생태계의 실천에 대하여]|온라인 스트리밍, 상시|2026-04-14",
@@ -5895,7 +6186,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 국립정동극장 예술단 [광대]|국립정동극장 (서울시 중구 정동길 43)|2026-04-03",
@@ -5915,7 +6207,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 60,000 KRW"
     },
     {
       "id": "정동한바퀴(중구 도보관광 프로그램)|정동극장|2026-04-20",
@@ -5935,7 +6228,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 문화역서울284 [내부 공간투어]|문화역서울284|2026-04-28",
@@ -5955,7 +6249,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 서대문구 천연동점|서울특별시 서대문구 독립문로8길 107 2층 (천연동)|2026-05-07",
@@ -5975,7 +6270,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "경교장 전시해설 사전예약 (5월)|경교장(사적 제465호)|2026-05-01",
@@ -5995,7 +6291,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "퇴근 후 정원생활(봄학기-1차)|가배도|2026-03-11",
@@ -6015,7 +6312,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "퇴근 후 정원생활(봄학기-2차)|가배도|2026-05-07",
@@ -6035,7 +6333,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "퇴근 후 정원생활(여름학기-1차)|가배도|2026-06-18",
@@ -6055,7 +6354,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[덕수궁] 2026 밤의 석조전(상반기)|덕수궁 석조전 일원|2026-04-08",
@@ -6075,7 +6375,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "35,000 KRW *Up to 2 tickets per person if won"
     },
     {
       "id": "[덕수궁] 석어당 살구꽃 향기로 문을 열다|덕수궁 일원|2026-04-07",
@@ -6095,7 +6396,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Admission fee separate"
     }
   ],
   "ST-181": [
@@ -6117,7 +6419,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "300,000 KRW"
     },
     {
       "id": "기.기.기(奇.己.氣): 동시대와 시행착오|일민미술관|2026-04-01",
@@ -6137,7 +6440,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "7,000~9,000 KRW"
     },
     {
       "id": "[종로정원사마을(토)] 어린이 생태체험 '우리집 꼬마 정원사(상반기)'|청진공원|2026-03-21",
@@ -6157,7 +6461,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[종로정원사마을(화)] 정원처방 프로그램 '마음 쉼표 정원(상반기)'|청진공원|2026-03-17",
@@ -6177,7 +6482,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[종로정원사마을(화)] 정원처방 프로그램 '슬로우 가드닝 클럽(상반기)'|청진공원|2026-03-17",
@@ -6197,7 +6503,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울시] 2026년 서울청년문화패스 신청자 모집|온라인 접수|2025-12-22",
@@ -6217,7 +6524,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[공평도시유적전시관] 전시 해설 운영|공평도시유적전시관|2025-09-23",
@@ -6237,7 +6545,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [하모니시스트 이한결]|서울갤러리 지하 1층 공연장|2026-05-30",
@@ -6257,7 +6566,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [싱어송라이터 장여름]|서울갤러리 지하 1층 공연장|2026-05-27",
@@ -6277,7 +6587,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [첼리스트 빅바플]|서울갤러리 지하 1층 공연장|2026-05-23",
@@ -6297,7 +6608,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [1인 오케스트라 로로컴퍼니]|서울갤러리 지하 1층 공연장|2026-05-20",
@@ -6317,7 +6629,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [기타리스트 hooon]|서울갤러리 지하 1층 공연장|2026-05-16",
@@ -6337,7 +6650,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [해금 아티스트 우하린]|서울갤러리 지하 1층 공연장|2026-05-13",
@@ -6357,7 +6671,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [싱어송라이터 이훈주]|서울갤러리 지하 1층 공연장|2026-05-09",
@@ -6377,7 +6692,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [하모니시스트 이한결]|서울갤러리 지하 1층 공연장|2026-04-29",
@@ -6397,7 +6713,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [컨템포러리 재즈밴드 김루꾸 재즈밴드]|서울갤러리 지하 1층 공연장|2026-04-25",
@@ -6417,7 +6734,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [기타리스트 hooon]|서울갤러리 지하 1층 공연장|2026-04-22",
@@ -6437,7 +6755,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울갤러리] 런치 스테이지 [싱어송라이터 헤디]|서울갤러리 지하 1층 공연장|2026-04-18",
@@ -6457,7 +6776,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울 스테이 라운지 - 공연을 기다려-봄!] 싱어송라이터 사운드힐즈|서울갤러리 지하 1층 공연장|2026-04-12",
@@ -6477,7 +6797,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울 스테이 라운지 - 공연을 기다려-봄!] 플라멩코 기타리스트 레오 플라멩코|서울갤러리 지하 1층 공연장|2026-04-11",
@@ -6497,7 +6818,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울 문화의 밤] 5월 작가힙톡(hip-talk) - 자연관찰일기 (이다_2회차)|서울도서관 1층 생각마루|2026-05-22",
@@ -6517,7 +6839,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울도서관] 월간 북돋움 [0~24개월 잘 자는 아이의 비결]|온라인(zoom)|2026-05-20",
@@ -6537,7 +6860,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울 문화의 밤] 5월 작가힙톡(hip-talk) - 도시관찰일기 (이다_1회차)|서울도서관 1층 생각마루|2026-05-15",
@@ -6557,7 +6881,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울 문화의 밤] 5월 작가힙톡(hip-talk) - 극한에서 살아남은 생명들의 이야기 (이원영)|서울도서관 1층 생각마루|2026-05-08",
@@ -6577,7 +6902,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울 문화의 밤] 4월 작가힙톡(hip-talk) - 제 꿈은 다 이루었어요 (서은혜, 장차현실)|서울도서관 1층 생각마루|2026-04-24",
@@ -6597,7 +6923,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울도서관] 안인모/이희명 [클래식 명곡으로 만나는 싱그러운 봄]|서울도서관 1층 생각마루|2026-04-17",
@@ -6617,7 +6944,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울도서관] 마술사의 도서관 - 도서관주간 기념 마술쇼|서울도서관 1층 생각마루|2026-04-12",
@@ -6637,7 +6965,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울 문화의 밤] 4월 작가힙톡(hip-talk) - 안녕하세요, 서울의 노동자들 (윤지영)|서울도서관 1층 생각마루|2026-04-10",
@@ -6657,7 +6986,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울도서관] 초급 한국 수어 회화 [손으로 말해요]|서울도서관 4층 사서교육장|2026-03-21",
@@ -6677,7 +7007,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[어린이 행복 프로젝트] 어린이 눈건강 지킴이 사업(서울시 전역 1,409개소, 20% 할인)|서울특별시청|2026-05-26",
@@ -6697,7 +7028,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-510": [
@@ -6719,7 +7051,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서울퓨처랩] 5월 | 서울 드론 레이스|서울퓨처랩 체험관|2026-05-01",
@@ -6739,7 +7072,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 배틀봇 워리어스|서울퓨처랩 체험관|2026-05-01",
@@ -6759,7 +7093,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 단체 예약 신청|서울퓨처랩 체험관|2026-05-01",
@@ -6779,7 +7114,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 야간 프로그램(18시30분&19시30분)|서울퓨처랩 체험관|2026-05-01",
@@ -6799,7 +7135,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 특강 | 자율주행 마스터|서울퓨처랩 체험관|2026-05-01",
@@ -6819,7 +7156,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 로봇 올림픽|서울퓨처랩 체험관|2026-05-01",
@@ -6839,7 +7177,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 퓨처 모빌리티|서울퓨처랩 체험관|2026-05-01",
@@ -6859,7 +7198,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 디지털 트윈 in 서울|서울퓨처랩 체험관|2026-05-01",
@@ -6879,7 +7219,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | vr 우주 탐험대|서울퓨처랩 체험관|2026-05-01",
@@ -6899,7 +7240,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 퓨처 스포츠|서울퓨처랩 체험관|2026-05-01",
@@ -6919,7 +7261,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | ai 웹툰 공작소|서울퓨처랩 체험관|2026-05-01",
@@ -6939,7 +7282,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 미래 옷 연구소|서울퓨처랩 체험관|2026-05-01",
@@ -6959,7 +7303,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울퓨처랩] 5월 | 피지컬 ai 연구소|서울퓨처랩 체험관|2026-05-01",
@@ -6979,7 +7324,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-853": [
@@ -7001,7 +7347,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[중랑문화재단] 봉화산 옹기문화마당 5월~6월 체험프로그램|봉화산 옹기문화마당(중랑구 신내로21길 115-1)|2026-05-02",
@@ -7021,7 +7368,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Onggi: 9,000 KRW (materials) + 1,000-3,000 KRW (fee) / Hanji: Varies (materials) + 1,000-3,000 KRW (fee)"
     },
     {
       "id": "[중랑문화재단] 2026 봉화산 옹기문화축제|봉화산 옹기문화마당 1관 (신내로21길 115-1)|2026-04-11",
@@ -7041,7 +7389,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Varies by program"
     },
     {
       "id": "[서울생활사박물관] 2026년 서울생활문화탐방-경춘선숲길(초등 4~6학년 학급 단체)|화랑대철도공원, 경춘선숲길, 서울생활사박물관|2026-04-06",
@@ -7061,7 +7410,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] 2026년 조각조각 서울이야기 엮기(초등5~6학년 학급단체)|서울생활사박물관|2026-04-02",
@@ -7082,7 +7432,8 @@
         "culturalEventInfo",
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] 2026년 무브무브 나의 생활사 교육생 모집 (초등 3~4학년 학급단체)|서울생활사박물관|2026-04-01",
@@ -7102,7 +7453,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] 2026년 상반기 변장나들이(유치원 및 어린이집 단체)|서울생활사박물관|2026-03-17",
@@ -7123,7 +7475,8 @@
         "culturalEventInfo",
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] 2026년 상반기 가족생활사공작소(초등학생 동반 가족)|서울생활사박물관|2026-03-07",
@@ -7143,7 +7496,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[개인예약]2026년 서울생활사박물관 어린이체험실 '옴팡' 관람 개인 예약|서울생활사박물관|2026-01-02",
@@ -7163,7 +7517,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[단체예약]2026년 서울생활사박물관 어린이체험실 '옴팡' 관람 단체 예약|서울생활사박물관|2026-01-02",
@@ -7183,7 +7538,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] 2026년 무브무브 나의 생활사(초등 3~4학년 학급 단체)|서울생활사박물관|2026-04-01",
@@ -7203,7 +7559,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관](주말, 초등학생 동반 가족) 2026년 상반기 가족 생활사 공작소|서울생활사박물관|2026-03-07",
@@ -7223,7 +7580,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] (추가모집)2026년 조각조각 서울이야기 엮기(초등5~6학년 학급단체)|서울생활사박물관|2026-04-02",
@@ -7243,7 +7601,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관](추가모집) 2026년 상반기 변장나들이(유치원 및 어린이집 단체)(4.28)|서울생활사박물관|2026-04-28",
@@ -7263,7 +7622,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] (3차 추가모집)2026년 조각조각 서울이야기 엮기(초등5~6학년 학급단체)|서울생활사박물관|2026-04-09",
@@ -7283,7 +7643,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토)특명! 독립군 밀서를 안전하게 전달하라|봉수대공원|2026-03-25",
@@ -7303,7 +7664,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(주말)꽃 향기 속의 기차 이야기|경춘선숲길|2026-05-01",
@@ -7323,7 +7685,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] 2026년 서울생활문화탐방-경춘선숲길(초등 4~6학년 학급 단체)|화랑대철도공원|2026-04-06",
@@ -7343,7 +7706,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] (추가모집)2026년 서울생활문화탐방-경춘선숲길(초등 4~6학년 학급 단체)(6.11.목)|화랑대철도공원|2026-06-11",
@@ -7363,7 +7727,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관](2차 추가모집)2026년 서울생활문화탐방-경춘선숲길(초등 4~6학년 학급 단체)(6.15)(9.11)|화랑대철도공원|2026-06-15",
@@ -7383,7 +7748,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(중랑구)봉수대공원-서울형정원처방 1인가구지원센터및 서울청년센터|봉수대공원|2026-04-20",
@@ -7403,7 +7769,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "노원구 화랑대 철도공원|서울특별시 노원구 화랑로 608  (공릉동)|2026-05-07",
@@ -7423,7 +7790,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "성북구 우이천 다목적광장|서울특별시 성북구 화랑로 376 성북구 겨울 눈썰매장 우이천|2026-05-07",
@@ -7443,7 +7811,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 중랑구 묵동점 (중랑실내놀이터 묵동 장미마을점)|서울특별시 중랑구 중랑천로 258  (묵동)|2026-05-07",
@@ -7463,7 +7832,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-315": [
@@ -7485,7 +7855,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-182": [
@@ -7507,7 +7878,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026년 경복궁 생과방 특별행사 [유주, 생과방의 봄]|경복궁 생과방|2026-04-27",
@@ -7527,7 +7899,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 봄 궁중문화축전 [특별 굿즈 - 궁패스 향낭]|경복궁, 창덕궁, 덕수궁, 창경궁, 경희궁, 종묘|2026-04-25",
@@ -7547,7 +7920,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "12,000 KRW per ticket (up to 2 per person)"
     },
     {
       "id": "2026년 봄 궁중문화축전|경복궁, 창덕궁, 덕수궁, 창경궁, 경희궁, 종묘|2026-04-25",
@@ -7567,7 +7941,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Varies by program"
     },
     {
       "id": "2026년 봄 궁중문화축전 [경복궁, 시간여행-궁중새내기]|경복궁 일대|2026-04-25",
@@ -7587,7 +7962,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "10,000 KRW (up to 4 per person)"
     },
     {
       "id": "2026년 봄 궁중문화축전 [개막제-궁, 예술을 깨우다 hyper palace]|경복궁 흥례문 광장|2026-04-24",
@@ -7607,7 +7983,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[경복궁] 2026 생과방(상반기)|경복궁 생과방|2026-04-08",
@@ -7627,7 +8004,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "15,000 KRW per ticket *Up to 2 per person if won"
     },
     {
       "id": "2026년 집옥재(팔우정 포함) 작은 도서관 개방|경복궁 집옥재·팔우정|2026-04-01",
@@ -7647,7 +8025,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Gyeongbokgung admission separate"
     },
     {
       "id": "2026년 경복궁 [경회루·향원정] 특별관람|경복궁 경회루·향원정|2026-04-01",
@@ -7667,7 +8046,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Gyeongbokgung admission separate"
     },
     {
       "id": "[국가유산청 궁능유적본부] 수문장 순라의식|(토요일)경복궁 내부 (일요일, 공휴일)인사동 문화의 거리|2026-03-01",
@@ -7687,7 +8067,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Gyeongbokgung admission separate"
     },
     {
       "id": "(토-10시) 종로 여행(女行)길 탐방|종로구청 어르신복지과|2026-03-14",
@@ -7707,7 +8088,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토-10시) 종로 여행(女行)길 탐방|종로구청 어르신복지과|2026-05-09",
@@ -7727,7 +8109,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "광화문광장 감사의 정원 프리덤 홀 전시 해설|광화문광장 감사의 정원 프리덤홀|2026-05-29",
@@ -7747,7 +8130,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "matched_dataset"
+      "en_fallback": "matched_dataset",
+      "price_en": "Free"
     },
     {
       "id": "[세종문화회관] 26세종시즌 [더 트라이브]|세종m씨어터|2026-06-09",
@@ -7767,7 +8151,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 80,000 KRW · S 60,000 KRW"
     },
     {
       "id": "violinist 박정현 & harpist 이진 듀오 리사이틀|세종체임버홀|2026-06-05",
@@ -7787,7 +8172,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "구민희 피아노 독주회|세종체임버홀|2026-06-03",
@@ -7807,7 +8193,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 20,000 KRW"
     },
     {
       "id": "이한올 플루트 독주회|세종체임버홀|2026-06-01",
@@ -7827,7 +8214,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 20,000 KRW"
     },
     {
       "id": "[세종문화회관] 26세종시즌 [re-프로젝트 형식의 재발견]|세종문화회관 세종m씨어터|2026-05-29",
@@ -7847,7 +8235,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 40,000 KRW · S 30,000 KRW"
     },
     {
       "id": "[세종문화회관] 세종예술아카데미 [어반드로잉(입문)]|세종문화회관 스퀘어홀|2026-05-27",
@@ -7867,7 +8256,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "160,000 KRW"
     },
     {
       "id": "[세종문화회관] 세종예술아카데미 [어반드로잉(기초)]|세종문화회관 스퀘어홀|2026-05-27",
@@ -7887,7 +8277,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "160,000 KRW"
     },
     {
       "id": "연극 [화이트 래빗 레드 래빗 (white rabbit red rabbit)]|세종s씨어터|2026-05-27",
@@ -7907,7 +8298,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 60,000 KRW"
     },
     {
       "id": "앙상블 knoll 제 4회 정기연주회|세종체임버홀|2026-05-25",
@@ -7927,7 +8319,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "[아듀:adieu] 쎄시봉 the last 콘서트|세종대극장|2026-05-23",
@@ -7947,7 +8340,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "VIP 165,000 KRW · R 154,000 KRW · S 132,000 KRW · A 110,000 KRW"
     },
     {
       "id": "윤은경 피아노 독주회|세종체임버홀|2026-05-23",
@@ -7967,7 +8361,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "[세종문화회관] 2026 누구나 세종썸머페스티벌 [광화문에서 만나는 아리아]|광화문 광장|2026-05-22",
@@ -7987,7 +8382,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[세종문화회관] 26세종시즌 [명작시리즈 ii 카르미나 부라나]|세종대극장|2026-05-21",
@@ -8007,7 +8403,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 50,000 KRW · S 40,000 KRW · A 30,000 KRW"
     },
     {
       "id": "[세종문화회관] 2026 누구나 클래식 with kbs교향악단|세종문화회관 세종대극장|2026-05-19",
@@ -8027,7 +8424,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Voluntary fee: 1,000/3,000/5,000/10,000 KRW"
     },
     {
       "id": "이영주 피아노 리사이틀 [슈베르트 피아노 소나타 전곡 시리즈 i]|세종체임버홀|2026-05-19",
@@ -8047,7 +8445,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "김민준 피아노 독주회|세종체임버홀|2026-05-18",
@@ -8067,7 +8466,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "[세종문화회관] in the bamboo forest|세종m씨어터|2026-05-15",
@@ -8087,7 +8487,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 60,000 KRW · S 40,000 KRW"
     }
   ],
   "ST-585": [
@@ -8109,7 +8510,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[중랑문화재단] 봉화산 옹기문화마당 5월~6월 체험프로그램|봉화산 옹기문화마당(중랑구 신내로21길 115-1)|2026-05-02",
@@ -8129,7 +8531,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Onggi: 9,000 KRW (materials) + 1,000-3,000 KRW (fee) / Hanji: Varies (materials) + 1,000-3,000 KRW (fee)"
     },
     {
       "id": "[중랑문화재단] 2026 봉화산 옹기문화축제|봉화산 옹기문화마당 1관 (신내로21길 115-1)|2026-04-11",
@@ -8149,7 +8552,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Varies by program"
     },
     {
       "id": "(중랑구)봉수대공원-서울형정원처방 1인가구지원센터및 서울청년센터|봉수대공원|2026-04-20",
@@ -8169,7 +8573,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토)특명! 독립군 밀서를 안전하게 전달하라|봉수대공원|2026-03-25",
@@ -8189,7 +8594,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[중랑구립정보도서관] 2026 상반기 [중랑 공감소통 인문]|중랑구립정보도서관 4층 강당|2026-05-06",
@@ -8209,7 +8615,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(중랑구)중랑 목재문화체험장 - 청량한 소리 도어벨 만들기(4~5월)- 성인 목공체험(개인)평일-오후 (14:00~16:00)|양원지구공원관리사무소|2026-04-15",
@@ -8229,7 +8636,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(중랑구)중랑 목재문화체험장 - 타공판에 나무못 박기(4월~5월)- 유아 목공체험(6~7세 단체)평일-오전 (10:00~12:00)|양원지구공원관리사무소|2026-04-15",
@@ -8249,7 +8657,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(중랑구)구릉산자연체험학교 - 5월 계절별 숲 체험 및 생태 놀이-(유아 단체/개인/가족)|구릉산 유아숲체험장(자연체험학교)|2026-05-01",
@@ -8269,7 +8678,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(주말)꽃 향기 속의 기차 이야기|경춘선숲길|2026-05-01",
@@ -8289,7 +8699,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] 2026년 서울생활문화탐방-경춘선숲길(초등 4~6학년 학급 단체)|화랑대철도공원|2026-04-06",
@@ -8309,7 +8720,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관] (추가모집)2026년 서울생활문화탐방-경춘선숲길(초등 4~6학년 학급 단체)(6.11.목)|화랑대철도공원|2026-06-11",
@@ -8329,7 +8741,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울생활사박물관](2차 추가모집)2026년 서울생활문화탐방-경춘선숲길(초등 4~6학년 학급 단체)(6.15)(9.11)|화랑대철도공원|2026-06-15",
@@ -8349,7 +8762,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "노원구 화랑대 철도공원|서울특별시 노원구 화랑로 608  (공릉동)|2026-05-07",
@@ -8369,7 +8783,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "(화,수)신나는 유아 숲체험|중랑캠핑숲|2026-05-01",
@@ -8389,7 +8804,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(화)힐링이 되는 꽃과 나무 이야기|중랑캠핑숲|2026-05-01",
@@ -8409,7 +8825,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(금)중랑캠핑숲 오감체험|중랑캠핑숲|2026-05-01",
@@ -8429,7 +8846,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(금)중랑캠핑숲 곤충탐험대|중랑캠핑숲|2026-05-01",
@@ -8449,7 +8867,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(금,토)가족 생태 나들이|중랑캠핑숲|2026-05-01",
@@ -8469,7 +8888,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "중랑구 중랑캠핑숲|서울특별시 중랑구 송림길 160  (망우동)|2026-05-07",
@@ -8489,7 +8909,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-359": [
@@ -8511,7 +8932,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동구] 숲해설-건강한 숲나들이(어르신정원처방)|성동구|2026-05-12",
@@ -8531,7 +8953,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동문화재단] 2026 소월아트홀에서 떠나는 유럽여행 콘서트|소월아트홀|2026-05-22",
@@ -8551,7 +8974,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW (Seongdong residents 15,000 KRW)"
     },
     {
       "id": "[성동문화재단] 민쿠스발레 suite [돈키호테 & 라 바야데르]|소월아트홀|2026-05-02",
@@ -8571,7 +8995,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW (Seongdong residents 15,000 KRW)"
     },
     {
       "id": "[성동문화재단] 성동 미니어처 오페라 [세빌리아의 이발사]|소월아트홀 (월요일 휴관)|2026-04-17",
@@ -8591,7 +9016,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW (50% off for Seongdong residents, students, disabled, welfare cardholders)"
     },
     {
       "id": "[성동문화재단] 성동구립도서관 [우리동네 북(book)돋움] 강연 프로그램|성동구립도서관|2026-05-30",
@@ -8611,7 +9037,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동구립도서관] 4월 영어스토리텔링 수업|성동구립도서관|2026-04-26",
@@ -8631,7 +9058,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 2026년 상반기 유아 단체 교육 [꼬물꼬물 청계천 보물찾기]|청계천박물관(성동구)|2026-04-09",
@@ -8651,7 +9079,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 2026년 상반기 초등4~6학년 학급단체 교육 [졸졸졸 개천, 콸콸콸 준천]|청계천박물관(성동구)|2026-04-08",
@@ -8671,7 +9100,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 2026년 상반기 [우리는 청계천 탐험대] 교육생 모집안내(4월)|청계천박물관 지하 1층 교육실|2026-04-04",
@@ -8691,7 +9121,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 2026년 상반기 초등 특수학급 교육 [오감으로 만지는 청계천이야기]|청계천박물관(성동구)|2026-04-03",
@@ -8711,7 +9142,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 2026년 3~4월 개방형교육 [우리들의 친구, 청계천박물관]|청계천박물관(성동구)|2026-03-31",
@@ -8731,7 +9163,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 2026년 상반기 온라인 교육 [톡톡톡 청계천]|각 기관 (온라인 교육)|2026-03-25",
@@ -8751,7 +9184,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 초등 4~6학년 학급단체 교육 <졸졸졸 개천, 콸콸콸 준천> 모집 안내 (수/상반기)|청계천박물관(성동구)|2026-04-08",
@@ -8771,7 +9205,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 유아 단체 교육 <꼬물꼬물 청계천 보물찾기> 모집 안내|청계천박물관(성동구)|2026-04-09",
@@ -8791,7 +9226,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 초등 특수학급 단체 교육 <오감으로 만지는 청계천 이야기> 모집 안내|청계천박물관(성동구)|2026-04-03",
@@ -8811,7 +9247,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 2026년 상반기 온라인 교육 <톡톡톡 청계천> 참여기관 모집|청계천박물관(성동구)|2026-03-25",
@@ -8831,7 +9268,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 초등3~6학년 주말 가족 교육 <우리는 청계천 탐험대> (5월/토)|청계천박물관(성동구)|2026-05-09",
@@ -8851,7 +9289,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[청계천박물관] 5월 개방형교육 <우리들의 친구, 청계천박물관> 모집 안내|청계천박물관(성동구)|2026-05-12",
@@ -8871,7 +9310,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "성동구 꽃재어린이공원|서울특별시 성동구 하왕십리동 1069  (응봉동)|2026-05-07",
@@ -8891,7 +9331,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-329": [
@@ -8913,7 +9354,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
@@ -8933,7 +9375,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
@@ -8953,7 +9396,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "염주씨가 아름다워(팔찌)|용산가족공원|2026-05-23",
@@ -8973,7 +9417,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토) 용산가족공원 숲티어링|용산가족공원|2026-05-02",
@@ -8993,7 +9438,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "용산가족공원 꼬물꼬물 호기심 숲 (유아단체)|용산가족공원|2026-05-06",
@@ -9013,7 +9459,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "숲을 걷다 마음을 쉬다〔로즈데이〕|용산가족공원|2026-05-19",
@@ -9033,7 +9480,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "꽃과 나무의 비밀 (가족숲체험)|용산가족공원|2026-05-03",
@@ -9053,7 +9501,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토)꼬마 정원사, 업사이클링 미니화분(가족)|용산가족공원|2026-05-09",
@@ -9073,7 +9522,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(토) 내 손안의 작은 지구, 미니테라리움(성인)|용산가족공원|2026-05-09",
@@ -9093,7 +9543,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "텃밭에 사는 곤충들 (유아단체)|용산가족공원|2026-05-06",
@@ -9113,7 +9564,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "목화체험(전통기구 체험)|용산가족공원|2026-05-09",
@@ -9133,7 +9585,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-3410": [
@@ -9155,7 +9608,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 2026 책과 함께하는 [에코 탐험대로 지구 지키기]|3층 어린이열람실|2026-04-29",
@@ -9175,7 +9629,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 4월 책 읽어주는 사서 [수요일은 책이랑 쑥쑥]|구립증산도서관 3층 가족열람실|2026-04-22",
@@ -9195,7 +9650,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 책이랑 놀자, 이렇게! 4월|구립증산도서관 지하문화강좌실|2026-04-18",
@@ -9215,7 +9671,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 2026 사서와 함께하는 독서 동아리 [씨앗] 1기|지하 1층 문화강좌실|2026-04-16",
@@ -9235,7 +9692,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 도서관 주간 기념 어린이 독서 캠프 [넘겨서 세계속으로]|구립증산도서관 지하 문화강좌실|2026-04-13",
@@ -9255,7 +9713,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 도서관의 날 기념 [팔랑팔랑 벚꽃 북크닉]|지하 문화강좌실 및 불광천|2026-04-12",
@@ -9275,7 +9734,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 2026 유아 독서 동아리 [책책박사] 1기|구립증산도서관 지하 문화강좌실|2026-04-09",
@@ -9295,7 +9755,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 책 따라 걷는 도서관 - 4월 원화 전시 [에너지 충전]|구립증산도서관 1층 로비 / 3층 어린이열람실|2026-04-02",
@@ -9315,7 +9776,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 가족열람실 4월 북큐레이션 [같이 나누자, 봄날]|3층 가족열람실|2026-04-01",
@@ -9335,7 +9797,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 테마로 즐기는 도서관 - 4월 테마전시체험전 [어린이의 아침]|지하 1층 북갤러리 및 3층 가족열람실|2026-04-01",
@@ -9355,7 +9818,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 재개관 기념 프로그램 [내가 그린 도서관의 한 장면] 디지털 드로잉 클래스|구립증산도서관 1층 문화교육실|2026-03-21",
@@ -9375,7 +9839,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "은평구 증산문화공원|서울특별시 은평구 증산동 263 은평구 증산문화공원(실외)|2026-05-07",
@@ -9395,7 +9860,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-111": [
@@ -9417,7 +9883,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동구립성수도서관] 다문화인식개선 교육 인형극 [아랫마을에서 온 두루미]|성수아트홀 2층 성수책마루|2026-05-12",
@@ -9437,7 +9904,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동문화재단] 세계 영화 상영회 3회차 [인도 영화]|성수아트홀|2026-04-16",
@@ -9457,7 +9925,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 immersion 몰입|성수아트홀|2026-04-11",
@@ -9477,7 +9946,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 30,000 KRW · S 20,000 KRW"
     },
     {
       "id": "서울형 키즈카페 성동구 성수1가1동점(성수 키즈카페)|서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)|2026-05-07",
@@ -9497,7 +9967,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "그 시절의 즐거움을, 지금 다시 함께 즐기는 축제 [낭만페스티벌]|언더스텐드에비뉴 중앙광장, 아트스텐드|2026-05-22",
@@ -9517,7 +9988,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울 가드닝 크루] 청년 입문교육 참가자 모집|서울숲|2026-05-23",
@@ -9537,7 +10009,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "(도봉구) 국제정원박람회 \"나무야 놀자\" 목공프로그램|서울숲|2026-05-12",
@@ -9557,7 +10030,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[강서구] 국제정원박람회 \"나무야 놀자\" 목공프로그램|서울숲|2026-05-13",
@@ -9577,7 +10051,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서대문구] 국제정원박람회 \"나무야 놀자\" 목공프로그램|국제정원박람회 목공프로그램 장소|2026-05-14",
@@ -9597,7 +10072,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울숲 도시정원사의 정원산책 (5월)|서울숲 공영주차장 화장실 건물 앞|2026-05-07",
@@ -9617,7 +10093,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "봄의 예술 산책, 건축과 음악을 거닐다|studio301 성수|2026-05-09",
@@ -9637,7 +10114,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 35,000 KRW"
     },
     {
       "id": "[구로구] 국제정원박람회\"나무야 놀자\"목공프로그램(무전원우드스피커)|[구로구]국제정원박람회&quot;나무야 놀자&quot; 목공체험|2026-05-11",
@@ -9657,7 +10135,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
@@ -9677,7 +10156,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
@@ -9697,7 +10177,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울가든페스티벌] 한지꽃 만들기 체험|서울숲 야외무대|2026-05-16",
@@ -9717,7 +10198,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06",
@@ -9737,7 +10219,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(서울숲_4회차 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-02",
@@ -9757,7 +10240,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울가든페스티벌] 서울숲 야외무대 음악 공연|서울숲 야외무대|2026-05-16",
@@ -9777,7 +10261,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울가든페스티벌] 공원한컷 사진찍기|서울숲 야외무대|2026-05-16",
@@ -9797,7 +10282,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[은평구] 서울국제정원박람회 \"나무야 놀자\" 목공 프로그램-트레이(쟁반) 만들기 & 우드버닝|서울숲 군마상 뒤|2026-05-12",
@@ -9817,7 +10303,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[노원구] 국제정원박람회 \"나무야 놀자\" 목공프로그램|서울숲 군마상 뒤|2026-05-13",
@@ -9837,7 +10324,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[양천구] 국제정원박람회 목공체험 문화프로그램 (가드닝 바구니 만들기)|서울숲|2026-05-11",
@@ -9857,7 +10345,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
@@ -9877,7 +10366,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(중랑구)국제정원박람회\"나무야 놀자\" 목공 프로그램|서울숲|2026-05-11",
@@ -9897,7 +10387,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "사랑의 열매 복권기금 토크콘서트 [통通하는 시간]|kt&g 상상플래닛 커넥트홀|2026-05-16",
@@ -9917,7 +10408,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "수도박물관 전시 해설 예약|수도박물관|2025-01-02",
@@ -9937,7 +10429,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울숲 목요 가드닝 자원봉사(5월)|생태학습장|2026-05-07",
@@ -9957,7 +10450,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울숲 힐링 원예교실(5월)-일요일|생태학습장|2026-05-03",
@@ -9977,7 +10471,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서울숲] 유해 외래식물 쏙쏙 (5월)|생태학습장|2026-04-25",
@@ -9997,7 +10492,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-114": [
@@ -10019,7 +10515,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[세종뮤지엄갤러리] auspicious chorus-상서로운 기운 이철희 기획초대전|세종뮤지엄갤러리 2관|2026-04-22",
@@ -10039,7 +10536,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[세종뮤지엄갤러리] 자연대화주의ii: 비가시적 바람어 - 박상삼 기획초대전|세종뮤지엄갤러리 1관 (광진구 능동로  209 세종대학교 대양ai b1)|2026-04-15",
@@ -10059,7 +10557,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[세종뮤지엄갤러리 기획초대전] visible sound [최소리 개인전]|세종뮤지엄갤러리 2관|2026-04-08",
@@ -10079,7 +10578,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[세종뮤지엄갤러리] 속삭이는 빛 : whispering light -정희경 기획초대전|세종뮤지엄갤러리 1관|2026-04-01",
@@ -10099,7 +10599,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[광진문화재단] 2026 나루동요제|서울어린이대공원 열린무대 ※우천 시 연기 및 별도 안내|2026-05-09",
@@ -10119,7 +10620,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 서울상상나라 어린이날|서울상상나라|2026-05-01",
@@ -10139,7 +10641,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Admission fee separate"
     },
     {
       "id": "[서울상상나라] 2f 기획전시 [사랑하는 모양이야]|2층 서울형 키즈카페 시립 서울상상나라점|2025-11-15",
@@ -10159,7 +10662,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Admission fee separate"
     },
     {
       "id": "[서울상상나라] 통-하다|서울상상나라 1층 상설전시실|2025-11-11",
@@ -10179,7 +10683,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울상상나라] 그림책 작업실:엉뚱하고 기발한|서울상상나라 지하 1층 기획전시실|2025-07-15",
@@ -10199,7 +10704,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "아리수나라 어린이 체험 예약|아리수나라 홍보관|2024-07-01",
@@ -10219,7 +10725,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "제8회 어르니마켓 서울 커먼그라운드|커먼그라운드 야외광장|2026-05-09",
@@ -10239,7 +10746,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "월드비어컨테이너 2026 서울 커먼그라운드|커먼그라운드 야외광장 및 중앙팝업|2026-04-30",
@@ -10259,7 +10767,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "컴온러너스 런페스타 with 커먼그라운드|커먼그라운드 야외광장·mh동 1층 중앙팝업|2026-04-25",
@@ -10279,7 +10788,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울 커먼그라운드] 제1회 호호랑친구들 - 수집가마켓|커먼그라운드 중앙광장|2026-04-10",
@@ -10299,7 +10809,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-609": [
@@ -10321,7 +10832,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-302": [
@@ -10343,7 +10855,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울외국인주민센터] 세계문화탐방 [일상 속 세계정거장] 콜롬비아편|광화문역 인근(개별공지)|2026-04-17",
@@ -10363,7 +10876,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울외국인주민센터] 다양성의 큰 숲, 대림동을 걷다|대림동 일대|2026-04-09",
@@ -10383,7 +10897,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[영등포문화재단] 2026 도림 생활문화센터 특별프로그램|도림 생활문화센터(영등포구 도신로 33길 4)|2026-04-02",
@@ -10403,7 +10918,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Senior model: 100,000 KRW · Voice actor: 70,000 KRW"
     },
     {
       "id": "[영등포문화재단] 도림생활문화센터 2026 사계절클래스 [봄] 프로그램|도림 생활문화센터|2026-03-18",
@@ -10423,7 +10939,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free tuition, materials self-paid"
     },
     {
       "id": "서울형 키즈카페 영등포구 신길4동점|서울특별시 영등포구 신길로40길 5 육아종합지원센터 3층 (신길동)|2026-05-07",
@@ -10443,7 +10960,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-829": [
@@ -10465,7 +10983,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 강서구 화곡3동점|서울특별시 강서구 강서로 231 2층 (화곡동, 우장산역 해링턴 타워)|2026-05-07",
@@ -10485,7 +11004,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 양천구 신월5동점|서울특별시 양천구 화곡로4길 10 신월5동주민센터 6층 (신월동)|2026-05-07",
@@ -10505,7 +11025,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "우장산 녹색복지센터 (5월) 우당탕탕 가족숲 - 새들의 사랑! (우장힐링체험센터)|강서구 우장근린공원 힐링체험센터|2026-04-25",
@@ -10525,7 +11046,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "우장산 녹색복지센터 (4,5,6월) - 산림치유 프로그램 (단체 참여)|강서구 우장근린공원 힐링체험센터|2026-04-08",
@@ -10545,7 +11067,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "우장산 녹색복지센터 (5월~6월)(청년 특집) - 살랑살랑 숲마실 (힐링체험센터)|강서구 우장근린공원 힐링체험센터|2026-05-02",
@@ -10565,7 +11088,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "우장산 녹색복지센터 (5월) 숲태교 , 기다림 (우장근린공원 힐링체험센터)|강서구 우장근린공원 힐링체험센터|2026-04-25",
@@ -10585,7 +11109,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "우장산 녹색복지센터 (5월) 헤아림 , 토닥정원애 들다 (난임부부)|강서구 우장근린공원 힐링체험센터|2026-04-25",
@@ -10605,7 +11130,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "우장산 녹색복지센터 (5월) - 살랑살랑 숲마실 (산림치유)|강서구 우장근린공원 힐링체험센터|2026-04-25",
@@ -10625,7 +11151,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "우장산 녹색복지센터 (5월) 싱잉볼 명상 다스림 (우장근린공원 힐링체험센터)|강서구 우장근린공원 힐링체험센터|2026-04-25",
@@ -10645,7 +11172,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "우장산 녹색복지센터 (5월) 프롭테라피 열林 (우장근린공원 힐링체험센터)|강서구 우장근린공원 힐링체험센터|2026-04-25",
@@ -10665,7 +11193,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "우장산 녹색복지센터 (5월) 밸런스워킹 활력숲 (우장근린공원 힐링체험센터 )|강서구 우장근린공원 힐링체험센터|2026-04-25",
@@ -10685,7 +11214,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 양천구 신월3동점|서울특별시 양천구 남부순환로 374 4층(신나다비전센터)|2026-05-07",
@@ -10705,7 +11235,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-108": [
@@ -10727,7 +11258,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(도봉구) 국제정원박람회 \"나무야 놀자\" 목공프로그램|서울숲|2026-05-12",
@@ -10747,7 +11279,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동문화재단] 세계 영화 상영회 4회차 [스페인 영화]|성수아트홀|2026-05-13",
@@ -10767,7 +11300,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동구립성수도서관] 다문화인식개선 교육 인형극 [아랫마을에서 온 두루미]|성수아트홀 2층 성수책마루|2026-05-12",
@@ -10787,7 +11321,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[성동문화재단] 세계 영화 상영회 3회차 [인도 영화]|성수아트홀|2026-04-16",
@@ -10807,7 +11342,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 immersion 몰입|성수아트홀|2026-04-11",
@@ -10827,7 +11363,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 30,000 KRW · S 20,000 KRW"
     },
     {
       "id": "[강서구] 국제정원박람회 \"나무야 놀자\" 목공프로그램|서울숲|2026-05-13",
@@ -10847,7 +11384,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서대문구] 국제정원박람회 \"나무야 놀자\" 목공프로그램|국제정원박람회 목공프로그램 장소|2026-05-14",
@@ -10867,7 +11405,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울 가드닝 크루] 청년 입문교육 참가자 모집|서울숲|2026-05-23",
@@ -10887,7 +11426,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[구로구] 국제정원박람회\"나무야 놀자\"목공프로그램(무전원우드스피커)|[구로구]국제정원박람회&quot;나무야 놀자&quot; 목공체험|2026-05-11",
@@ -10907,7 +11447,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
@@ -10927,7 +11468,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
@@ -10947,7 +11489,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울가든페스티벌] 한지꽃 만들기 체험|서울숲 야외무대|2026-05-16",
@@ -10967,7 +11510,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06",
@@ -10987,7 +11531,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(서울숲_4회차 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-02",
@@ -11007,7 +11552,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울가든페스티벌] 서울숲 야외무대 음악 공연|서울숲 야외무대|2026-05-16",
@@ -11027,7 +11573,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[2026 서울가든페스티벌] 공원한컷 사진찍기|서울숲 야외무대|2026-05-16",
@@ -11047,7 +11594,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[은평구] 서울국제정원박람회 \"나무야 놀자\" 목공 프로그램-트레이(쟁반) 만들기 & 우드버닝|서울숲 군마상 뒤|2026-05-12",
@@ -11067,7 +11615,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[노원구] 국제정원박람회 \"나무야 놀자\" 목공프로그램|서울숲 군마상 뒤|2026-05-13",
@@ -11087,7 +11636,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[양천구] 국제정원박람회 목공체험 문화프로그램 (가드닝 바구니 만들기)|서울숲|2026-05-11",
@@ -11107,7 +11657,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
@@ -11127,7 +11678,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "(중랑구)국제정원박람회\"나무야 놀자\" 목공 프로그램|서울숲|2026-05-11",
@@ -11147,7 +11699,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울숲 도시정원사의 정원산책 (5월)|서울숲 공영주차장 화장실 건물 앞|2026-05-07",
@@ -11167,7 +11720,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "봄의 예술 산책, 건축과 음악을 거닐다|studio301 성수|2026-05-09",
@@ -11187,7 +11741,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 35,000 KRW"
     },
     {
       "id": "서울형 키즈카페 성동구 성수1가1동점(성수 키즈카페)|서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)|2026-05-07",
@@ -11207,7 +11762,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "수도박물관 전시 해설 예약|수도박물관|2025-01-02",
@@ -11227,7 +11783,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[서울숲 수요가드닝(8주 과정)] 'garden start_오늘부터 정원생활'|서울숲 생태학습장|2026-04-08",
@@ -11247,7 +11804,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울숲 목요 가드닝 자원봉사(5월)|생태학습장|2026-05-07",
@@ -11267,7 +11825,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울숲 힐링 원예교실(5월)-일요일|생태학습장|2026-05-03",
@@ -11287,7 +11846,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[서울숲] 유해 외래식물 쏙쏙 (5월)|생태학습장|2026-04-25",
@@ -11307,7 +11867,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     }
   ],
   "ST-209": [
@@ -11329,7 +11890,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-322": [],
@@ -11352,7 +11914,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "[구립증산도서관] 스마트 아카데미 수강생 모집 (상반기)|구립증산도서관 1층 문화교육실|2026-05-07",
@@ -11372,7 +11935,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 2026 책과 함께하는 [에코 탐험대로 지구 지키기]|3층 어린이열람실|2026-04-29",
@@ -11392,7 +11956,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 4월 책 읽어주는 사서 [수요일은 책이랑 쑥쑥]|구립증산도서관 3층 가족열람실|2026-04-22",
@@ -11412,7 +11977,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 책이랑 놀자, 이렇게! 4월|구립증산도서관 지하문화강좌실|2026-04-18",
@@ -11432,7 +11998,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 2026 사서와 함께하는 독서 동아리 [씨앗] 1기|지하 1층 문화강좌실|2026-04-16",
@@ -11452,7 +12019,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 도서관 주간 기념 어린이 독서 캠프 [넘겨서 세계속으로]|구립증산도서관 지하 문화강좌실|2026-04-13",
@@ -11472,7 +12040,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 도서관의 날 기념 [팔랑팔랑 벚꽃 북크닉]|지하 문화강좌실 및 불광천|2026-04-12",
@@ -11492,7 +12061,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 2026 유아 독서 동아리 [책책박사] 1기|구립증산도서관 지하 문화강좌실|2026-04-09",
@@ -11512,7 +12082,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 책 따라 걷는 도서관 - 4월 원화 전시 [에너지 충전]|구립증산도서관 1층 로비 / 3층 어린이열람실|2026-04-02",
@@ -11532,7 +12103,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 가족열람실 4월 북큐레이션 [같이 나누자, 봄날]|3층 가족열람실|2026-04-01",
@@ -11552,7 +12124,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 테마로 즐기는 도서관 - 4월 테마전시체험전 [어린이의 아침]|지하 1층 북갤러리 및 3층 가족열람실|2026-04-01",
@@ -11572,7 +12145,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[구립증산도서관] 재개관 기념 프로그램 [내가 그린 도서관의 한 장면] 디지털 드로잉 클래스|구립증산도서관 1층 문화교육실|2026-03-21",
@@ -11592,7 +12166,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "은평구 증산문화공원|서울특별시 은평구 증산동 263 은평구 증산문화공원(실외)|2026-05-07",
@@ -11612,7 +12187,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-398": [
@@ -11634,7 +12210,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "서울형 키즈카페 동대문구 새샘공원점|서울특별시 동대문구 사가정로2길 99  (답십리동) 서울형키즈카페 새샘공원점_답십리초등학교 후문 옆 새샘근린공원 내 두번째 건물|2026-05-07",
@@ -11654,7 +12231,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     },
     {
       "id": "서울형 키즈카페 동대문구 답십리1동점|서울특별시 동대문구 답십리로 130 309동 커뮤니티센터 내 (답십리동, 래미안위브)|2026-05-07",
@@ -11674,7 +12252,8 @@
       "sources": [
         "ListPublicReservationCulture"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Paid"
     }
   ],
   "ST-119": [
@@ -11696,7 +12275,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "박신양의 전시쑈 [제 4의 벽]|세종미술관 1관,세종미술관 2관|2026-03-06",
@@ -11716,7 +12296,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Adults 20,000 KRW · Students 15,000 KRW · Children 9,000 KRW"
     },
     {
       "id": "[세종문화회관] 26세종시즌 [더 트라이브]|세종m씨어터|2026-06-09",
@@ -11736,7 +12317,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 80,000 KRW · S 60,000 KRW"
     },
     {
       "id": "violinist 박정현 & harpist 이진 듀오 리사이틀|세종체임버홀|2026-06-05",
@@ -11756,7 +12338,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "구민희 피아노 독주회|세종체임버홀|2026-06-03",
@@ -11776,7 +12359,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 20,000 KRW"
     },
     {
       "id": "이한올 플루트 독주회|세종체임버홀|2026-06-01",
@@ -11796,7 +12380,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 20,000 KRW"
     },
     {
       "id": "[세종문화회관] 26세종시즌 [re-프로젝트 형식의 재발견]|세종문화회관 세종m씨어터|2026-05-29",
@@ -11816,7 +12401,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 40,000 KRW · S 30,000 KRW"
     },
     {
       "id": "[세종문화회관] 세종예술아카데미 [어반드로잉(입문)]|세종문화회관 스퀘어홀|2026-05-27",
@@ -11836,7 +12422,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "160,000 KRW"
     },
     {
       "id": "[세종문화회관] 세종예술아카데미 [어반드로잉(기초)]|세종문화회관 스퀘어홀|2026-05-27",
@@ -11856,7 +12443,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "160,000 KRW"
     },
     {
       "id": "연극 [화이트 래빗 레드 래빗 (white rabbit red rabbit)]|세종s씨어터|2026-05-27",
@@ -11876,7 +12464,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 60,000 KRW"
     },
     {
       "id": "앙상블 knoll 제 4회 정기연주회|세종체임버홀|2026-05-25",
@@ -11896,7 +12485,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "[아듀:adieu] 쎄시봉 the last 콘서트|세종대극장|2026-05-23",
@@ -11916,7 +12506,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "VIP 165,000 KRW · R 154,000 KRW · S 132,000 KRW · A 110,000 KRW"
     },
     {
       "id": "윤은경 피아노 독주회|세종체임버홀|2026-05-23",
@@ -11936,7 +12527,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "[세종문화회관] 2026 누구나 세종썸머페스티벌 [광화문에서 만나는 아리아]|광화문 광장|2026-05-22",
@@ -11956,7 +12548,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[세종문화회관] 26세종시즌 [명작시리즈 ii 카르미나 부라나]|세종대극장|2026-05-21",
@@ -11976,7 +12569,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 50,000 KRW · S 40,000 KRW · A 30,000 KRW"
     },
     {
       "id": "[세종문화회관] 2026 누구나 클래식 with kbs교향악단|세종문화회관 세종대극장|2026-05-19",
@@ -11996,7 +12590,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Voluntary fee: 1,000/3,000/5,000/10,000 KRW"
     },
     {
       "id": "이영주 피아노 리사이틀 [슈베르트 피아노 소나타 전곡 시리즈 i]|세종체임버홀|2026-05-19",
@@ -12016,7 +12611,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "김민준 피아노 독주회|세종체임버홀|2026-05-18",
@@ -12036,7 +12632,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "[세종문화회관] in the bamboo forest|세종m씨어터|2026-05-15",
@@ -12056,7 +12653,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "R 60,000 KRW · S 40,000 KRW"
     },
     {
       "id": "황건영 피아노 독주회|세종체임버홀|2026-05-15",
@@ -12076,7 +12674,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "[세종문화회관] 26세종시즌·스위트석 [해리 포터와 죽음의 성물™ part ii 인 콘서트]|세종문화회관 세종대극장|2026-05-15",
@@ -12096,7 +12695,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "VIP 130,000 KRW · R 100,000 KRW · S 80,000 KRW · A 70,000 KRW · B 50,000 KRW · C 40,000 KRW · Suite 150,000 KRW"
     },
     {
       "id": "피아노 듀오 mino 리사이틀|세종체임버홀|2026-05-14",
@@ -12116,7 +12716,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 20,000 KRW"
     },
     {
       "id": "2026 평화나눔음악회|세종대극장|2026-05-13",
@@ -12136,7 +12737,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "우리동네사람들 시즌6 [소리를 넘어, 마음으로]|세종문화회관 세종m씨어터|2026-05-10",
@@ -12156,7 +12758,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "[세종문화회관] changmo : the emperor|세종문화회관 세종대극장|2026-05-09",
@@ -12176,7 +12779,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "EMPEROR (36 seats) 143,000 KRW · VIP 132,000 KRW · R 110,000 KRW · S 88,000 KRW"
     },
     {
       "id": "지브리 vs 주술회전 ost 콘서트|세종문화회관 세종m씨어터|2026-05-09",
@@ -12196,7 +12800,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "VIP 109,000 KRW · R 89,000 KRW · S 69,000 KRW"
     },
     {
       "id": "다사랑 클라리넷 앙상블 창단 20주년 기념 음악회|세종체임버홀|2026-05-07",
@@ -12216,7 +12821,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 30,000 KRW"
     },
     {
       "id": "공연봄날x세종문화회관 part1|세종문화회관 m씨어터|2026-05-06",
@@ -12236,7 +12842,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "Free"
     },
     {
       "id": "2026 디즈니 인 콘서트 : beyond the magic|세종문화회관 세종대극장|2026-05-06",
@@ -12256,7 +12863,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "VIP 120,000 KRW · R 90,000 KRW · S 70,000 KRW · A 50,000 KRW"
     },
     {
       "id": "선정원 피아노 독주회|세종체임버홀|2026-05-06",
@@ -12276,7 +12884,8 @@
       "sources": [
         "culturalEventInfo"
       ],
-      "en_fallback": "translated"
+      "en_fallback": "translated",
+      "price_en": "All seats 20,000 KRW"
     }
   ]
 }

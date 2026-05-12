@@ -32,6 +32,9 @@ export const EventEntry = z.object({
   start: z.string(),
   end: z.string(),
   price: z.string(),
+  /** English equivalent of `price`. Optional because legacy rows pre-LLM-translation
+   *  may still ship without it; the UI falls back to `price` when missing. */
+  price_en: z.string().optional(),
   url: z.string(),
   img: z.string().optional().default(""),
   sources: z.array(z.string()),

@@ -100,7 +100,9 @@ export function EventCard({
           {event.start.slice(0, 10)}
           {event.end && event.end !== event.start ? ` ~ ${event.end.slice(0, 10)}` : ""}
         </span>
-        <span className={event.price === "Free" ? "text-emerald-600 font-medium" : ""}>{event.price}</span>
+        <span className={event.price === "Free" ? "text-emerald-600 font-medium" : ""}>
+          {lang === "en" ? (event.price_en ?? event.price) : event.price}
+        </span>
       </div>
 
       {/* Secondary action: open external event page (above the stretched link) */}

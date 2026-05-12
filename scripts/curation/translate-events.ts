@@ -27,6 +27,8 @@ interface EventRow {
   title_en: string;
   venue_ko: string;
   venue_en: string;
+  price: string;
+  price_en?: string;
   en_fallback: "matched_dataset" | "ko_original" | "translated";
   [k: string]: unknown;
 }
@@ -75,6 +77,45 @@ const BATCH_SIZE = 20;
 const EVENTS_WORKSPACE = path.join(PATHS.workspace, "03_curation/events_by_station.json");
 const EVENTS_MOBILE = path.join(PATHS.mobileAssets, "events_by_station.json");
 const CACHE_FILE = path.join(PATHS.workspace, "03_curation/translations_events.json");
+const PRICES_CACHE_FILE = path.join(PATHS.workspace, "03_curation/translations_prices.json");
+
+const PRICE_SYSTEM_PROMPT = `You translate Korean event price descriptions to short, natural English for foreign tourists.
+
+Rules:
+- Translate the meaning, keep the numbers intact ("30,000원" → "30,000 KRW").
+- Common phrases:
+  - "유료" → "Paid"
+  - "무료" → "Free"
+  - "입장료 별도" → "Admission fee separate"
+  - "전석 30,000원" → "All seats 30,000 KRW"
+  - "VIP석 165,000원 R석 154,000원" → "VIP 165,000 KRW · R 154,000 KRW"
+  - "부가세 포함" → "VAT included"
+  - "부가서비스 선택 시 추가 비용 발생" → "Optional add-ons incur extra charges"
+  - "강좌별 상이" / "프로그램별 상이" → "Varies by program"
+  - "성동구민 1만5천원" → "Seongdong residents 15,000 KRW"
+  - "JCC회원 10% 할인" → "10% off for JCC members"
+- Keep ~60 chars max per item. Compact, glanceable on a card.
+- Do NOT add explanations or the original Korean.`;
+
+const PRICE_SCHEMA = {
+  type: "object" as const,
+  properties: {
+    items: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          key: { type: "string" },
+          price_en: { type: "string" },
+        },
+        required: ["key", "price_en"],
+        additionalProperties: false,
+      },
+    },
+  },
+  required: ["items"],
+  additionalProperties: false,
+};
 
 function pairKey(title_ko: string, venue_ko: string): string {
   return `${title_ko.trim()}||${venue_ko.trim()}`;
@@ -178,6 +219,103 @@ function patchEvents(data: EventsByStation, cache: Cache): { patched: number; ro
   return { patched, rows };
 }
 
+type PriceCache = Record<string, string>;
+
+async function readPriceCache(): Promise<PriceCache> {
+  try {
+    return JSON.parse(await fs.readFile(PRICES_CACHE_FILE, "utf8")) as PriceCache;
+  } catch {
+    return {};
+  }
+}
+
+async function writePriceCache(cache: PriceCache): Promise<void> {
+  await fs.mkdir(path.dirname(PRICES_CACHE_FILE), { recursive: true });
+  await fs.writeFile(PRICES_CACHE_FILE, JSON.stringify(cache, null, 2), "utf8");
+}
+
+function priceNeedsTranslation(price: string): boolean {
+  // "Free" and rows already with no Korean glyph stay as-is. Everything with
+  // any Hangul codepoint goes through the LLM. Pure ASCII (e.g. "Paid") needs
+  // no translation either.
+  if (!price) return false;
+  if (price === "Free") return false;
+  return /[ㄱ-힝]/.test(price);
+}
+
+function collectUniquePrices(data: EventsByStation, cache: PriceCache): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const rows of Object.values(data)) {
+    for (const r of rows) {
+      const p = r.price?.trim();
+      if (!p || !priceNeedsTranslation(p)) continue;
+      if (seen.has(p) || cache[p]) continue;
+      seen.add(p);
+      out.push(p);
+    }
+  }
+  return out;
+}
+
+async function translatePriceBatch(client: OpenAI, batch: string[]): Promise<PriceCache> {
+  const payload = JSON.stringify(
+    { items: batch.map((p, i) => ({ key: String(i), price_ko: p })) },
+    null,
+    2,
+  );
+  const res = await client.chat.completions.create({
+    model: "solar-pro2",
+    messages: [
+      { role: "system", content: PRICE_SYSTEM_PROMPT },
+      {
+        role: "user",
+        content: "Translate each item's price_ko to English. Echo the same `key`.\n\n" + payload,
+      },
+    ],
+    max_tokens: 1600,
+    response_format: {
+      type: "json_schema",
+      json_schema: { name: "price_translations", strict: true, schema: PRICE_SCHEMA },
+    },
+  });
+  const raw = res.choices[0]?.message.content ?? '{"items":[]}';
+  const parsed = JSON.parse(raw) as { items: { key: string; price_en: string }[] };
+  const out: PriceCache = {};
+  for (const it of parsed.items) {
+    const idx = parseInt(it.key, 10);
+    if (Number.isFinite(idx) && batch[idx]) {
+      out[batch[idx]] = it.price_en;
+    }
+  }
+  return out;
+}
+
+function patchPrices(data: EventsByStation, cache: PriceCache): { patched: number; skipped: number } {
+  let patched = 0;
+  let skipped = 0;
+  for (const arr of Object.values(data)) {
+    for (const r of arr) {
+      const p = r.price?.trim();
+      if (!p) { skipped++; continue; }
+      if (p === "Free") {
+        r.price_en = "Free";
+        continue;
+      }
+      if (!priceNeedsTranslation(p)) {
+        // Pure ASCII English already — mirror it as price_en.
+        r.price_en = p;
+        continue;
+      }
+      const t = cache[p];
+      if (!t) { skipped++; continue; }
+      r.price_en = t;
+      patched++;
+    }
+  }
+  return { patched, skipped };
+}
+
 async function main() {
   const env = await loadEnv();
   const apiKey = process.env.SOLAR_API_KEY || env.SOLAR_API_KEY;
@@ -216,7 +354,39 @@ async function main() {
   console.log();
 
   const { patched, rows } = patchEvents(data, cache);
-  console.log(`Patched ${patched}/${rows} rows.`);
+  console.log(`Patched ${patched}/${rows} title/venue rows.`);
+
+  // --- Price translation pass ---
+  const priceCache = await readPriceCache();
+  console.log(`Price cache hits available: ${Object.keys(priceCache).length}`);
+  const uniquePrices = collectUniquePrices(data, priceCache);
+  console.log(`Unique Korean prices to translate: ${uniquePrices.length}`);
+
+  for (let i = 0; i < uniquePrices.length; i += BATCH_SIZE) {
+    const batch = uniquePrices.slice(i, i + BATCH_SIZE);
+    process.stdout.write(
+      `\r  · price batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(uniquePrices.length / BATCH_SIZE)} (${batch.length}) `,
+    );
+    let attempt = 0;
+    while (attempt < 3) {
+      try {
+        const result = await translatePriceBatch(client, batch);
+        Object.assign(priceCache, result);
+        await writePriceCache(priceCache);
+        break;
+      } catch (e) {
+        attempt++;
+        console.warn(`\n  ! price batch failed (attempt ${attempt}):`, e instanceof Error ? e.message : e);
+        if (attempt >= 3) throw e;
+        await new Promise((r) => setTimeout(r, 1500 * attempt));
+      }
+    }
+    await new Promise((r) => setTimeout(r, 700));
+  }
+  if (uniquePrices.length > 0) console.log();
+
+  const { patched: pricePatched, skipped: priceSkipped } = patchPrices(data, priceCache);
+  console.log(`Patched ${pricePatched} prices (skipped ${priceSkipped}).`);
 
   await fs.mkdir(path.dirname(EVENTS_WORKSPACE), { recursive: true });
   await fs.writeFile(EVENTS_WORKSPACE, JSON.stringify(data, null, 2), "utf8");
@@ -224,6 +394,7 @@ async function main() {
   console.log(`✓ wrote ${EVENTS_WORKSPACE}`);
   console.log(`✓ wrote ${EVENTS_MOBILE}`);
   console.log(`✓ cache ${CACHE_FILE}`);
+  console.log(`✓ prices cache ${PRICES_CACHE_FILE}`);
 }
 
 main().catch((e) => {
