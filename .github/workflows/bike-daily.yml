@@ -1,12 +1,14 @@
 name: bike-daily
 
 # Daily refresh of foreigner-bike rentals → popular_stations.json.
-# Runs at 19:00 UTC = 04:00 KST so trending-daily (21:00 UTC = 06:00 KST)
-# can synthesize against the freshest popular-station ranking.
+# Runs at 21:00 UTC = 06:00 KST — outside Korean gov't system maintenance
+# window (typically 02:00~05:00 KST) when Seoul OpenAPI backend periodically
+# stalls. events-daily and trending-daily chain after at +1h intervals so
+# the next step always reads a freshly committed mobile-assets fallback.
 
 on:
   schedule:
-    - cron: "0 19 * * *"
+    - cron: "0 21 * * *"
   workflow_dispatch:
 
 permissions:
