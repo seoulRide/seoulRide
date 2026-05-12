@@ -27,7 +27,7 @@ export function NearbyClient({
   focusId?: string;
   lang: Lang;
 }) {
-  const { origin, locStatus, requestLocation } = useGeolocation();
+  const { origin, locStatus, lowAccuracy, requestLocation } = useGeolocation();
   const [mobile, setMobile] = useState(false);
   useEffect(() => { setMobile(isMobileUA()); }, []);
 
@@ -94,7 +94,7 @@ export function NearbyClient({
   ) : (
     <div className="pointer-events-auto rounded-full bg-white/90 dark:bg-zinc-900/90 backdrop-blur shadow-sm border border-zinc-200 dark:border-zinc-800 px-3 py-1.5 text-xs flex items-center gap-2">
       {locStatus === "requesting" && <span>{lang === "ko" ? "위치 확인 중…" : "Locating…"}</span>}
-      {locStatus === "granted" && (
+      {locStatus === "granted" && !lowAccuracy && (
         <>
           <span className="h-2 w-2 rounded-full bg-blue-500" />
           <span>{lang === "ko" ? "내 위치 기준" : "Around you"}</span>
@@ -102,6 +102,19 @@ export function NearbyClient({
           <span className="text-zinc-500">
             {lang === "ko" ? `${events.length}개 행사` : `${events.length} events`}
           </span>
+        </>
+      )}
+      {locStatus === "granted" && lowAccuracy && (
+        <>
+          <span className="text-amber-600">⚠</span>
+          <span className="truncate">{t("location.low_accuracy", lang)}</span>
+          <button
+            onClick={requestLocation}
+            className="ml-1 text-emerald-600 font-medium underline-offset-2 hover:underline shrink-0"
+            type="button"
+          >
+            {t("location.retry", lang)}
+          </button>
         </>
       )}
       {(locStatus === "denied" || locStatus === "unsupported") && (

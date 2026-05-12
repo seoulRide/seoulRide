@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { NaverMap, type NaverMapHandle, type NaverMapMarker, type NaverMapNamedMarker } from "./NaverMap";
+import { MyLocationFab, MY_LOCATION_FAB_DEFAULT_ZOOM } from "./MyLocationFab";
 import type { PopularStation } from "@/lib/types";
 import type { StationLite } from "@/lib/data";
 import type { Lang } from "@/lib/i18n";
@@ -104,16 +105,24 @@ export default function MapWrapper({
     setTimeout(() => router.push(`/station/${encodeURIComponent(stripped)}${lngQs}`), 320);
   };
 
+  const recenterOnUser = useCallback((lat: number, lng: number) => {
+    mapRef.current?.panTo(lat, lng);
+    mapRef.current?.setZoom(MY_LOCATION_FAB_DEFAULT_ZOOM);
+  }, []);
+
   return (
-    <NaverMap
-      ref={mapRef}
-      markers={[]}
-      extraMarkers={[...heatMarkers, ...top3Markers]}
-      onMarkerClick={onClick}
-      zoom={11}
-      minZoom={10}
-      fitBounds
-      className="h-[55vh] sm:h-[60vh] md:h-[68vh] w-full rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-sm"
-    />
+    <div className="relative h-[55vh] sm:h-[60vh] md:h-[68vh] w-full rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-sm">
+      <NaverMap
+        ref={mapRef}
+        markers={[]}
+        extraMarkers={[...heatMarkers, ...top3Markers]}
+        onMarkerClick={onClick}
+        zoom={11}
+        minZoom={10}
+        fitBounds
+        className="h-full w-full"
+      />
+      <MyLocationFab onLocate={recenterOnUser} lang={lang} />
+    </div>
   );
 }
