@@ -18,6 +18,9 @@ interface PageResult {
   total: number;
 }
 
+/** 서울 OpenAPI는 2016년 버전 Jetty(9.2.19)로 운영되어 가끔 connection을
+ *  못 받는다. 한 번 실패하면 ETL 전체가 죽으므로 3회 지수 backoff 재시도.
+ *  application-level 에러(잘못된 키 등 INFO-1xx)는 즉시 throw — 재시도 무의미. */
 async function fetchPage(
   service: string,
   apiKey: string,
@@ -27,20 +30,42 @@ async function fetchPage(
 ): Promise<PageResult> {
   const segments = [apiKey, "json", service, String(start), String(end), ...args];
   const url = `${BASE}/${segments.join("/")}`;
-  const res = await fetch(url, { headers: { "User-Agent": "seoulRide/0.1" } });
-  if (!res.ok) throw new Error(`${service} HTTP ${res.status}`);
-  const data: any = await res.json();
-  const root = data?.[service];
-  if (!root) {
-    if (data?.RESULT?.CODE === "INFO-200") return { rows: [], total: 0 };
-    throw new Error(`Unexpected payload for ${service}: ${JSON.stringify(data).slice(0, 200)}`);
+  const MAX_ATTEMPTS = 3;
+  const CONNECT_TIMEOUT_MS = 30_000;
+
+  let lastErr: unknown;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: { "User-Agent": "seoulRide/0.1" },
+        signal: AbortSignal.timeout(CONNECT_TIMEOUT_MS),
+      });
+      if (!res.ok) throw new Error(`${service} HTTP ${res.status}`);
+      const data: any = await res.json();
+      const root = data?.[service];
+      if (!root) {
+        if (data?.RESULT?.CODE === "INFO-200") return { rows: [], total: 0 };
+        throw new Error(`Unexpected payload for ${service}: ${JSON.stringify(data).slice(0, 200)}`);
+      }
+      const code: string | undefined = root.RESULT?.CODE;
+      if (code && !code.startsWith("INFO-000")) {
+        if (code === "INFO-200") return { rows: [], total: 0 };
+        // 키 무효(INFO-100), 정책 위반(ERROR-3xx) 등은 재시도해도 답 안 바뀜.
+        throw new Error(`${service}: ${code} ${root.RESULT?.MESSAGE ?? ""}`);
+      }
+      return { rows: root.row ?? [], total: root.list_total_count ?? 0 };
+    } catch (err) {
+      lastErr = err;
+      const msg = (err as Error).message ?? String(err);
+      // 영구 에러(잘못된 키 / 정책 위반)도 동일하게 재시도하지만 3회로 제한 —
+      // 분류 로직 복잡도 늘리는 것보다 단순한 게 안전.
+      if (attempt === MAX_ATTEMPTS) break;
+      const waitMs = 5_000 * 2 ** (attempt - 1); // 5s, 10s, 20s
+      console.warn(`  [retry] ${service} ${start}-${end} attempt ${attempt}/${MAX_ATTEMPTS} failed (${msg}) — waiting ${waitMs}ms`);
+      await new Promise((r) => setTimeout(r, waitMs));
+    }
   }
-  const code: string | undefined = root.RESULT?.CODE;
-  if (code && !code.startsWith("INFO-000")) {
-    if (code === "INFO-200") return { rows: [], total: 0 };
-    throw new Error(`${service}: ${code} ${root.RESULT?.MESSAGE ?? ""}`);
-  }
-  return { rows: root.row ?? [], total: root.list_total_count ?? 0 };
+  throw lastErr;
 }
 
 export async function fetchAll(opts: FetchOpts): Promise<any[]> {
