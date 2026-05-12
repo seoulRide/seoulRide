@@ -15,8 +15,24 @@ import { getCachedWeatherByGu } from "./weather";
 const WS = path.resolve(process.cwd(), "../../_workspace");
 const MOBILE_ASSETS = path.resolve(process.cwd(), "../mobile/assets/data");
 
+// When the pipeline output under _workspace/ is missing (fresh clone, CI),
+// fall back to the committed copy under apps/mobile/assets/data/. Keys here
+// are workspace-relative paths; values are mobile asset filenames.
+const MOBILE_FALLBACK: Record<string, string> = {
+  "02_analytics/popular_stations.json": "popular_stations.json",
+  "03_curation/events_by_station.json": "events_by_station.json",
+  "04_weather/forecast_by_gu.json": "forecast_by_gu.json",
+};
+
 async function readJson<T>(rel: string, parser: { parse: (x: unknown) => T }): Promise<T> {
-  const txt = await fs.readFile(path.join(WS, rel), "utf8");
+  let txt: string;
+  try {
+    txt = await fs.readFile(path.join(WS, rel), "utf8");
+  } catch (e) {
+    const fallback = MOBILE_FALLBACK[rel];
+    if (!fallback) throw e;
+    txt = await fs.readFile(path.join(MOBILE_ASSETS, fallback), "utf8");
+  }
   return parser.parse(JSON.parse(txt));
 }
 

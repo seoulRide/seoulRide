@@ -1,9 +1,10 @@
-// English-language display names for the 50 popular bike-share stations.
-// Static dict — same pattern as food-blurbs.json. The pipeline data has
-// `station_name_en: null` for all stations because the 따릉이 master CSV
-// only ships Korean. When that changes upstream, this dict can shrink to
-// override-only.
-export const STATION_NAMES_EN: Record<string, string> = {
+// Hand-curated English-language display names for the top 50 popular stations.
+// Solar Pro 2 (build-time, scripts/curation/translate-stations.ts) fills in the
+// rest into station-names-en.generated.ts; the hand-curated entries below win
+// on collision.
+import { STATION_NAMES_EN_GENERATED } from "./station-names-en.generated";
+
+export const STATION_NAMES_EN_HAND: Record<string, string> = {
   "ST-1199": "Seoul Forest Management Office",
   "ST-207": "Sogang Univ. Station Exit 2",
   "ST-502": "Seongnae-dong 434-28",
@@ -54,6 +55,12 @@ export const STATION_NAMES_EN: Record<string, string> = {
   "ST-347": "Jeongmyeong Academy",
   "ST-398": "Dapsimni Station Exit 1",
   "ST-119": "Sejongno Park",
+};
+
+// Merged dict: hand-curated overrides win over LLM-generated entries.
+export const STATION_NAMES_EN: Record<string, string> = {
+  ...STATION_NAMES_EN_GENERATED,
+  ...STATION_NAMES_EN_HAND,
 };
 
 /** Display the station name in the requested language. Falls back to the

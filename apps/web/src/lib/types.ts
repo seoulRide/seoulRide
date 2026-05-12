@@ -35,7 +35,7 @@ export const EventEntry = z.object({
   url: z.string(),
   img: z.string().optional().default(""),
   sources: z.array(z.string()),
-  en_fallback: z.enum(["matched_dataset", "ko_original"]),
+  en_fallback: z.enum(["matched_dataset", "ko_original", "translated"]),
 });
 export type EventEntry = z.infer<typeof EventEntry>;
 export const EventsByStation = z.record(z.string(), z.array(EventEntry));
