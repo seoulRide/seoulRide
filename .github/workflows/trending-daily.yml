@@ -47,6 +47,12 @@ jobs:
           test -s _workspace/05_trending/trending.json
           jq 'length' _workspace/05_trending/trending.json
 
+      - name: Upsert to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: pnpm upsert:trending
+
       - name: Commit + push if changed
         run: |
           git config user.name "github-actions[bot]"

@@ -1,6 +1,6 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { PATHS } from "../lib/env.ts";
+import { PATHS, readWorkspaceText } from "../lib/env.ts";
 import { radiusForGu, toGuEn } from "../lib/gu-mapping.ts";
 
 interface Station {
@@ -61,7 +61,11 @@ async function readJson(file: string): Promise<any[]> {
 
 async function main() {
   const ws = path.join(PATHS.workspace);
-  const stations: Station[] = await readJson(path.join(ws, "02_analytics/popular_stations.json"));
+  // popular_stations는 bike-daily가 매일 mobile assets에도 커밋하므로
+  // CI에서 _workspace가 비어 있어도 mobile fallback으로 읽을 수 있다.
+  const stations: Station[] = JSON.parse(
+    await readWorkspaceText("02_analytics/popular_stations.json"),
+  );
 
   const cei: any[] = await readJson(path.join(ws, "01_ingest/culturalEventInfo.normalized.json"));
   const lprc: any[] = await readJson(path.join(ws, "01_ingest/ListPublicReservationCulture.normalized.json"));
