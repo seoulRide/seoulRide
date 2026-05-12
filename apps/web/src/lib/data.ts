@@ -8,6 +8,7 @@ import {
   type PopularStation,
   type StationMasterEntry,
   type TrendingByStation as TrendingByStationType,
+  type EventsByStation as EventsByStationType,
   type WeatherByGu,
 } from "./types";
 import { getCachedWeatherByGu } from "./weather";
@@ -47,8 +48,13 @@ export async function getPopularStations(): Promise<PopularStation[]> {
   return readJson("02_analytics/popular_stations.json", PopularStations);
 }
 
-export async function getEventsByStation() {
-  return readJson("03_curation/events_by_station.json", EventsByStation);
+// Module-level cache so /events doesn't re-read the 559 KB JSON + re-run
+// zod validation on every searchParams change (lang/status/price toggle).
+let _eventsByStation: EventsByStationType | null = null;
+export async function getEventsByStation(): Promise<EventsByStationType> {
+  if (_eventsByStation) return _eventsByStation;
+  _eventsByStation = await readJson("03_curation/events_by_station.json", EventsByStation);
+  return _eventsByStation;
 }
 
 export async function getWeatherByGu(): Promise<WeatherByGu> {
