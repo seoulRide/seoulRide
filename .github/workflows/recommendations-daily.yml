@@ -1,0 +1,48 @@
+name: recommendations-daily
+
+# Daily AI recommendation picking — 50 popular bike stations × 5 picks each.
+# Reads popular_stations + events_by_station from Supabase (filled by
+# bike-daily + events-daily at 06:00 KST), runs Solar Pro 2 to curate
+# location/today-context-aware picks, upserts to daily_recommendations.
+#
+# Runs at 22:00 UTC = 07:00 KST — one hour after the other three daily
+# crons so the inputs are fresh in Supabase.
+
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    concurrency:
+      group: recommendations-daily
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install root dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Pick today's recommendations (Solar Pro 2)
+        env:
+          SOLAR_API_KEY: ${{ secrets.SOLAR_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: pnpm pick:recommendations
