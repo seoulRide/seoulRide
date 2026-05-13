@@ -108,7 +108,7 @@ async function fetchKma(
   return data.response?.body?.items?.item ?? [];
 }
 
-function aggregate(items: unknown[]): { now: RawForecast; series: { ts: string; f: RawForecast }[] } {
+function aggregate(items: unknown[], at: Date): { now: RawForecast; series: { ts: string; f: RawForecast }[] } {
   const buckets = new Map<string, RawForecast>();
   for (const raw of items) {
     const it = raw as { fcstDate?: string; fcstTime?: string; fcstValue?: string; category?: string };
@@ -134,8 +134,21 @@ function aggregate(items: unknown[]): { now: RawForecast; series: { ts: string; 
     }
   }
   const sorted = [...buckets.entries()].sort();
-  const now: RawForecast = sorted[0]?.[1] ?? {};
-  const series = sorted.slice(0, 8).map(([ts, f]) => ({ ts, f }));
+  // Pick the bucket matching the current KST hour. KMA's getVilageFcst response
+  // contains hourly forecasts for ~3 days from base_time; without this, we'd
+  // always pick the first slot (base_time+1h) and the displayed value would
+  // only advance when base_time rolls (every 3h). Falls back to sorted[0] if
+  // no slot is ≤ now (e.g., right after a base_time switch).
+  const kst = new Date(at.getTime() + 9 * 3600 * 1000);
+  const yyyymmdd = kst.toISOString().slice(0, 10).replace(/-/g, "");
+  const targetKey = `${yyyymmdd}_${String(kst.getUTCHours()).padStart(2, "0")}00`;
+  let pickIdx = 0;
+  for (let i = 0; i < sorted.length; i++) {
+    if (sorted[i][0] <= targetKey) pickIdx = i;
+    else break;
+  }
+  const now: RawForecast = sorted[pickIdx]?.[1] ?? {};
+  const series = sorted.slice(pickIdx, pickIdx + 8).map(([ts, f]) => ({ ts, f }));
   return { now, series };
 }
 
@@ -177,7 +190,8 @@ async function buildForecastByGu(guList: string[]): Promise<WeatherByGu> {
   const apiKey = process.env.KMA_API_KEY;
   if (!apiKey) return buildMocked(guList, "KMA_API_KEY not set");
 
-  const base = pickBaseTime(new Date());
+  const issuedAt = new Date();
+  const base = pickBaseTime(issuedAt);
   const out: Record<string, WeatherForecast> = {};
   let lastErr = "";
 
@@ -187,7 +201,7 @@ async function buildForecastByGu(guList: string[]): Promise<WeatherByGu> {
       if (!grid) return null;
       const items = await fetchKma(apiKey, grid.nx, grid.ny, base);
       if (!items.length) throw new Error("empty items");
-      const { now, series } = aggregate(items);
+      const { now, series } = aggregate(items, issuedAt);
       const score = rideScore(now);
       const entry: WeatherForecast = {
         gu_ko: grid.gu_ko,
