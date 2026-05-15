@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 69,
-    "sentiment_avg": 0.43478260869565216,
-    "summary_ko": "종로구 SK 서린빌딩 근처 청계천 등불 축제·LoL Park 등 이벤트 활발. 북촌·창경궁 등 역사 명소도 인기.",
-    "summary_en": "Jongno-gu SK Serin Bldg. area buzzes with Cheonggyecheon lanterns, LoL Park. Bukchon, Changgyeonggung attract visitors.",
+    "mention_count": 84,
+    "sentiment_avg": 0.34523809523809523,
+    "summary_ko": "종로구: 청계천 등불축제와 인사동 야경, 포차거리 등 외국인 관광객 명소. 이순신로드 등 도보 투어 진행 중.",
+    "summary_en": "Jongno-gu: Cheonggyecheon lantern festival, Insadong night views, and Myeongdong walking tours. Popular with foreign tourists.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
       "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
@@ -17,41 +17,85 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1taz14q/if_youre_in_seoul_dont_miss_the_lanterns_at/",
-        "title": "If you’re in Seoul, don’t miss the lanterns at Cheonggyecheon! (Buddha's Birthday celebration)",
-        "snippet": "don’t miss the lanterns at Cheonggyecheon! (Buddha's Birthday celebration)",
+        "url": "https://www.reddit.com/r/seoul/comments/1tdsy6j/jongno_photo_walk_across_elevated_walkway/",
+        "title": "Jongno- photo walk across elevated walkway",
+        "snippet": "Jongno- photo walk across elevated walkway",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1talafp/chang_gyeong_gung/",
-        "title": "Chang gyeong gung",
-        "snippet": "Chang gyeong gung",
+        "url": "https://www.reddit.com/r/seoul/comments/1tdsy6j/jongno_photo_walk_across_elevated_walkway/",
+        "title": "Jongno- photo walk across elevated walkway",
+        "snippet": "Jongno- photo walk across elevated walkway",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ta4x3o/bukchon_hanok_village/",
-        "title": "Bukchon Hanok Village",
-        "snippet": "[reddit_seoul] Bukchon Hanok Village\n\n[link post] https://www.reddit.com/r/seoul/comments/1ta4x3o/bukchon_hanok_village/",
+        "url": "https://www.reddit.com/r/seoul/comments/1tdnb41/why_you_should_visit_insadong_twice_especially/",
+        "title": "Why you should visit Insadong TWICE (especially after the sun goes down)",
+        "snippet": "Why you should visit Insadong TWICE (especially after the sun goes down)",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9wsxd/old_seoul_vibes_at_dongmyo/",
-        "title": "Old Seoul vibes at Dongmyo",
-        "snippet": "Old Seoul vibes at Dongmyo",
+        "url": "https://www.reddit.com/r/seoul/comments/1tdn79u/best_areas_to_experience_yeondeunghoe/",
+        "title": "Best areas to experience Yeondeunghoe",
+        "snippet": "Lantern festival (Yeondeunghoe) is typically held at Cheonggyecheon, a major cultural event in Seoul where the stream is decorated with thousands of lanterns. This would be the most authentic and central location for a solo traveler to experience the tradition.",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-12T22:18:40.695Z"
+    "updated_at": "2026-05-15T22:04:59.053Z"
+  },
+  {
+    "station_no": "ST-1199",
+    "station_name_ko": "서울숲 관리사무소",
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "mention_count": 42,
+    "sentiment_avg": 0.35714285714285715,
+    "summary_ko": "성동구: RAIVE X HELLO KITTY 팝업스토어 등 체험형 카페 인기. 서울숲 인근 2026 국제정원박람회 예정.",
+    "summary_en": "Seongdong-gu: RAIVE X HELLO KITTY pop-up store and immersive cafes. 2026 Seoul International Garden Expo coming to Seoul Forest.",
+    "related_event_ids": [
+      "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
+      "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
+      "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
+      "[2026 서울가든페스티벌] 서울숲 야외무대 음악 공연|서울숲 야외무대|2026-05-16",
+      "[2026 서울가든페스티벌] 한지꽃 만들기 체험|서울숲 야외무대|2026-05-16"
+    ],
+    "sources": [
+      {
+        "url": "https://view.asiae.co.kr/article/2026051515431573641",
+        "title": "[르포]'K-방탈출' 게임 위해 200명 '오픈런'…명동 달군 롯데 페스티벌",
+        "snippet": "이례적으로 성수에서 개최한 바 있다",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.tvreport.co.kr/entertainment/article/1044878/",
+        "title": "'대세들의 만남'…페이커, 카리나에 고백→'사랑하게 될거야' 설레는 콜...",
+        "snippet": "구글플레이는 영상 공개와 더불어 오는 17일까지 성수동 일대에 QR코드가 담긴 캠페인 포스터를 붙여...",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.hankyung.com/article/2026051590617",
+        "title": "\"100만원어치 쓸어갔어요\"…한국 男에 푹 빠진 일본 여성들 [K컬처인사이...",
+        "snippet": "성수, 여의도와 같은 이른바 '팝업 성지'는 물론이고 명동과 동대문까지 아티스트의 컴백이나 인기",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.newsis.com/view/NISX20260515_0003631715",
+        "title": "\"페이커와 카리나가 한 화면에? 무슨 일이야\"…게이머 사로잡은 구글",
+        "snippet": "오는 17일까지 서울 성동구 성수동 일대에서 캠페인 포스터와 QR코드 이벤트도 진행할 예정이다",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-05-15T22:04:59.053Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 49,
-    "sentiment_avg": 0.4489795918367347,
-    "summary_ko": "마포구 서강대역 인근 홍대 캠핑 테마 파티룸·주말 행사 인기. 신촌 투어 프로그램도 진행 중.",
-    "summary_en": "Mapo-gu Seogang Univ. Sta. area popular for Hongdae camping-themed parties, Sinchon walking tours.",
+    "mention_count": 35,
+    "sentiment_avg": 0.5714285714285714,
+    "summary_ko": "마포구: 연남동 훈제연어·에그베네딕트 맛집 인기. 신촌 7080·대학 탐방 도보 투어 진행 중.",
+    "summary_en": "Mapo-gu: Yeonnam-dong's salmon & egg benedict hotspots. Sinchon 7080 & university walking tours available.",
     "related_event_ids": [
       "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 주말 오후 3시|신촌 일대|2026-02-01",
@@ -61,129 +105,85 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tb0rbe/indoor_camping_party_room_in_hongdae_this/",
-        "title": "Indoor camping party room in Hongdae this Saturday (May 16)!",
-        "snippet": "Indoor camping-style party room in Hongdae — an indoor camping-style party room with campfire vibes. Pretty cool spot for a first-timer or if you just want to meet new people in a relaxed setting.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tb0rbe/indoor_camping_party_room_in_hongdae_this/",
-        "title": "Indoor camping party room in Hongdae this Saturday (May 16)!",
-        "snippet": "Indoor camping party room in Hongdae this Saturday (May 16)!",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tavjm1/lf_late_morning_to_evening_recommendations_in/",
-        "title": "LF late morning to evening recommendations in Seoul",
-        "snippet": "I have been around Myeongdong and Hongdae",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tajksx/khiphop_clubs_in_hongdae/",
-        "title": "Khiphop Clubs in Hongdae?",
-        "snippet": "Khiphop Clubs in Hongdae? ... Anyone know where we can find clubs that’ll play music from khiphop groups like KC in Hongdae",
-        "source": "reddit_seoul"
-      }
-    ],
-    "updated_at": "2026-05-12T22:18:40.695Z"
-  },
-  {
-    "station_no": "ST-1199",
-    "station_name_ko": "서울숲 관리사무소",
-    "gu_ko": "성동구",
-    "gu_en": "Seongdong-gu",
-    "mention_count": 30,
-    "sentiment_avg": 0.4,
-    "summary_ko": "성동구 서울숲 인근 성수동 카페거리·팝업스토어 핫플레이스. 정원박람회 등 이벤트 다수.",
-    "summary_en": "Seongdong-gu Seoul Forest area bustles with Seongsu-dong cafes, pop-ups. Garden Expo ongoing.",
-    "related_event_ids": [
-      "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
-      "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
-      "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
-      "[2026 서울가든페스티벌] 한지꽃 만들기 체험|서울숲 야외무대|2026-05-16",
-      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06"
-    ],
-    "sources": [
-      {
-        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
-        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "http://www.apparelnews.co.kr/news/news_view/?idx=225189",
-        "title": "'웰니스 경제' 부상…국내 시장 확산",
-        "snippet": "'주요 상권을 중심으로 요가와 러닝 시설이 확산'하는 추세로 언급된 서울의 핫플레이스(성수동)입니다.",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16062269",
+        "title": "\"뜨거운 방콕 밤의 바이브\"…'최자로드' 서울 강남 신사동 태국요리 맛...",
+        "snippet": "최자는 서울 연남동의 유명한 태국요리 전문점의 사장이 오픈한 곳이라면서 해당 식당의 매력을 짚었다",
         "source": "naver_news"
       },
       {
-        "url": "https://www.dt.co.kr/article/12062066?ref=naver",
-        "title": "[하재근의 족집게로 문화집기] 끝나지 않은 ‘포켓몬 열풍’",
-        "snippet": "성수동 카페 거리 4만명, 서울숲 12만명 등 성수동 일대에 무려 16만명이 모였다고 한다.",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16062259",
+        "title": "'홍석천이원일' 서울 연남동 연어에그베네딕트·꿀연어 맛집 위치는? \"아...",
+        "snippet": "서울 마포구 연남동, 홍대입구역 인근 약 400m 거리에 위치한 연어에그베네딕트 맛집은 인기 식당이다",
         "source": "naver_news"
       },
       {
-        "url": "https://www.dt.co.kr/article/12062066?ref=naver",
-        "title": "[하재근의 족집게로 문화집기] 끝나지 않은 ‘포켓몬 열풍’",
-        "snippet": "성수동 카페 거리 4만명, 서울숲 12만명 등 성수동 일대에 무려 16만명이 모였다고 한다.",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16062259",
+        "title": "'홍석천이원일' 서울 연남동 연어에그베네딕트·꿀연어 맛집 위치는? \"아...",
+        "snippet": "서울 마포구 연남동, 홍대입구역 인근 약 400m 거리에 위치한 연어에그베네딕트 맛집은 인기 식당이다",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16062259",
+        "title": "'홍석천이원일' 서울 연남동 연어에그베네딕트·꿀연어 맛집 위치는? \"아...",
+        "snippet": "'홍석천이원일'에서 홍석천·이원일 픽 맛집으로 소개한 서울특별시 연남동 소재 연어에그베네딕트·꿀연어... 서울 마포구 연남동, 홍대입구역 인근 약 400m 거리에 위치한 연어에그베네딕트 맛집은 인기 식당이다",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-12T22:18:40.695Z"
+    "updated_at": "2026-05-15T22:04:59.053Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 24,
-    "sentiment_avg": 0.3333333333333333,
-    "summary_ko": "용산구 서빙고동 인근 남영역 떡꼬치 명소 털보네 인기. 용산가족공원 텃밭 분양 등 소규모 행사 진행.",
-    "summary_en": "Yongsan-gu Seobinggo-dong area noted for Teokbokki spot near Namyeong Sta. Small park events ongoing.",
+    "mention_count": 28,
+    "sentiment_avg": 0.2857142857142857,
+    "summary_ko": "용산구: 용산가족공원 텃밭 분양·테라리움 체험. 이태원·남산타워 인근이나 주변 언급은 중립적.",
+    "summary_en": "Yongsan-gu: Yongsan Family Park garden plots & terrarium workshops. Near Itaewon & Namsan Tower, but local mentions are neutral.",
     "related_event_ids": [
-      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
+      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
       "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
       "(토) 내 손안의 작은 지구, 미니테라리움(성인)|용산가족공원|2026-05-09",
       "(토) 용산가족공원 숲티어링|용산가족공원|2026-05-02"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tap8q1/looking_for_a_떡꼬치_lover_in_seoul_whos_also/",
-        "title": "looking for a 떡꼬치 lover in seoul who's also learning korean lol",
-        "snippet": "there's a freaking yummy 떡꼬치 spot near 남영역 (the famous 털보네) also on me.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tdw5qu/hangout_at_itaewon/",
+        "title": "Hangout at Itaewon",
+        "snippet": "Hangout at Itaewon",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tap8q1/looking_for_a_떡꼬치_lover_in_seoul_whos_also/",
-        "title": "looking for a 떡꼬치 lover in seoul who's also learning korean lol",
-        "snippet": "there's a freaking yummy 떡꼬치 spot near 남영역 (the famous 털보네) also on me.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tdq4xh/new_skyline_coming_up_in_yongsan/",
+        "title": "New skyline coming up in Yongsan",
+        "snippet": "New skyline coming up in Yongsan",
         "source": "reddit_seoul"
       },
       {
-        "url": "http://www.apparelnews.co.kr/news/news_view/?idx=225189",
-        "title": "'웰니스 경제' 부상…국내 시장 확산",
-        "snippet": "'요가·명상 시설이 집중되는 라이프스타일 거점'으로 설명된 서울의 랜드마크(한남동)입니다.",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/korea/comments/1tdjl2t/train_ride_to_busan/",
+        "title": "Train ride to Busan 🚆",
+        "snippet": "Passing through Namseonghyeon station right now",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=302174",
-        "title": "[요즘세대 소비분석] ① 신촌 골목, 식당 빠지고 홀덤펍이 들어섰다",
-        "snippet": "홍대·연남동, 성수, 한남처럼 특정 목적이 있는 상권으로 젊은 층의 발길이 옮겨갔다.",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/korea/comments/1jsaetu/welcome_to_rkorea/",
+        "title": "Welcome to r/korea!",
+        "snippet": "r/KoreanArtArchitecture (linked to Korean landmarks discussion often including 남산타워)",
+        "source": "reddit_korea"
       }
     ],
-    "updated_at": "2026-05-12T22:18:40.695Z"
+    "updated_at": "2026-05-15T22:04:59.053Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 17,
-    "sentiment_avg": 0.29411764705882354,
-    "summary_ko": "중구 저동2가 인근 명동 역사문화투어·을지로 헤리티지 명소 방문 가능. 야간 관광 프로그램 운영.",
-    "summary_en": "Jung-gu Jeodong 2-ga area offers Myeongdong tours, Euljiro heritage sites. Night walking tours available.",
+    "mention_count": 25,
+    "sentiment_avg": 0.28,
+    "summary_ko": "중구: 명동 야행·역사 투어 및 삼일로창고극장 공연. 명동 롯데 페스티벌 등 행사 진행 중.",
+    "summary_en": "Jung-gu: Myeongdong night tours, history walks, and Samil-ro Warehouse Theater. Lotte Festival in Myeongdong.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
       "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
@@ -193,30 +193,30 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tavjm1/lf_late_morning_to_evening_recommendations_in/",
-        "title": "LF late morning to evening recommendations in Seoul",
-        "snippet": "I have been around Myeongdong and Hongdae",
+        "url": "https://www.reddit.com/r/seoul/comments/1tdn79u/best_areas_to_experience_yeondeunghoe/",
+        "title": "Best areas to experience Yeondeunghoe",
+        "snippet": "While the main event is at Cheonggyecheon, the Dongdaemun Design Plaza (DDP) also features lantern displays during Yeondeunghoe, offering an alternative modern setting to view the festival. It's a short walk from Cheonggyecheon and a popular tourist spot.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tbdfsq/planning_to_go_to_south_korea_for_a_vacation_and/",
-        "title": "Planning to go to South Korea for a vacation and want to go to a good clinic in Seoul for under eye treatment ( pigmentation & tear trough). Any recommendations for good skin clinics to tackle my concern? Any reviews on Val U clinic myeongdong & Fi ne Clinic Gangnam ? Thanks",
-        "snippet": "Val U clinic Myeongdong",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1tbtr7t/nazi_leader_richard_foerster_passionately/",
+        "title": "Nazi leader Richard Foerster passionately preached Hitler’s teachings to Korean schoolchildren and gifted them signed photos of Hitler as they gave him a “Heil Hitler” salute on a train to Seoul (May 11, 1939)",
+        "snippet": "with brief stops in Daegu and Daejeon",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1t9uq30/myeongdong_now/",
-        "title": "Myeongdong now",
-        "snippet": "Myeongdong now",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1tbtr7t/nazi_leader_richard_foerster_passionately/",
+        "title": "Nazi leader Richard Foerster passionately preached Hitler’s teachings to Korean schoolchildren and gifted them signed photos of Hitler as they gave him a “Heil Hitler” salute on a train to Seoul (May 11, 1939)",
+        "snippet": "with brief stops in Daegu and Daejeon",
+        "source": "reddit_korea"
       },
       {
-        "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=59252",
-        "title": "신세계, 1분기 영업이익 1천978억 '역대 최대'…럭셔리·투자·자회사 삼...",
-        "snippet": "서울 을지로 옛 제일은행 본점 건물은 럭셔리 부티크 전문관 '더 헤리티지'로 재탄생시켰다.",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/korea/comments/1tbtr7t/nazi_leader_richard_foerster_passionately/",
+        "title": "Nazi leader Richard Foerster passionately preached Hitler’s teachings to Korean schoolchildren and gifted them signed photos of Hitler as they gave him a “Heil Hitler” salute on a train to Seoul (May 11, 1939)",
+        "snippet": "arrived in Seoul at 1:35 p.m.",
+        "source": "reddit_korea"
       }
     ],
-    "updated_at": "2026-05-12T22:18:40.695Z"
+    "updated_at": "2026-05-15T22:04:59.053Z"
   }
 ]
