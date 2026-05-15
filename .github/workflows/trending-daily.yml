@@ -66,7 +66,17 @@ jobs:
           git add apps/mobile/assets/data/trending.json
           if git diff --cached --quiet; then
             echo "No change."
-          else
-            git commit -m "chore(trending): daily refresh $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "chore(trending): daily refresh $(date -u +%Y-%m-%d)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt — rebasing onto origin/main…"
+            git pull --rebase origin main
+            sleep $((attempt * 5))
+          done
+          echo "Failed to push after 5 attempts." >&2
+          exit 1
