@@ -3,8 +3,9 @@ name: bike-daily
 # Daily refresh of foreigner-bike rentals → popular_stations.json.
 # Runs at 21:00 UTC = 06:00 KST — outside Korean gov't system maintenance
 # window (typically 02:00~05:00 KST) when Seoul OpenAPI backend periodically
-# stalls. events-daily and trending-daily run in parallel at the same time;
-# they read yesterday's popular_stations from the committed mobile-assets
+# stalls. Staggered with events-daily (21:10 UTC) and trending-daily
+# (21:20 UTC) so the three workflows don't race on `git push` to main.
+# Each reads yesterday's popular_stations from the committed mobile-assets
 # fallback, which is fine because the TOP-50 ranking is built from monthly
 # aggregates and rarely shifts day-to-day.
 
