@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 91,
-    "sentiment_avg": 0.3626373626373626,
-    "summary_ko": "종로구 청계천과 북촌한옥마을, 연등축제가 인기. 역사 명소 및 문화 체험 가능.",
-    "summary_en": "Jongno-gu's Cheonggyecheon, Bukchon, and Lotus Lantern Festival buzz. Historical sites and cultural experiences abound.",
+    "mention_count": 79,
+    "sentiment_avg": 0.4810126582278481,
+    "summary_ko": "종로구 인사동 일대 삼지길 카페·야경 인기. 경복궁 인근 역사 투어·극장 전시 예정.",
+    "summary_en": "Jongno-gu Insadong's Ssamzigil buzzes with cafes, night views. Nearby: palace tours, theater events.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
       "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
@@ -17,41 +17,41 @@
     ],
     "sources": [
       {
+        "url": "https://www.reddit.com/r/seoul/comments/1tgb7hw/if_youre_visiting_insadong_dont_skip_ssamzigil/",
+        "title": "If you're visiting Insadong, don't skip Ssamzigil (Especially at night!)",
+        "snippet": "If you're visiting Insadong, don't skip Ssamzigil (Especially at night!)",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tgb7hw/if_youre_visiting_insadong_dont_skip_ssamzigil/",
+        "title": "If you're visiting Insadong, don't skip Ssamzigil (Especially at night!)",
+        "snippet": "If you're visiting Insadong, don't skip Ssamzigil (Especially at night!)",
+        "source": "reddit_seoul"
+      },
+      {
         "url": "https://www.reddit.com/r/seoul/comments/1tfmqev/seoul_청계천/",
         "title": "Seoul 청계천",
         "snippet": "Seoul 청계천",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tf9kwz/chill_time/",
-        "title": "Chill time",
-        "snippet": "If you're looking for a quiet place in the city, try Cheonggyecheon. It's a great spot to relax and take a stroll along the stream. The area is well-lit in the evening, making it perfect for a night walk too.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tf9kwz/chill_time/",
-        "title": "Chill time",
-        "snippet": "Bukchon Hanok Village offers a traditional Korean experience. The well-preserved hanok houses and narrow alleys are great for photography and learning about Korean culture.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tetefc/live_from_beautiful_서울_part_2/",
-        "title": "Live from beautiful 서울 PART 2",
-        "snippet": "Lotus Lantern Festival, Jongro-gu, Seoul. I've made unforgettable memories tonight. Thank you Korea",
+        "url": "https://www.reddit.com/r/seoul/comments/1tfgub1/cheap_fast_absolute_classic/",
+        "title": "Cheap, fast, absolute classic",
+        "snippet": "Cheap, fast, absolute classic",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-17T22:20:33.768Z"
+    "updated_at": "2026-05-18T22:25:45.764Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 49,
-    "sentiment_avg": 0.6326530612244898,
-    "summary_ko": "마포구 홍대 주변은 30대 이상에게 술집/술집/분식 추천. 일부 의견 갈림.",
-    "summary_en": "Mapo-gu's Hongdae area popular for bars, soju, street food. Mixed reviews on age restrictions.",
+    "mention_count": 35,
+    "sentiment_avg": 0.6571428571428571,
+    "summary_ko": "마포구 홍대 창의성·카페·야생활 활기. 서강도서관과 신촌 투어 프로그램 운영 중.",
+    "summary_en": "Mapo-gu Hongdae thrives with creative energy, cafes, nightlife. Nearby: library events, Sinchon tours.",
     "related_event_ids": [
       "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 주말 오후 3시|신촌 일대|2026-02-01",
@@ -61,41 +61,41 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tfeveh/best_barsclubs_in_seoul/",
-        "title": "Best bars/clubs in Seoul?",
-        "snippet": "I've seen that Hongdae is more of a college crowd. Not the biggest deal in the world but do some clubs even let people in our age bracket in?",
+        "url": "https://www.reddit.com/r/seoul/comments/1tgloh3/skin_clinic_help_xenia_of_forena_clinic/",
+        "title": "Skin clinic help (Xenia of Forena Clinic)",
+        "snippet": "I was thinking about getting PICO at Forena clinic (88k per session) or Xenia clinic (30k per session) in Hongdae.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tfy29k/help_me_find_a_barber/",
-        "title": "Help me find a barber",
-        "snippet": "please not hongdae area (too far away)",
+        "url": "https://www.reddit.com/r/seoul/comments/1tglgno/lets_be_friends/",
+        "title": "Lets be friends?",
+        "snippet": "I’m into girls’ nights, and Hongdae is the perfect spot for that—creative energy, great cafes, and fun nightlife.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tff84m/neighborhood/",
-        "title": "Neighborhood",
-        "snippet": "Neighborhood for 30yr old to stay in that wants to hit dive bars, soju bars, and be relatively close to some street food. Even craft beer, since I’m a brewer.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tgslne/i_made_a_small_tool_to_find_hongdae_cafés_koreans/",
+        "title": "I made a small tool to find Hongdae cafés Koreans actually talk about — not just Google Maps picks",
+        "snippet": "I made a small tool to find Hongdae cafés Koreans actually talk about — not just Google Maps picks",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/korea/comments/1tfrxsi/title_lost_samsung_s23_ultra_in_seoul_airport/",
-        "title": "Title: Lost Samsung S23 Ultra in Seoul / Airport / Transit Area – Need Advice",
-        "snippet": "lost my Samsung Galaxy S23 Ultra (sky blue color) on Friday somewhere between an Uzbek restaurant area, Gongdeok Station transfer, and possibly Gimpo Airport area",
+        "url": "https://www.reddit.com/r/korea/comments/1tglnm4/skin_clinic_help_forena_or_xenia_clinic/",
+        "title": "Skin clinic help (Forena or Xenia clinic)",
+        "snippet": "I was thinking about getting PICO at Forena clinic (88k per session) or Xenia clinic (30k per session) in Hongdae.",
         "source": "reddit_korea"
       }
     ],
-    "updated_at": "2026-05-17T22:20:33.768Z"
+    "updated_at": "2026-05-18T22:25:45.764Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 33,
-    "sentiment_avg": 0.48484848484848486,
-    "summary_ko": "성동구 서울숲 인근 성수동 카페·팝업 인기. 젠트리피케이션 우려 있음.",
-    "summary_en": "Seongdong-gu's Seoul Forest area buzzes with cafes and pop-ups in trendy Seongsui-dong.",
+    "mention_count": 29,
+    "sentiment_avg": 0.5172413793103449,
+    "summary_ko": "성동구 서울숲 인근 성수동 팝업스토어 인기. 국제정원박람회·시장 프로그램 진행.",
+    "summary_en": "Seongdong-gu Seongsu-dong's pop-ups draw crowds. Near Seoul Forest: garden expo, markets.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
@@ -105,41 +105,41 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tff84m/neighborhood/",
-        "title": "Neighborhood",
-        "snippet": "Neighborhood for 30yr old to stay in that wants to hit dive bars, soju bars, and be relatively close to some street food. Even craft beer, since I’m a brewer.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tgqb5e/looking_for_friends_to_hang_out_with/",
+        "title": "Looking for friends to hang out with!",
+        "snippet": "I also saw some cool pop-ups in seongsu so I want to check those out too!",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tf9kwz/chill_time/",
-        "title": "Chill time",
-        "snippet": "Seongsu-dong is a hip neighborhood with lots of cafes and unique shops. It's a cool place to hang out and soak in the local vibe. The area has a mix of old and new, which makes it interesting to explore.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tgqb5e/looking_for_friends_to_hang_out_with/",
+        "title": "Looking for friends to hang out with!",
+        "snippet": "I also saw some cool pop-ups in seongsu so I want to check those out too!",
         "source": "reddit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
         "source": "visit_seoul"
       },
       {
-        "url": "https://news.bizwatch.co.kr/article/consumer/2026/05/15/0038",
-        "title": "커피도 가져가더니…이젠 '스무디 격전지' 된 편의점",
-        "snippet": "CU의 디저트 특화점포인 성수디저트파크점에서는 하루 평균 즉석 스무디 판매량이 150잔에 달할 정도다",
+        "url": "https://shindonga.donga.com/3/all/13/6231700/1",
+        "title": "[르포] “정원오는 ‘디테일 행정’” vs “부동산 경고하려 野 선택”",
+        "snippet": "서울 지하철 2호선 성수역 대합실은 젊은 데이트족과 캐리어를...",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-17T22:20:33.768Z"
+    "updated_at": "2026-05-18T22:25:45.764Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 24,
-    "sentiment_avg": 0.4166666666666667,
-    "summary_ko": "중구 을지로 야시장 거리 외국인 관광객 인기. K-감성 체험 코스.",
-    "summary_en": "Jung-gu's Euljiro Night Market Street popular among foreigners for K-culture experiences.",
+    "mention_count": 16,
+    "sentiment_avg": 0.6875,
+    "summary_ko": "중구 을지로 야장 거리·명동 K-감성 야간 관광 코스 인기. 중구 역사 투어 다수 예정.",
+    "summary_en": "Jung-gu Euljiro night market, Myeongdong trendy. Walking tours highlight history, nightlife.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
       "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
@@ -149,10 +149,16 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tetv4k/namsan_tower_seoul/",
-        "title": "Namsan Tower, Seoul",
-        "snippet": "Namsan Tower, Seoul - Idk why the pictures are tilted, but it's so clear and beautiful.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tglgno/lets_be_friends/",
+        "title": "Lets be friends?",
+        "snippet": "Shopping is a big part of my life, and Myeongdong is a must-visit for that—plus the food stalls are amazing!",
         "source": "reddit_seoul"
+      },
+      {
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008566014&plink=ORI&cooper=NAVER",
+        "title": "\"이런 곳이 있었어?\"…일주일 이용자만 2만 5천 명",
+        "snippet": "익선동과 종로3가, 을지로 야장 거리는 외국인 관광객들 사이에서도 'K-감성'을 느낄 수 있는 서울 대표 야간 관광 코스로 주목받고 있는데요",
+        "source": "naver_news"
       },
       {
         "url": "https://www.sedaily.com/article/20044847?ref=naver",
@@ -165,25 +171,19 @@
         "title": "저녁 선선한 요즘, MZ들이 놀러 가기 전 찾아본다는 '야장맵' 정체",
         "snippet": "익선동과 종로3가 포차거리, 을지로 야장 거리 등이 외국인 관광객들의 필수 서울 관광 코스로 정착했다",
         "source": "naver_news"
-      },
-      {
-        "url": "https://www.news1.kr/society/incident-accident/6168412",
-        "title": "관광 코스로 자리 잡은 K-야장 문화…'야장맵'까지 등장",
-        "snippet": "익선동·종로3가 포차거리·을지로 야장 거리 등은 외국인 관광객들의 대표적인 서울 관광 코스로 자리",
-        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-17T22:20:33.768Z"
+    "updated_at": "2026-05-18T22:25:45.764Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 27,
-    "sentiment_avg": 0.2222222222222222,
-    "summary_ko": "용산구 이태원·한강공원 야간 문화 인기. 성형클리닉 언급 있음.",
-    "summary_en": "Yongsan-gu's Itaewon and Hangang Park buzz with nightlife; mentions of plastic surgery clinics.",
+    "mention_count": 20,
+    "sentiment_avg": 0.2,
+    "summary_ko": "용산구 남영동 역사기념관 등 중립적 언급. 용산가족공원 텃밭·숲 체험 행사 진행 중.",
+    "summary_en": "Yongsan-gu historical sites noted neutrally. Nearby: family park garden plots, forest tours.",
     "related_event_ids": [
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
@@ -193,30 +193,30 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tff84m/neighborhood/",
-        "title": "Neighborhood",
-        "snippet": "Neighborhood for 30yr old to stay in that wants to hit dive bars, soju bars, and be relatively close to some street food. Even craft beer, since I’m a brewer.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tgml88/nightlife_question/",
+        "title": "Nightlife Question",
+        "snippet": "I’m 19 and I hear that 19 international is the minimum age to go to clubs",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tf9kwz/chill_time/",
-        "title": "Chill time",
-        "snippet": "Hangang Park is perfect for a relaxed day out. You can rent a bike, have a picnic, or just enjoy the view of the river. It's especially nice during sunset.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tglgno/lets_be_friends/",
+        "title": "Lets be friends?",
+        "snippet": "Seoul has so many great places to explore, like Namsan Tower, and I’d love to go with new friends who share my vibe.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tf9kwz/chill_time/",
-        "title": "Chill time",
-        "snippet": "Itaewon is a vibrant area with international food, bars, and shopping. It's a good place to meet people from different backgrounds and try various cuisines.",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1tgb34t/went_to_the_democracy_and_human_rights_memorial/",
+        "title": "Went to the Democracy and Human Rights Memorial Hall over the weekend",
+        "snippet": "The 민주화운동기념관, or Democracy and Human Rights Memorial Hall, is a museum and memorial in Seoul built around the former 남영동 대공분실, a notorious interrogation center used by South Korea’s military dictatorships to imprison and torture pro-democracy activists",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://www.reddit.com/r/korea/comments/1tet9x1/gen_z_soldiers_plastic_surgeries_strain_koreas/",
-        "title": "Gen Z soldiers' plastic surgeries strain Korea's military readiness",
-        "snippet": "Mention of plastic surgery clinics in Ittaewon frequented by Gen Z soldiers during leave.",
+        "url": "https://www.reddit.com/r/korea/comments/1tgb34t/went_to_the_democracy_and_human_rights_memorial/",
+        "title": "Went to the Democracy and Human Rights Memorial Hall over the weekend",
+        "snippet": "preserved as a reminder of the brutality faced by democracy activists during one of the darkest periods in modern Korean history",
         "source": "reddit_korea"
       }
     ],
-    "updated_at": "2026-05-17T22:20:33.768Z"
+    "updated_at": "2026-05-18T22:25:45.764Z"
   }
 ]
