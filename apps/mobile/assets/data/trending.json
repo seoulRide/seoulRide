@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 66,
-    "sentiment_avg": 0.6363636363636364,
-    "summary_ko": "종로구 서린빌딩 주변은 광화문·경복궁 일대에서 월드컵 관전 인파 모이고, 서촌 한옥 거리·한복 체험 인기. (sentiment 0.64)",
-    "summary_en": "Jongno-gu's Seorin Bldg. area buzzes with World Cup crowds at Gwanghwamun/Palace, Seochon's hanok cafes, and hanbok rentals. (sentiment 0.64)",
+    "mention_count": 73,
+    "sentiment_avg": 0.4520547945205479,
+    "summary_ko": "종로구 서린빌딩 근처 경복궁, 서촌, 통인시장 등 한옥과 맛집, 도시락 카페가 인기. 광화문 수문장 교대의식 추천.",
+    "summary_en": "Jongno-gu's Gyeongbokgung, Seochon, and Tongin Market buzz with hanok houses, cafes, and the Lunchbox Café. Recommended: Gwanghwamun Guard-Changing Ceremony.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
       "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
@@ -17,103 +17,53 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ti55v4/world_cup_2026/",
-        "title": "World Cup 2026",
-        "snippet": "First time experiencing watching the World Cup in Korea... Where are good places in Seoul to watch the games with a big crowd? I’m looking for spots where people actually gather and the energy is crazy, not just a quiet bar.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1ti55v4/world_cup_2026/",
-        "title": "World Cup 2026",
-        "snippet": "First time experiencing watching the World Cup in Korea... Where are good places in Seoul to watch the games with a big crowd? I’m looking for spots where people actually gather and the energy is crazy, not just a quiet bar.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tigc6j/best_place_to_shop_for_one_day_in_seoul/",
-        "title": "Best place to shop for one day in Seoul?",
-        "snippet": "one is Insadong and one is the Starfield Mall... I have cafes marked for each area though",
+        "url": "https://www.reddit.com/r/seoul/comments/1tjf7k6/hanbok_photoshoot_at_gyeongbokgung_palace_part_1/",
+        "title": "Hanbok photoshoot at Gyeongbokgung Palace! (Part 1)",
+        "snippet": "Hanbok photoshoot at Gyeongbokgung Palace! (Part 1)",
         "source": "reddit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
         "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung Palace in Hanbok... the largest and most iconic palace in the city and was once the main royal palace during the Joseon Dynasty.",
+        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses and so many hidden gems",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-05-20T22:56:58.197Z"
-  },
-  {
-    "station_no": "ST-207",
-    "station_name_ko": "서강대역 2번출구 앞",
-    "gu_ko": "마포구",
-    "gu_en": "Mapo-gu",
-    "mention_count": 51,
-    "sentiment_avg": 0.2549019607843137,
-    "summary_ko": "마포구 서강대역 주변은 홍대/연남동 카페·쇼핑 명소지만, 실제 언급은 대부분 홍대 중심. (sentiment 0.25)",
-    "summary_en": "Mapo-gu's Seogang Univ. Stn. area is near Hongdae/Yeonnam-dong's cafes, but mentions focus on Hongdae. (sentiment 0.25)",
-    "related_event_ids": [
-      "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
-      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 주말 오후 3시|신촌 일대|2026-02-01",
-      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 주말 오후3시|신촌 일대|2026-02-01",
-      "[마포구립서강도서관] 5월 문화프로그램 안내|마포구립서강도서관|2026-05-02",
-      "[마포구립서강도서관] 5월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 내 해봄|2026-05-02"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1ti55v4/world_cup_2026/",
-        "title": "World Cup 2026",
-        "snippet": "First time experiencing watching the World Cup in Korea... Where are good places in Seoul to watch the games with a big crowd? I’m looking for spots where people actually gather and the energy is crazy, not just a quiet bar.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tivkhh/world_dj_festfirst_time_in_seoul/",
-        "title": "World DJ fest/First time in Seoul",
-        "snippet": "I'll be staying in Hongdae area with 2 of my buddies (we're all 23M).",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tigc6j/best_place_to_shop_for_one_day_in_seoul/",
-        "title": "Best place to shop for one day in Seoul?",
-        "snippet": "One area is Hongdae/Yeonnam-dong... I'm interested in cafe hopping... clothes shopping, stationary and any cute DIY things",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tigc6j/best_place_to_shop_for_one_day_in_seoul/",
-        "title": "Best place to shop for one day in Seoul?",
-        "snippet": "One area is Hongdae/Yeonnam-dong... I'm interested in cafe hopping... clothes shopping, stationary and any cute DIY things",
-        "source": "reddit_seoul"
-      }
-    ],
-    "updated_at": "2026-05-20T22:56:58.197Z"
+    "updated_at": "2026-05-21T22:56:02.226Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 37,
-    "sentiment_avg": 0.5405405405405406,
-    "summary_ko": "성동구 서울숲 일대는 MZ세대 성수동 트랜드·정원박람회 진행 중. (sentiment 0.54)",
-    "summary_en": "Seongdong-gu's Seoul Forest area has Seongsu-dong's MZ trendy spots and 2026 Garden Expo. (sentiment 0.54)",
+    "mention_count": 39,
+    "sentiment_avg": 0.717948717948718,
+    "summary_ko": "성동구 서울숲 주변 성수동, 어바웃더챕터 책방, 이구키즈 등 MZ세대 인기 장소. LP 음악과 정원 프로그램 체험 가능.",
+    "summary_en": "Seongdong-gu's Seoul Forest and Seongsu-dong areas are trending for MZ-favored boutiques, About the Chapter bookstore, and family-friendly Igu Kids.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
-      "서울숲, 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
+      "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
       "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
       "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
       "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tigc6j/best_place_to_shop_for_one_day_in_seoul/",
-        "title": "Best place to shop for one day in Seoul?",
-        "snippet": "one is Seongsu... I would say my budget isn't cheapest... but also isn't dropping a few thousands on a designer pop up",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tii5yi/seoul_travel_countdown_need_your_recs_pitfalls_to/",
-        "title": "Seoul Travel Countdown! Need your recs & pitfalls to avoid 🚀",
-        "snippet": "Go shopping (Hongdae, Seongsu-dong)",
+        "url": "https://www.reddit.com/r/seoul/comments/1tjd90t/is_anybody_wanna_go_응봉산_tonight/",
+        "title": "Is anybody wanna go 응봉산 tonight??",
+        "snippet": "It has nice view place",
         "source": "reddit_seoul"
       },
       {
@@ -123,23 +73,73 @@
         "source": "visit_seoul"
       },
       {
-        "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=50518",
-        "title": "서울 금천·구로·영등포, 상전벽해?",
-        "snippet": "한편, 서울 성동구 성수와 뚝섬 일대도 종전 자동차...",
+        "url": "https://www.dailian.co.kr/news/view/1646270/?sc=Naver",
+        "title": "“사회성 없는 사람 아닙니다”…‘혼취미’에 빠진 이들 [NOW 2.30]",
+        "snippet": "서울 성수동의 예약제 책방 어바웃더챕터. 문을 열고 들어서자 LP 음악이 잔잔하게 공간을 채웠다. 책방... 일반 카페처럼 대화 소리나 휴대전화 알림음이 끊임없이 이어지지 않는다. 대신 LP 음악과 책장을 넘기는 소리가...",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.dailian.co.kr/news/view/1646270/?sc=Naver",
+        "title": "“사회성 없는 사람 아닙니다”…‘혼취미’에 빠진 이들 [NOW 2.30]",
+        "snippet": "서울 성수동의 예약제 책방 어바웃더챕터. 문을 열고 들어서자 LP 음악이 잔잔하게 공간을 채웠다. 책방... 일반 카페처럼 대화 소리나 휴대전화 알림음이 끊임없이 이어지지 않는다. 대신 LP 음악과 책장을 넘기는 소리가...",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-20T22:56:58.197Z"
+    "updated_at": "2026-05-21T22:56:02.226Z"
+  },
+  {
+    "station_no": "ST-207",
+    "station_name_ko": "서강대역 2번출구 앞",
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "mention_count": 43,
+    "sentiment_avg": 0.32558139534883723,
+    "summary_ko": "마포구 서강대역 주변 홍대, 연남동, 망원동. 홍대 클럽과 MZ세대 상점이 있지만, 여행자 안전 관련 논란 존재.",
+    "summary_en": "Mapo-gu's Sogang Univ. Station area (Hongdae, Yeonnam-dong) has MZ-favored shops, but solo female traveler safety concerns noted.",
+    "related_event_ids": [
+      "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
+      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일|신촌 일대|2026-02-01",
+      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일|신촌 일대|2026-02-01",
+      "[마포구립서강도서관] 5월 문화프로그램 안내|마포구립서강도서관|2026-05-02",
+      "[마포구립서강도서관] 5월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 내 해봄|2026-05-02"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tjj4fn/clubbing_alone_in_seoul_as_a_woman/",
+        "title": "Clubbing alone in Seoul as a woman",
+        "snippet": "I’m curious about what it’s like and wondering whether it’s safe or weird to go clubbing alone in Seoul as a solo female traveler. Are there any specific areas you’d recommend...",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tjbbpm/any_carats_looking_for_a_cozy_stay_near_hongdae/",
+        "title": "Any Carats looking for a cozy stay near Hongdae for the concert? 💎",
+        "snippet": "Any Carats looking for a cozy stay near Hongdae for the concert? 💎",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tjq9is/clubbing_as_a_39_yo_or_40_yo_white_american/",
+        "title": "Clubbing as a 39 yo or 40 yo White American",
+        "snippet": "What is too old for Hongdae?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "source": "visit_seoul"
+      }
+    ],
+    "updated_at": "2026-05-21T22:56:02.226Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 33,
-    "sentiment_avg": 0.2727272727272727,
-    "summary_ko": "중구 저동2가 일대는 명동·을지로 관광지이지만, 실제 언급은 명동 다이소·식사 관련. (sentiment 0.27)",
-    "summary_en": "Jung-gu's Jeodong 2-ga area is near Myeongdong/Euljiro, but mentions focus on Daiso and solo meals. (sentiment 0.27)",
+    "mention_count": 20,
+    "sentiment_avg": 0,
+    "summary_ko": "중구 저동2가 명동, 덕수궁, 동대문 시장. 패션 시장 및 역사 투어 가능. 최근 언급은 중립적.",
+    "summary_en": "Jung-gu's Jeodong 2-ga (Myeongdong, Deoksugung) offers fashion markets and history tours, with neutral recent sentiment.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
       "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
@@ -149,41 +149,41 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tigc6j/best_place_to_shop_for_one_day_in_seoul/",
-        "title": "Best place to shop for one day in Seoul?",
-        "snippet": "I'm staying in Euljiro and mapped a few places I'm interested in spending my full day",
+        "url": "https://www.reddit.com/r/seoul/comments/1tj9sg9/deoksugung_palace_area/",
+        "title": "Deoksugung Palace Area",
+        "snippet": "Deoksugung Palace Area",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tj1h8l/incheon_airport/",
-        "title": "Incheon airport 🤔?",
-        "snippet": "I’ve been to Korea before to visit my boyfriend (he’s Korean), and I got my visa from the embassy. When I arrived at the airport, I had no problems at all with immigration — everything went smoothly. Now I applied for K-ETA (and when I filled it out, I wrote that I was going to v",
+        "url": "https://www.reddit.com/r/seoul/comments/1tjygr1/iso_treasure_hunt_for_specific_pants_at_a_market/",
+        "title": "ISO: treasure hunt for specific pants at a market",
+        "snippet": "mentions of markets in Seoul where unbranded Balloon pants may be found (inferred from context as a top tourist market area for fashion)",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tinsyw/do_daiso_sell_luggage_cover/",
-        "title": "Do Daiso sell luggage cover?",
-        "snippet": "Does the myeongdong daiso sell cabin luggage cover? I’ve seen in Japan’s Donki so just wondering. Price too if you know. TIA!",
+        "url": "https://www.reddit.com/r/seoul/comments/1tjygr1/iso_treasure_hunt_for_specific_pants_at_a_market/",
+        "title": "ISO: treasure hunt for specific pants at a market",
+        "snippet": "mentions of markets in Seoul where unbranded Balloon pants may be found (inferred as a major wholesale/fashion market area)",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tinsyw/do_daiso_sell_luggage_cover/",
-        "title": "Do Daiso sell luggage cover?",
-        "snippet": "Does the myeongdong daiso sell cabin luggage cover? I’ve seen in Japan’s Donki so just wondering. Price too if you know. TIA!",
+        "url": "https://www.reddit.com/r/seoul/comments/1tjygr1/iso_treasure_hunt_for_specific_pants_at_a_market/",
+        "title": "ISO: treasure hunt for specific pants at a market",
+        "snippet": "mentions of markets in Seoul where unbranded Balloon pants may be found (inferred as a major traditional market area)",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-20T22:56:58.197Z"
+    "updated_at": "2026-05-21T22:56:02.226Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 21,
-    "sentiment_avg": 0.38095238095238093,
-    "summary_ko": "용산구 서빙고동 일대는 서선라길 한적한 거리·용산가족공원 프로그램 진행. (sentiment 0.38)",
-    "summary_en": "Yongsan-gu's Seobinggo-dong area has Seosunra-gil's quiet vibes and Yongsan Park events. (sentiment 0.38)",
+    "mention_count": 16,
+    "sentiment_avg": 0.25,
+    "summary_ko": "용산구 서빙고동 이태원, 한남동. 클럽, 힙지로 음악, 고급 주거지. 최근 언급은 중립적.",
+    "summary_en": "Yongsan-gu's Seobinggo-dong (Itaewon, Hannam-dong) has clubs, Hipjiro music, and upscale areas, with neutral recent sentiment.",
     "related_event_ids": [
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
@@ -193,30 +193,30 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tibx66/seosunragil_seouls_bestkept_secret_for_chill/",
-        "title": "Seosunra-gil: Seoul’s best-kept secret for chill outdoor vibes (Yajang)",
-        "snippet": "Seosunra-gil: Seoul’s best-kept secret for chill outdoor vibes (Yajang)",
+        "url": "https://www.reddit.com/r/seoul/comments/1tjj4fn/clubbing_alone_in_seoul_as_a_woman/",
+        "title": "Clubbing alone in Seoul as a woman",
+        "snippet": "I’m curious about what it’s like and wondering whether it’s safe or weird to go clubbing alone in Seoul as a solo female traveler. Are there any specific areas you’d recommend...",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ti55v4/world_cup_2026/",
-        "title": "World Cup 2026",
-        "snippet": "First time experiencing watching the World Cup in Korea... Where are good places in Seoul to watch the games with a big crowd? I’m looking for spots where people actually gather and the energy is crazy, not just a quiet bar.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tjivoz/hipjiro_live_music/",
+        "title": "Hipjiro live Music?",
+        "snippet": "Hipjiro live Music? Any recommendations on a good place to see live music in Hipjro this Saturday? Rock, jazz, and hip hop are great but up for anything that could be a good show.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tii5aq/seoul_jazz_festival/",
-        "title": "Seoul Jazz Festival",
-        "snippet": "First time going to The Seoul jazz festival! Im super excited, but what should I bring? Lawn chair? Snacks? Any and all advice appreciated! TIA",
+        "url": "https://www.reddit.com/r/seoul/comments/1tjq9is/clubbing_as_a_39_yo_or_40_yo_white_american/",
+        "title": "Clubbing as a 39 yo or 40 yo White American",
+        "snippet": "Too old to be allowed in at Itaewon?",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tia0kb/retro_video_game_arcade_in_seoul/",
-        "title": "Retro video game arcade in Seoul?",
-        "snippet": "Retro video game arcade in Seoul? ... I see there are many keen shops but they are quite far away so need to gamble on one or two",
-        "source": "reddit_seoul"
+        "url": "http://www.ktnews.com/news/articleView.html?idxno=146121",
+        "title": "MUUT, 아이웨어 저가 공식 깬다...제조 기업 기술력으로 승부",
+        "snippet": "2024년 5월 서울숲 1호점을 시작으로 성수 연무장길, 연남동, 명동, 한남, 압구정 등 국내 오프라인 매장을 확보했다.",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-20T22:56:58.197Z"
+    "updated_at": "2026-05-21T22:56:02.226Z"
   }
 ]
