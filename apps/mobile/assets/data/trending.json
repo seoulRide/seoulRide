@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 73,
-    "sentiment_avg": 0.4520547945205479,
-    "summary_ko": "종로구 서린빌딩 근처 경복궁, 서촌, 통인시장 등 한옥과 맛집, 도시락 카페가 인기. 광화문 수문장 교대의식 추천.",
-    "summary_en": "Jongno-gu's Gyeongbokgung, Seochon, and Tongin Market buzz with hanok houses, cafes, and the Lunchbox Café. Recommended: Gwanghwamun Guard-Changing Ceremony.",
+    "mention_count": 76,
+    "sentiment_avg": 0.39473684210526316,
+    "summary_ko": "서촌/종로구: 경복궁 인근의 테일러 커피 등 한옥 카페가 인기, 문화 체험 호감. (혼재된 반응)",
+    "summary_en": "Seochon/Jongno-gu: Gyeongbokgung cafes like Tailor Coffee trend, cultural spots mix positive/neutral vibes.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
       "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
@@ -17,41 +17,41 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjf7k6/hanbok_photoshoot_at_gyeongbokgung_palace_part_1/",
-        "title": "Hanbok photoshoot at Gyeongbokgung Palace! (Part 1)",
-        "snippet": "Hanbok photoshoot at Gyeongbokgung Palace! (Part 1)",
+        "url": "https://www.reddit.com/r/seoul/comments/1tkdrnn/gyeongbokgung_hanbok_photoshoot_part_2_group/",
+        "title": "Gyeongbokgung Hanbok Photoshoot (Part 2) — Group shots & Individual cuts!",
+        "snippet": "Gyeongbokgung Hanbok Photoshoot (Part 2) — Group shots & Individual cuts!",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
+        "url": "https://www.reddit.com/r/seoul/comments/1tkdp0z/cheongwadae_sarangchae_blue_house_storyroom_in/",
+        "title": "Cheongwadae Sarangchae (Blue House Storyroom) in Seoul, South Korea",
+        "snippet": "Cheongwadae Sarangchae (Blue House Storyroom) in Seoul, South Korea",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
+        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
+        "snippet": "Seochon, located just west of Gyeongbokgung Palace, offers this softer perspective.",
         "source": "visit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses and so many hidden gems",
+        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
+        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
+        "snippet": "Tailor Coffee Seochon, a relaxed café facing the stone wall of Gyeongbokgung.",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-05-21T22:56:02.226Z"
+    "updated_at": "2026-05-22T22:41:02.468Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 39,
-    "sentiment_avg": 0.717948717948718,
-    "summary_ko": "성동구 서울숲 주변 성수동, 어바웃더챕터 책방, 이구키즈 등 MZ세대 인기 장소. LP 음악과 정원 프로그램 체험 가능.",
-    "summary_en": "Seongdong-gu's Seoul Forest and Seongsu-dong areas are trending for MZ-favored boutiques, About the Chapter bookstore, and family-friendly Igu Kids.",
+    "mention_count": 46,
+    "sentiment_avg": 0.6739130434782609,
+    "summary_ko": "성수동/성동구: MZ세대 선호 '올다무' 쇼핑과 카페로 유명, 외국인 관광객도 증가 중. (긍정적)",
+    "summary_en": "Seongsu-dong/Seongdong-gu: MZ-favored 'Olldamu' shopping/cafes thriving, foreign visitors growing. (Positive)",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
@@ -61,9 +61,9 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjd90t/is_anybody_wanna_go_응봉산_tonight/",
-        "title": "Is anybody wanna go 응봉산 tonight??",
-        "snippet": "It has nice view place",
+        "url": "https://www.reddit.com/r/seoul/comments/1tkebvh/seoul_3_days_haul_blossoms_cafes_shopping_gangam/",
+        "title": "Seoul - 3 days - Haul | Blossoms, cafes, shopping | Gangam, Hongdae, Seongsu | south korea vlog 🌸✨",
+        "snippet": "Seongsu",
         "source": "reddit_seoul"
       },
       {
@@ -73,29 +73,29 @@
         "source": "visit_seoul"
       },
       {
-        "url": "https://www.dailian.co.kr/news/view/1646270/?sc=Naver",
-        "title": "“사회성 없는 사람 아닙니다”…‘혼취미’에 빠진 이들 [NOW 2.30]",
-        "snippet": "서울 성수동의 예약제 책방 어바웃더챕터. 문을 열고 들어서자 LP 음악이 잔잔하게 공간을 채웠다. 책방... 일반 카페처럼 대화 소리나 휴대전화 알림음이 끊임없이 이어지지 않는다. 대신 LP 음악과 책장을 넘기는 소리가...",
+        "url": "https://view.asiae.co.kr/article/2026052115472924150",
+        "title": "서울 오면 이곳 방문해야…외국인 사로잡은 '성수동'[K홀릭]",
+        "snippet": "서울 오면 이곳 방문해야…외국인 사로잡은 '성수동'[K홀릭] 맛집 갔다가 '올다무' 방문…K뷰티·K패션 성지로 이 가운데 성수동의 강점으로는 쇼핑과 체험을 한 번에 즐길 수 있다는 점이 꼽힌다. 맛집과 카페를 방문한 뒤 올리브영·다이소·무신사 등 이른바 '올다무' 매장에서...",
         "source": "naver_news"
       },
       {
-        "url": "https://www.dailian.co.kr/news/view/1646270/?sc=Naver",
-        "title": "“사회성 없는 사람 아닙니다”…‘혼취미’에 빠진 이들 [NOW 2.30]",
-        "snippet": "서울 성수동의 예약제 책방 어바웃더챕터. 문을 열고 들어서자 LP 음악이 잔잔하게 공간을 채웠다. 책방... 일반 카페처럼 대화 소리나 휴대전화 알림음이 끊임없이 이어지지 않는다. 대신 LP 음악과 책장을 넘기는 소리가...",
+        "url": "https://view.asiae.co.kr/article/2026052115472924150",
+        "title": "서울 오면 이곳 방문해야…외국인 사로잡은 '성수동'[K홀릭]",
+        "snippet": "맛집 갔다가 '올다무' 방문…K뷰티·K패션 성지로 이 가운데 성수동의 강점으로는 쇼핑과 체험을 한 번에 즐길 수 있다는 점이 꼽힌다. 맛집과 카페를 방문한 뒤 올리브영·다이소·무신사 등 이른바 '올다무' 매장에서...",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-21T22:56:02.226Z"
+    "updated_at": "2026-05-22T22:41:02.468Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 43,
-    "sentiment_avg": 0.32558139534883723,
-    "summary_ko": "마포구 서강대역 주변 홍대, 연남동, 망원동. 홍대 클럽과 MZ세대 상점이 있지만, 여행자 안전 관련 논란 존재.",
-    "summary_en": "Mapo-gu's Sogang Univ. Station area (Hongdae, Yeonnam-dong) has MZ-favored shops, but solo female traveler safety concerns noted.",
+    "mention_count": 40,
+    "sentiment_avg": 0.475,
+    "summary_ko": "홍대/마포구: 연남동·망원동 MZ 상권 확장, 합정 신상 혼술바 '야화' 주목. (중립적)",
+    "summary_en": "Hongdae/Mapo-gu: Yeonnam-dong/Mangwon-dong MZ areas expand, new 'Yahwa' bar in Hapjeong. (Mixed)",
     "related_event_ids": [
       "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일|신촌 일대|2026-02-01",
@@ -105,21 +105,9 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjj4fn/clubbing_alone_in_seoul_as_a_woman/",
-        "title": "Clubbing alone in Seoul as a woman",
-        "snippet": "I’m curious about what it’s like and wondering whether it’s safe or weird to go clubbing alone in Seoul as a solo female traveler. Are there any specific areas you’d recommend...",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjbbpm/any_carats_looking_for_a_cozy_stay_near_hongdae/",
-        "title": "Any Carats looking for a cozy stay near Hongdae for the concert? 💎",
-        "snippet": "Any Carats looking for a cozy stay near Hongdae for the concert? 💎",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjq9is/clubbing_as_a_39_yo_or_40_yo_white_american/",
-        "title": "Clubbing as a 39 yo or 40 yo White American",
-        "snippet": "What is too old for Hongdae?",
+        "url": "https://www.reddit.com/r/seoul/comments/1tkebvh/seoul_3_days_haul_blossoms_cafes_shopping_gangam/",
+        "title": "Seoul - 3 days - Haul | Blossoms, cafes, shopping | Gangam, Hongdae, Seongsu | south korea vlog 🌸✨",
+        "snippet": "Hongdae",
         "source": "reddit_seoul"
       },
       {
@@ -127,63 +115,31 @@
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
         "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
         "source": "visit_seoul"
+      },
+      {
+        "url": "http://www.inews24.com/view/1970902",
+        "title": "日 웨이팅 맛집 '아임도넛', 홍대에 2호점⋯\"2년 내 매장 10개까지 늘린...",
+        "snippet": "반대로 홍대는 많은 유동 인구가 빠르게 흘러가며 소비하는",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.smartbizn.com/news/articleView.html?idxno=144596",
+        "title": "[르포] 성수 이어 광장시장도 K패션 성지···마뗑킴부터 세터까지",
+        "snippet": "성수동, 연남동 등 주요 상권의 임차료 부담이 커진 상황에서 광장시장은 상대적으로 낮은 비용으로 꾸준한 유동인구를 확보할 수 있는 곳으로 평가된다. 여기에 한국적 공간감이 강해 브랜드가 'K로컬' 정체성을...",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-21T22:56:02.226Z"
-  },
-  {
-    "station_no": "ST-2525",
-    "station_name_ko": "저동2가 22-1",
-    "gu_ko": "중구",
-    "gu_en": "Jung-gu",
-    "mention_count": 20,
-    "sentiment_avg": 0,
-    "summary_ko": "중구 저동2가 명동, 덕수궁, 동대문 시장. 패션 시장 및 역사 투어 가능. 최근 언급은 중립적.",
-    "summary_en": "Jung-gu's Jeodong 2-ga (Myeongdong, Deoksugung) offers fashion markets and history tours, with neutral recent sentiment.",
-    "related_event_ids": [
-      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
-      "2026 삼일로창고극장 [what's next project 인큐베이팅 팩토리]|삼일로창고극장|2026-05-19",
-      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-07",
-      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-05-07",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-05-07"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tj9sg9/deoksugung_palace_area/",
-        "title": "Deoksugung Palace Area",
-        "snippet": "Deoksugung Palace Area",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjygr1/iso_treasure_hunt_for_specific_pants_at_a_market/",
-        "title": "ISO: treasure hunt for specific pants at a market",
-        "snippet": "mentions of markets in Seoul where unbranded Balloon pants may be found (inferred from context as a top tourist market area for fashion)",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjygr1/iso_treasure_hunt_for_specific_pants_at_a_market/",
-        "title": "ISO: treasure hunt for specific pants at a market",
-        "snippet": "mentions of markets in Seoul where unbranded Balloon pants may be found (inferred as a major wholesale/fashion market area)",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjygr1/iso_treasure_hunt_for_specific_pants_at_a_market/",
-        "title": "ISO: treasure hunt for specific pants at a market",
-        "snippet": "mentions of markets in Seoul where unbranded Balloon pants may be found (inferred as a major traditional market area)",
-        "source": "reddit_seoul"
-      }
-    ],
-    "updated_at": "2026-05-21T22:56:02.226Z"
+    "updated_at": "2026-05-22T22:41:02.468Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 16,
-    "sentiment_avg": 0.25,
-    "summary_ko": "용산구 서빙고동 이태원, 한남동. 클럽, 힙지로 음악, 고급 주거지. 최근 언급은 중립적.",
-    "summary_en": "Yongsan-gu's Seobinggo-dong (Itaewon, Hannam-dong) has clubs, Hipjiro music, and upscale areas, with neutral recent sentiment.",
+    "mention_count": 21,
+    "sentiment_avg": 0.2857142857142857,
+    "summary_ko": "용산/용산구: 이태원 인근 심야식당·술집 일부 호감, 한남동 공관 논란 등 정치 이슈 혼재. (부정적)",
+    "summary_en": "Yongsan/Yongsan-gu: Itaewon night eateries get some praise, political issues (e.g., Hannam-dong) noted. (Mixed)",
     "related_event_ids": [
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
@@ -193,30 +149,68 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjj4fn/clubbing_alone_in_seoul_as_a_woman/",
-        "title": "Clubbing alone in Seoul as a woman",
-        "snippet": "I’m curious about what it’s like and wondering whether it’s safe or weird to go clubbing alone in Seoul as a solo female traveler. Are there any specific areas you’d recommend...",
+        "url": "https://www.reddit.com/r/seoul/comments/1tklidx/hardstyle_saturday_bouncy_uk_house_popular_music/",
+        "title": "Hardstyle Saturday, Bouncy UK house popular music mashup Sunday in Gangnam/Itaewon this long weekend!!",
+        "snippet": "Hardstyle Saturday, Bouncy UK house popular music mashup Sunday in Gangnam/Itaewon this long weekend!!",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjivoz/hipjiro_live_music/",
-        "title": "Hipjiro live Music?",
-        "snippet": "Hipjiro live Music? Any recommendations on a good place to see live music in Hipjro this Saturday? Rock, jazz, and hip hop are great but up for anything that could be a good show.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tk3hsi/i_finally_understood_why_koreans_eat/",
+        "title": "I finally understood why Koreans eat seolleongtang after drinking",
+        "snippet": "I went to a 24-hour seolleongtang place in Yongsan-gu and it was open at 3am. The owner said it's a local tradition to eat it after drinking.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tjq9is/clubbing_as_a_39_yo_or_40_yo_white_american/",
-        "title": "Clubbing as a 39 yo or 40 yo White American",
-        "snippet": "Too old to be allowed in at Itaewon?",
+        "url": "https://www.reddit.com/r/seoul/comments/1tk3hsi/i_finally_understood_why_koreans_eat/",
+        "title": "I finally understood why Koreans eat seolleongtang after drinking",
+        "snippet": "Itaewon is also a good area to find late-night eateries like seolleongtang.",
         "source": "reddit_seoul"
       },
       {
-        "url": "http://www.ktnews.com/news/articleView.html?idxno=146121",
-        "title": "MUUT, 아이웨어 저가 공식 깬다...제조 기업 기술력으로 승부",
-        "snippet": "2024년 5월 서울숲 1호점을 시작으로 성수 연무장길, 연남동, 명동, 한남, 압구정 등 국내 오프라인 매장을 확보했다.",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/seoul/comments/1tjkijk/uzbek_delivery_worker_on_motorcycle_hit_the/",
+        "title": "Uzbek delivery worker on motorcycle hit the pedestrian and fled in Seoul",
+        "snippet": "Near Ginja station in Seoul. A food delivery guy from Uzbekistan on the uninsured motorcycle hit the pedestrian and fled.",
+        "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-21T22:56:02.226Z"
+    "updated_at": "2026-05-22T22:41:02.468Z"
+  },
+  {
+    "station_no": "ST-3414",
+    "station_name_ko": "헌릉로 747",
+    "gu_ko": "강남구",
+    "gu_en": "Gangnam-gu",
+    "mention_count": 16,
+    "sentiment_avg": 0.4375,
+    "summary_ko": "강남/강남구: 봉은사·K-스타 로드 등 관광지 호감, 압구정 개발 호재. (중립적)",
+    "summary_en": "Gangnam/Gangnam-gu: Bongeunsa/K-Star Road popular, Apgujeong development progress. (Mixed)",
+    "related_event_ids": [],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tk3ci3/the_buddhist_celebration_will_finish_soon/",
+        "title": "The Buddhist celebration will finish soon _ Bongeunsa Temple (봉은사), Seoul",
+        "snippet": "The Buddhist celebration will finish soon _ Bongeunsa Temple (봉은사), Seoul",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tk16qj/gangnam_kstar_road/",
+        "title": "Gangnam K-Star Road",
+        "snippet": "Gangnam K-Star Road",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tklidx/hardstyle_saturday_bouncy_uk_house_popular_music/",
+        "title": "Hardstyle Saturday, Bouncy UK house popular music mashup Sunday in Gangnam/Itaewon this long weekend!!",
+        "snippet": "Hardstyle Saturday, Bouncy UK house popular music mashup Sunday in Gangnam/Itaewon this long weekend!!",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tkebvh/seoul_3_days_haul_blossoms_cafes_shopping_gangam/",
+        "title": "Seoul - 3 days - Haul | Blossoms, cafes, shopping | Gangam, Hongdae, Seongsu | south korea vlog 🌸✨",
+        "snippet": "Gangam",
+        "source": "reddit_seoul"
+      }
+    ],
+    "updated_at": "2026-05-22T22:41:02.468Z"
   }
 ]
