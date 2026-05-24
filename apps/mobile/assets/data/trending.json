@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 69,
-    "sentiment_avg": 0.5217391304347826,
-    "summary_ko": "종로구 서린빌딩 근처 경복궁, 광화문, 서촌에서 전통 궁궐과 한옥 마을 탐방 인기. 광장시장·통인시장도 활기",
-    "summary_en": "Jongno-gu's Gyeongbokgung, Gwanghwamun, Seochon buzz with palace visits and hanok charm. Nearby markets like Gwangjang and Tongin also thriving.",
+    "mention_count": 71,
+    "sentiment_avg": 0.5774647887323944,
+    "summary_ko": "종로구 광화문·경복궁에서 전통 시장·궁궐 탐방이 인기, 근일 중구 도보 투어 진행 중",
+    "summary_en": "Jongno-gu's Gwanghwamun·Gyeongbokgung popular for palaces/markets; nearby Jung-gu walking tours ongoing",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-07",
@@ -17,105 +17,93 @@
     ],
     "sources": [
       {
+        "url": "https://www.reddit.com/r/seoul/comments/1tmcovy/changdeokgung_창덕궁/",
+        "title": "Changdeokgung 창덕궁",
+        "snippet": "[reddit_seoul] Changdeokgung 창덕궁",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tmhle5/jogyesa_temple/",
+        "title": "Jogyesa Temple",
+        "snippet": "[reddit_seoul] Jogyesa Temple\n\n04.04.2026",
+        "source": "reddit_seoul"
+      },
+      {
         "url": "https://www.reddit.com/r/seoul/comments/1tlihac/traditional_markets_are_where_you_feel_the_real/",
         "title": "Traditional markets are where you feel the real warmth of Korea",
         "snippet": "Traditional markets are where you feel the real warmth of Korea",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tlkb8n/hiking_tomorrow/",
-        "title": "Hiking tomorrow",
-        "snippet": "Hiking tomorrow in Iwangsan",
+        "url": "https://www.reddit.com/r/seoul/comments/1tlihac/traditional_markets_are_where_you_feel_the_real/",
+        "title": "Traditional markets are where you feel the real warmth of Korea",
+        "snippet": "Traditional markets are where you feel the real warmth of Korea",
         "source": "reddit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
-        "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-05-23T22:20:33.732Z"
+    "updated_at": "2026-05-24T22:24:28.120Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 43,
-    "sentiment_avg": 0.3488372093023256,
-    "summary_ko": "마포구 서강대역 인근 망원·합정·연남동 MZ세대·외국인 방문객 증가. 공실 감소 중이나 뚜렷한 핫스팟은 아직",
-    "summary_en": "Mapo-gu's Mangwon·Hapjeong·Yeonnam-dong see rising foreign visitors and fewer vacancies, but no standout hotspots yet.",
+    "mention_count": 38,
+    "sentiment_avg": 0.5263157894736842,
+    "summary_ko": "마포구 홍대·망원동 인근 레트로·인디 숍 관심, 신촌 7080·대학가 도보 투어 진행 중",
+    "summary_en": "Mapo-gu's Hongdae·Mangwon-dong noted for retro/indie shops; Sinchon 1970s/uni walking tours nearby",
     "related_event_ids": [
-      "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]|이한열기념관 3층 기획전시실|2026-03-10",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일|신촌 일대|2026-02-01",
       "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일|신촌 일대|2026-02-01",
       "[마포구립서강도서관] 5월 문화프로그램 안내|마포구립서강도서관|2026-05-02",
-      "[마포구립서강도서관] 5월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 내 해봄|2026-05-02"
+      "[마포구립서강도서관] 5월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 내 해봄|2026-05-02",
+      "[마포구립서강도서관] 5월/팟캐스트 서강도서관 피셜 67회 [사랑은 하트 모양이 아니야]|팟빵(온라인)|2026-05-01"
     ],
     "sources": [
       {
-        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
-        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
-        "source": "visit_seoul"
+        "url": "https://www.reddit.com/r/seoul/comments/1tm8pgg/record_shopping/",
+        "title": "Record shopping",
+        "snippet": "In need of some ground level info. Might find myself in Seoul for a day or so. Looking to do a little cratedigging for indie / jazz / soul / whathaveyou. In what neighborhood should I be situating myself?",
+        "source": "reddit_seoul"
       },
       {
-        "url": "http://www.inews24.com/view/1970902",
-        "title": "日 웨이팅 맛집 '아임도넛', 홍대에 2호점⋯\"2년 내 매장 10개까지 늘린...",
-        "snippet": "홍대에 2호점",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/seoul/comments/1tm8pgg/record_shopping/",
+        "title": "Record shopping",
+        "snippet": "In need of some ground level info. Might find myself in Seoul for a day or so. Looking to do a little cratedigging for indie / jazz / soul / whathaveyou. In what neighborhood should I be situating myself?",
+        "source": "reddit_seoul"
       },
       {
-        "url": "http://www.inews24.com/view/1970902",
-        "title": "日 웨이팅 맛집 '아임도넛', 홍대에 2호점⋯\"2년 내 매장 10개까지 늘린...",
-        "snippet": "홍대에 2호점",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/seoul/comments/1tm8pgg/record_shopping/",
+        "title": "Record shopping",
+        "snippet": "In need of some ground level info. Might find myself in Seoul for a day or so. Looking to do a little cratedigging for indie / jazz / soul / whathaveyou. In what neighborhood should I be situating myself?",
+        "source": "reddit_seoul"
       },
       {
-        "url": "https://www.mt.co.kr/living/2026/05/24/2026052117254147882",
-        "title": "'올·다·무'에 길거리음식까지...'30조 지갑' 연 외국인들, 지역 경제도...",
-        "snippet": "그동안 서울 명동, 동대문 등 시내에 집중된 외국인들의 발길도 성수동, 연남동, 익선동 등 골목상권 '핫플레이스'로 옮겨가는 모습이다.",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/seoul/comments/1tm8pgg/record_shopping/",
+        "title": "Record shopping",
+        "snippet": "In need of some ground level info. Might find myself in Seoul for a day or so. Looking to do a little cratedigging for indie / jazz / soul / whathaveyou. In what neighborhood should I be situating myself?",
+        "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-23T22:20:33.732Z"
+    "updated_at": "2026-05-24T22:24:28.120Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 34,
-    "sentiment_avg": 0.5294117647058824,
-    "summary_ko": "성동구 서울숲 인근 성수동에서 젊은 층 대상 팝업스토어·체험 공간 증가. MZ세대 선호",
-    "summary_en": "Seongdong-gu's Seongsu-dong near Seoul Forest buzzes with youth-focused pop-ups and experiential spaces, popular with MZ generation.",
+    "mention_count": 32,
+    "sentiment_avg": 0.59375,
+    "summary_ko": "성동구 성수동 MZ세대 인기 상권, 서울숲 국제정원박람회·서로장터 진행 중",
+    "summary_en": "Seongdong-gu's Seongsu-dong popular with MZ; Seoul Forest hosting garden expo/Seoro Market",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
       "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
       "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
-      "(서울숲_4회차 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-02"
+      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06"
     ],
     "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tlihac/traditional_markets_are_where_you_feel_the_real/",
-        "title": "Traditional markets are where you feel the real warmth of Korea",
-        "snippet": "Traditional markets are where you feel the real warmth of Korea",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tllf5q/bicycle_route_options_for_a_4_hour_ride/",
-        "title": "Bicycle route Options for a 4 hour ride",
-        "snippet": "whether Yeouido / Banpo / Ttukseom etc. would make most sense from Itaewon",
-        "source": "reddit_seoul"
-      },
       {
         "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
@@ -123,23 +111,35 @@
         "source": "visit_seoul"
       },
       {
-        "url": "https://www.yna.co.kr/view/AKR20260522146600505?input=1195m",
-        "title": "[소셜＋] 석탄일의 '힙한' 진화… MZ 사로잡은 부처님 '생신 카페'",
-        "snippet": "묘장 스님은 \"성수동 거리에서 젊은이들이 팝업스토어를...\"",
+        "url": "https://www.mt.co.kr/industry/2026/05/25/2026052415174077530",
+        "title": "치킨집 가도 \"나 빼고 다 외국인\"...한국인처럼 먹고 입는다",
+        "snippet": "농심은 다음 달 외국인 유동인구가 밀집한 성수동에 체험형 공간인 '신라면 분식'을 추가로 오픈할 계획이다.",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260522010006745",
+        "title": "[르포] \"쿠팡만 빠른 줄 알았죠?\"…자사몰 배송 지원 나선 카페24",
+        "snippet": "이번 주 일요일 성수동에서 약속이 있어요",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092162677",
+        "title": "영어가 '스펙' 아닌 '일상 업무 스킬'로… 실전 영어 시장 커진다",
+        "snippet": "과거에는 호텔·면세점·공항 등 일부 관광 인프라 중심이었다면 이제는 성수·명동·전통시장·지방 상권·프랜차이즈 카페 등 일상 공간 전반에서 외국인 응대가 이뤄지는 분위기다.",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-23T22:20:33.732Z"
+    "updated_at": "2026-05-24T22:24:28.120Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 26,
-    "sentiment_avg": 0.6153846153846154,
-    "summary_ko": "중구 저동2가 인근 남대문·동대문시장·명동 활기. 전통시장과 쇼핑 명소 탐방객 증가",
-    "summary_en": "Jung-gu's Namdaemun·Dongdaemun Markets and Myeongdong buzz with shoppers. Traditional markets and shopping hotspots attract visitors.",
+    "mention_count": 33,
+    "sentiment_avg": 0.36363636363636365,
+    "summary_ko": "중구 남대문·동대문 시장·명동 외국인 방문 증가, 명동 야경·남산 트레킹 투어 진행",
+    "summary_en": "Jung-gu's Namdaemun·Dongdaemun markets/Myeongdong see more foreigners; night walking tours ongoing",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-07",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-07",
@@ -161,29 +161,29 @@
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tlihac/traditional_markets_are_where_you_feel_the_real/",
-        "title": "Traditional markets are where you feel the real warmth of Korea",
-        "snippet": "Traditional markets are where you feel the real warmth of Korea",
-        "source": "reddit_seoul"
+        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092162677",
+        "title": "영어가 '스펙' 아닌 '일상 업무 스킬'로… 실전 영어 시장 커진다",
+        "snippet": "과거에는 호텔·면세점·공항 등 일부 관광 인프라 중심이었다면 이제는 성수·명동·전통시장·지방 상권·프랜차이즈 카페 등 일상 공간 전반에서 외국인 응대가 이뤄지는 분위기다.",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tllf5q/bicycle_route_options_for_a_4_hour_ride/",
-        "title": "Bicycle route Options for a 4 hour ride",
-        "snippet": "heading to the airport to receive them",
-        "source": "reddit_seoul"
+        "url": "https://www.mt.co.kr/living/2026/05/24/2026052117254147882",
+        "title": "'올·다·무'에 길거리음식까지...'30조 지갑' 연 외국인들, 지역 경제도...",
+        "snippet": "서울 명동, 동대문 등 시내에 집중된 외국인들의 발길",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-23T22:20:33.732Z"
+    "updated_at": "2026-05-24T22:24:28.120Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 25,
-    "sentiment_avg": 0.48,
-    "summary_ko": "용산구 서빙고동 인근 한강공원·일대 산책·자전거 코스 인기. 이태원·서울스카이 전망대도 관광객 유입",
-    "summary_en": "Yongsan-gu's Hangang Park near Seobinggo-dong popular for walks/cycling. Itaewon and Seoul Sky Observatory also draw crowds.",
+    "mention_count": 28,
+    "sentiment_avg": 0.2857142857142857,
+    "summary_ko": "용산구 이태원·한남동 인근 라티노·야식 명소, 용산가족공원 텃밭·유아 프로그램 진행",
+    "summary_en": "Yongsan-gu's Itaewon·Hannam-dong noted for Latino/late-night eats; Yongsan Park garden/child programs",
     "related_event_ids": [
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
@@ -193,30 +193,30 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tl9x98/chasing_sunsets_at_ichon_hangang_parkseoul/",
-        "title": "Chasing Sunsets at Ichon Hangang Park,Seoul🌇🌸",
-        "snippet": "Chasing Sunsets at Ichon Hangang Park,Seoul🌇🌸\n\n[OC] Sunset at Han River Park",
+        "url": "https://www.reddit.com/r/seoul/comments/1tmdv37/i_am_looking_for_real_latino_vibe/",
+        "title": "I am looking for REAL latino vibe",
+        "snippet": "I am looking for REAL latino vibe... does anyone know if there is a place where they put merengue, bachata (traditionnal) or salsa cubana",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tlf9ar/seoul_sky_bridge/",
-        "title": "Seoul Sky Bridge",
-        "snippet": "Seoul Sky Bridge",
+        "url": "https://www.reddit.com/r/seoul/comments/1tmdv37/i_am_looking_for_real_latino_vibe/",
+        "title": "I am looking for REAL latino vibe",
+        "snippet": "I am looking for REAL latino vibe... does anyone know if there is a place where they put merengue, bachata (traditionnal) or salsa cubana",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tllf5q/bicycle_route_options_for_a_4_hour_ride/",
-        "title": "Bicycle route Options for a 4 hour ride",
-        "snippet": "Staying in Itaewon for a Seoul trip in September",
+        "url": "https://www.reddit.com/r/seoul/comments/1tlxyhf/latenight_korean_comfort_food_and_moody_wine_vibes/",
+        "title": "Late-night Korean comfort food and moody wine vibes 🍷",
+        "snippet": "Latent in the alleys of Yongsan, a hidden gem for late-night eats and wine",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tllf5q/bicycle_route_options_for_a_4_hour_ride/",
-        "title": "Bicycle route Options for a 4 hour ride",
-        "snippet": "doing a Han River cycling day instead",
+        "url": "https://www.reddit.com/r/seoul/comments/1tlxyhf/latenight_korean_comfort_food_and_moody_wine_vibes/",
+        "title": "Late-night Korean comfort food and moody wine vibes 🍷",
+        "snippet": "Not too far from Itaewon's main drag, this spot offers a quieter yet equally charming experience",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-23T22:20:33.732Z"
+    "updated_at": "2026-05-24T22:24:28.120Z"
   }
 ]
