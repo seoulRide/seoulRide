@@ -4,54 +4,54 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 62,
-    "sentiment_avg": 0.5483870967741935,
-    "summary_ko": "서촌(종로구) 카페들, 경복궁 돌담과 인왕산 전망으로 인기. 문화 공간도 즐비.",
-    "summary_en": "Seochon (Jongno-gu) cafes by Gyeongbokgung and Inwangsan views are trending. Cultural spaces add charm.",
+    "mention_count": 68,
+    "sentiment_avg": 0.4852941176470588,
+    "summary_ko": "종로구 경복궁 인근에서 한복 체험, 통인시장 도시락 카페, 서촌 탐방 인기. 광화문 수문장 교대의식 추천.",
+    "summary_en": "Jongno-gu buzzes around Gyeongbokgung with hanbok experiences, Tongin Market's Lunchbox Café, and Seochon Village. Don't miss Gwanghwamun guard ceremonies.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-26",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-26",
       "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-05-26",
       "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-05-26",
-      "중구 수요일 달밤에서 별밤으로 남산 야간 트레킹|매경미디어센터빌딩|2026-05-06"
+      "(토)서울 정원문화힐링센터(가드닝라운지)_4~5월 프로그램 예약 안내|서울 정원문화힐링센터|2026-04-19"
     ],
     "sources": [
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
-        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
-        "snippet": "Seochon, located just west of Gyeongbokgung Palace, offers this softer perspective.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tovksu/hanyang_festival/",
+        "title": "Hanyang festival",
+        "snippet": "Hanyang festival - Is there anyone who wants to go hanyang and see aespa?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
         "source": "visit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
-        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
-        "snippet": "Tailor Coffee Seochon, a relaxed café facing the stone wall of Gyeongbokgung.",
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
         "source": "visit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
-        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
-        "snippet": "The day begins at Tailor Coffee Seochon, a relaxed café facing the stone wall of Gyeongbokgung.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
-        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
-        "snippet": "Along Jahamun-ro 10-gil, the view opens slightly to reveal Inwangsan in the distance.",
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses and so many hidden gems",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-05-26T22:53:41.101Z"
+    "updated_at": "2026-05-27T23:03:17.432Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 30,
-    "sentiment_avg": 0.36666666666666664,
-    "summary_ko": "연남동·망원동(마포구) MZ세대 인기. 도서관 프로그램·야행 투어 등 다양.",
-    "summary_en": "Mangwon-dong (Mapo-gu) and Yeonnam-dong attract MZ generations. Library events and night tours available.",
+    "mention_count": 37,
+    "sentiment_avg": 0.4594594594594595,
+    "summary_ko": "마포구 홍대·망원동 일대에서 MZ세대 인기 카페, 연남동 락페스티벌 주목. 서강도서관과 신촌 역사 투어 다양.",
+    "summary_en": "Mapo-gu's Hongdae and Mangwon-dong attract MZ generations with trendy cafes; Yeonnam Ground Rock Festival and Seodaemun tours nearby.",
     "related_event_ids": [
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일|신촌 일대|2026-02-01",
       "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일|신촌 일대|2026-02-01",
@@ -61,9 +61,9 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tnsm2e/how_to_bbq_in_seoul_is_here/",
-        "title": "How to bbq in Seoul is here",
-        "snippet": "I’ve been barbecuing at 난지캠핑장, a popular spot frequented by Korean families",
+        "url": "https://www.reddit.com/r/seoul/comments/1tp5esi/any_shqipe_in_seoul_looking_for_friends_to_hang/",
+        "title": "Any Shqipe in Seoul looking for friends to hang out?",
+        "snippet": "hangout in Hongdae, Itaewon, wherever",
         "source": "reddit_seoul"
       },
       {
@@ -73,117 +73,29 @@
         "source": "visit_seoul"
       },
       {
-        "url": "https://www.betanews.net/article/view/beta202605260021",
-        "title": "니콘이미징코리아, 도심 곳곳 기록하는 6월 니콘스쿨 공개",
-        "snippet": "6월 12일 진행되는 '연남동 도시 산책- 산책하는 사람' 강의에서는 마포구 연남동 일대를 거닐며 도심 곳곳을 촬영해볼 수 있다",
+        "url": "https://www.donga.com/news/Opinion/article/all/20260527/134005550/2",
+        "title": "오래 살아남는 동네에는 공통점이 있다… ‘직-주-락-교’ 어우러진 곳...",
+        "snippet": "《뜨는 동네, 지는 동네의 차이 서울 성수동, 을지로, 익선동, 망원동, 서순라길 등 사람들이 많이 찾는... ‘동네를 즐긴다’는 것은 단지 인기 있는 카페나 상점을 찾는 것 이상의 문화적 현상을 담고 있다.》",
         "source": "naver_news"
       },
       {
-        "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=334725",
-        "title": "인명피해 발생한 서소문 고가 붕괴, 선거에 이용?… 여야 '입단속'",
-        "snippet": "26일 사고 소식이 알려진 직후 서울 마포구 연남동에서는 마포구청장 재선에 도전하는 박강수 국민의힘 후보가 유세 현장에서 \"우리 마포, 4년 동안 단 한 건도 큰 안전사고가 발생하지 않았다는 것 자랑하고 싶다\"고 말했다....",
+        "url": "http://www.civicnews.com/news/articleView.html?idxno=39896",
+        "title": "\"바다만 보고 간다\"...부산 관광 '집적화된 콘텐츠' 부족",
+        "snippet": "서울의 성수동이나 홍대거리는 카페, 편집숍, 공연장, 전시 공간이 밀집돼 있어 하루 종일 머무를 수 있는 구조를 갖췄다.",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-26T22:53:41.101Z"
-  },
-  {
-    "station_no": "ST-2525",
-    "station_name_ko": "저동2가 22-1",
-    "gu_ko": "중구",
-    "gu_en": "Jung-gu",
-    "mention_count": 26,
-    "sentiment_avg": 0.07692307692307693,
-    "summary_ko": "명동·중구 도보 투어·야행 프로그램 진행 중. 서소문 교량 사고 관련 언급도.",
-    "summary_en": "Jung-gu walking tours and night events ongoing. Mentioned in Seosomun overpass incident.",
-    "related_event_ids": [
-      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-26",
-      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-26",
-      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-05-26",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-05-26",
-      "중구 수요일 달밤에서 별밤으로 남산 야간 트레킹|매경미디어센터빌딩|2026-05-06"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tnyy67/psawarning_seosomoon_overpass_collapse_check_your/",
-        "title": "PSA/WARNING - Seosomoon overpass collapse - Check your traffic plan",
-        "snippet": "Seosomoon Overpass collapsed while dismantling. It is just north of Seoul Station.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tnyy67/psawarning_seosomoon_overpass_collapse_check_your/",
-        "title": "PSA/WARNING - Seosomoon overpass collapse - Check your traffic plan",
-        "snippet": "It is just north of Seoul Station.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.mt.co.kr/industry/2026/05/25/2026052415174077530",
-        "title": "치킨집 가도 \"나 빼고 다 외국인\"...한국인처럼 먹고 입는다",
-        "snippet": "서울 명동, 동대문 등 시내에 집중된 외국인들의 발길도 성수동, 연남동, 익선동 등 골목상권 '핫플레이스'로 옮겨가는 모습이다.",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.mt.co.kr/industry/2026/05/25/2026052415174077530",
-        "title": "치킨집 가도 \"나 빼고 다 외국인\"...한국인처럼 먹고 입는다",
-        "snippet": "서울 명동, 동대문 등 시내에 집중된 외국인들의 발길도 성수동, 연남동, 익선동 등 골목상권 '핫플레이스'로 옮겨가는 모습이다.",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-05-26T22:53:41.101Z"
-  },
-  {
-    "station_no": "ST-329",
-    "station_name_ko": "서빙고동 금호맨션 앞",
-    "gu_ko": "용산구",
-    "gu_en": "Yongsan-gu",
-    "mention_count": 22,
-    "sentiment_avg": 0.13636363636363635,
-    "summary_ko": "용산가족공원 텃밭 분양·유아 프로그램 진행. 니콘 출사 명소로도 언급.",
-    "summary_en": "Yongsan Family Park has allotment programs and kids' events. Mentioned as a photography spot.",
-    "related_event_ids": [
-      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
-      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
-      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "용산가족공원 꼬물꼬물 호기심 숲 (유아단체)|용산가족공원|2026-05-06",
-      "염주씨가 아름다워(팔찌)|용산가족공원|2026-05-23"
-    ],
-    "sources": [
-      {
-        "url": "https://www.betanews.net/article/view/beta202605260021",
-        "title": "니콘이미징코리아, 도심 곳곳 기록하는 6월 니콘스쿨 공개",
-        "snippet": "이번 니콘스쿨은 연남동, 반포대교, 구로, 용산 등 서울 곳곳을 출사하는 것이 특징이다",
-        "source": "naver_news"
-      },
-      {
-        "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=840746",
-        "title": "니콘이미징코리아, 6월 니콘스쿨 커리큘럼 공개",
-        "snippet": "이번 니콘스쿨은 연남동, 반포대교, 구로, 용산 등 서울 주요 지역에서 출사 강의를 진행한다",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.cnet.co.kr/view/?no=20260526124919",
-        "title": "니콘이미징코리아, 도심 출사 중심 6월 니콘스쿨 공개",
-        "snippet": "이번 니콘스쿨은 연남동과 반포대교, 구로, 용산 등 서울 도심 곳곳을 배경으로 한 출사 중심 강의로 구성됐다.",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.ddaily.co.kr/page/view/2026052610490486640",
-        "title": "\"연남동부터 반포대교까지\"…6월 니콘스쿨 공개",
-        "snippet": "광학기기 전문기업 니콘이미징코리아가 공개한 이번 니콘스쿨은 연남동, 반포대교, 구로, 용산 등 서울 곳곳을 출사하는 것이 특징이다.",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-05-26T22:53:41.101Z"
+    "updated_at": "2026-05-27T23:03:17.432Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 22,
-    "sentiment_avg": 0.09090909090909091,
-    "summary_ko": "성수동(성동구) MZ세대 카페·라떼킹 등 인기. 서울숲 연간 프로그램 다양.",
-    "summary_en": "Seongsu-dong (Seongdong-gu) cafes and Latté King attract MZ. Seoul Forest offers year-round events.",
+    "mention_count": 38,
+    "sentiment_avg": 0.23684210526315788,
+    "summary_ko": "성동구 서울숲 인근 성수동 카페·편집숍 탐방 가능. 2026 서울국제정원박람회 예정. 재개발 논란 존재.",
+    "summary_en": "Seongdong-gu's Seongsu-dong (near Seoul Forest) offers cafes and boutiques; 2026 Seoul International Garden Expo planned. Mixed sentiments on redevelopment.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
@@ -199,24 +111,106 @@
         "source": "visit_seoul"
       },
       {
-        "url": "https://www.mydaily.co.kr/page/view/2026052219012047524",
-        "title": "'24억 건물주' 권은비, '코 라인' 변화로 더 예뻐졌다? 날카로움→부드...",
-        "snippet": "성수동에서 자신의 반려견 이름을 딴 개인 카페를 운영 중인 그는 스케줄이 비는 시간마다 매장으로 출근을 했다. 음료 제조부터 설거지, 테이블 정리까지 다양한 업무를 해 눈길을 끌었다. 특히 화장실 청소까지 열심히...",
+        "url": "https://www.donga.com/news/Opinion/article/all/20260527/134005550/2",
+        "title": "오래 살아남는 동네에는 공통점이 있다… ‘직-주-락-교’ 어우러진 곳...",
+        "snippet": "《뜨는 동네, 지는 동네의 차이 서울 성수동, 을지로, 익선동, 망원동, 서순라길 등 사람들이 많이 찾는... ‘동네를 즐긴다’는 것은 단지 인기 있는 카페나 상점을 찾는 것 이상의 문화적 현상을 담고 있다.》",
         "source": "naver_news"
       },
       {
-        "url": "https://www.fntoday.co.kr/news/articleView.html?idxno=385004",
-        "title": "오세훈 후보 캠프, 정원오 후보 '성동미래일자리주식회사' 의혹 맹공",
-        "snippet": "해당 회사는 서울숲 내 카페·매점 운영",
+        "url": "http://www.civicnews.com/news/articleView.html?idxno=39896",
+        "title": "\"바다만 보고 간다\"...부산 관광 '집적화된 콘텐츠' 부족",
+        "snippet": "서울의 성수동이나 홍대거리는 카페, 편집숍, 공연장, 전시 공간이 밀집돼 있어 하루 종일 머무를 수 있는 구조를 갖췄다.",
         "source": "naver_news"
       },
       {
-        "url": "https://www.fntoday.co.kr/news/articleView.html?idxno=385004",
-        "title": "오세훈 후보 캠프, 정원오 후보 '성동미래일자리주식회사' 의혹 맹공",
-        "snippet": "성동구 성수동 일대",
+        "url": "https://dhnews.co.kr/news/view/1065596307068433",
+        "title": "자일렉코리아, ‘사단법인 동물사랑 네스트’ 바자회에 침구청소기 후원",
+        "snippet": "이번 바자회는 성수동 구욱희 카페에서 진행됐으며",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-26T22:53:41.101Z"
+    "updated_at": "2026-05-27T23:03:17.432Z"
+  },
+  {
+    "station_no": "ST-329",
+    "station_name_ko": "서빙고동 금호맨션 앞",
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "mention_count": 21,
+    "sentiment_avg": 0.2857142857142857,
+    "summary_ko": "용산구 이태원 인근 서순라길 탐방 가능. 전쟁기념관·국립중앙박물관 관람 추천. 용산가족공원 텃밭 분양 진행 중.",
+    "summary_en": "Yongsan-gu's Seoseonragil (near Itaewon) and museums draw visitors. Yongsan Family Park offers garden plots. Sentiment mixed.",
+    "related_event_ids": [
+      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
+      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
+      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
+      "염주씨가 아름다워(팔찌)|용산가족공원|2026-05-23",
+      "(토) 용산가족공원 숲티어링|용산가족공원|2026-05-02"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1toqs8g/first_time_tourist_here_is_seoul_unusually_empty/",
+        "title": "First time tourist here: Is Seoul unusually empty right now?",
+        "snippet": "Yesterday I‘ve been to the National Museum und today I‘m at the War Memorial Museum.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1toqs8g/first_time_tourist_here_is_seoul_unusually_empty/",
+        "title": "First time tourist here: Is Seoul unusually empty right now?",
+        "snippet": "today I‘m at the War Memorial Museum.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tp5esi/any_shqipe_in_seoul_looking_for_friends_to_hang/",
+        "title": "Any Shqipe in Seoul looking for friends to hang out?",
+        "snippet": "hangout in Hongdae, Itaewon, wherever",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/korea/comments/1tokvka/itaewon/",
+        "title": "Itaewon",
+        "snippet": "Itaewon",
+        "source": "reddit_korea"
+      }
+    ],
+    "updated_at": "2026-05-27T23:03:17.432Z"
+  },
+  {
+    "station_no": "ST-3414",
+    "station_name_ko": "헌릉로 747",
+    "gu_ko": "강남구",
+    "gu_en": "Gangnam-gu",
+    "mention_count": 14,
+    "sentiment_avg": 0.42857142857142855,
+    "summary_ko": "강남구 압구정로·신사동 가로수길 인근 고급 클리닉·뷰티숍 밀집. 반포동·청담동 브랜드 타운 계획 중.",
+    "summary_en": "Gangnam-gu's Apgujeong-ro and Garosugil (Sinsa-dong) cluster high-end clinics and beauty shops. Brand town projects under development.",
+    "related_event_ids": [],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tp4y9y/guide_a_us_expats_guide_to_seoul_derm_clinics/",
+        "title": "[Guide] A US Expat’s Guide to Seoul Derm Clinics: Factory vs. Premium, Lifting Devices, and Boosting Treatments",
+        "snippet": "Most of the clinics mentioned are clustered in Gangnam, particularly near Gangnam Station (2호선) Exit 5/6, and Apgujeong, which is also part of Gangnam-gu.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tp4y9y/guide_a_us_expats_guide_to_seoul_derm_clinics/",
+        "title": "[Guide] A US Expat’s Guide to Seoul Derm Clinics: Factory vs. Premium, Lifting Devices, and Boosting Treatments",
+        "snippet": "Apgujeong-ro is a major street in Gangnam-gu known for high-end dermatology clinics and beauty services.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tp4y9y/guide_a_us_expats_guide_to_seoul_derm_clinics/",
+        "title": "[Guide] A US Expat’s Guide to Seoul Derm Clinics: Factory vs. Premium, Lifting Devices, and Boosting Treatments",
+        "snippet": "Some clinics are located in Sinsa-dong, a trendy neighborhood in Gangnam-gu near Garosugil.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1tp4y9y/guide_a_us_expats_guide_to_seoul_derm_clinics/",
+        "title": "[Guide] A US Expat’s Guide to Seoul Derm Clinics: Factory vs. Premium, Lifting Devices, and Boosting Treatments",
+        "snippet": "Garosugil is a popular shopping street in Sinsa-dong, Gangnam-gu, frequented by tourists for its cafes, boutiques, and clinics.",
+        "source": "reddit_seoul"
+      }
+    ],
+    "updated_at": "2026-05-27T23:03:17.432Z"
   }
 ]
