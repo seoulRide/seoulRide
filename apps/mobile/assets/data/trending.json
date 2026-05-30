@@ -4,54 +4,54 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 52,
-    "sentiment_avg": 0.46153846153846156,
-    "summary_ko": "종로구 경복궁·서촌 인근에서 한옥과 숨겨진 명소 탐방 인기. 광화문 수문장 교대식 관람 추천.",
-    "summary_en": "Jongno-gu's Gyeongbokgung/Seochon buzzes with hanok tours and hidden gems. Gwanghwamun Guard Changing Ceremony is a highlight.",
+    "mention_count": 61,
+    "sentiment_avg": 0.32786885245901637,
+    "summary_ko": "종로구 서촌·통인시장 등에서 한옥·도시락 카페 인기. 경복궁·광화문 행사도 주목 중.",
+    "summary_en": "Jongno-gu's Seochon & Tongin Market popular for hanok, Lunchbox Café. Gyeongbokgung events also trending.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-26",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-26",
       "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-05-26",
       "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-05-26",
-      "(누구나 가드너 입문반) 서울 정원문화힐링센터(가드닝라운지, 서울정원문화힐링센터) 예비정원사 8주 과정 안내|서울 정원문화힐링센터|2026-06-01"
+      "(토)서울 정원문화힐링센터(가드닝라운지)_4~5월 프로그램 예약 안내|서울 정원문화힐링센터|2026-04-19"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tr7xc3/looking_for_a_share_house/",
-        "title": "Looking for a share house",
-        "snippet": "I’m a student at sungkyunkwan 19M. Need a place to stay in summer (maybe further if we will be good) starting from 20th of June",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tr3k9u/anyone_in_north_seoul_this_weekend/",
-        "title": "anyone in north seoul this weekend?",
-        "snippet": "i’m planning to visit the gyeoungbokgung palace and the namsan tower",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tqsl2r/seoul_marriott_properties_with_kid/",
-        "title": "Seoul marriott properties with kid",
-        "snippet": "Seoul marriott properties with kid",
+        "url": "https://www.reddit.com/r/seoul/comments/1trk98e/where_to_find_canvas_art_in_seoul_300/",
+        "title": "Where to find canvas art in Seoul? (<$300)",
+        "snippet": "galleries in insadong and they are way outside my budget",
         "source": "reddit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
         "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung Palace in Hanbok...the largest and most iconic palace in the city and was once the main royal palace during the Joseon Dynasty",
+        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses and so many hidden gems",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-05-29T22:55:10.516Z"
+    "updated_at": "2026-05-30T22:38:47.416Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 36,
-    "sentiment_avg": 0.3055555555555556,
-    "summary_ko": "마포구 홍대·연남동 일대 코스프레·이벤트 인기. 서강도서관 문화 행사도 진행 중.",
-    "summary_en": "Mapo-gu's Hongdae/Yennamdong buzz with cosplay/anime events. Seogang Library offers cultural programs.",
+    "mention_count": 41,
+    "sentiment_avg": 0.24390243902439024,
+    "summary_ko": "마포구 홍대 거리 버스킹·인현동 명소 인기. 서강대역 근처 신촌·서대문 도보 투어 진행 중.",
+    "summary_en": "Mapo-gu's Hongdae street busking & Inhyeon-dong popular. Seodaemun walking tours near Seogang Station ongoing.",
     "related_event_ids": [
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일|신촌 일대|2026-02-01",
       "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일|신촌 일대|2026-02-01",
@@ -61,162 +61,156 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tqxky6/hongdae_girls_night/",
-        "title": "Hongdae girls night",
-        "snippet": "Hi! I am Kate from Italy, 24, someone wanna go together to hongdae partying a bit tonight?",
+        "url": "https://www.reddit.com/r/seoul/comments/1ts1xin/hongdaemyeongdongbusanhaeundae_black_devil/",
+        "title": "Hongdae/Myeongdong/Busan(Haeundae) Black Devil availability",
+        "snippet": "Hongdae/Myeongdong/Busan(Haeundae) Black Devil availability",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tr94c1/cosplay_geeky_weekend/",
-        "title": "Cosplay Geeky Weekend",
-        "snippet": "Cosplay Geeky Weekend events (Anime Quiz, Anime Drag, Brunch) are likely taking place in Hongdae, a well-known neighborhood for geek culture and cosplay in Seoul.",
+        "url": "https://www.reddit.com/r/seoul/comments/1trykui/world_cup_stadium_tonight/",
+        "title": "World Cup Stadium tonight",
+        "snippet": "Anyone know what is gong on? It's a wall of people around it but I don't see any signs.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tqy7df/where_can_i_watch_the_ucl_final/",
-        "title": "where can i watch the UCL final?",
-        "snippet": "홍대",
+        "url": "https://www.reddit.com/r/seoul/comments/1trk98e/where_to_find_canvas_art_in_seoul_300/",
+        "title": "Where to find canvas art in Seoul? (<$300)",
+        "snippet": "hongik university area",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tqy7df/where_can_i_watch_the_ucl_final/",
-        "title": "where can i watch the UCL final?",
-        "snippet": "연남동",
+        "url": "https://www.reddit.com/r/seoul/comments/1ts4kr9/looking_for_friends/",
+        "title": "Looking for friends",
+        "snippet": "I usually spend my weekends watching busking in hongdae street",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-29T22:55:10.516Z"
+    "updated_at": "2026-05-30T22:38:47.416Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 29,
-    "sentiment_avg": 0.3793103448275862,
-    "summary_ko": "성동구 성수동 팬암 성수 등 패션 브랜드 플래그십 스토어 집중. 서울숲 체험 프로그램 운영.",
-    "summary_en": "Seongdong-gu's Seongsan-dong features flagship stores (Fannam Seoul). Seoul Forest offers year-round nature programs.",
+    "mention_count": 35,
+    "sentiment_avg": 0.34285714285714286,
+    "summary_ko": "성동구 서울숲·성수동 카페 거리 붐비는 중. 미식 성지·팝업스토어 등 관광 명소 다수.",
+    "summary_en": "Seongdong-gu's Seoul Forest & Seongsu-dong café street crowded. Food hotspots & pop-ups attract tourists.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
       "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
       "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
-      "(서울숲_4회차 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-02"
+      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tqy7df/where_can_i_watch_the_ucl_final/",
-        "title": "where can i watch the UCL final?",
-        "snippet": "성수동",
+        "url": "https://www.reddit.com/r/seoul/comments/1troog8/looking_for_a_studio_officetel/",
+        "title": "looking for a studio / Officetel",
+        "snippet": "looking for a studio / Officetel around Wangsimni or Seoul Forest",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.news1.kr/industry/distribution/6178968",
-        "title": "디저트·도넛·뷰티까지…식품업계 '이색 컬래버' 활발[이번주 Eat템]",
-        "snippet": "빙그레(005180)의 과채주스 브랜드 '따옴'과 디어달리아의 메이크업 무드를 결합한 프로젝트로, 성수동...",
+        "url": "https://www.reddit.com/r/seoul/comments/1trk98e/where_to_find_canvas_art_in_seoul_300/",
+        "title": "Where to find canvas art in Seoul? (<$300)",
+        "snippet": "AI suggested seongsu-dong but didn’t really find any art places there",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://biz.chosun.com/distribution/channel/2026/05/31/UAGDYEPAFRG57PMBLJQSMIKFFQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "title": "‘누가 골랐나’ 따지는 시대… 교보문고까지 뛰어든 여행 큐레이션",
+        "snippet": "글로벌 무신사는 ‘Digging Seoul Style Map(파고드는 서울 스타일 지도)’ 콘텐츠를 통해 성수·한남·명동·홍대 등...",
         "source": "naver_news"
       },
       {
-        "url": "https://www.gosiweek.com/article/1065602116040003",
-        "title": "비엔엠컴퍼니와 니즈디자인랩 업무협약 체결...PC방, 만화카페 업계 공...",
-        "snippet": "니즈디자인랩은 ... 팬암 성수, 리복, 데상트 플래그십...",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.donga.com/news/Economy/article/all/20260529/134016817/1",
-        "title": "비엔엠컴퍼니-니즈디자인랩 “PC방·만화카페, ‘일상속 문화경험 공간...",
-        "snippet": "니즈디자인랩은 ... 팬암 성수, 리복, 데상트...",
+        "url": "https://www.mt.co.kr/living/2026/05/31/2026052819541266763",
+        "title": "\"광장시장, 이미 너무 유명해\" 다른 곳으로...K미식 성지 찾는 외국인들...",
+        "snippet": "외국인 관광객 사이에서 이른바 '미식 성지'로 입소문을 탄 곳은 성수동뿐만이 아니다",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-29T22:55:10.516Z"
+    "updated_at": "2026-05-30T22:38:47.416Z"
   },
   {
-    "station_no": "ST-329",
-    "station_name_ko": "서빙고동 금호맨션 앞",
-    "gu_ko": "용산구",
-    "gu_en": "Yongsan-gu",
-    "mention_count": 25,
-    "sentiment_avg": 0.2,
-    "summary_ko": "용산구 이태원 인근 월드컵 관람·맥주 문화 인기. 용산가족공원 텃밭 분양 이벤트도 진행.",
-    "summary_en": "Yongsan-gu's Itaewon buzzes with World Cup nights. Yongsan Family Park offers garden plot rentals.",
-    "related_event_ids": [
-      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
-      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
-      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "(토) 용산가족공원 숲티어링|용산가족공원|2026-05-02",
-      "염주씨가 아름다워(팔찌)|용산가족공원|2026-05-23"
-    ],
+    "station_no": "ST-3414",
+    "station_name_ko": "헌릉로 747",
+    "gu_ko": "강남구",
+    "gu_en": "Gangnam-gu",
+    "mention_count": 29,
+    "sentiment_avg": 0.10344827586206896,
+    "summary_ko": "강남구 강남역 일대 투표 독려 행사 다수. 고가 상권·외식업체 밀집지역이지만 중립적 평가.",
+    "summary_en": "Gangnam-gu Gangnam Station area hosts voting campaigns. High-end commercial zone but mixed reviews.",
+    "related_event_ids": [],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tre0py/jamsu_bridge/",
-        "title": "Jamsu Bridge",
-        "snippet": "[reddit_seoul] Jamsu Bridge",
+        "url": "https://www.reddit.com/r/seoul/comments/1trvje0/is_there_any_futuristictech_place_to_visit_in/",
+        "title": "Is there any futuristic/tech place to visit in Seoul?",
+        "snippet": "we saw the Hyundai exhibition, but it is only in Korean",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tqvpjc/world_cup_football_culture_night_in_itaewon/",
-        "title": "World Cup Football Culture Night in Itaewon 🌍⚽🍻",
-        "snippet": "World Cup Football Culture Night in Itaewon 🌍⚽🍻 ...planning to watch Korea’s World Cup group-stage matches at Sam Ryan’s in Itaewon",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1jsaetu/welcome_to_rkorea/",
+        "title": "Welcome to r/korea!",
+        "snippet": "Implicit reference via r/seoul community context",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tqvpjc/world_cup_football_culture_night_in_itaewon/",
-        "title": "World Cup Football Culture Night in Itaewon 🌍⚽🍻",
-        "snippet": "planning to watch Korea’s World Cup group-stage matches at Sam Ryan’s in Itaewon",
-        "source": "reddit_seoul"
+        "url": "https://mhnse.com/news/articleView.html?idxno=1394461",
+        "title": "63세 노희영, 예비 자영업자에 경고…\"식당·카페, 지금 열면 안 돼\" ('주...",
+        "snippet": "강남 같은 고가 상권은 물론이고 성수동 역시 중소 규모 외식업체가...",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tr64an/is_the_msi_versa_wireless_frieren_edition_mouse/",
-        "title": "Is the msi versa wireless frieren edition mouse available in Korea?",
-        "snippet": "Are they available in Yongsan or Kukje Electronic Center?",
-        "source": "reddit_seoul"
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3596442",
+        "title": "국민의힘 장동혁, 서울 도심 유세…젊은 표심 공략",
+        "snippet": "장동혁 대표는 31일 서울 연남동, 성수동, 강남역 일대를 돌며 도보 유세와 함께 투표 참여를 독려할 예정이다.",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-05-29T22:55:10.516Z"
+    "updated_at": "2026-05-30T22:38:47.416Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 19,
-    "sentiment_avg": 0.10526315789473684,
-    "summary_ko": "중구 명동·이순신로드 역사 탐방 프로그램 운영. 을지로 포함 인기 동네 공통점 탐구.",
-    "summary_en": "Jung-gu's Myeongdong/Yi Sun-sin Road offer history tours. Euljiro is part of Seoul's trendiest neighborhoods.",
+    "mention_count": 25,
+    "sentiment_avg": 0.2,
+    "summary_ko": "중구 명동·남산골 한옥마을 관광 명소. 중구 도보 투어 및 야행 프로그램 진행 중.",
+    "summary_en": "Jung-gu's Myeongdong & Namsangol Hanok Village popular. Jung-gu walking tours & night programs ongoing.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-26",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-26",
       "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-05-26",
       "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-05-26",
-      "(누구나 가드너 입문반) 서울 정원문화힐링센터(가드닝라운지, 서울정원문화힐링센터) 예비정원사 8주 과정 안내|서울 정원문화힐링센터|2026-06-01"
+      "(토)서울 정원문화힐링센터(가드닝라운지)_4~5월 프로그램 예약 안내|서울 정원문화힐링센터|2026-04-19"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1trgi3j/where_to_watch_spurs_vs_thunder_game_7_in_seoul/",
-        "title": "Where to watch Spurs vs Thunder game 7 in Seoul",
-        "snippet": "establishment that will have the game on near Seoul Plaza/City hall",
+        "url": "https://www.reddit.com/r/seoul/comments/1trk9yi/some_pictures_i_took_during_a_midday_walk_through/",
+        "title": "Some pictures I took during a midday walk through Namsan-dong, between the mountain and Seoul Station",
+        "snippet": "between the mountain and Seoul Station",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1trgi3j/where_to_watch_spurs_vs_thunder_game_7_in_seoul/",
-        "title": "Where to watch Spurs vs Thunder game 7 in Seoul",
-        "snippet": "establishment that will have the game on near Seoul Plaza/City hall",
+        "url": "https://www.reddit.com/r/seoul/comments/1trzj32/some_pictures_i_took_from_n_seoul_tower_and/",
+        "title": "Some pictures i took from N Seoul tower and Namsangol Hanok village",
+        "snippet": "Some pictures i took from N Seoul tower and Namsangol Hanok village",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tr3k9u/anyone_in_north_seoul_this_weekend/",
-        "title": "anyone in north seoul this weekend?",
-        "snippet": "i’m planning to visit the gyeoungbokgung palace and the namsan tower",
+        "url": "https://www.reddit.com/r/seoul/comments/1ts1xin/hongdaemyeongdongbusanhaeundae_black_devil/",
+        "title": "Hongdae/Myeongdong/Busan(Haeundae) Black Devil availability",
+        "snippet": "Hongdae/Myeongdong/Busan(Haeundae) Black Devil availability",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1traxgo/where_can_i_buy_crocs_baya_clog_in_seoul/",
-        "title": "Where can i buy crocs baya clog in seoul?",
-        "snippet": "Tried different crocs official store and other market/mall like ABC mart and lotte, but always no baya clog.",
+        "url": "https://www.reddit.com/r/seoul/comments/1ts0b7z/finding_a_massage_place/",
+        "title": "Finding a massage place",
+        "snippet": "I would like some recommendations (not expensive one) near itaewon or myeongdong area or anyother area.",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-05-29T22:55:10.516Z"
+    "updated_at": "2026-05-30T22:38:47.416Z"
   }
 ]
