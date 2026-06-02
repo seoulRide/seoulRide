@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 57,
-    "sentiment_avg": 0.43859649122807015,
-    "summary_ko": "경복궁, 서촌, 통인시장 등 종로구의 전통 명소들이 여행객들 사이에서 인기. 한옥과 전통 시장 체험 가능.",
-    "summary_en": "Gyeongbokgung, Seochon, Tongin Market in Jongno-gu trend. Hanok & local market vibes draw visitors.",
+    "mention_count": 73,
+    "sentiment_avg": 0.6712328767123288,
+    "summary_ko": "종로구 다동 무교동 음식거리와 경복궁이 인기, 청계천과 광화문 광장은 논란 중. (mention 73, sent 0.67)",
+    "summary_en": "Jongno-gu's Dadong Mugyodong Food Street and Gyeongbokgung popular; Cheonggyecheon and Gwanghwamun Square controversial. (73, 0.67)",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-26",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-26",
@@ -17,85 +17,41 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ttxl39/gyeongbokgung_palace_on_a_perfectly_clear_day_the/",
-        "title": "Gyeongbokgung Palace on a perfectly clear day! The energy here is amazing",
-        "snippet": "Gyeongbokgung Palace on a perfectly clear day! The energy here is amazing... Seeing the open palace grounds against that crisp blue sky just makes you appreciate the traditional architecture so much more! If you time your visit right, you can catch the Royal Guard Changing Ceremo",
+        "url": "https://www.reddit.com/r/seoul/comments/1tuqk3f/what_korean_office_workers_actually_eat_after/",
+        "title": "What Korean office workers actually eat after work: Dadong Mugyodong Food Street near Jongno, Seoul",
+        "snippet": "Dadong Mugyodong Food Street near Jongno, Seoul",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
-        "source": "visit_seoul"
+        "url": "https://www.reddit.com/r/seoul/comments/1ttxl39/gyeongbokgung_palace_on_a_perfectly_clear_day_the/",
+        "title": "Gyeongbokgung Palace on a perfectly clear day! The energy here is amazing",
+        "snippet": "Gyeongbokgung Palace on a perfectly clear day! The energy here is amazing",
+        "source": "reddit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
-        "source": "visit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1tubn2s/what_are_some_of_these_objects_depicted_in_a/",
+        "title": "What are some of these objects depicted in a children's book?",
+        "snippet": "The book may reference Cheonggyecheon, a major stream restoration project in central Seoul, often featured in cultural depictions. While not explicitly mentioned, it's a common Seoul landmark in children's media.",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses and so many hidden gems",
-        "source": "visit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1tubn2s/what_are_some_of_these_objects_depicted_in_a/",
+        "title": "What are some of these objects depicted in a children's book?",
+        "snippet": "A common cultural reference in Korean children's literature, though not directly mentioned in the query, Gyeongbokgung is a likely candidate for cultural object depictions.",
+        "source": "reddit_korea"
       }
     ],
-    "updated_at": "2026-06-01T23:24:40.059Z"
-  },
-  {
-    "station_no": "ST-1199",
-    "station_name_ko": "서울숲 관리사무소",
-    "gu_ko": "성동구",
-    "gu_en": "Seongdong-gu",
-    "mention_count": 46,
-    "sentiment_avg": 0.6086956521739131,
-    "summary_ko": "성수동의 '카사 페라리' 팝업과 트렌디한 카페가 젊은 층에게 인기. 럭셔리 자동차 전시도 진행 중.",
-    "summary_en": "Seongsu-dong's 'Casa Ferrari' pop-up & trendy cafes charm young crowds. Luxury car displays ongoing.",
-    "related_event_ids": [
-      "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
-      "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
-      "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
-      "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
-      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06"
-    ],
-    "sources": [
-      {
-        "url": "https://www.segye.com/newsView/20260601514143?OutUrl=naver",
-        "title": "트랙 질주부터 팝업까지… ‘경험 마케팅’ 속도 올리는 차업계",
-        "snippet": "페라리코리아는 오는 8일부터 성수동에 ‘카사 페라리(페라리의 집)’를 열고 팝업 행사를 진행한다. 이들 공간 역시 트렌디한 카페와 포토존, 럭셔리 카 전시 등을 유기적으로 결합해 젊은 세대에게 자연스러운 브랜드...",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.segye.com/newsView/20260601514143?OutUrl=naver",
-        "title": "트랙 질주부터 팝업까지… ‘경험 마케팅’ 속도 올리는 차업계",
-        "snippet": "페라리코리아는 오는 8일부터 성수동에 ‘카사 페라리(페라리의 집)’를 열고 팝업 행사를 진행한다. 이들 공간 역시 트렌디한 카페와 포토존, 럭셔리 카 전시 등을 유기적으로 결합해 젊은 세대에게 자연스러운 브랜드...",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.hankookilbo.com/news/article/A2026060110540004531?did=NA",
-        "title": "\"제미나이야, 지방선거 누굴 뽑을까?\"... 투표 전 공보물 대신 AI 찾는 유...",
-        "snippet": "AI는 정원오 더불어민주당 후보에 대해 \"청년 면접비 등 생활밀착형 정책은 실현 가능하나 '제2의 성수동 만들기...\"",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.g-enews.com/view.php?ud=202606011939222863112616b072_1",
-        "title": "성수동에 뜨는 '페라리의 집'…한국 첫 카사 페라리 오픈",
-        "snippet": "성수동에 뜨는 '페라리의 집'…한국 첫 카사 페라리 오픈. 페라리코리아가 서울 성수동에서 한국 최초의 몰입형 브랜드 공간 '카사 페라리(Casa Ferrari)'를 선보인다. 전용 카페와 포토존이 마련된다.",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-06-01T23:24:40.059Z"
+    "updated_at": "2026-06-02T23:25:25.871Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 34,
-    "sentiment_avg": 0.38235294117647056,
-    "summary_ko": "홍대, 연남동 등 마포구 일대 과거 '힙'한 명소. 현재 중립적 반응. 도서관 프로그램 등 문화 활동 가능.",
-    "summary_en": "Mapo's Hongdae, Yeonnam-dong once 'hip' hubs. Now mixed vibes. Library events & culture available.",
+    "mention_count": 37,
+    "sentiment_avg": 0.43243243243243246,
+    "summary_ko": "마포구 홍대·연남동·망원동 인기, 플리마켓과 카페 경험. (mention 37, sent 0.43)",
+    "summary_en": "Mapo-gu's Hongdae, Yeonnam-dong, and Mangwon-dong popular for flea markets and cafes. (37, 0.43)",
     "related_event_ids": [
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일|신촌 일대|2026-02-01",
       "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일|신촌 일대|2026-02-01",
@@ -105,85 +61,129 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ttiotz/gkshongik_design_admissions_do_i_need_a_design/",
-        "title": "GKS/Hongik Design Admissions: Do I Need a Design Bachelor's to Be Competitive?",
-        "snippet": "I'm interested in studying design internationally, especially through the GKS scholarship and universities such as Hongik University in South Korea",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1tuk5yf/cult_experience_or_flirting/",
+        "title": "Cult experience or flirting?",
+        "snippet": "I'm travelling in Seoul at the moment and yesterday had an interesting experience around Hongdae. I was walking after doing some shopping in the main Hongdae plaza and was stopped by a woman.",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tswyn5/lost_wallet/",
-        "title": "Lost Wallet",
-        "snippet": "lost my wallet in the Hongdae area",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1tuk5yf/cult_experience_or_flirting/",
+        "title": "Cult experience or flirting?",
+        "snippet": "I was walking after doing some shopping in the main Hongdae plaza and was stopped by a woman. We went to a nearby coffee shop and hung out for ~2 hours. She showed me around the area and we had a good time hanging out.",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tswyn5/lost_wallet/",
-        "title": "Lost Wallet",
-        "snippet": "last place I remember having it was Tera Gimbap",
-        "source": "reddit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1tuk5yf/cult_experience_or_flirting/",
+        "title": "Cult experience or flirting?",
+        "snippet": "I was walking after doing some shopping in the main Hongdae plaza and was stopped by a woman.",
+        "source": "reddit_korea"
       },
       {
-        "url": "https://www.s-journal.co.kr/news/articleView.html?idxno=41478",
-        "title": "[S-현장] 라떼처럼 촉촉한 팩트… AGE20'S, 올리브영 입점 기념 홍대 무...",
-        "snippet": "따사로운 햇살이 쏟아지는 5월 마지막 주말, 연남동 거리에는 이른 시간 방문객들로 인파가 북적였다.",
+        "url": "https://www.newscj.com/news/articleView.html?idxno=3405964",
+        "title": "[대중문화칼럼] 한국인 따라하기는 왜",
+        "snippet": "성수동, 홍대 앞, 한남동 등 한국의 20·30대가 즐겨 찾는 곳",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-01T23:24:40.059Z"
+    "updated_at": "2026-06-02T23:25:25.871Z"
+  },
+  {
+    "station_no": "ST-1199",
+    "station_name_ko": "서울숲 관리사무소",
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "mention_count": 26,
+    "sentiment_avg": 0.5,
+    "summary_ko": "성동구 성수동 카사 페라리·더커피코리아 등 2030세대 인기. (mention 26, sent 0.50)",
+    "summary_en": "Seongdong-gu's Seongsu-dong popular for Casa Ferrari, The Coffee Company, and 20-30s. (26, 0.50)",
+    "related_event_ids": [
+      "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
+      "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
+      "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
+      "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
+      "(서울숲_하루만 참여) 외로움·고립·은둔 청년 맞춤 정원처방 프로그램|서울숲 생태학습장|2026-05-06"
+    ],
+    "sources": [
+      {
+        "url": "https://www.newscj.com/news/articleView.html?idxno=3405964",
+        "title": "[대중문화칼럼] 한국인 따라하기는 왜",
+        "snippet": "성수동, 홍대 앞, 한남동 등 한국의 20·30대가 즐겨 찾는 곳",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.donga.com/news/Economy/article/all/20260602/134036404/1",
+        "title": "성수·안국 이어 퐁피두센터까지… 더커피코리아, 서울 대표 문화공간 ...",
+        "snippet": "성수·안국 이어 퐁피두센터까지… 더커피코리아, 서울 대표 문화공간 ... 더커피코리아가 오는 4일 개관하는 퐁피두센터 한화 1층에 신규 매장을 오픈하며 성수, 안국에 이어 서울을...",
+        "source": "naver_news"
+      },
+      {
+        "url": "http://www.newscape.co.kr/news/articleView.html?idxno=122529",
+        "title": "페라리코리아, 성수동에 '카사 페라리' 운영…아말피 스파이더 공개",
+        "snippet": "페라리코리아가 서울 성수동에 '카사 페라리'를 열고... 페라리 브랜드를 모티브로 한 음료·디저트·젤라또 카페와 포토존도 함께 운영된다.",
+        "source": "naver_news"
+      },
+      {
+        "url": "http://www.newscape.co.kr/news/articleView.html?idxno=122529",
+        "title": "페라리코리아, 성수동에 '카사 페라리' 운영…아말피 스파이더 공개",
+        "snippet": "페라리코리아가 서울 성수동에 '카사 페라리'를 열고... 페라리 브랜드를 모티브로 한 음료·디저트·젤라또 카페와 포토존도 함께 운영된다.",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-06-02T23:25:25.871Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 26,
-    "sentiment_avg": 0.2692307692307692,
-    "summary_ko": "용산구의 N서울타워, 메타몽 플레이그라운드 등 명소. 한남동 고급 주택 관련 중립적 언급. 가족 공원 활동 가능.",
-    "summary_en": "Yongsan's N Seoul Tower, Metamong Playground. Hannam-dong luxury housing noted. Family park activities available.",
+    "mention_count": 24,
+    "sentiment_avg": 0.4583333333333333,
+    "summary_ko": "용산구 전쟁기념관과 용산가족공원 행사, 이태원·해방촌 근처. (mention 24, sent 0.46)",
+    "summary_en": "Yongsan-gu's War Memorial and Yongsan Family Park events, near Itaewon/Haebangchon. (24, 0.46)",
     "related_event_ids": [
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
       "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "(토)꼬마 정원사, 에그트레이 꼬마화분(가족)|용산가족공원|2026-06-06",
-      "(토) 손끝에 머무는 계절 - 수국책갈피 (성인)|용산가족공원|2026-06-06"
+      "(토) 손끝에 머무는 계절 - 수국책갈피 (성인)|용산가족공원|2026-06-06",
+      "숲을 걷다 마음을 쉬다〔창포데이〕|용산가족공원|2026-06-09"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ttjozq/metamong_playground/",
-        "title": "Metamong Playground",
-        "snippet": "I visited the Metamong Playground about 2 weeks ago and it was very fun but a lot of items were sold out",
+        "url": "https://www.reddit.com/r/seoul/comments/1tuspky/minari_samgyeopsal_followed_by_the_ultimate_fried/",
+        "title": "Minari Samgyeopsal followed by the ultimate fried rice😋",
+        "snippet": "Minari Samgyeopsal followed by the ultimate fried rice",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ttlgpv/playing_blood_on_the_clocktower_dice_comics_cafe/",
-        "title": "Playing Blood on the Clocktower @ Dice & Comics Cafe - June 14th & June 28th (Starting at noon)!",
-        "snippet": "The cafe we play at has an hourly fee for play, with a discount available if a cafe drink is purchased. Gotta show the cafe some love and support for providing us with a place to play.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tuobu8/what_are_the_best_board_game_adjacent_activities/",
+        "title": "What are the best board game adjacent activities in Seoul?",
+        "snippet": "Yongsan was mentioned as a location for the War Memorial of Korea, which has a large diorama and war games that can be considered board game adjacent activities.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/korea/comments/1tsu0ak/full_moon_with_tower/",
-        "title": "Full moon with tower",
-        "snippet": "What a beautiful tonight! 🌕 🗼",
-        "source": "reddit_korea"
+        "url": "https://www.reddit.com/r/seoul/comments/1tuobu8/what_are_the_best_board_game_adjacent_activities/",
+        "title": "What are the best board game adjacent activities in Seoul?",
+        "snippet": "The War Memorial of Korea in Yongsan was mentioned as a place with war games and a large diorama, which are considered board game adjacent activities.",
+        "source": "reddit_seoul"
       },
       {
-        "url": "https://www.tenasia.co.kr/article/2026060219524",
-        "title": "소유, 삼전·하이닉스 주식으로 '자가' 마련했다…\"공들인 새 집, 룸 투...",
-        "snippet": "보증금 1억원, 월세 약 1300만원의 한남동 고급 주택에 거주했으며",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/seoul/comments/1tum5lv/looking_for_a_pharmacy_or_clinic_in_seoul_willing/",
+        "title": "looking for a pharmacy or clinic in Seoul willing to host a pharmacy student for a study visit! r/seoul",
+        "snippet": "I would love to do it in Seoul... ideally in the Itaewon/Haebangchon area",
+        "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-06-01T23:24:40.059Z"
+    "updated_at": "2026-06-02T23:25:25.871Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 14,
-    "sentiment_avg": 0.5,
-    "summary_ko": "을지로의 인쇄골목, 성수동과 함께 중구 상권 활성화. 도시 경쟁력 있는 지역 분위기. 역사 투어 진행 중.",
-    "summary_en": "Euljiro's print alley, Seongsu-dong boost Jung-gu's urban vibe. History tours & local charm highlight the area.",
+    "mention_count": 19,
+    "sentiment_avg": 0.2631578947368421,
+    "summary_ko": "중구 명동 혼잡, 남산 한옥마을 공연·야경 인기. (mention 19, sent 0.26)",
+    "summary_en": "Jung-gu's Myeongdong crowded, Namsan Hanok Village performances and night views popular. (19, 0.26)",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-05-26",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-05-26",
@@ -193,30 +193,30 @@
     ],
     "sources": [
       {
-        "url": "https://www.donga.com/news/Economy/article/all/20260601/134031927/1",
-        "title": "사원보다 호텔… 방콕에서 ‘잘 쉬는 여행’이 뜬다",
-        "snippet": "서울의 익선동이나 을지로와 닮은 흐름이다. 오래된 것을 허물지 않고 그 위에 새로운 것을 얹는 것, 그걸 보러 사람들이 온다.",
+        "url": "https://www.reddit.com/r/seoul/comments/1tun2gn/staying_in_jamsil_for_second_visit/",
+        "title": "Staying in Jamsil for second visit",
+        "snippet": "I did not like the Myeongdong area last time as found it too busy and overwhelming.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.newscj.com/news/articleView.html?idxno=3405964",
+        "title": "[대중문화칼럼] 한국인 따라하기는 왜",
+        "snippet": "명동이나 남대문에서 벗어나 성수동, 홍대 앞, 한남동 등",
         "source": "naver_news"
       },
       {
-        "url": "https://www.donga.com/news/Opinion/article/all/20260527/134005550/2",
-        "title": "오래 살아남는 동네에는 공통점이 있다… ‘직-주-락-교’ 어우러진 곳...",
-        "snippet": "뜨는 동네, 지는 동네의 차이 서울 성수동, 을지로, 익선동, 망원동, 서순라길 등 사람들이 많이 찾는 동네의 공통점은 무엇일까",
+        "url": "https://www.newscj.com/news/articleView.html?idxno=3405964",
+        "title": "[대중문화칼럼] 한국인 따라하기는 왜",
+        "snippet": "명동이나 남대문에서 벗어나 성수동, 홍대 앞, 한남동 등",
         "source": "naver_news"
       },
       {
-        "url": "https://www.mt.co.kr/industry/2026/06/02/2026060119571040355",
-        "title": "\"문의 1건\" 스타벅스 전액 환불 첫날, 매장 평온한데…온라인은 달랐다",
-        "snippet": "서울 을지로와 합정역 인근의 스타벅스 매장 5곳을 방문한 결과",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.ekn.kr/web/view.php?key=20260602021439915",
-        "title": "[패트롤] 광명시-부천시-시흥시-안산시-안양시",
-        "snippet": "서울의 을지로, 성수동, 이태원처럼 지역 고유 분위기를 살린 상권은 도시 경쟁력이 된다",
+        "url": "https://economist.co.kr/article/view/ecn202606020051",
+        "title": "고프로, 글로벌 크리에이터와 서울 투어… ‘미션1’ 시네마틱 성능 검...",
+        "snippet": "남산 한옥마을에서 펼쳐진 사물놀이 공연은 초고속 슬로모션 기능으로...",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-01T23:24:40.059Z"
+    "updated_at": "2026-06-02T23:25:25.871Z"
   }
 ]
