@@ -38,13 +38,25 @@ export function EventsClient({
   const activeStatus: StatusKey = isStatusKey(sp.get("status")) ? (sp.get("status") as StatusKey) : "ongoing";
   const activePrice: PriceKey = isPriceKey(sp.get("price")) ? (sp.get("price") as PriceKey) : "all";
 
-  // Status buckets are derived once from the full list. getEventStatus is
-  // cheap (date math) so we just memo on the prop reference.
+  // Search state — seeded from URL once, then local. A debounced effect
+  // writes back to ?q= so the URL stays shareable without history thrash
+  // on every keystroke.
+  const initialQuery = sp.get("q") ?? "";
+  const [query, setQuery] = useState(initialQuery);
+  const trimmedQuery = query.trim().toLowerCase();
+
+  // Status buckets are derived from the search-filtered list so that the
+  // tab counts reflect what matches the query. getEventStatus is cheap
+  // (date math) and the includes() pass is O(n) over a few hundred items.
   const statusBuckets = useMemo(() => {
     const now = new Date();
     const ongoing: EventEntry[] = [];
     const upcoming: EventEntry[] = [];
     for (const e of events) {
+      if (trimmedQuery) {
+        const hay = `${e.title_ko}\n${e.title_en}\n${e.venue_ko}\n${e.venue_en}`.toLowerCase();
+        if (!hay.includes(trimmedQuery)) continue;
+      }
       const s = getEventStatus(e.start, e.end, now);
       if (s === "ongoing") ongoing.push(e);
       else if (s === "upcoming") upcoming.push(e);
@@ -52,7 +64,7 @@ export function EventsClient({
     ongoing.sort(compareEventsByStartThenEnd);
     upcoming.sort(compareEventsByStartThenEnd);
     return { ongoing, upcoming } as Record<StatusKey, EventEntry[]>;
-  }, [events]);
+  }, [events, trimmedQuery]);
 
   const inStatus = statusBuckets[activeStatus];
   const filtered = useMemo(
@@ -80,7 +92,25 @@ export function EventsClient({
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [activeStatus, activePrice]);
+  }, [activeStatus, activePrice, trimmedQuery]);
+
+  // Debounced URL sync for ?q=. 250ms is short enough to feel live in the
+  // address bar but long enough to coalesce a burst of typing into one
+  // history-less replace.
+  useEffect(() => {
+    const id = setTimeout(() => {
+      const qs = new URLSearchParams(sp.toString());
+      if (trimmedQuery) qs.set("q", query.trim());
+      else qs.delete("q");
+      const next = qs.toString();
+      if (next === sp.toString()) return;
+      router.replace(`/events${next ? `?${next}` : ""}`, { scroll: false });
+    }, 250);
+    return () => clearTimeout(id);
+    // sp/router are reactive but we only want this firing on query edits;
+    // status/price changes already replace() themselves via setParam.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [trimmedQuery]);
 
   const visibleEvents = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
   const hasMore = visibleCount < filtered.length;
@@ -155,8 +185,41 @@ export function EventsClient({
         </p>
       </header>
 
-      {/* Status tabs + price chips */}
+      {/* Search + status tabs + price chips */}
       <div className="sticky top-14 z-20 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 bg-zinc-50/95 dark:bg-zinc-950/95 backdrop-blur border-b border-zinc-200 dark:border-zinc-800 space-y-2">
+        <div className="relative">
+          <svg
+            aria-hidden
+            viewBox="0 0 20 20"
+            className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-zinc-400"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
+            <circle cx="9" cy="9" r="6" />
+            <path d="m17 17-3.2-3.2" strokeLinecap="round" />
+          </svg>
+          <input
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={t("events.search.placeholder", lang)}
+            aria-label={t("events.search.placeholder", lang)}
+            className="w-full pl-9 pr-9 py-2 rounded-full text-sm bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 focus:outline-none focus:border-zinc-400 dark:focus:border-zinc-600"
+          />
+          {query && (
+            <button
+              type="button"
+              onClick={() => setQuery("")}
+              aria-label={t("events.search.clear", lang)}
+              className="absolute right-2 top-1/2 -translate-y-1/2 h-6 w-6 flex items-center justify-center rounded-full text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-200"
+            >
+              <svg viewBox="0 0 20 20" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 5l10 10M15 5L5 15" strokeLinecap="round" />
+              </svg>
+            </button>
+          )}
+        </div>
         <nav className="flex gap-2 overflow-x-auto" role="tablist" aria-label="Event status">
           {STATUS_KEYS.map((key) => {
             const isActive = key === activeStatus;
@@ -211,7 +274,11 @@ export function EventsClient({
 
       <section className="space-y-3">
         {visibleEvents.length === 0 ? (
-          <p className="text-sm text-zinc-500 py-8 text-center">{t("events.empty", lang)}</p>
+          <p className="text-sm text-zinc-500 py-8 text-center">
+            {trimmedQuery
+              ? t("events.search.no_match", lang).replace("{q}", query.trim())
+              : t("events.empty", lang)}
+          </p>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {visibleEvents.map((e) => (
