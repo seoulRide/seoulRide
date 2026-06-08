@@ -4,98 +4,54 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 54,
-    "sentiment_avg": 0.5925925925925926,
-    "summary_ko": "종로구 서린빌딩 근처 경복궁, 광화문, 서촌에서 한복 체험·궁중 교대식·한옥 마을 탐방 인기. 근처 중구 행사 다수.",
-    "summary_en": "Jongno-gu's Gyeongbokgung, Gwanghwamun, Seochon buzz with hanbok experiences, guard ceremonies, hanok villages. Nearby Jung-gu events.",
+    "mention_count": 72,
+    "sentiment_avg": 0.5555555555555556,
+    "summary_ko": "종로구 북촌에서 무료 영어 도보 투어 인기. 청계천·낙산성곽 산책 추천.",
+    "summary_en": "Free English Bukchon walking tours trend in Jongno-gu. Cheonggyecheon & Naksan trails popular.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-06-05",
       "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-06-05",
       "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-05",
-      "(토)서울 정원문화힐링센터(가드닝라운지)_6월 프로그램 예약 안내|서울 정원문화힐링센터|2026-06-01"
+      "신은주 개인전 [여행가방 속 3년]|에케이다 (서울시 중구 퇴계로 39길 12-7)|2026-06-06"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tyuwbe/friend_of_mine_took_a_photos_of_this_while_he/",
-        "title": "Friend of mine took a photos of this while he sneaked into protest today",
-        "snippet": "Protest context implies Gwanghwamun area (common protest site in Jongno-gu) - a major Seoul landmark and tourist location",
+        "url": "https://www.reddit.com/r/seoul/comments/1u00j3t/cheonggyecheon_stream_seoul/",
+        "title": "Cheonggyecheon Stream, Seoul",
+        "snippet": "Cheonggyecheon Stream, Seoul",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1tz1vrw/help_finding_my_lost_cat/",
-        "title": "Help finding my lost cat",
-        "snippet": "I only see one in Goyang (we are in Jongno).",
+        "url": "https://www.reddit.com/r/seoul/comments/1u0abb2/hangout/",
+        "title": "hangout",
+        "snippet": "window shopping, cafe hopping, trying new bar",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung Palace in Hanbok... Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
-        "source": "visit_seoul"
+        "url": "https://www.reddit.com/r/seoul/comments/1u02pbq/free_walking_tour_around_bukchonjune_11_or_12/",
+        "title": "Free walking tour around Bukchon.(June 11 or 12)",
+        "snippet": "Free walking tour around Bukchon.(June 11 or 12)...English-speaking foreign visitors only...Duration: 2–3 hours",
+        "source": "reddit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
-        "source": "visit_seoul"
+        "url": "https://www.reddit.com/r/korea/comments/1tzrrl2/blue_house_calls_wsj_hardleft_claim_on_lee/",
+        "title": "Blue House Calls WSJ 'Hard-Left' Claim on Lee Government 'Serious Distortion'",
+        "snippet": "Blue House Calls WSJ 'Hard-Left' Claim on Lee Government 'Serious Distortion'",
+        "source": "reddit_korea"
       }
     ],
-    "updated_at": "2026-06-07T22:46:02.845Z"
-  },
-  {
-    "station_no": "ST-207",
-    "station_name_ko": "서강대역 2번출구 앞",
-    "gu_ko": "마포구",
-    "gu_en": "Mapo-gu",
-    "mention_count": 36,
-    "sentiment_avg": 0.5555555555555556,
-    "summary_ko": "마포구 서강대역 인근 연남동 떡볶이·소금빵 맛집 인기. 홍대 만남·신촌 도보 여행 프로그램 진행 중.",
-    "summary_en": "Mapo-gu's Yeonnam-dong near Seogangdaero Station buzzes with tteokbokki, salt bread spots. Hongdae meetups, Sinchon walking tours ongoing.",
-    "related_event_ids": [
-      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
-      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일 오전10시|신촌 일대|2026-02-01",
-      "[마포구립서강도서관] 6월/어린이메이킹 [행복맘껏time] 두 번째 일요일은 해봄공간 오픈데이|마포구립서강도서관 4층 어린이자료실 해봄|2026-06-14",
-      "[마포구립서강도서관] 6월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 해봄|2026-06-04",
-      "[마포구립서강도서관] 6월/읽는 인간_호모 부커스 ii. [유발 하라리의 『넥서스』 읽기]|서강도서관 3층 세미나실|2026-06-04"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tzim2g/hongdae/",
-        "title": "Hongdae🇰🇷",
-        "snippet": "Follow me #korea #nct #hongdae #shop #travel",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1tz39ii/anyone_down_to_meet_in_hongdae_tonight/",
-        "title": "Anyone down to meet in hongdae tonight",
-        "snippet": "Anyone down to meet in hongdae tonight",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060502921.html",
-        "title": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련",
-        "snippet": "서울 연남동에 위치한 노후 단독주택을 15억7000만원에 매입해 2021년 4월 32억원에 매각해 16억원의 시세차익을 거뒀다. 노후주택을 리모델링 증축해 꼬마빌딩으로 꾸몄고, 그 무렵 연남동 일대에 ‘연트럴...",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.tvreport.co.kr/entertainment/article/1051352/",
-        "title": "신기루, 모친상 2개월 만에 슬럼프 고백…\"힘듦 못 견뎌 韓 떠나\" [RE:뷰...",
-        "snippet": "지난 3일 신기루의 개인 채널 '뭐든하기루'에는 새로운 제작진과 함께 연남동의 즉석 떡볶이집과 소금빵 맛집을 방문해 소소한 일상을 공유하는 영상이 업로드됐다.",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-06-07T22:46:02.845Z"
+    "updated_at": "2026-06-08T23:05:59.811Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 30,
-    "sentiment_avg": 0.5333333333333333,
-    "summary_ko": "성동구 서울숲 인근 성수동 팝업스토어·인생네컷 체험 인기. 외국인 '꾸안꾸' 문화 체험 증가 중.",
-    "summary_en": "Seongdong-gu's Seongsu-dong near Seoul Forest thrives with pop-ups, photobooths. Foreigners enjoy 'ggu-ankku' style experiences.",
+    "mention_count": 36,
+    "sentiment_avg": 0.75,
+    "summary_ko": "성수동 쎈느에 한국 첫 '카사 페라리' 오픈. MZ세대 인기 라이프스타일 숍 밀집.",
+    "summary_en": "Seongsu-dong's 'Casa Ferrari' launched. MZ-favored lifestyle boutiques abound.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
@@ -105,54 +61,142 @@
     ],
     "sources": [
       {
-        "url": "https://www.mt.co.kr/living/2026/06/08/2026060721192770560",
-        "title": "\"나도 수지처럼\" 한국인이 먹고 입고 바르는 그대로…외국인들 푹 빠진...",
-        "snippet": "인생네컷 찍고 성수팝업 오픈런도...한국식 '꾸안꾸' 즐기는 외국인",
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://www.livebiz.today/news/articleView.html?idxno=202502",
+        "title": "[포토] 성수동에 들어선 페라리 팝업...'아말피 스파이더' 첫 선",
+        "snippet": "페라리코리아가 8일 서울 성수동 쎈느에서 한국 최초의 '카사 페라리'(Casa Ferrari)를 오픈했다",
         "source": "naver_news"
       },
       {
-        "url": "https://www.sedaily.com/article/20052746?ref=naver",
-        "title": "“권리금 최대 5억” 성수 다음 격전지 된 이곳",
-        "snippet": "말본은 강남구 도산공원과 성동구 성수동에 이어 북촌을 새로운 거점으로 선택했다",
+        "url": "https://www.livebiz.today/news/articleView.html?idxno=202502",
+        "title": "[포토] 성수동에 들어선 페라리 팝업...'아말피 스파이더' 첫 선",
+        "snippet": "페라리코리아가 8일 서울 성수동 쎈느에서 한국 최초의 '카사 페라리'(Casa Ferrari)를 오픈했다. 이탈리아 하이엔드 가구로 꾸민 실내와 페라리 전용 카페, 젤라또 바, 포토존이 마련돼 있다",
         "source": "naver_news"
       },
       {
-        "url": "https://www.segye.com/newsView/20260521518730?OutUrl=naver",
-        "title": "폐지 줍던 엄마 건물주로…가난 공포 ‘부동산’으로 지운 서인국·지디...",
-        "snippet": "지드래곤은 이후 성수동과 한남동 등 서울 핵심 요지의 빌딩과 아파트를 매입하며 자산 가치를 키웠다",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.sedaily.com/article/20052708?ref=naver",
-        "title": "북촌 월세도 ‘5000만원 시대’…외국인 몰리자 골목상권 물갈이",
-        "snippet": "강남구 도산공원과 성동구 성수동에 이어 북촌을 플래그십 스토어로 점찍었는데",
+        "url": "https://www.segye.com/newsView/20260608515904?OutUrl=naver",
+        "title": "페라리, 브랜드 공간 ‘카사 페라리’ 개장",
+        "snippet": "페라리코리아는 8일 서울 성수동 쎈느에 브랜드 공간 ‘카사 페라리’... 지상 2층 규모로 조성된 카사 페라리는 실내 프라이빗 라운지, 차량 전시공간, 야외가든, 전용 카페, 포토존...",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-07T22:46:02.845Z"
+    "updated_at": "2026-06-08T23:05:59.811Z"
+  },
+  {
+    "station_no": "ST-207",
+    "station_name_ko": "서강대역 2번출구 앞",
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "mention_count": 38,
+    "sentiment_avg": 0.4473684210526316,
+    "summary_ko": "마포구 연남동·망원동 리모델링 맛집·카페 인기. 홍대·합정 주변 중립적 반응.",
+    "summary_en": "Mapo's Yeonnam/Mangwon trend for remodeled cafes/restaurants. Hongdae/Hapjeong mixed.",
+    "related_event_ids": [
+      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일 오전10시|신촌 일대|2026-02-01",
+      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
+      "[마포구립서강도서관] 6월/어린이메이킹 [행복맘껏time] 두 번째 일요일은 해봄공간 오픈데이|마포구립서강도서관 4층 어린이자료실 해봄|2026-06-14",
+      "[마포구립서강도서관] 6월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 해봄|2026-06-04",
+      "[마포구립서강도서관] 6월/읽는 인간_호모 부커스 ii. [유발 하라리의 『넥서스』 읽기]|서강도서관 3층 세미나실|2026-06-04"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u0leyd/calisthenics_parks_and_outdoor_gyms/",
+        "title": "Calisthenics Parks and outdoor gyms",
+        "snippet": "I went to a really nice one South of hapjeong not too long ago with legit plate stack machines and kettlebells.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u0abb2/hangout/",
+        "title": "hangout",
+        "snippet": "window shopping, cafe hopping, trying new bar",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://realty.chosun.com/site/data/html_dir/2026/06/05/2026060502921.html",
+        "title": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련",
+        "snippet": "지난 2016년 서울 연남동에 위치한 노후 단독주택을 15억7000만원에 매입해 2021년 4월 32억원에 매각해 16억원의 시세차익을 거뒀다. 노후주택을 리모델링 증축해 꼬마빌딩으로 꾸몄고, 그 무렵 연남동 일대에 ‘연트럴...",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-06-08T23:05:59.811Z"
+  },
+  {
+    "station_no": "ST-329",
+    "station_name_ko": "서빙고동 금호맨션 앞",
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "mention_count": 23,
+    "sentiment_avg": 0.391304347826087,
+    "summary_ko": "용산구 한강·한남동 관광지 주목. 이태원·경리단길 바 탐방 가능성.",
+    "summary_en": "Yongsan's Han River/Hannam-dong gain attention. Itaewon/Gyeongridan-gil bar potential.",
+    "related_event_ids": [
+      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
+      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
+      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
+      "숲을 걷다 마음을 쉬다〔창포데이〕|용산가족공원|2026-06-09",
+      "(일) 푸른 숲 속에는 누가 살까요?(가족숲체험)|용산가족공원|2026-06-07"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u0abb2/hangout/",
+        "title": "hangout",
+        "snippet": "trying new bar",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=261873",
+        "title": "[신성장 엔진 장착] 동서식품, 기존 '맥심' 넘어 캡슐커피·콤부차로 품...",
+        "snippet": "서울 한남동 브랜드 체험 공간인 '맥심플랜트'",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=261873",
+        "title": "[신성장 엔진 장착] 동서식품, 기존 '맥심' 넘어 캡슐커피·콤부차로 품...",
+        "snippet": "서울 한남동 브랜드 체험 공간인 '맥심플랜트'",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://cooknchefnews.com/news/view/1065588950649448",
+        "title": "서울은 살아있다...끊임없는 움직이는 역동의 상권",
+        "snippet": "2010년대에는 가로수길과 경리단길, 연남동, 서촌, 북촌이 차례로 주목받았고",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-06-08T23:05:59.811Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 29,
-    "sentiment_avg": 0.3103448275862069,
-    "summary_ko": "중구 저동2가 근처 을지로·남대문시장·명동 명소들 혼재. 서울 퀴어 축제·우래옥 등 관심.",
-    "summary_en": "Jung-gu's Euljiro, Namdaemun Market, Myeongdong near Jodong 2-ga. Seoul Pride, Uraeok draw interest despite mixed vibes.",
+    "mention_count": 23,
+    "sentiment_avg": 0.17391304347826086,
+    "summary_ko": "중구 명동·을지로 관광지 변화 중. 야시장·역사 투어 진행.",
+    "summary_en": "Jung-gu's Myeongdong/Euljiro shifting. Night markets/history tours ongoing.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-06-05",
       "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-06-05",
       "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-05",
-      "(토)서울 정원문화힐링센터(가드닝라운지)_6월 프로그램 예약 안내|서울 정원문화힐링센터|2026-06-01"
+      "신은주 개인전 [여행가방 속 3년]|에케이다 (서울시 중구 퇴계로 39길 12-7)|2026-06-06"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/korea/comments/1tyc9u2/does_anyone_wanna_go_to_seoul_pride_together_next/",
-        "title": "Does anyone wanna go to Seoul Pride together next Saturday?",
-        "snippet": "My friend and I are planning in going to Seoul Pride on June 13th! Would anyone be interested in going there together",
-        "source": "reddit_korea"
+        "url": "https://www.reddit.com/r/seoul/comments/1u0abb2/hangout/",
+        "title": "hangout",
+        "snippet": "window shopping",
+        "source": "reddit_seoul"
       },
       {
         "url": "https://ilyo.co.kr/?ac=article_view&entry_id=511287",
@@ -163,60 +207,16 @@
       {
         "url": "https://www.m-i.kr/news/articleView.html?idxno=1377229",
         "title": "골목 찾는 외국 관광객들, 씀씀이도 달라졌다",
-        "snippet": "명동과 동대문 중심",
+        "snippet": "외국인 관광객들의 소비 동선도 명동과 동대문 중심에서 성수동·연남동·익선동 등 골목상권으로 바뀌는 추세다",
         "source": "naver_news"
       },
       {
         "url": "https://www.m-i.kr/news/articleView.html?idxno=1377229",
         "title": "골목 찾는 외국 관광객들, 씀씀이도 달라졌다",
-        "snippet": "명동과 동대문 중심",
+        "snippet": "외국인 관광객들의 소비 동선도 명동과 동대문 중심에서 성수동·연남동·익선동 등 골목상권으로 바뀌는 추세다",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-07T22:46:02.845Z"
-  },
-  {
-    "station_no": "ST-329",
-    "station_name_ko": "서빙고동 금호맨션 앞",
-    "gu_ko": "용산구",
-    "gu_en": "Yongsan-gu",
-    "mention_count": 17,
-    "sentiment_avg": 0.35294117647058826,
-    "summary_ko": "용산구 한남동 나인원한남·카페 투어 관심. 고급 주거단지·시니어 레지던스 관련 뉴스 존재.",
-    "summary_en": "Yongsan-gu's Hannam-dong near Nainwon Hannam sees interest in high-end residences, coffee tours. Senior residences in development.",
-    "related_event_ids": [
-      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
-      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
-      "숲을 걷다 마음을 쉬다〔창포데이〕|용산가족공원|2026-06-09",
-      "(일) 푸른 숲 속에는 누가 살까요?(가족숲체험)|용산가족공원|2026-06-07"
-    ],
-    "sources": [
-      {
-        "url": "https://www.segye.com/newsView/20260521518730?OutUrl=naver",
-        "title": "폐지 줍던 엄마 건물주로…가난 공포 ‘부동산’으로 지운 서인국·지디...",
-        "snippet": "지드래곤은 이후 성수동과 한남동 등 서울 핵심 요지의 빌딩과 아파트를 매입하며 자산 가치를 키웠다",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.sportsseoul.com/news/read/1614114?ref=naver",
-        "title": "이상순, 제주 이어 서울서도 카페 창업…“자리 어디가 좋을까”",
-        "snippet": "서울 용산구 한남동의 한 카페를 찾아 근황을 전했다",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.xportsnews.com/article/2157716",
-        "title": "'이효리♥' 이상순, 제주 이어 서울서 카페 차리나…\"자리 보는 중\" (노...",
-        "snippet": "두 사람은 한남동에서 함께 커피 투어를 즐겼다.",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://m.skyedaily.com/news_view.html?ID=305347",
-        "title": "[리더가 사는 곳] AI 시대 숨은 승자 삼성전기… 기술통 CEO가 택한 ‘나...",
-        "snippet": "나인원한남은 국내 최고급 주거단지 가운데 하나다. 단지명은 주소인... (한남동에 위치한 나인원한남 관련 설명)",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-06-07T22:46:02.845Z"
+    "updated_at": "2026-06-08T23:05:59.811Z"
   }
 ]
