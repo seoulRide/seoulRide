@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 48,
-    "sentiment_avg": 0.3333333333333333,
-    "summary_ko": "종로구 경복궁·서촌·광화문 등 역사 명소와 통인시장·도시락 카페가 인기. 근처 중구 도보 관광 프로그램 진행 중.",
-    "summary_en": "Jongno-gu's Gyeongbokgung, Seochon, Gwanghwamun, Tongin Market, and Lunchbox Café buzzing. Nearby Jung-gu walking tours ongoing.",
+    "mention_count": 79,
+    "sentiment_avg": 0.379746835443038,
+    "summary_ko": "종로구 서린빌딩 주변은 경복궁, 서촌, 통인시장 등 역사 명소와 전통 시장 방문으로 인기. 광화문·청계광장 경기 관람 문의도 증가 중.",
+    "summary_en": "Jongno-gu's Seorin Bldg. area buzzes with Gyeongbokgung, Seochon, Tongin Market visits. Gwanghwamun-Cheonggye Plaza game viewings also trending.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-06-05",
@@ -17,41 +17,41 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u2wnqn/would_anyone_like_to_share_a_photo_of_seoul_for_a/",
-        "title": "Would anyone like to share a photo of Seoul for a piano cover of the Aegukga?",
-        "snippet": "photo that shows Seoul... a street",
+        "url": "https://www.reddit.com/r/seoul/comments/1u3hc6z/any_place_in_seoul_for_watching_the_world_cup/",
+        "title": "Any place in Seoul for watching the World Cup match of Korea?",
+        "snippet": "Today is Korea's first game. Are there bars, or outdoor public viewings?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u3hc6z/any_place_in_seoul_for_watching_the_world_cup/",
+        "title": "Any place in Seoul for watching the World Cup match of Korea?",
+        "snippet": "Today is Korea's first game. Are there bars, or outdoor public viewings?",
         "source": "reddit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
         "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung Palace in Hanbok... the largest and most iconic palace in the city and was once the main royal palace during the Joseon Dynasty.",
+        "snippet": "Gyeongbokgung Palace in Hanbok... the largest and most iconic palace in the city and was once the main royal palace during the Joseon Dynasty",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
         "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses and so many hidden gems.",
+        "snippet": "one more tip for your visit to Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-06-11T23:07:14.533Z"
+    "updated_at": "2026-06-12T22:59:37.893Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 37,
-    "sentiment_avg": 0.7837837837837838,
-    "summary_ko": "마포구 연남동·망원동 MZ세대 인기 카페와 베이글 숍. 주말 신촌 도보 투어 및 도서관 어린이 프로그램 진행 중.",
-    "summary_en": "Mapo-gu's Yeonnam-dong, Mangwon-dong cafes, bakeries trending. Weekend Sinchon walking tours and library events nearby.",
+    "mention_count": 44,
+    "sentiment_avg": 0.7045454545454546,
+    "summary_ko": "마포구 서강대역 주변은 연남동, 망원동 카페와 망리단길 등 MZ세대 인기 스팟. 홍대 경기 관람 문의도 일부 존재.",
+    "summary_en": "Mapo-gu's Seogang Univ. Stn. area thrives with Yeonnam-dong, Mangwon-dong cafes, and Manggil Alley. Some Hongdae game viewings also noted.",
     "related_event_ids": [
       "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
@@ -61,41 +61,41 @@
     ],
     "sources": [
       {
+        "url": "https://www.reddit.com/r/seoul/comments/1u3hc6z/any_place_in_seoul_for_watching_the_world_cup/",
+        "title": "Any place in Seoul for watching the World Cup match of Korea?",
+        "snippet": "Today is Korea's first game. Are there bars, or outdoor public viewings?",
+        "source": "reddit_seoul"
+      },
+      {
         "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "snippet": "aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like [...] Mangwon-dong",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/autumncafe/ENN0c90ey",
         "title": "Discover the Flavors of Fall Through Seoul’s Seasonal Desserts",
-        "snippet": "The café itself is just as inviting as the desserts, with a cozy wooden interior inside a traditional house on the edge of Yeonnam-dong.",
+        "snippet": "파롤앤랑그...카페 자체가 전통적인 집 안에 있는 아늑한 나무 인테리어로 디저트만큼이나 매력적이며, 연남동 가장자리에 위치해 있습니다.",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/autumncafe/ENN0c90ey",
         "title": "Discover the Flavors of Fall Through Seoul’s Seasonal Desserts",
-        "snippet": "Boni Bam Pie at Parole & Langue This rustic café has earned a loyal following with locals and tourists for its signature sweet pies.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/autumncafe/ENN0c90ey",
-        "title": "Discover the Flavors of Fall Through Seoul’s Seasonal Desserts",
-        "snippet": "Hongsi Pavlova at House of Vinyl Mangwon (mention of 'Mangwon' in the context of a specific location).",
+        "snippet": "파롤앤랑그...카페 자체가 전통적인 집 안에 있는 아늑한 나무 인테리어로 디저트만큼이나 매력적이며, 연남동 가장자리에 위치해 있습니다.",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-06-11T23:07:14.533Z"
+    "updated_at": "2026-06-12T22:59:37.893Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 14,
-    "sentiment_avg": 0.5714285714285714,
-    "summary_ko": "성동구 성수동 강풀 카툰거리와 신라면 분식·펍지 성수 등 복합 문화 공간. 서울숲 체험 프로그램 운영 중.",
-    "summary_en": "Seongdong-gu's Seongsu-dong's Kang Full Alley, Shin Ramyun Noodle Bar, and PUBG Space. Seoul Forest events ongoing.",
+    "mention_count": 38,
+    "sentiment_avg": 0.47368421052631576,
+    "summary_ko": "성동구 서울숲 주변은 성수동 카페·팝업과 강풀 카툰거리 등 MZ세대 핫플레이스. 2026 서울국제정원박람회 준비 중.",
+    "summary_en": "Seongdong-gu's Seoul Forest area buzzes with Seongsu-dong cafes, pop-ups, and Kang Full Carton Alley. Prepping for 2026 Seoul Int'l Garden Expo.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
@@ -107,7 +107,7 @@
       {
         "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "snippet": "aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong",
         "source": "visit_seoul"
       },
       {
@@ -117,73 +117,29 @@
         "source": "visit_seoul"
       },
       {
-        "url": "https://www.sedaily.com/article/20054859?ref=naver",
-        "title": "공진원도 신세계 등과 손잡고 굿즈 만든다",
-        "snippet": "자사 복합문화공간 ‘펍지 성수’ 내 카페에서 선보인다",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16091823",
+        "title": "izna, 성수·남산·러닝앱까지…컴백 맞춘 이색 프로모션",
+        "snippet": "성수동 카페와 대형 래핑 광고, 남산타워 미디어 파사드, 러닝앱 챌린지까지 연결되면서 이번 미니 3집 활동이 특정 공간에 한정되지 않고 여러 동선 속에서 반복적으로 노출되는 흐름이 형성됐다.",
         "source": "naver_news"
       },
       {
-        "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=85548",
-        "title": "[유통가] 이마트, 농심, 던킨, 세븐일레븐, CJ프레시웨이, 애경산업, 디...",
-        "snippet": "농심 성수동 신라면 분식 외관 농심, 신라면 40주년 맞아 성수동에 '신라면 분식' 국내 첫 오픈",
+        "url": "https://sports.hankooki.com/news/articleView.html?idxno=6934516",
+        "title": "[현장] 농심, 성수에 국내 첫 '신라면 분식'…체험형 공간으로 소비자 ...",
+        "snippet": "12일 오후 서울 성동구 성수동. 카페와 편집숍, 팝업스토어가 늘어선 골목 끝자락에 붉은색 건물이 모습을 드러냈다.",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-11T23:07:14.533Z"
-  },
-  {
-    "station_no": "ST-329",
-    "station_name_ko": "서빙고동 금호맨션 앞",
-    "gu_ko": "용산구",
-    "gu_en": "Yongsan-gu",
-    "mention_count": 16,
-    "sentiment_avg": 0.125,
-    "summary_ko": "용산구 한남동 고급 빌라 전세 사기 논란. 용산가족공원 텃밭 분양 및 숲 체험 프로그램 진행 중.",
-    "summary_en": "Yongsan-gu's Hannam-dong faces lease fraud issues. Yongsan Family Park garden plots and forest programs available.",
-    "related_event_ids": [
-      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
-      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
-      "숲을 걷다 마음을 쉬다〔창포데이〕|용산가족공원|2026-06-09",
-      "(일) 푸른 숲 속에는 누가 살까요?(가족숲체험)|용산가족공원|2026-06-07"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u2njeq/caught_nflyings_surprise_mini_concert_at_hikr/",
-        "title": "Caught N.Flying’s surprise mini concert at HiKR Ground yesterday! They are now honorary ambassadors for Korean tourism!",
-        "snippet": "Caught N.Flying’s surprise mini concert at HiKR Ground yesterday! They are now honorary ambassadors for Korean tourism!",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.segye.com/newsView/20260611517869?OutUrl=naver",
-        "title": "“BTS 보고 성수동 간다”…방한 관광객 2200만명 전망",
-        "snippet": "성수동 쇼룸과 한남동 편집숍, 올리브영 매장, 카페, 팝업스토어 등이 주요 방문지로 자리 잡고 있다",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.sidae.com/article/2026061207171570172",
-        "title": "'105억 전세 공방' 격화…이승기 측 \"차가원 범죄 상세히 밝힐 것\"",
-        "snippet": "이승기와 관련된 한남동 고급빌라 '라누보'의 전세 사기 의혹",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.xportsnews.com/article/2159313",
-        "title": "'105억 전세 공방' 격화…차가원 측 '문자 공개' vs 이승기 \"범죄 혐의 밝...",
-        "snippet": "차 회장이 소유한 서울 한남동 소재",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-06-11T23:07:14.533Z"
+    "updated_at": "2026-06-12T22:59:37.893Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 13,
-    "sentiment_avg": 0.3076923076923077,
-    "summary_ko": "중구 명동 루이비통 부티크·을지로 복어 요리. 근처 중구 도보 관광 및 명동스퀘어 야행 프로그램 진행 중.",
-    "summary_en": "Jung-gu's Myeongdong Louis Vuitton, Euljiro pufferfish. Nearby Jung-gu walking tours and Myeongdong Square night tour.",
+    "mention_count": 31,
+    "sentiment_avg": 0.16129032258064516,
+    "summary_ko": "중구 저동2가 주변은 명동·을지로·남산타워 등 역사 문화 투어 가능. 무교동 복요리 전문점 등 식문화도 존재.",
+    "summary_en": "Jung-gu's Jeodong 2-ga area offers Myeongdong, Euljiro, Namsan Tower tours. Mugeo-dong buckwheat restaurant also present.",
     "related_event_ids": [
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-06-05",
@@ -193,30 +149,68 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u2u57b/sungnyemun_gate/",
-        "title": "Sungnyemun Gate",
-        "snippet": "[reddit_seoul] Sungnyemun Gate\n\n[link post] https://www.reddit.com/r/seoul/comments/1u2u57b/sungnyemun_gate/",
-        "source": "reddit_seoul"
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16091823",
+        "title": "izna, 성수·남산·러닝앱까지…컴백 맞춘 이색 프로모션",
+        "snippet": "성수동 카페와 대형 래핑 광고, 남산타워 미디어 파사드, 러닝앱 챌린지까지 연결되면서 이번 미니 3집 활동이 특정 공간에 한정되지 않고 여러 동선 속에서 반복적으로 노출되는 흐름이 형성됐다.",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u2p61p/looking_for_a_partner_to_attend_louis_vuitton/",
-        "title": "Looking for a partner to attend Louis Vuitton party with me tonight",
-        "snippet": "at Myeongdong Sinsegae Department store Louis Vuitton boutique",
-        "source": "reddit_seoul"
+        "url": "https://www.mk.co.kr/article/12072866",
+        "title": "\"뜨는 공간엔 늘 이유가 있다\"…팝업 성지된 성수동, 비결은",
+        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인 플랫폼의 구조를 갖췄다. 하나의 거리 안에서 다양한 경험을 제공한다.",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u2wnqn/would_anyone_like_to_share_a_photo_of_seoul_for_a/",
-        "title": "Would anyone like to share a photo of Seoul for a piano cover of the Aegukga?",
-        "snippet": "photo that shows Seoul... a street",
-        "source": "reddit_seoul"
+        "url": "https://www.bntnews.co.kr/article/view/bnt202606130029",
+        "title": "‘전현무계획3’ 뼈해장국·복요리·한우맛집",
+        "snippet": "무교동 복요리 전문점",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u2v7bl/hello_is_anyone_flying_into_detroit_on_aug_22nd/",
-        "title": "Hello is anyone flying into Detroit on Aug 22nd and want to meet up for Yonsei South Korea fall semester or arriving around 5pm at Incheon on the 23rd and want to taxi together or bus.",
-        "snippet": "arriving around 5pm at Incheon on the 23rd",
-        "source": "reddit_seoul"
+        "url": "https://www.khan.co.kr/article/202606130721001",
+        "title": "오늘 서울 도심서 성소수자 퀴어퍼레이드 개최",
+        "snippet": "명동성당과 신세계백화점∼서울광장을 지나",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-11T23:07:14.533Z"
+    "updated_at": "2026-06-12T22:59:37.893Z"
+  },
+  {
+    "station_no": "ST-3414",
+    "station_name_ko": "헌릉로 747",
+    "gu_ko": "강남구",
+    "gu_en": "Gangnam-gu",
+    "mention_count": 21,
+    "sentiment_avg": 0.2857142857142857,
+    "summary_ko": "강남구 헌릉로 주변은 역삼 책클럽, 별마당도서관·현대백화점 시즌 설치물 등 문화 활동. 강남 경기 관람 문의도 일부 존재.",
+    "summary_en": "Gangnam-gu's Heolleung-ro area has Yeoksam bookclub, Starfield Library, and Hyundai Dept. Store installations. Some Gangnam game viewings also noted.",
+    "related_event_ids": [],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u3m39o/silent_bookclub_in_yeoksam/",
+        "title": "Silent bookclub in Yeoksam",
+        "snippet": "Silent bookclub in Yeoksam",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u3nupt/how_is_everyone_getting_there_to_world_dj_festival/",
+        "title": "How is everyone getting there to World DJ Festival?",
+        "snippet": "Was wondering what’s the best to get to Seoulland from Gangnam?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u3hc6z/any_place_in_seoul_for_watching_the_world_cup/",
+        "title": "Any place in Seoul for watching the World Cup match of Korea?",
+        "snippet": "Today is Korea's first game. Are there bars, or outdoor public viewings?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/DecemberSeoul/ENNogdbvj",
+        "title": "Dazzling Sights for Magical Winter Nights in Seoul",
+        "snippet": "Every December, Starfield Library glows day and night with lights and decorations, as bright ornaments transform the space into a flurry of green, red, and gold. This year’s installation, titled ‘A Page of Christmas Wonder’, feels perfectly at home in the library setting.",
+        "source": "visit_seoul"
+      }
+    ],
+    "updated_at": "2026-06-12T22:59:37.893Z"
   }
 ]
