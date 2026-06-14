@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 59,
-    "sentiment_avg": 0.4576271186440678,
-    "summary_ko": "종로구 서린빌딩 근처 경복궁, 광화문, 서촌에서 한옥과 전통 문화 체험 인기. 통인시장 도시락 카페도 추천.",
-    "summary_en": "Jongno-gu's Gyeongbokgung, Gwanghwamun, Seochon popular for hanok & culture. Try Tongin Market's Lunchbox Café.",
+    "mention_count": 56,
+    "sentiment_avg": 0.625,
+    "summary_ko": "종로구 서린빌딩 주변엔 경복궁, 서촌, 통인시장 등 한옥과 전통시장 카페가 인기. 광화문·혜화동도 언급.",
+    "summary_en": "Jongno-gu's Seorin Bldg area buzzes with Gyeongbokgung, Seochon, Tongin Market. Hanbok, cafes, and palaces draw visitors.",
     "related_event_ids": [
       "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅰ.기획/개발|서울영화센터 7층 다목적실|2026-06-20",
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
@@ -17,41 +17,85 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u4q1uv/need_help_buying_a_necklace/",
-        "title": "need help buying a necklace",
-        "snippet": "While not explicitly mentioned, Jongno is another district with reputable jewelers catering to international customers.",
-        "source": "reddit_seoul"
-      },
-      {
         "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
         "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Gyeongbokgung Palace in Hanbok...The largest and most iconic palace in the city and was once the main royal palace during the Joseon Dynasty.",
+        "snippet": "Gyeongbokgung Palace in Hanbok... Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
         "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "One more tip for your visit to Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony",
+        "snippet": "one more tip for your visit to Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
         "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses and so many hidden gems",
+        "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Inside the market, around the center area, you’ll find the Lunchbox Café... Tongin Market & Dosirak Café 18 Jaham",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-06-13T22:40:59.734Z"
+    "updated_at": "2026-06-14T22:45:16.041Z"
+  },
+  {
+    "station_no": "ST-207",
+    "station_name_ko": "서강대역 2번출구 앞",
+    "gu_ko": "마포구",
+    "gu_en": "Mapo-gu",
+    "mention_count": 36,
+    "sentiment_avg": 0.5277777777777778,
+    "summary_ko": "마포구 서강대역 주변은 연남동, 합정동, 홍대 등 MZ세대 선호 카페·상점 밀집. Parole & Langue 등 유명.",
+    "summary_en": "Mapo-gu's Seogang Univ. Stn area thrives with Yeonnam-dong, Hapjeong, Hongdae. Aesthetic cafes and boutiques attract MZ gen.",
+    "related_event_ids": [
+      "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
+      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
+      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일 오전10시|신촌 일대|2026-02-01",
+      "[마포구립서강도서관] 6월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 해봄|2026-06-04",
+      "[마포구립서강도서관] 6월/읽는 인간_호모 부커스 ii. [유발 하라리의 『넥서스』 읽기]|서강도서관 3층 세미나실|2026-06-04"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u5pkxh/serious_language_exchange/",
+        "title": "Serious Language Exchange",
+        "snippet": "I usually spend time around the Hapjeong area on weekends.",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u5pkxh/serious_language_exchange/",
+        "title": "Serious Language Exchange",
+        "snippet": "I could just go to bars or pubs in Hongdae or Itaewon to meet foreigners",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/autumncafe/ENN0c90ey",
+        "title": "Discover the Flavors of Fall Through Seoul’s Seasonal Desserts",
+        "snippet": "The café itself is just as inviting as the desserts, with a cozy wooden interior inside a traditional house on the edge of Yeonnam-dong.",
+        "source": "visit_seoul"
+      }
+    ],
+    "updated_at": "2026-06-14T22:45:16.041Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 38,
-    "sentiment_avg": 0.5263157894736842,
-    "summary_ko": "성동구 서울숲 인근 성수동 카페거리와 복합문화공간 젊은 층 선호. 서울숲 탐험 프로그램 연중 운영.",
-    "summary_en": "Seongdong-gu's Seongsu-dong cafes & cultural spaces popular with youth. Seoul Forest exploration programs year-round.",
+    "mention_count": 36,
+    "sentiment_avg": 0.4166666666666667,
+    "summary_ko": "성동구 서울숲 주변은 4oz 프릿츠 등 특급 카페 유명. Brandy Melville 등 일부 매장은 직원 서비스 논란.",
+    "summary_en": "Seongdong-gu's Seoul Forest area is known for 4oz Fritz. Brandy Melville faces staff rudeness reports; mixed reviews.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
@@ -61,85 +105,85 @@
     ],
     "sources": [
       {
+        "url": "https://www.reddit.com/r/seoul/comments/1u5g770/seoul_specialty_coffee/",
+        "title": "Seoul Specialty coffee",
+        "snippet": "I am Looking at building an extensive list of specialty cafes/roasters in Seoul. [...] So far I have 4oz Fritz",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u5f5s6/are_the_staff_in_the_seongsu_south_korea_branch/",
+        "title": "Are the staff in the Seongsu, South Korea branch rude?",
+        "snippet": "Are the staff in the Seongsu, South Korea branch rude?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u5f5s6/are_the_staff_in_the_seongsu_south_korea_branch/",
+        "title": "Are the staff in the Seongsu, South Korea branch rude?",
+        "snippet": "I plan to go to Brandy Melville during my trip... I was just wondering if the workers there—based on your past experiences—are rude?",
+        "source": "reddit_seoul"
+      },
+      {
         "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
         "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
         "source": "visit_seoul"
-      },
-      {
-        "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=252188",
-        "title": "\"카페 성지 커피를 편의점에서\"...이마트24, 인크커피 협업 상품 출시",
-        "snippet": "성수310은 이마트24 본사가 위치한 '성수'와 주소지 '310'을 결합해 만든 브랜드다",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.mk.co.kr/article/12073486",
-        "title": "“삭막한 공장만 빽빽할 때 사둘 걸”…셰계적 핫플 된 그 동네 비결 [B...",
-        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인 플랫폼의 구조를 갖췄다. 하나의 거리 안에서 다양한 경험을 제공한다. 식당과 카페에 가고, 편집숍과 전시를...",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.econovill.com/news/articleView.html?idxno=742317",
-        "title": "1228회 로또 1등 명당 11곳 ·2등 81곳 주소 총정리…인터넷 2등 1매",
-        "snippet": "비디오카페(성수점): 서울 성동구 성덕정길 84 1층",
-        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-13T22:40:59.734Z"
+    "updated_at": "2026-06-14T22:45:16.041Z"
   },
   {
-    "station_no": "ST-207",
-    "station_name_ko": "서강대역 2번출구 앞",
-    "gu_ko": "마포구",
-    "gu_en": "Mapo-gu",
-    "mention_count": 37,
-    "sentiment_avg": 0.4864864864864865,
-    "summary_ko": "마포구 서강대역 근처 홍대 클럽과 연남동 카페 인기. 신촌 역사 탐방 프로그램 운영 중.",
-    "summary_en": "Mapo-gu's Hongdae clubs & Yeonnam-dong cafes popular. Sinchon walking tours highlight local history.",
+    "station_no": "ST-329",
+    "station_name_ko": "서빙고동 금호맨션 앞",
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "mention_count": 27,
+    "sentiment_avg": 0.48148148148148145,
+    "summary_ko": "용산구 서빙고동 주변은 크라이 치즈 등 버거집 인기. 이태원·한남동·경리단길과 연관되나 직접 언급은 적음.",
+    "summary_en": "Yongsan-gu's Seobinggo-dong area has Cry Cheese burgers. Near Itaewon, but direct mentions are limited; mixed vibes.",
     "related_event_ids": [
-      "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
-      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
-      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일 오전10시|신촌 일대|2026-02-01",
-      "[마포구립서강도서관] 6월/어린이메이킹 [행복맘껏time] 두 번째 일요일은 해봄공간 오픈데이|마포구립서강도서관 4층 어린이자료실 해봄|2026-06-14",
-      "[마포구립서강도서관] 6월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 해봄|2026-06-04"
+      "[서울시] 2026 서울국악축제|반포한강공원 달빛광장|2026-06-19",
+      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
+      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
+      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
+      "(토) 손끝에 머무는 계절 - 수국책갈피 (성인)|용산가족공원|2026-06-06"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u4mzhg/looking_for_girls_to_go_clubbing_with/",
-        "title": "looking for girls to go clubbing with!",
-        "snippet": "We are 19 years old from sweden💕 We can go tn or any other day this week!!🫡🫡 (abbreviation 'tn' likely refers to 'tonight' in clubbing context, and Hongdae is a well-known clubbing area in Seoul)",
+        "url": "https://www.reddit.com/r/seoul/comments/1u56yht/imo_the_best_hamburger_in_korea/",
+        "title": "IMO the best hamburger in Korea.",
+        "snippet": "IMO the best hamburger in Korea. Cry Cheese!",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u4mhf6/club_hopping/",
-        "title": "Club hopping",
-        "snippet": "Club hopping... moving around in hongdae tonight",
+        "url": "https://www.reddit.com/r/seoul/comments/1u5pkxh/serious_language_exchange/",
+        "title": "Serious Language Exchange",
+        "snippet": "I could just go to bars or pubs in Hongdae or Itaewon to meet foreigners",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u4hktc/clubbing_in_hongdae_tonight/",
-        "title": "Clubbing in Hongdae tonight?",
-        "snippet": "We will be in hongdae tonight.",
+        "url": "https://www.reddit.com/r/seoul/comments/1u5kmw9/world_cup_match_viewing_spot/",
+        "title": "World Cup match viewing spot?",
+        "snippet": "Preferably near Itaewon",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
-        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
-        "source": "visit_seoul"
+        "url": "https://www.hani.co.kr/arti/specialsection/esc_section/1263403.html",
+        "title": "문구점도 카페도 ‘슴슴’…성수동에 질린 청춘들, 서촌 매력에 ‘풍덩...",
+        "snippet": "인스타그램에 폭포처럼 쏟아진 한남동과 성수동, 연남동의 핫플레이스들에 질린 젊은 층",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-13T22:40:59.734Z"
+    "updated_at": "2026-06-14T22:45:16.041Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 28,
-    "sentiment_avg": 0.2857142857142857,
-    "summary_ko": "중구 명동·을지로 역사 문화 투어 진행 중. 명동야행 프로그램 등 야간 관광 가능.",
-    "summary_en": "Jung-gu's Myeongdong·Euljiro offer history tours. Night walking programs like Myeongdong Square available.",
+    "mention_count": 22,
+    "sentiment_avg": 0.4090909090909091,
+    "summary_ko": "중구 저동2가 주변은 을지로·무교동 복요리·카페 언급. 명동·이순신로드 등 역사 투어 프로그램 진행 중.",
+    "summary_en": "Jung-gu's Jeodong 2-ga area links to Euljiro, Mugeo-dong. Hotspots and history tours (Myeongdong, Yi Sun-sin Road) are active.",
     "related_event_ids": [
       "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅰ.기획/개발|서울영화센터 7층 다목적실|2026-06-20",
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
@@ -149,74 +193,30 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u4q1uv/need_help_buying_a_necklace/",
-        "title": "need help buying a necklace",
-        "snippet": "While not explicitly mentioned, Myeongdong is a well-known district for jewelry shops in Seoul, often recommended for tourists seeking diamond jewelry with English-speaking staff.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u4t1kg/recommend_places_to_eat/",
-        "title": "recommend places to eat",
-        "snippet": "staying in the eul jiro myeondong area",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u4t1kg/recommend_places_to_eat/",
-        "title": "recommend places to eat",
-        "snippet": "staying in the eul jiro myeondong area",
-        "source": "reddit_seoul"
-      },
-      {
         "url": "https://www.mk.co.kr/article/12073486",
         "title": "“삭막한 공장만 빽빽할 때 사둘 걸”…셰계적 핫플 된 그 동네 비결 [B...",
-        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인 플랫폼의 구조를 갖췄다. 하나의 거리 안에서 다양한 경험을 제공한다. 식당과 카페에 가고, 편집숍과 전시를...",
+        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인... '도심 속 다른 시간'이 연출된",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.mk.co.kr/article/12072866",
+        "title": "\"뜨는 공간엔 늘 이유가 있다\"…팝업 성지된 성수동, 비결은",
+        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.gpkorea.com/news/articleView.html?idxno=143710",
+        "title": "'전현무계획3' 배성재·김다영 부부 출격 서울 맛집 올킬",
+        "snippet": "무교동 복요리",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.heraldmuse.com/article/10770947?ref=naver",
+        "title": "‘배성재♥’ 김다영, 14살 차 극복한 첫 만남 알고 보니 “SBS 입사 직후...",
+        "snippet": "무교동 복요리",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-13T22:40:59.734Z"
-  },
-  {
-    "station_no": "ST-329",
-    "station_name_ko": "서빙고동 금호맨션 앞",
-    "gu_ko": "용산구",
-    "gu_en": "Yongsan-gu",
-    "mention_count": 20,
-    "sentiment_avg": 0.5,
-    "summary_ko": "용산구 이태원 인근 경리단길·망리단길 핫플레이스. 용산가족공원 체험 프로그램 운영.",
-    "summary_en": "Yongsan-gu's Itaewon nearby hotspots like Gyeongridan-gil. Yongsan Family Park offers nature programs.",
-    "related_event_ids": [
-      "[서울시] 2026 서울국악축제|반포한강공원 달빛광장|2026-06-19",
-      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
-      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
-      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "(일) 푸른 숲 속에는 누가 살까요?(가족숲체험)|용산가족공원|2026-06-07"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u4lxgm/did_someone_go_there_is_it_like_djimjilbang/",
-        "title": "Did someone go there? Is it like Djimjilbang?",
-        "snippet": "In Itaewon",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/How-Comics-Revived-a-Neighborhood--Kang-Full-Cartoon-Alley/ENN015927",
-        "title": "How Comics Revived a Neighborhood : Kang Full Cartoon Alley",
-        "snippet": "The Kang Full Cartoon Alley is full of beautiful artwork and is an example of how one person can revitalize an entire neighborhood.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://www.mk.co.kr/article/12073486",
-        "title": "“삭막한 공장만 빽빽할 때 사둘 걸”…셰계적 핫플 된 그 동네 비결 [B...",
-        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인 플랫폼의 구조를 갖췄다. 하나의 거리 안에서 다양한 경험을 제공한다. 식당과 카페에 가고, 편집숍과 전시를...",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.mk.co.kr/article/12073486",
-        "title": "“삭막한 공장만 빽빽할 때 사둘 걸”…셰계적 핫플 된 그 동네 비결 [B...",
-        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인 플랫폼의 구조를 갖췄다. 하나의 거리 안에서 다양한 경험을 제공한다. 식당과 카페에 가고, 편집숍과 전시를...",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-06-13T22:40:59.734Z"
+    "updated_at": "2026-06-14T22:45:16.041Z"
   }
 ]
