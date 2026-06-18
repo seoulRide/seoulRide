@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 60,
-    "sentiment_avg": 0.6666666666666666,
-    "summary_ko": "종로구 서촌: 경복궁 서쪽의 한옥과 카페가 어우러진 동네. 주변 문화 행사도 활발.",
-    "summary_en": "Jongno-gu Seochon: Hanok & cafes near Gyeongbokgung buzz with culture. Nearby walking tours & film events.",
+    "mention_count": 61,
+    "sentiment_avg": 0.47540983606557374,
+    "summary_ko": "종로구 광화문·서촌 일대에 경복궁, 청계광장 등 명소와 관광 프로그램이 인기. 한옥마을 카페·역사 체험 추천.",
+    "summary_en": "Jongno-gu's Gwanghwamun/Seochon buzz with palaces, plazas, and tours. Hanok cafes and historical sites draw visitors.",
     "related_event_ids": [
       "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅰ.기획/개발|서울영화센터 7층 다목적실|2026-06-20",
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
@@ -17,41 +17,41 @@
     ],
     "sources": [
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
-        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
-        "snippet": "Seochon, located just west of Gyeongbokgung Palace, offers this softer perspective. Narrow alleys wind between traditional hanok houses and modern creative spaces, forming a neighborhood that reveals itself slowly, best explored without a fixed plan.",
+        "url": "https://www.reddit.com/r/seoul/comments/1u9khvu/where_to_watch_world_cup_games_outdoor/",
+        "title": "Where to watch World Cup games outdoor?",
+        "snippet": "Is there a park or area where the games are televised live and it’s possible to sit down and watch?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u9khvu/where_to_watch_world_cup_games_outdoor/",
+        "title": "Where to watch World Cup games outdoor?",
+        "snippet": "Is there a park or area where the games are televised live and it’s possible to sit down and watch?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung Palace in Hanbok...the largest and most iconic palace in the city and was once the main royal palace during the Joseon Dynasty.",
         "source": "visit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
-        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
-        "snippet": "Seochon, located just west of Gyeongbokgung Palace, offers this softer perspective. [...] Outside, green ginkgo trees frame the view, while visitors in hanbok drift past on their way to the nearby palace.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
-        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
-        "snippet": "The day begins at Tailor Coffee Seochon, a relaxed café facing the stone wall of Gyeongbokgung. With its open terrace and unobstructed view, it offers a calm and airy setting that feels especially fitting in spring.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Seochon/ENNyqrull",
-        "title": "A Spring Day in Seochon: Quiet Alleys & Local Moments",
-        "snippet": "Along Jahamun-ro 10-gil, the view opens slightly to reveal Inwangsan in the distance, adding another layer to the experience.",
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "one more tip for your visit to Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-06-17T23:03:20.662Z"
+    "updated_at": "2026-06-18T23:21:48.720Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 47,
-    "sentiment_avg": 0.3617021276595745,
-    "summary_ko": "성동구 서울숲: 포켓몬 이벤트와 청년 맞춤 프로그램으로 주목받는 공원. MZ 세대 카페도 인기.",
-    "summary_en": "Seongdong-gu Seoul Forest: Pokémon events & youth programs draw crowds. MZ cafes add urban charm.",
+    "mention_count": 58,
+    "sentiment_avg": 0.3103448275862069,
+    "summary_ko": "성동구 서울숲·성수동 일대는 MZ 세대 인기 카페·보태니컬 테마 이벤트 중심. 포켓몬 콜라보 등 가족 친화적 활동 많음.",
+    "summary_en": "Seongdong-gu's Seoul Forest/Seongsu thrives with MZ-friendly cafes and botanical events. Family-friendly Pokémon-themed spots.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
@@ -61,9 +61,21 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u7t8kn/just_arrived_in_seoul_where_to_meet_people/",
-        "title": "Just arrived in Seoul, where to meet people outside of meetup events?",
-        "snippet": "No direct mention, but Seoul Forest is a popular outdoor spot for runners, crossfit enthusiasts, and gamers (e.g., Pokémon GO events), attracting diverse age groups.",
+        "url": "https://www.reddit.com/r/seoul/comments/1u94ryw/umm_any_recs_for_cute_cafes_near_seoul_forest/",
+        "title": "umm any recs for cute cafes near Seoul Forest / Seongsu? ☕️🌿",
+        "snippet": "Meeting a friend around Seoul Forest this weekend",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u94ryw/umm_any_recs_for_cute_cafes_near_seoul_forest/",
+        "title": "umm any recs for cute cafes near Seoul Forest / Seongsu? ☕️🌿",
+        "snippet": "any recs for cute cafes near Seoul Forest / Seongsu?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u9khvu/where_to_watch_world_cup_games_outdoor/",
+        "title": "Where to watch World Cup games outdoor?",
+        "snippet": "Is there a park or area where the games are televised live and it’s possible to sit down and watch?",
         "source": "reddit_seoul"
       },
       {
@@ -71,75 +83,19 @@
         "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
         "snippet": "Seoul Forest Park transformed with Pokémon’s even taking over most of the area. The atmosphere felt playful, nostalgic, and comforting at the same time.",
         "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
-        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "This event is part of the Pokémon 30th Anniversary Project, Pokémon Mega Festa 2026, where the “Pokémon Secret Forest” was created as a special garden space blending urban nature with the world of Pokémon.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
-        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
-        "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-06-17T23:03:20.662Z"
-  },
-  {
-    "station_no": "ST-2525",
-    "station_name_ko": "저동2가 22-1",
-    "gu_ko": "중구",
-    "gu_en": "Jung-gu",
-    "mention_count": 36,
-    "sentiment_avg": 0.4444444444444444,
-    "summary_ko": "중구 명동: 관광 명소이지만 주변 역사 투어만 활발. 을지로·성수 연결성 긍정적.",
-    "summary_en": "Jung-gu Myeongdong: Tourist hub with nearby history walks. Mixed sentiment; links to Euljiro/Seongsu noted.",
-    "related_event_ids": [
-      "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅰ.기획/개발|서울영화센터 7층 다목적실|2026-06-20",
-      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
-      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-06-05",
-      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-06-05",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-05"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u7zkaq/looking_for_galbitang_recommendations/",
-        "title": "Looking for Galbi-tang recommendations",
-        "snippet": "We’re currently in Myeongdong, Seoul and I’m looking for restaurant recommendations that serve this style",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u803rh/myeongdong_area/",
-        "title": "Myeongdong Area",
-        "snippet": "Myeongdong Area",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.wikitree.co.kr/articles/1141795",
-        "title": "홍대·성수·연남 다 아니었다... 요즘 MZ 몰린다는 서울 뜻밖의 '동네'",
-        "snippet": "불과 몇 년 전만 해도 신당동은 노령화된 골목에서 청춘의 아지트로",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.wikitree.co.kr/articles/1141795",
-        "title": "홍대·성수·연남 다 아니었다... 요즘 MZ 몰린다는 서울 뜻밖의 '동네'",
-        "snippet": "시청이나 을지로 등 중심 업무지구는 물론이고 성수나 홍대 등 다른 주요 상권과의 연결성도 훌륭하다",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-06-17T23:03:20.662Z"
+    "updated_at": "2026-06-18T23:21:48.720Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 41,
-    "sentiment_avg": 0.12195121951219512,
-    "summary_ko": "마포구 서강대역: 홍대·연남동 대체 인기 동네로 주목. 인문학 행사 등 문화 활동 진행.",
-    "summary_en": "Mapo-gu Seogang Univ. Station: Emerging MZ hotspot near Hongdae. Library events & walking tours.",
+    "mention_count": 50,
+    "sentiment_avg": 0.3,
+    "summary_ko": "마포구 홍대·서강대역 인근은 빈티지 숍·펍·인문학 행사 중심. 7080 테마 걷기 투어도 진행 중.",
+    "summary_en": "Mapo-gu's Hongdae/Seogang Station area buzzes with vintage shops, pubs, and humanities events. 7080 walking tours available.",
     "related_event_ids": [
       "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
@@ -149,74 +105,118 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u8ggkf/did_anyone_here_know_cali_이원국_nb_club_hongdae_and/",
-        "title": "Did anyone here know CALI (이원국)? NB Club, Hongdae, and the early Korean hip-hop scene (2000–2005)",
-        "snippet": "Did anyone here know CALI (이원국)? NB Club, Hongdae, and the early Korean hip-hop scene (2000–2005)",
+        "url": "https://www.reddit.com/r/seoul/comments/1u9dhrp/anyone_down_to_go_clubbing_n_dancing_together_in/",
+        "title": "Anyone down to go clubbing n dancing together in this weeknd?",
+        "snippet": "The only ones I know are La bamba and Seoul pub in Hongdae",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u88nco/looking_for_friends_in_seoul/",
-        "title": "Looking for friends in Seoul",
-        "snippet": "I'm a Korean living and working in seoul especially in Mapo area",
+        "url": "https://www.reddit.com/r/seoul/comments/1u9dhrp/anyone_down_to_go_clubbing_n_dancing_together_in/",
+        "title": "Anyone down to go clubbing n dancing together in this weeknd?",
+        "snippet": "The only ones I know are La bamba and Seoul pub in Hongdae",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u7t8kn/just_arrived_in_seoul_where_to_meet_people/",
-        "title": "Just arrived in Seoul, where to meet people outside of meetup events?",
-        "snippet": "No direct mention, but Hongdae has non-bar venues like gaming cafes, indie arcades, and co-working spaces where older adults and students mingle.",
+        "url": "https://www.reddit.com/r/seoul/comments/1u9dhrp/anyone_down_to_go_clubbing_n_dancing_together_in/",
+        "title": "Anyone down to go clubbing n dancing together in this weeknd?",
+        "snippet": "The only ones I know are La bamba and Seoul pub in Hongdae",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
-        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
-        "source": "visit_seoul"
+        "url": "https://www.reddit.com/r/seoul/comments/1u9khvu/where_to_watch_world_cup_games_outdoor/",
+        "title": "Where to watch World Cup games outdoor?",
+        "snippet": "Is there a park or area where the games are televised live and it’s possible to sit down and watch?",
+        "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-06-17T23:03:20.662Z"
+    "updated_at": "2026-06-18T23:21:48.720Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 32,
-    "sentiment_avg": 0.1875,
-    "summary_ko": "용산구 서빙고동: 국립중앙박물관 인근이지만 현지 반응은 미적지근. 국악축제 등 행사 예정.",
-    "summary_en": "Yongsan-gu Seobinggo-dong: Near National Museum. Neutral vibes; upcoming traditional music festival.",
+    "mention_count": 29,
+    "sentiment_avg": 0.27586206896551724,
+    "summary_ko": "용산구 이태원·한남동 일대는 외국인 방문 증가로 카페·패션 매장 인기. 주말 수국 워크숍 등 소규모 체험 이벤트 주목.",
+    "summary_en": "Yongsan-gu's Itaewon/Hannamdong see rising popularity in cafes and fashion shops. Small-scale workshops like hydrangea crafts attract visitors.",
     "related_event_ids": [
       "[서울시] 2026 서울국악축제|반포한강공원 달빛광장|2026-06-19",
-      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
+      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
       "(토) 손끝에 머무는 계절 - 수국책갈피 (성인)|용산가족공원|2026-06-06"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u80wb5/ever_been_to_the_national_museum_of_korea_great/",
-        "title": "Ever been to the National Museum of Korea? Great place to visit with kids.",
-        "snippet": "Ever been to the National Museum of Korea? Great place to visit with kids. One of my favorite spots in Seoul. Lots to see, plenty of space to walk around, and my kid always enjoys it. Definitely worth a visit if you're traveling with family.",
+        "url": "https://www.reddit.com/r/seoul/comments/1u9bck0/the_hangover_itaewon_edition/",
+        "title": "The Hangover: Itaewon Edition",
+        "snippet": "The Hangover: Itaewon Edition",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u7zkaq/looking_for_galbitang_recommendations/",
-        "title": "Looking for Galbi-tang recommendations",
-        "snippet": "Preferably somewhere around Myeongdong, Seoul Station, or anywhere easily accessible by subway",
+        "url": "https://www.reddit.com/r/seoul/comments/1u9dhrp/anyone_down_to_go_clubbing_n_dancing_together_in/",
+        "title": "Anyone down to go clubbing n dancing together in this weeknd?",
+        "snippet": "Anywhere is fine like in Itaewon or Apgujeong",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u838rm/6am_in_hbc/",
-        "title": "6am in HBC",
-        "snippet": "6am in HBC",
+        "url": "https://www.reddit.com/r/seoul/comments/1u9khvu/where_to_watch_world_cup_games_outdoor/",
+        "title": "Where to watch World Cup games outdoor?",
+        "snippet": "Is there a park or area where the games are televised live and it’s possible to sit down and watch?",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u7y6dq/any_bars_showing_nz_wc_games/",
-        "title": "Any bars showing NZ WC games?",
-        "snippet": "Sam Ryan’s doesn’t have it on the schedule",
-        "source": "reddit_seoul"
+        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
+        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
+        "snippet": "One bridge that should not be missed is Dongjak bridge, known for its easy accessibility and beautiful panoramic view of Seoul.",
+        "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-06-17T23:03:20.662Z"
+    "updated_at": "2026-06-18T23:21:48.720Z"
+  },
+  {
+    "station_no": "ST-2525",
+    "station_name_ko": "저동2가 22-1",
+    "gu_ko": "중구",
+    "gu_en": "Jung-gu",
+    "mention_count": 24,
+    "sentiment_avg": 0.16666666666666666,
+    "summary_ko": "중구 을지로·명동 일대는 산업 유산과 관광지 결합. 야간 빛 걷기 투어 등 역사 체험 프로그램 진행 중.",
+    "summary_en": "Jung-gu's Euljiro/Myeongdong blend industrial heritage with sightseeing. Night walking tours highlight historical spots.",
+    "related_event_ids": [
+      "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅰ.기획/개발|서울영화센터 7층 다목적실|2026-06-20",
+      "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
+      "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-06-05",
+      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-06-05",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-05"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u94pa1/euljiro_neighborhood_central_seoul_old_industrial/",
+        "title": "Euljiro neighborhood, central Seoul _ Old industrial area",
+        "snippet": "In central Seoul, Euljiro area, some hardware stores and metal workshops still exist today, a heritage of the industrial development of the 1960s and 1970s",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u94pa1/euljiro_neighborhood_central_seoul_old_industrial/",
+        "title": "Euljiro neighborhood, central Seoul _ Old industrial area",
+        "snippet": "In central Seoul, Euljiro area, some hardware stores and metal workshops still exist today, a heritage of the industrial development of the 1960s and 1970s",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1u9bw8n/billiards/",
+        "title": "Billiards?",
+        "snippet": "I'm staying in myeongdong and I leave tomorrow, I kinda wanna play billiards with anyone just for fun (no betting pls 😥)",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.mk.co.kr/article/12073486",
+        "title": "“삭막한 공장만 빽빽할 때 사둘 걸”…셰계적 핫플 된 그 동네 비결 [B...",
+        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인... ‘도심 속 다른 시간’이 연출된...",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-06-18T23:21:48.720Z"
   }
 ]
