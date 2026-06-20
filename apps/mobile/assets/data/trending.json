@@ -4,10 +4,10 @@
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 70,
-    "sentiment_avg": 0.4857142857142857,
-    "summary_ko": "서울숲(성동구)에서 '포켓몬 메가 페스타 2026'이 열려 도시 자연과 결합한 특별한 정원이 인기. 청년 대상 정원 프로그램 등 연중 이벤트 다양.",
-    "summary_en": "Seoul Forest (Seongdong-gu) buzzes with Pokémon Mega Festa 2026's 'Secret Forest' garden. Year-round youth garden therapy and events add charm.",
+    "mention_count": 54,
+    "sentiment_avg": 0.25925925925925924,
+    "summary_ko": "성동구의 서울숲은 포켓몬 이벤트와 NH농협카드 팝업스토어로 인기, MZ세대 매력과 복합 문화 공간도 주목 중 (sentiment mixed).",
+    "summary_en": "Seongdong-gu's Seoul Forest buzzes with Pokémon events, NH Card pop-up, and MZ-favored boutiques, but sentiment is mixed (pos/neutral).",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
@@ -19,13 +19,7 @@
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
         "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "Seoul Forest Park transformed with Pokémon’s even taking over most of the area. The atmosphere felt playful, nostalgic, and comforting at the same time.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
-        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "This event is part of the Pokémon 30th Anniversary Project, Pokémon Mega Festa 2026, where the ‘Pokémon Secret Forest’ was created as a special garden space blending urban nature with the world of Pokémon.",
+        "snippet": "Seoul Forest Park transformed with Pokémon’s even taking over most of the area... The moment we walk into the area, it genuinely feels like entering a small Pokémon universe hidden inside Seoul.",
         "source": "visit_seoul"
       },
       {
@@ -35,67 +29,117 @@
         "source": "visit_seoul"
       },
       {
-        "url": "https://www.hankyung.com/article/2026061974651",
-        "title": "길거리 대신 호텔·펍·쇼핑몰로…월드컵 '조조 응원' 新풍속도",
-        "snippet": "오비맥주 카스는 이날 서울 성수동 한 식당에서 ‘뷰잉펍’을 열어 예약한 축구...",
+        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092164247",
+        "title": "아이돌부터 기안84까지… 팬덤 잡기 나선 카드사",
+        "snippet": "NH농협카드는 오는 19일부터 한 달간 서울 성수동에서 팝업스토어를 운영한다. 방문객들은 기안84의 작품 세계를 체험할 수 있으며 유명 셰프와 협업한 디저트도 즐길 수 있다.",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.mk.co.kr/article/12079041",
+        "title": "“화장품 사러 온 게 아니었다”…외국인 몰리는 성수동 올리브영의 비...",
+        "snippet": "올리브영N 성수. 평일 오전임에도 매장 앞에는... 각종 팝업 공간과 CJ프레시웨이가 운영하는 카페가 들어서 있어 일반적인 H&B스토어보다는 복합 문화 공간에...",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-19T22:24:38.272Z"
+    "updated_at": "2026-06-20T22:45:17.296Z"
   },
   {
     "station_no": "ST-181",
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 57,
-    "sentiment_avg": 0.6666666666666666,
-    "summary_ko": "종로구 청계천에서 '사와디 서울 태국 페스티벌 2026' 준비 중. 광화문·인사동 등 역사·문화 관광지 접근성 좋음.",
-    "summary_en": "Jongno-gu's Cheonggyecheon preps for Sawasdee Seoul Thai Festival 2026. Nearby historical sites like Gwanghwamun and Insadong attract visitors.",
+    "mention_count": 41,
+    "sentiment_avg": 0.5121951219512195,
+    "summary_ko": "종로구 서린빌딩 근처 경복궁·서촌은 한옥과 문화명소로 인기, 광화문 수문장 교대의식·통인시장도 추천 (positive).",
+    "summary_en": "Jongno-gu's Gyeongbokgung/Seochon area thrives with hanok charm, guard ceremonies, and local markets (strongly positive).",
     "related_event_ids": [
       "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅰ.기획/개발|서울영화센터 7층 다목적실|2026-06-20",
+      "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-06-05",
-      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-06-05",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-05"
+      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-06-05"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9pdm5/hanoks/",
-        "title": "Hanoks 💌",
-        "snippet": "Hanoks",
-        "source": "reddit_seoul"
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
+        "source": "visit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9uaff/just_walked_by_cheonggyecheon_streamlooks_like/",
-        "title": "Just walked by Cheonggyecheon Stream—looks like they are setting up for the Sawasdee Seoul Thai Festival 2026 this weekend (June 20-21)! Worth a visit?",
-        "snippet": "Just walked by Cheonggyecheon Stream—looks like they are setting up for the Sawasdee Seoul Thai Festival 2026 this weekend (June 20-21)! Worth a visit?",
-        "source": "reddit_seoul"
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
+        "source": "visit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9uaff/just_walked_by_cheonggyecheon_streamlooks_like/",
-        "title": "Just walked by Cheonggyecheon Stream—looks like they are setting up for the Sawasdee Seoul Thai Festival 2026 this weekend (June 20-21)! Worth a visit?",
-        "snippet": "Just walked by Cheonggyecheon Stream—looks like they are setting up for the Sawasdee Seoul Thai Festival 2026 this weekend (June 20-21)! Worth a visit?",
-        "source": "reddit_seoul"
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses and so many hidden gems",
+        "source": "visit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9khvu/where_to_watch_world_cup_games_outdoor/",
-        "title": "Where to watch World Cup games outdoor?",
-        "snippet": "Is there a park or area where the games are televised live and it’s possible to sit down and watch?",
-        "source": "reddit_seoul"
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Tongin Market - a busy, loud and very local traditional market...Tongin Market & Dosirak Café 18 Jaham",
+        "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-06-19T22:24:38.272Z"
+    "updated_at": "2026-06-20T22:45:17.296Z"
+  },
+  {
+    "station_no": "ST-329",
+    "station_name_ko": "서빙고동 금호맨션 앞",
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "mention_count": 31,
+    "sentiment_avg": 0.3870967741935484,
+    "summary_ko": "용산구 서빙고동 주변은 한남동·경리단길·망리단길 등 핫플레이스 영향, 용산가족공원 체험 프로그램 진행 중 (mixed).",
+    "summary_en": "Yongsan-gu's Seobinggo-dong area benefits from nearby hotspots like Hannam-dong, with family park events (neutral/positive).",
+    "related_event_ids": [
+      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
+      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
+      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
+      "(일) 푸른 숲 속에는 누가 살까요?(가족숲체험)|용산가족공원|2026-06-07",
+      "(토) 손끝에 머무는 계절 - 수국책갈피 (성인)|용산가족공원|2026-06-06"
+    ],
+    "sources": [
+      {
+        "url": "https://www.hankyung.com/article/2026061853167",
+        "title": "\"하루에 2500만원이나 냈는데\" 한숨…성수동에 무슨 일이",
+        "snippet": "성수동은 여전히 가장 강력한 팝업 상권이지만 치솟은 대관료, 과열된 경쟁 탓에 한남동·연남동·익선동... 연남동은 20~30대 감성 소비층을 겨냥하는 브랜드에 적합한 상권으로 분류된다. 홍대입구역에서 가깝고...",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.mk.co.kr/article/12073486",
+        "title": "“삭막한 공장만 빽빽할 때 사둘 걸”…셰계적 핫플 된 그 동네 비결 [B...",
+        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인... ‘도심 속 다른 시간’이 연출된...",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.mk.co.kr/article/12073486",
+        "title": "“삭막한 공장만 빽빽할 때 사둘 걸”…셰계적 핫플 된 그 동네 비결 [B...",
+        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인... ‘도심 속 다른 시간’이 연출된...",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://biz.heraldcorp.com/article/10782586?ref=naver",
+        "title": "‘횡성의 삼성’ 횡성한우에 무슬림도 환호..축산인 응원행사도[함영훈...",
+        "snippet": "서울 한남동 한국이슬람교(KMF)",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-06-20T22:45:17.296Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 40,
-    "sentiment_avg": 0.425,
-    "summary_ko": "홍대(마포구)는 클럽 몽스 등 야간 문화 활발. 7080 추억 투어 등 다양한 도보 프로그램 진행 중.",
-    "summary_en": "Hongdae (Mapo-gu) thrives with clubbing at Mongs. 7080-themed walking tours and university tours add nostalgic vibes.",
+    "mention_count": 32,
+    "sentiment_avg": 0.28125,
+    "summary_ko": "마포구 서강대역 주변은 홍대·연남동 영향으로 MZ세대 매장이 늘었지만, 성수동보다 경쟁 심한 편 (mixed).",
+    "summary_en": "Mapo-gu's Seogang Univ. area near Hongdae/Yeonnam-dong has MZ boutiques but faces high competition (mixed).",
     "related_event_ids": [
       "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
@@ -105,118 +149,74 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9khvu/where_to_watch_world_cup_games_outdoor/",
-        "title": "Where to watch World Cup games outdoor?",
-        "snippet": "Is there a park or area where the games are televised live and it’s possible to sit down and watch?",
+        "url": "https://www.reddit.com/r/seoul/comments/1uaouvy/anyone_down_for_clubbing_tmrw/",
+        "title": "Anyone down for clubbing tmrw",
+        "snippet": "looking for other girls to join us for hongdae pub hopping and clubbing tomorrow night",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ua013m/hongdae_clubbing_at_mongs/",
-        "title": "Hongdae Clubbing at Mongs",
-        "snippet": "Hongdae Clubbing at Mongs",
-        "source": "reddit_seoul"
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "source": "visit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ua013m/hongdae_clubbing_at_mongs/",
-        "title": "Hongdae Clubbing at Mongs",
-        "snippet": "Hongdae Clubbing at Mongs",
-        "source": "reddit_seoul"
+        "url": "https://www.mk.co.kr/article/12078338",
+        "title": "외래관광객 소비 2조원 시대…AI가 관리하는 ‘탄소중립 숙소’ 뜬다",
+        "snippet": "홍대, 연남동, 명동, 성수 등을 찾아 추억 남기기에 나섰다.",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ua6mn3/iterinerary_and_accomodation_recos_korea/",
-        "title": "Iterinerary and accomodation recos- Korea",
-        "snippet": "4 nights in Seoul ( places im thinking to stay - Myeongdong/ Insadong/ Hongdae)",
-        "source": "reddit_seoul"
+        "url": "https://www.mk.co.kr/article/12078338",
+        "title": "외래관광객 소비 2조원 시대…AI가 관리하는 ‘탄소중립 숙소’ 뜬다",
+        "snippet": "홍대, 연남동, 명동, 성수 등을 찾아 추억 남기기에 나섰다.",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-19T22:24:38.272Z"
-  },
-  {
-    "station_no": "ST-329",
-    "station_name_ko": "서빙고동 금호맨션 앞",
-    "gu_ko": "용산구",
-    "gu_en": "Yongsan-gu",
-    "mention_count": 37,
-    "sentiment_avg": 0.35135135135135137,
-    "summary_ko": "용산구 한남동·이태원 인근. 브라운 돈카츠 등 가성비 식당 인기. 용산가족공원에서 텃밭 분양·이벤트 진행.",
-    "summary_en": "Yongsan-gu's Hannam-dong/Ittaewon areas host budget-friendly eats like Brown Donkkaseu. Yongsan Family Park offers garden plots and seasonal events.",
-    "related_event_ids": [
-      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
-      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
-      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "(토) 손끝에 머무는 계절 - 수국책갈피 (성인)|용산가족공원|2026-06-06",
-      "(토) 용산가족공원 숲티어링|용산가족공원|2026-06-13"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9khvu/where_to_watch_world_cup_games_outdoor/",
-        "title": "Where to watch World Cup games outdoor?",
-        "snippet": "Is there a park or area where the games are televised live and it’s possible to sit down and watch?",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9khvu/where_to_watch_world_cup_games_outdoor/",
-        "title": "Where to watch World Cup games outdoor?",
-        "snippet": "Is there a park or area where the games are televised live and it’s possible to sit down and watch?",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9ulhs/best_lunch_spots_near_seoul_station_for_office/",
-        "title": "Best lunch spots near Seoul Station for office workers 🍱",
-        "snippet": "Brown Donkkaseu – solid katsu, great value for the price",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9ulhs/best_lunch_spots_near_seoul_station_for_office/",
-        "title": "Best lunch spots near Seoul Station for office workers 🍱",
-        "snippet": "Best lunch spots near Seoul Station for office workers",
-        "source": "reddit_seoul"
-      }
-    ],
-    "updated_at": "2026-06-19T22:24:38.272Z"
+    "updated_at": "2026-06-20T22:45:17.296Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 27,
-    "sentiment_avg": 0.37037037037037035,
-    "summary_ko": "중구 명동·동대문 인근. 야간 불빛 명소. 남대문시장 만두 등 전통 시장 음식 추천.",
-    "summary_en": "Jung-gu's Myeongdong/Dongdaemun areas shine at night. Nearby Namdaemun Market's affordable mandu is a local favorite.",
+    "mention_count": 21,
+    "sentiment_avg": 0.14285714285714285,
+    "summary_ko": "중구 저동2가 근처 을지로는 미식·호캉스 명소, 명동·을지로 투어 프로그램 진행 중 (mixed).",
+    "summary_en": "Jung-gu's Euljiro area near Myeongdong offers foodie spots and cultural walking tours (mixed/positive).",
     "related_event_ids": [
       "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅰ.기획/개발|서울영화센터 7층 다목적실|2026-06-20",
+      "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
       "이순신로드, 영웅의 탄생지(중구 도보관광 프로그램)|을지로3가역 8번출구|2026-06-05",
       "명동역사문화투어(중구 도보관광 프로그램)|명동문화공원|2026-06-05",
-      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-06-05",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-05"
+      "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-06-05"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ua6mn3/iterinerary_and_accomodation_recos_korea/",
-        "title": "Iterinerary and accomodation recos- Korea",
-        "snippet": "4 nights in Seoul ( places im thinking to stay - Myeongdong/ Insadong/ Hongdae)",
-        "source": "reddit_seoul"
+        "url": "https://biz.heraldcorp.com/article/10782666?ref=naver",
+        "title": "해외여행 대신 영종도 호캉스…세계 미식까지 챙겨요 [트래블ON]",
+        "snippet": "해외여행 대신 영종도 호캉스…세계 미식까지 챙겨요",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9vpe3/two_korea_trips_before_i_figured_out_what_to/",
-        "title": "Two Korea trips before I figured out what to actually look for in an eSIM",
-        "snippet": "One thing worth flagging for Incheon arrivals: the eSIM activates on landing and you don't need to toggle data roaming.",
-        "source": "reddit_seoul"
+        "url": "https://www.mk.co.kr/article/12078338",
+        "title": "외래관광객 소비 2조원 시대…AI가 관리하는 ‘탄소중립 숙소’ 뜬다",
+        "snippet": "홍대, 연남동, 명동, 성수 등을 찾아 추억 남기기에 나섰다.",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9ulhs/best_lunch_spots_near_seoul_station_for_office/",
-        "title": "Best lunch spots near Seoul Station for office workers 🍱",
-        "snippet": "Namdaemun Market Mandu – classic, cheap, never disappoints",
-        "source": "reddit_seoul"
+        "url": "https://www.mk.co.kr/article/12073486",
+        "title": "“삭막한 공장만 빽빽할 때 사둘 걸”…셰계적 핫플 된 그 동네 비결 [B...",
+        "snippet": "성수동을 포함해 경리단길, 망리단길, 익선동, 을지로 등 유명한 핫플레이스는 오프라인... ‘도심 속 다른 시간’이 연출된...",
+        "source": "naver_news"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1u9ubi5/seoul_travel_suggestions/",
-        "title": "Seoul travel suggestions",
-        "snippet": "I like the city lights stuff so far about seoul",
-        "source": "reddit_seoul"
+        "url": "https://www.mydaily.co.kr/page/view/2026061914595662598",
+        "title": "'멋진 신세계' 채서안, '모태희' 위해 재벌 연구…\"연애설 기사까지 다...",
+        "snippet": "18일 서울 중구 을지로 마이데일리 사옥에서 배우 채서안을 만나 그가 출연한 SBS 드라마 '멋진 '신세계' 종영 기념 인터뷰를 진행했다.",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-19T22:24:38.272Z"
+    "updated_at": "2026-06-20T22:45:17.296Z"
   }
 ]
