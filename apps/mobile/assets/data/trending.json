@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 52,
-    "sentiment_avg": 0.7884615384615384,
-    "summary_ko": "종로구 서린빌딩 주변은 경복궁, 서촌, 통인시장 등 한옥과 맛집, 도시락 카페로 인기. 광화문 수문장 교대의식 추천.",
-    "summary_en": "Jongno-gu's Seorin area buzzes with Gyeongbokgung, Seochon, and Tongin Market. Highlights: hanok houses, Lunchbox Café, and Gwanghwamun guard ceremony.",
+    "mention_count": 60,
+    "sentiment_avg": 0.7166666666666667,
+    "summary_ko": "종로구 서린빌딩 주변은 광화문 광장, 경복궁, 서촌의 한옥과 도시락 카페로 인기. 서울영화센터 영화 제작 행사도 진행 중.",
+    "summary_en": "Jongno-gu's Seorin Bldg. area buzzes with Gwanghwamun Square, Gyeongbokgung, Seochon's hanok, and dosirak cafes. Seoul Film Center film events ongoing.",
     "related_event_ids": [
       "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅰ.기획/개발|서울영화센터 7층 다목적실|2026-06-20",
       "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
@@ -16,6 +16,12 @@
       "순례역사길 1코스(중구 도보관광 프로그램)|명동대성당|2026-06-05"
     ],
     "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ud3lyq/korea_world_cup_watch_partyjune_25/",
+        "title": "Korea World Cup Watch Party-June 25",
+        "snippet": "I would love for my kids to experience the excitement and cheer for Korea but have not been able to find a place besides Gwanghwameun Square.",
+        "source": "reddit_seoul"
+      },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
         "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
@@ -33,25 +39,19 @@
         "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
         "snippet": "The area west of Gyeongbokgung is Seochon Village, a cute little neighborhood with hanok houses and so many hidden gems",
         "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
-        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
-        "snippet": "Inside the market, around the center area, you’ll find the Lunchbox Café (도시락 카페) on the second floor...Tongin Market & Dosirak Café 18 Jaham",
-        "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-06-22T23:06:09.901Z"
+    "updated_at": "2026-06-23T22:50:26.407Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 44,
-    "sentiment_avg": 0.4318181818181818,
-    "summary_ko": "성동구 서울숲 주변은 MZ세대 인기 성수동 카페·상점, 서울숲공원 포켓몬 이벤트로 활기. 재개개발·팝업스토어도 진행 중.",
-    "summary_en": "Seongdong-gu's Seoul Forest area: popular with MZ generation for Seongsu-dong cafes, Pokémon events, and pop-up stores. Redevelopment ongoing.",
+    "mention_count": 43,
+    "sentiment_avg": 0.4418604651162791,
+    "summary_ko": "성동구 서울숲은 포켓몬 이벤트와 디올 성수 콘셉트 스토어로 관심. 2026 서울국제정원박람회 개최 예정.",
+    "summary_en": "Seongdong-gu's Seoul Forest sees Pokémon events and Dior Seongsu. 2026 Seoul International Garden Expo coming up.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설(토,일)|서울숲 방문자센터|2026-05-23",
@@ -67,35 +67,35 @@
         "source": "visit_seoul"
       },
       {
+        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
+        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
+        "snippet": "This event is part of the Pokémon 30th Anniversary Project, Pokémon Mega Festa 2026, where the 'Pokémon Secret Forest' was created as a special garden space blending urban nature with the world of Pokémon.",
+        "source": "visit_seoul"
+      },
+      {
         "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
         "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
         "source": "visit_seoul"
       },
       {
-        "url": "https://news.bizwatch.co.kr/article/consumer/2026/06/22/0030",
-        "title": "\"남는 게 없다\"…'배달'에서 '매장'으로 돌아온 프랜차이즈",
-        "snippet": "지난 2021년 서울 성수동에서 배달 전문 매장 '요거트아이스크림의 정석'으로 출발한 요아정은",
-        "source": "naver_news"
-      },
-      {
-        "url": "http://www.biztribune.co.kr/news/articleView.html?idxno=355033",
-        "title": "삼성물산, 개포우성4차 품었다…공사비 8145억원 규모 수주",
-        "snippet": "향후 성수3지구 재개발과 여의도 시범아파트 재건축",
+        "url": "https://www.newsis.com/view/NISX20260623_0003679589",
+        "title": "\"옷 한 벌 대신 커피 한 잔\" 패션·뷰티 카페 여는 이유",
+        "snippet": "디올 역시 성수동 콘셉트 스토어 '디올 성수'에서 카페 디올을 운영하고 있다. 명품 브랜드가 가진 헤리티지와 미학을 제품뿐 아니라 공간과 미식 경험으로 전달하기 위한 전략이다.",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-22T23:06:09.901Z"
+    "updated_at": "2026-06-23T22:50:26.407Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 34,
-    "sentiment_avg": 0.35294117647058826,
-    "summary_ko": "마포구 서강대역 주변은 연남동·망원동 상권 활성화, 경의선 숲길·대학가 투어. 청년 지원·도서관 프로그램 진행 중.",
-    "summary_en": "Mapo-gu's Seogang area: Yeonnam-dong and Mangwon-dong commercial zones, Gyeonguijung Line Forest, and university walking tours. Youth programs available.",
+    "mention_count": 27,
+    "sentiment_avg": 0.5185185185185185,
+    "summary_ko": "마포구 서강대역 주변은 연남동, 망원동 MZ세대 상권. 6월 민주항쟁 기념 전시와 신촌 도보 투어 진행 중.",
+    "summary_en": "Mapo-gu's Seogang Univ. Stn. area highlights Yeonnam-dong/Mangwon-dong MZ hotspots. June Uprising exhibit and Sinchon walking tours ongoing.",
     "related_event_ids": [
       "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
@@ -111,79 +111,35 @@
         "source": "visit_seoul"
       },
       {
-        "url": "https://news.dealsitetv.com/articles/172155",
-        "title": "[유통24시] 올영세일 찾는 외국인, 3년 새 11배 증가 外",
-        "snippet": "세미나는 서울 마포구 CJ프레시웨이 본사에서 열렸으며 한식, 카페, 주점 등 다양한 업종의 프랜차이즈...",
-        "source": "naver_news"
-      },
-      {
         "url": "https://www.kmib.co.kr/article/view.asp?arcid=1782101083&code=23111696&cp=nv",
         "title": "“이모티콘 하나로도 훨씬 가까워질 수 있어… 세심한 배려를”",
-        "snippet": "홍대센터처치는 전통적인 교회인 서울중앙교회가 젊은이와 접점을 넓히기 위해 연남동에 문을 연 환대의 공간이다.",
+        "snippet": "서울중앙교회가 젊은이와 접점을 넓히기 위해 연남동에 문을 연 환대의 공간",
         "source": "naver_news"
       },
       {
         "url": "https://www.etnews.com/20260622000397",
         "title": "상부공원 영구 조망에 전 호실 테라스·발코니 갖춘 'TERRACE99 동탄' 6월...",
-        "snippet": "서울 연남동 경의선 숲길이 주변 지가를 끌어올린 사례처럼 이미 부동산 시장에서 검증된 공식이 동탄에서도 재현될 전망이다.",
+        "snippet": "서울 연남동 경의선 숲길이 주변 지가를 끌어올린 사례처럼 이미 부동산 시장에서 검증된 공식이 동탄에서도 재현될 전망이다",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.etnews.com/20260622000397",
+        "title": "상부공원 영구 조망에 전 호실 테라스·발코니 갖춘 'TERRACE99 동탄' 6월...",
+        "snippet": "서울 연남동 경의선 숲길이 주변 지가를 끌어올린 사례처럼 이미 부동산 시장에서 검증된 공식이 동탄에서도 재현될 전망이다",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-22T23:06:09.901Z"
-  },
-  {
-    "station_no": "ST-329",
-    "station_name_ko": "서빙고동 금호맨션 앞",
-    "gu_ko": "용산구",
-    "gu_en": "Yongsan-gu",
-    "mention_count": 28,
-    "sentiment_avg": 0.21428571428571427,
-    "summary_ko": "용산구 서빙고동 주변은 한남동·경리단길·망리단길 등 유명 핫플레이스 근처. 용산가족공원 텃밭·숲 체험 가능.",
-    "summary_en": "Yongsan-gu's Seobinggo-dong: near Hannam-dong, Gyeongridan-gil, and Mangridan-gil. Yongsan Family Park offers garden plots and forest treks.",
-    "related_event_ids": [
-      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
-      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
-      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "(토) 손끝에 머무는 계절 - 수국책갈피 (성인)|용산가족공원|2026-06-06",
-      "(토) 용산가족공원 숲티어링|용산가족공원|2026-06-13"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1ucg43v/a_factual_guide_to_korean_equivalents_for_us_otc/",
-        "title": "A Factual Guide to Korean Equivalents for US OTC Medications (Based on Active Ingredients)",
-        "snippet": "For Indigestion/Gas: Gas Whal Myung Su (까스활명수) - a traditional liquid digestive drink.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1ucg43v/a_factual_guide_to_korean_equivalents_for_us_otc/",
-        "title": "A Factual Guide to Korean Equivalents for US OTC Medications (Based on Active Ingredients)",
-        "snippet": "Gas Whal Myung Su (까스활명수) - a traditional liquid digestive drink.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
-        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "One bridge that should not be missed is Dongjak bridge, known for its easy accessibility and beautiful panoramic view of Han River.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://www.hankyung.com/article/2026061853167",
-        "title": "\"하루에 2500만원이나 냈는데\" 한숨…성수동에 무슨 일이",
-        "snippet": "한남동·연남동·익선동...",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-06-22T23:06:09.901Z"
+    "updated_at": "2026-06-23T22:50:26.407Z"
   },
   {
     "station_no": "ST-2525",
     "station_name_ko": "저동2가 22-1",
     "gu_ko": "중구",
     "gu_en": "Jung-gu",
-    "mention_count": 24,
-    "sentiment_avg": 0.08333333333333333,
-    "summary_ko": "중구 저동2가 주변은 을지로·연남동 상권, 5,000원 커스텀 화장품 키오스크 운영. 중구 역사 도보 투어 가능.",
-    "summary_en": "Jung-gu's Jeodong 2-ga: Euljiro and Yeonnam-dong commercial areas. 5,000 won custom cosmetics kiosks. Jung-gu history walking tours available.",
+    "mention_count": 28,
+    "sentiment_avg": 0.25,
+    "summary_ko": "중구 저동2가 일대는 퀴어 나이트와 을지로 바/와인 바 활발. 중구 역사 도보 투어 및 영화 제작 행사 진행 중.",
+    "summary_en": "Jung-gu's Jeodong 2-ga area has Dokkaebar's Queer Night, Euljiro bars. Jung-gu history tours and film events ongoing.",
     "related_event_ids": [
       "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅰ.기획/개발|서울영화센터 7층 다목적실|2026-06-20",
       "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
@@ -193,30 +149,68 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uce2v7/namsan/",
-        "title": "Namsan",
-        "snippet": "Namsan",
+        "url": "https://www.reddit.com/r/seoul/comments/1udhicd/queer_night_in_the_heart_of_seoul_this_friday/",
+        "title": "Queer Night in the heart of Seoul (This Friday)",
+        "snippet": "Queer Night at Dokkaebar ! Euljiro's azit that welcomes everyone! [...] Friday, June 26th 8 PM till midnight No entry fee 📍 Dokkaebar / Spoon House of Euljiro B1, 53 Toegye-ro 27-gil, Jung-gu, Seoul 서울시 중구 퇴계로27길 53 지하 1층",
         "source": "reddit_seoul"
       },
       {
-        "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260622.22012006010",
-        "title": "유통업계 너도나도 초저가 메이크업 제품군 확대",
-        "snippet": "5000원만 내면 커스텀 화장품을 만들 수 있는 키오스크도 서울 강남구 대치동 학원가와 을지로와 연남동 등 젊은 여성 직장인이 많은 매장에 도입했다.",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/seoul/comments/1udhicd/queer_night_in_the_heart_of_seoul_this_friday/",
+        "title": "Queer Night in the heart of Seoul (This Friday)",
+        "snippet": "Euljiro's azit that welcomes everyone! [...] 📍 Dokkaebar / Spoon House of Euljiro B1, 53 Toegye-ro 27-gil, Jung-gu, Seoul 서울시 중구 퇴계로27길 53 지하 1층",
+        "source": "reddit_seoul"
       },
       {
-        "url": "https://www.dt.co.kr/article/12068583?ref=naver",
-        "title": "“올리브영·다이소 비켜”…편의점, ‘초저가 뷰티’ 승부수",
-        "snippet": "대치동 학원가나 을지로, 연남동 등 젊은 직장인과 여성이 밀집한 상권에는 5000원에 맞춤형 화장품을 조제할 수 있는 키오스크까지 도입했다.",
-        "source": "naver_news"
+        "url": "https://www.reddit.com/r/seoul/comments/1udg1s4/night_out_seoul/",
+        "title": "night out seoul",
+        "snippet": "wine and food in Euljiro tonight",
+        "source": "reddit_seoul"
       },
       {
-        "url": "https://biz.sbs.co.kr/article_hub/20000317839?division=NAVER",
-        "title": "\"내 친구 물광 피부 비결, 집 앞 '여기' 에 있었네\"",
-        "snippet": "5천원만 내면 커스텀 화장품을 만들 수 있는 키오스크도 대치동 학원가와 을지로와 연남동 등 젊은 여성 직장인이 많은 매장에 도입했습니다",
+        "url": "https://kr.aving.net/news/articleView.html?idxno=1811923",
+        "title": "[VIVATECH 2026] 배진 본작 대표 \"메이크업·스킨케어보다 뒤처진 향수 산...",
+        "snippet": "이 추천 알고리즘은 현대백화점, 롯데백화점, 무신사 대형 스토어 성수 등 한국의 주요 럭셔리... ",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-06-22T23:06:09.901Z"
+    "updated_at": "2026-06-23T22:50:26.407Z"
+  },
+  {
+    "station_no": "ST-3414",
+    "station_name_ko": "헌릉로 747",
+    "gu_ko": "강남구",
+    "gu_en": "Gangnam-gu",
+    "mention_count": 13,
+    "sentiment_avg": 0.46153846153846156,
+    "summary_ko": "강남구 헌릉로 주변은 과거 강남역, 뉴욕 베이커리, 별마당도서관으로 추억. 현대백화점 무역센터점 연말 장식 인기.",
+    "summary_en": "Gangnam-gu's Heolleung-ro area revives memories of Gangnam Stn., New York Bakery, and Starfield Library. Hyundai Dept. Store's December decor popular.",
+    "related_event_ids": [],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ud7bt4/remember_gangnam_station_2000_our_summer_nights/",
+        "title": "Remember? Gangnam Station 2000 🌃 | Our Summer Nights✨",
+        "snippet": "summer night air of Gangnam Station in 2000",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ud7bt4/remember_gangnam_station_2000_our_summer_nights/",
+        "title": "Remember? Gangnam Station 2000 🌃 | Our Summer Nights✨",
+        "snippet": "now-vanished Daewoo Shopping Town",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ud7bt4/remember_gangnam_station_2000_our_summer_nights/",
+        "title": "Remember? Gangnam Station 2000 🌃 | Our Summer Nights✨",
+        "snippet": "iconic New York Bakery",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ud7bt4/remember_gangnam_station_2000_our_summer_nights/",
+        "title": "Remember? Gangnam Station 2000 🌃 | Our Summer Nights✨",
+        "snippet": "excitement of Tower Records",
+        "source": "reddit_seoul"
+      }
+    ],
+    "updated_at": "2026-06-23T22:50:26.407Z"
   }
 ]
