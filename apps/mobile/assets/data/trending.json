@@ -4,10 +4,10 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 10,
-    "sentiment_avg": 0.8,
-    "summary_ko": "종로구 청계천: 계절별 야외 도서관과 해치마당 디지털 월이 인기. 경복궁과 광화문 광장에서 다양한 문화 체험 가능.",
-    "summary_en": "Jongno-gu's Cheonggyecheon: Seasonal outdoor library and Haechi Madang's digital wall are trending. Explore Gyeongbokgung and Gwanghwamun Square for cultural vibes.",
+    "mention_count": 58,
+    "sentiment_avg": 0.4482758620689655,
+    "summary_ko": "종로구 청계천과 해치마당에서 여름 야외 도서관과 디지털 미디어 월이 인기. 경복궁, 광화문 광장과 함께 역사·현대 명소 즐비.",
+    "summary_en": "Jongno-gu's Cheonggyecheon and Haechi Madang buzz with summer outdoor library, digital media wall. Near Gyeongbokgung, Gwanghwamun—mix of history and modern vibes.",
     "related_event_ids": [
       "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
       "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-30",
@@ -17,127 +17,41 @@
     ],
     "sources": [
       {
+        "url": "https://www.reddit.com/r/seoul/comments/1un0ro9/looking_for_people_to_play_footballfutsal/",
+        "title": "Looking for people to play football(futsal)",
+        "snippet": "most likely around Dongdaemun DDP",
+        "source": "reddit_seoul"
+      },
+      {
         "url": "https://english.visitseoul.net/editorspicks/2026-Cheonggyecheon/ENNazl2lr",
         "title": "An Evening Walk Through Seoul's Living Public Spaces",
-        "snippet": "Cooling Down Along CheonggyecheonThe route begins along one of Seoul's most beloved public spaces...This seasonal initiative transforms sections of the stream into open-air reading spaces from spring through autumn.",
+        "snippet": "Summer evenings in Seoul arrive slowly... Cooling Down Along Cheonggyecheon... one of Seoul's most beloved public spaces... Glass office towers rise above the stream... a white egret stood patiently in the stream...",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-Cheonggyecheon/ENNazl2lr",
         "title": "An Evening Walk Through Seoul's Living Public Spaces",
-        "snippet": "Part of the Seoul Outdoor Library program...Rows of seating line the water's edge while visitors browse books, read beneath parasols...Alongside Korean titles, visitors can also find English-language books.",
+        "snippet": "Part of the Seoul Outdoor Library program... transforms sections of the stream into open-air reading spaces... rows of seating line the water's edge... English-language books... invitation to spend time outdoors...",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-Cheonggyecheon/ENNazl2lr",
         "title": "An Evening Walk Through Seoul's Living Public Spaces",
-        "snippet": "As the route continues west toward Cheonggye Plaza...the atmosphere gradually becomes more active.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Cheonggyecheon/ENNazl2lr",
-        "title": "An Evening Walk Through Seoul's Living Public Spaces",
-        "snippet": "Everyday Moments at Haechi Madang...the large digital media wall appears to be the main attraction.",
+        "snippet": "Everyday Moments at Haechi Madang... beneath Gwanghwamun Square... large digital media wall... colorful animations... community, culture, and shared public space",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-07-03T22:31:26.383Z"
-  },
-  {
-    "station_no": "ST-2217",
-    "station_name_ko": "홍제동 295-33",
-    "gu_ko": "서대문구",
-    "gu_en": "Seodaemun-gu",
-    "mention_count": 9,
-    "sentiment_avg": 0.8888888888888888,
-    "summary_ko": "서대문구 홍제동: 연희숲 쉼터와 홍제천 폭포, 강변 카페들이 주목받는 자연 친화적 동네.",
-    "summary_en": "Seodaemun-gu's Hongje-dong: Trending for Yeonhui Forest and Hongjecheon's 25m waterfall, with riverside cafes like Cafe PoPo.",
-    "related_event_ids": [
-      "서울형 키즈카페 은평구 응암1동점(은평아이맘놀이터)|서울특별시 은평구 은평로 220 은평아이맘놀이터 응암1동점 (주차 공간 없음,  커뮤니티센터 2동 1층)|2026-07-03",
-      "서울형 키즈카페 서대문구 홍제1동점|서울특별시 서대문구 통일로39길 22-31 홍광문화선교원 3층 (홍제동)|2026-07-03",
-      "서울형 키즈카페 서대문구 홍제3동점(키즈땅놀이터)|서울특별시 서대문구 세검정로 104 문화촌제일교회 1층 (홍제3동)|2026-07-03"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1um21rx/any_bangladeshis_at_yonsei/",
-        "title": "Any Bangladeshis at Yonsei?🇧🇩",
-        "snippet": "Any Bangladeshis at Yonsei?",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Yeonhuidong/ENN1itsml",
-        "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
-        "snippet": "연희동, 서대문구에 위치한 동네",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Yeonhuidong/ENN1itsml",
-        "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
-        "snippet": "안산 자락에 위치한 연희숲 쉼터, 도시 속 자연 공간",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Yeonhuidong/ENN1itsml",
-        "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
-        "snippet": "연희숲 쉼터가 위치한 안산",
-        "source": "visit_seoul"
-      }
-    ],
-    "updated_at": "2026-07-03T22:31:26.383Z"
-  },
-  {
-    "station_no": "ST-329",
-    "station_name_ko": "서빙고동 금호맨션 앞",
-    "gu_ko": "용산구",
-    "gu_en": "Yongsan-gu",
-    "mention_count": 4,
-    "sentiment_avg": 1,
-    "summary_ko": "용산구 서빙고동: 이태원 근처로 서울 여름 해변 팝업과 동자교 한강의 경치가 인기. 가족 공원에서 정원 체험도 가능.",
-    "summary_en": "Yongsan-gu's Seobinggo-dong: Popular for Itaewon's pop-up summer beach and Dongjak Bridge's Han River views. Family Park offers gardening workshops.",
-    "related_event_ids": [
-      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
-      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
-      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
-      "(토)프리져브드 플라워 책갈피 만들기(성인)|용산가족공원|2026-07-04",
-      "(토)업사이클링 계란판 미니화분(가족)|용산가족공원|2026-07-04"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1um927l/is_there_someone_who_wants_to_go_to_itaewon_to/",
-        "title": "Is there someone who wants to go to Itaewon to watch Norway vs Brazil?",
-        "snippet": "I wonder if someone wants to go to Sam Ryan's in Itaewon to watch Norway vs Brazil on Sunday morning",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1um927l/is_there_someone_who_wants_to_go_to_itaewon_to/",
-        "title": "Is there someone who wants to go to Itaewon to watch Norway vs Brazil?",
-        "snippet": "I wonder if someone wants to go to Sam Ryan's in Itaewon to watch Norway vs Brazil on Sunday morning",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1umh5c1/upcoming_events_in_july_for_you/",
-        "title": "Upcoming events in July for you",
-        "snippet": "- Seoul Summer Beach (Jul 19–Aug 8) – A pop-up beach experience in the middle of Seoul.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
-        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "One bridge that should not be missed is Dongjak bridge, known for its easy accessibility and beautiful panoramic view of Han River.",
-        "source": "visit_seoul"
-      }
-    ],
-    "updated_at": "2026-07-03T22:31:26.383Z"
+    "updated_at": "2026-07-04T22:23:46.844Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 5,
-    "sentiment_avg": 0.2,
-    "summary_ko": "마포구 서강대역: 연남동·홍대 인근의 MZ세대 선호 부티크 샵들. 7080 향수와 대학 탐방 도보 투어 진행 중.",
-    "summary_en": "Mapo-gu's Seogang Station: Trendy boutiques in Yeonnam-dong and Hongdae. Nostalgic 7080 and university walking tours are ongoing.",
+    "mention_count": 47,
+    "sentiment_avg": 0.6808510638297872,
+    "summary_ko": "마포구 홍대·연남동·망원동 MZ세대 인기. 홍대 상권·숍과 카페, 팝업스토어 등 문화·소비 활동 활발.",
+    "summary_en": "Mapo-gu's Hongdae, Yeonnam-dong, Mangwon-dong trendy with MZ gen. Hongdae's shops, cafes, pop-ups and cultural vibes draw crowds.",
     "related_event_ids": [
       "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
@@ -147,15 +61,9 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1um341q/i_wish_more_kbbq_places_grilled_the_meat_for_you/",
-        "title": "I wish more KBBQ places grilled the meat for you",
-        "snippet": "This was from a recent dinner at Yeonnam Bongsan, and they took care of everything from start to finish. They knew exactly when to flip the pork belly and pork neck, and every piece came out perfectly cooked with a nice char while staying juicy. It honestly made the whole meal a ",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1um4ns2/yosuke_shoes_in_seoul/",
-        "title": "Yosuke shoes in Seoul",
-        "snippet": "I have looked around 홍다e and seongsu, haven’t seen any yet but thought someone may have seen them!",
+        "url": "https://www.reddit.com/r/seoul/comments/1un4isr/anyone_wants_to_drink/",
+        "title": "Anyone wants to drink?",
+        "snippet": "looking to socialize and drink near hongdae today or tomorrow",
         "source": "reddit_seoul"
       },
       {
@@ -169,19 +77,25 @@
         "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
         "snippet": "연희동 옆 연남동, 잘 알려진 동네",
         "source": "visit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
+        "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-07-03T22:31:26.383Z"
+    "updated_at": "2026-07-04T22:23:46.844Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 4,
-    "sentiment_avg": 0.5,
-    "summary_ko": "성동구 서울숲: 포켓몬 메가 페스타 2026과 서울숲 탐험 프로그램이 혼합적 반응. MZ세대 선호 부티크도 관심.",
-    "summary_en": "Seongdong-gu's Seoul Forest: Pokémon Mega Festa 2026 and park exploration programs trending. Mixed reviews, with MZ-favored boutiques adding appeal.",
+    "mention_count": 40,
+    "sentiment_avg": 0.65,
+    "summary_ko": "성동구 서울숲과 성수동 MZ세대 명소. 포어비 커피숍, 서울숲공원, 2026 국제정원박람회 준비 중.",
+    "summary_en": "Seongdong-gu's Seoul Forest and Seongsu-dong popular with MZ gen. FourB coffee, park, 2026 International Garden Expo in the works.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설|서울숲 방문자센터|2026-05-23",
@@ -191,21 +105,15 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1um4ns2/yosuke_shoes_in_seoul/",
-        "title": "Yosuke shoes in Seoul",
-        "snippet": "I have looked around 홍다e and seongsu, haven’t seen any yet but thought someone may have seen them!",
+        "url": "https://www.reddit.com/r/seoul/comments/1ung9er/are_you_in_seoul_and_want_to_exchange_coffee/",
+        "title": "Are you in Seoul and want to exchange coffee beans with me in UK?",
+        "snippet": "I hugely enjoyed both the coffee in situ and the coffee beans I got from FourB in Seoul when I was there earlier this year",
         "source": "reddit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
         "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "Seoul Forest Park transformed with Pokémon’s even taking over most of the area. [...] The atmosphere felt playful, nostalgic, and comforting at the same time.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
-        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "This event is part of the Pokémon 30th Anniversary Project, Pokémon Mega Festa 2026, where the 'Pokémon Secret Forest' was created [...] Fans were also excited because some merchandise can be found here.",
+        "snippet": "Seoul Forest Park transformed with Pokémon’s even taking over most of the area...The atmosphere felt playful, nostalgic, and comforting at the same time.",
         "source": "visit_seoul"
       },
       {
@@ -213,8 +121,102 @@
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
         "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
         "source": "visit_seoul"
+      },
+      {
+        "url": "https://www.mt.co.kr/future/2026/07/05/2026062518182385069",
+        "title": "외국인 지갑 여기서 열렸다…데이터로 본 'K-소비지도'의 대전환",
+        "snippet": "명동을 넘어 성수로, 서울을 넘어 지방으로 외국인의 소비 영토도 넓어졌다.",
+        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-07-03T22:31:26.383Z"
+    "updated_at": "2026-07-04T22:23:46.844Z"
+  },
+  {
+    "station_no": "ST-329",
+    "station_name_ko": "서빙고동 금호맨션 앞",
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "mention_count": 29,
+    "sentiment_avg": 0.6551724137931034,
+    "summary_ko": "용산구 이태원역 주변 영어 토론 모임과 한남동 고급 빌라. 용산가족공원 체험 프로그램 다양.",
+    "summary_en": "Yongsan-gu: Itaewon's English meetups, Hannam-dong luxury. Yongsan Family Park offers gardening, forest tours, and kid-friendly activities.",
+    "related_event_ids": [
+      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
+      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
+      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
+      "(토) 용산가족공원 숲티어링|용산가족공원|2026-07-04",
+      "용산가족공원 꼬물꼬물 호기심 숲 (유아단체)|용산가족공원|2026-07-01"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1unb5cm/itaewon_anyone_down_to_read_the_guardian_and_chat/",
+        "title": "[Itaewon] Anyone down to read The Guardian and chat Koreans?",
+        "snippet": "weekly English discussion group some of us host near Itaewon Station. We meet up every Monday at 7:30 PM for about two hours to chat. The vibe is genuinely warm and welcoming. We have a great mix of people of all ages, including some super passionate, energetic members who bring ",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1unb5cm/itaewon_anyone_down_to_read_the_guardian_and_chat/",
+        "title": "[Itaewon] Anyone down to read The Guardian and chat Koreans?",
+        "snippet": "weekly English discussion group some of us host near Itaewon Station. We meet up every Monday at 7:30 PM for about two hours to chat. The vibe is genuinely warm and welcoming. We have a great mix of people of all ages, including some super passionate, energetic members who bring ",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
+        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
+        "snippet": "One bridge that should not be missed is Dongjak bridge, known for its easy accessibility and beautiful panoramic view of H",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://www.sportschosun.com/volleyball/2026-07-03/202607050100021630001111",
+        "title": "\"무거운 사명감을 느낀다\" 신임 총재가 밝힌 4가지 핵심 비전 과제는?",
+        "snippet": "한국배구연맹(KOVO) 이호진 신임 총재는 3일 서울 한남동 그랜드하얏트 서울 그랜드볼룸에서 열린 총재 이·취임식에서 첫 인사를 나눴다.",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-07-04T22:23:46.844Z"
+  },
+  {
+    "station_no": "ST-2525",
+    "station_name_ko": "저동2가 22-1",
+    "gu_ko": "중구",
+    "gu_en": "Jung-gu",
+    "mention_count": 25,
+    "sentiment_avg": 0.28,
+    "summary_ko": "중구 명동·을지로 상권. 명동스퀘어 야행, 남산 트레킹 등 관광 프로그램 진행 중. 호텔·숙소 부족.",
+    "summary_en": "Jung-gu: Myeongdong, Euljiro commercial hubs. Night walking tours, Namsan treks, but limited lodging near popular areas.",
+    "related_event_ids": [
+      "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-30",
+      "중구 토요일 은하수 길 따라 남산 야간 트레킹|매경미디어센터빌딩|2026-07-04",
+      "(누구나 가드너 입문반) 서울 정원문화힐링센터(가드닝라운지, 서울정원문화힐링센터) 예비정원사 8주 과정 안내|서울 정원문화힐링센터|2026-06-01",
+      "(토)서울 정원문화힐링센터(가드닝라운지)_7월 프로그램 예약 안내|서울 정원문화힐링센터|2026-06-05"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1ungv5a/myeongdong_alternatives/",
+        "title": "Myeongdong alternatives?",
+        "snippet": "I'm planning a 5 night stay for Myeongdong in late-May but it's coming up quite expensive. Are there any nearby neighbourhoods that stick close to location/metro access without sacrificing on bars/restaurants/attractions?",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Cheonggyecheon/ENNazl2lr",
+        "title": "An Evening Walk Through Seoul's Living Public Spaces",
+        "snippet": "Cheonggyecheon Outdoor Library Near Seoul City Hall Station... Free admission... international visitors",
+        "source": "visit_seoul"
+      },
+      {
+        "url": "https://www.mt.co.kr/future/2026/07/05/2026062518182385069",
+        "title": "외국인 지갑 여기서 열렸다…데이터로 본 'K-소비지도'의 대전환",
+        "snippet": "명동을 넘어 성수로, 서울을 넘어 지방으로 외국인의 소비 영토도 넓어졌다.",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.nocutnews.co.kr/news/6542073?utm_source=naver&utm_medium=article&utm_campaign=20260704092019",
+        "title": "'다이소'처럼…편의점, 마트도 초저가 '뷰티' 전쟁",
+        "snippet": "편의점 업계 최초로 5천원만 내면 퍼스널 컬러를 측정해 맞춤형 메이크업 제품을 직접 만들 수 있는 키오스크도 대치동 학원가와 을지로와 연남동 등 젊은 여성 직장인이 많은 매장에 도입했다",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-07-04T22:23:46.844Z"
   }
 ]
