@@ -4,54 +4,96 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 70,
-    "sentiment_avg": 0.4857142857142857,
-    "summary_ko": "종로구 SK 서린빌딩 근처 경복궁, 창경궁 등 역사 명소 사진 스팟으로 인기. 야행 프로그램 등 야간 행사도 진행 중.",
-    "summary_en": "Jongno-gu's ST-181 buzzes with Gyeongbokgung, Changgyeonggung photo spots. Night treks and walking tours are trending nearby.",
+    "mention_count": 7,
+    "sentiment_avg": 1,
+    "summary_ko": "종로구 서린빌딩 근처 경복궁·광화문 일대, 한복 체험과 역사 축제 인기.",
+    "summary_en": "Jongno-gu's Gyeongbokgung area buzzes with hanbok experiences and royal guard ceremonies; Seochon's cafes and shops add charm.",
     "related_event_ids": [
       "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-30",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-07-06",
       "중구 토요일 은하수 길 따라 남산 야간 트레킹|매경미디어센터빌딩|2026-07-04",
       "(누구나 가드너 입문반) 서울 정원문화힐링센터(가드닝라운지, 서울정원문화힐링센터) 예비정원사 8주 과정 안내|서울 정원문화힐링센터|2026-06-01",
       "(토)서울 정원문화힐링센터(가드닝라운지)_7월 프로그램 예약 안내|서울 정원문화힐링센터|2026-06-05"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1unrahz/famous_photo_spots_of_seoul_my_perspective/",
-        "title": "Famous photo spots of Seoul _ My Perspective",
-        "snippet": "Famous photo spots of Seoul _ My Perspective... The locations in question are... Gyeongbokgung",
+        "url": "https://www.reddit.com/r/seoul/comments/1uonx6r/i_went_to_dongdaemun_shopping_complex_on_saturday/",
+        "title": "I went to Dongdaemun Shopping Complex on Saturday to buy one pillow... and walked out with three shopping bags. Here is my honest review and tips for this massive Seoul wholesale market.",
+        "snippet": "I went to Dongdaemun Shopping Complex on Saturday to buy one pillow... and walked out with three shopping bags. Here is my honest review and tips for this massive Seoul wholesale market.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1unrahz/famous_photo_spots_of_seoul_my_perspective/",
-        "title": "Famous photo spots of Seoul _ My Perspective",
-        "snippet": "Famous photo spots of Seoul _ My Perspective... The locations in question are... Changgyeonggung palaces",
+        "url": "https://www.reddit.com/r/seoul/comments/1uofz75/neighborhoods_with_fancy_coffee_and_arty_shops/",
+        "title": "Neighborhoods with fancy coffee and arty shops?",
+        "snippet": "I'm in town for business this week and am looking for a good neighborhood to just wander through and drink good coffee/eat good pastries while popping into random local artisan shops to bring back some cool souvenirs. What's a good neighborhood to do this in for an afternoon brea",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uo626n/how_does_the_jongno_terrace_sound_to_foreigners/",
-        "title": "How does “THE JONGNO TERRACE” sound to foreigners?",
-        "snippet": "in the Jongno area",
-        "source": "reddit_seoul"
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung Palace in Hanbok...Gyeongbokgung Palace 161 Sajik-ro, Jongno-gu, Seoul 09:00 - 18:00 (Closed Tuesdays, varies by season) Subway Line 3, Gyeongbokgung Station, Exit 5, 216m",
+        "source": "visit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uo626n/how_does_the_jongno_terrace_sound_to_foreigners/",
-        "title": "How does “THE JONGNO TERRACE” sound to foreigners?",
-        "snippet": "Jongmyo Shrine",
-        "source": "reddit_seoul"
+        "url": "https://english.visitseoul.net/editorspicks/2026-Timeless/ENNh67f8a",
+        "title": "A Packed, yet Slow Day Through Seoul’s Past: From Palace Grounds to a Timeless Marketplace",
+        "snippet": "Gyeongbokgung: I highly recommend stopping at Gwanghwamun Gate to watch the changing of the royal guard ceremony at 10:00 or 14:00",
+        "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-07-05T22:35:30.923Z"
+    "updated_at": "2026-07-06T22:43:26.779Z"
+  },
+  {
+    "station_no": "ST-2217",
+    "station_name_ko": "홍제동 295-33",
+    "gu_ko": "서대문구",
+    "gu_en": "Seodaemun-gu",
+    "mention_count": 6,
+    "sentiment_avg": 0.8333333333333334,
+    "summary_ko": "서대문 홍제동 인근 카페·홍제천 산책로 인기. 연희숲도 인기 방문지.",
+    "summary_en": "Seodaemun-gu's Hongjecheon Stream and cafes attract visitors; Yeonhui Forest offers green escapes. Mixed local sentiment.",
+    "related_event_ids": [
+      "서울형 키즈카페 은평구 응암1동점(은평아이맘놀이터)|서울특별시 은평구 은평로 220 은평아이맘놀이터 응암1동점 (주차 공간 없음,  커뮤니티센터 2동 1층)|2026-07-06",
+      "서울형 키즈카페 서대문구 홍제1동점|서울특별시 서대문구 통일로39길 22-31 홍광문화선교원 3층 (홍제동)|2026-07-06",
+      "서울형 키즈카페 서대문구 홍제3동점(키즈땅놀이터)|서울특별시 서대문구 세검정로 104 문화촌제일교회 1층 (홍제3동)|2026-07-06"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1uofz75/neighborhoods_with_fancy_coffee_and_arty_shops/",
+        "title": "Neighborhoods with fancy coffee and arty shops?",
+        "snippet": "I'm in town for business this week and am looking for a good neighborhood to just wander through and drink good coffee/eat good pastries while popping into random local artisan shops to bring back some cool souvenirs. What's a good neighborhood to do this in for an afternoon brea",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1uoweer/where_to_find_tams_zero_15l/",
+        "title": "Where to Find Tams Zero (1.5L)",
+        "snippet": "PizzaMall in Sinchon",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1uoweer/where_to_find_tams_zero_15l/",
+        "title": "Where to Find Tams Zero (1.5L)",
+        "snippet": "PizzaMall in Sinchon",
+        "source": "reddit_seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
+        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
+        "snippet": "Hidden quietly in the middle of the city, this café feels like a small escape where the sound of the waterfall slowly replaces the noise of Seoul.",
+        "source": "visit_seoul"
+      }
+    ],
+    "updated_at": "2026-07-06T22:43:26.779Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 38,
-    "sentiment_avg": 0.6578947368421053,
-    "summary_ko": "성동구 서울숲 관리사무소 근처 성수동 카페, 편집숍, 무비랜드 등 MZ세대 핫플. '포어비' 커피숍도 호평.",
-    "summary_en": "Seongdong-gu's ST-1199 thrives with Seongsu-dong cafes, boutiques, and 'FourB' coffee. Pokémon-themed Seoul Forest Park also popular.",
+    "mention_count": 4,
+    "sentiment_avg": 1,
+    "summary_ko": "성동구 서울숲 인근 포켓몬 메가 페스타 2026 행사 예정. 성수동 카페·숍도 인기.",
+    "summary_en": "Seongdong-gu's Seoul Forest hosts Pokémon Mega Festa 2026; Seongsu-dong's MZ-friendly shops thrive.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설|서울숲 방문자센터|2026-05-23",
@@ -61,65 +103,21 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1ung9er/are_you_in_seoul_and_want_to_exchange_coffee/",
-        "title": "Are you in Seoul and want to exchange coffee beans with me in UK?",
-        "snippet": "I hugely enjoyed both the coffee in situ and the coffee beans I got from FourB in Seoul when I was there earlier this year",
+        "url": "https://www.reddit.com/r/seoul/comments/1uofz75/neighborhoods_with_fancy_coffee_and_arty_shops/",
+        "title": "Neighborhoods with fancy coffee and arty shops?",
+        "snippet": "I'm in town for business this week and am looking for a good neighborhood to just wander through and drink good coffee/eat good pastries while popping into random local artisan shops to bring back some cool souvenirs. What's a good neighborhood to do this in for an afternoon brea",
         "source": "reddit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
         "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "Seoul Forest Park transformed with Pokémon’s even taking over most of the area. The moment we walk into the area, it genuinely feels like entering a small Pokémon universe hidden inside Seoul.",
+        "snippet": "Seoul Forest Park transformed with Pokémon’s even taking over most of the area. The atmosphere felt playful, nostalgic, and comforting at the same time.",
         "source": "visit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
-        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://www.hankyung.com/article/202607034172i",
-        "title": "\"평균나이 33살 기막힌 조직\"…편의점 히트상품의 비밀 [권용훈의 트렌...",
-        "snippet": "팀원들은 성수동 팝업스토어와 카페, 편집숍 등을 수시로 둘러보며 온라인에서 포착한 유행이 실제 소비로 이어질 수 있는지 확인한다.",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-07-05T22:35:30.923Z"
-  },
-  {
-    "station_no": "ST-207",
-    "station_name_ko": "서강대역 2번출구 앞",
-    "gu_ko": "마포구",
-    "gu_en": "Mapo-gu",
-    "mention_count": 38,
-    "sentiment_avg": 0.5526315789473685,
-    "summary_ko": "마포구 서강대역 2번출구 근처 연남동, 연희동, 홍대 등 MZ세대 명소. 1970-80s 신촌 도보 여행 등 문화 행사 진행 중.",
-    "summary_en": "Mapo-gu's ST-207 is near Yeonnam-dong, Hongdae. 1970-80s Sinchon walking tours and library events are trending.",
-    "related_event_ids": [
-      "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
-      "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
-      "[서대문도보여행] (4코스) 젊음의 도시 신촌 대학탐방 - 토,일 오전10시|신촌 일대|2026-02-01",
-      "[마포구립서강도서관] 7월/어린이메이킹 [행복맘껏time] 두 번째 일요일은 해봄공간 오픈데이|마포구립서강도서관 4층 어린이자료실 내 해봄|2026-07-12",
-      "[마포구립서강도서관] 7월/어린이메이킹 [해봄아 노올자!] 해봄맘껏time|마포구립서강도서관 4층 어린이자료실 내 해봄|2026-07-02"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1uo0vwi/anyone_wants_to_catch_up_tonight/",
-        "title": "Anyone wants to catch up tonight?",
-        "snippet": "not really into hongdae type of clubbing lol",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Yeonhuidong/ENN1itsml",
-        "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
-        "snippet": "연희동 옆 홍대, 잘 알려진 동네",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Yeonhuidong/ENN1itsml",
-        "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
-        "snippet": "연희동 옆 연남동, 잘 알려진 동네",
+        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
+        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
+        "snippet": "This event is part of the Pokémon 30th Anniversary Project, Pokémon Mega Festa 2026, where the “Pokémon Secret Forest” was created as a special garden space blending urban nature with the world of Pokémon.",
         "source": "visit_seoul"
       },
       {
@@ -129,61 +127,52 @@
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-07-05T22:35:30.923Z"
+    "updated_at": "2026-07-06T22:43:26.779Z"
   },
   {
-    "station_no": "ST-2525",
-    "station_name_ko": "저동2가 22-1",
-    "gu_ko": "중구",
-    "gu_en": "Jung-gu",
-    "mention_count": 35,
-    "sentiment_avg": 0.5142857142857142,
-    "summary_ko": "중구 저동2가 22-1 근처 명동성당, 남산타워 등 명소. 명동 야행 프로그램, 남산 야간 트레킹 등 진행 중.",
-    "summary_en": "Jung-gu's ST-2525 features Myeongdong Cathedral, Namsan Tower. Night treks and light walking tours are active nearby.",
+    "station_no": "ST-302",
+    "station_name_ko": "도림신협 앞",
+    "gu_ko": "영등포구",
+    "gu_en": "Yeongdeungpo-gu",
+    "mention_count": 3,
+    "sentiment_avg": 1,
+    "summary_ko": "영등포 한강공원 스타벅스 원격근무 인기. 타임스퀘어 크리스마스 트리도 화제.",
+    "summary_en": "Yeongdeungpo-gu's Hangang Park Starbucks draws remote workers; Times Square's 13m Christmas tree wows visitors.",
     "related_event_ids": [
-      "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-06-30",
-      "중구 토요일 은하수 길 따라 남산 야간 트레킹|매경미디어센터빌딩|2026-07-04",
-      "(누구나 가드너 입문반) 서울 정원문화힐링센터(가드닝라운지, 서울정원문화힐링센터) 예비정원사 8주 과정 안내|서울 정원문화힐링센터|2026-06-01",
-      "(토)서울 정원문화힐링센터(가드닝라운지)_7월 프로그램 예약 안내|서울 정원문화힐링센터|2026-06-05"
+      "[영등포문화재단] 2026 도림 생활문화센터 특별프로그램|도림 생활문화센터(영등포구 도신로 33길 4)|2026-04-02",
+      "서울형 키즈카페 영등포구 신길4동점|서울특별시 영등포구 신길로40길 5 육아종합지원센터 3층 (신길동)|2026-07-06"
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1unz5if/namsan_tower_nights_view_seoul/",
-        "title": "Namsan Tower Nights View, Seoul",
-        "snippet": "Namsan Tower Nights View, Seoul",
+        "url": "https://www.reddit.com/r/seoul/comments/1uouslg/i_spent_some_time_working_from_the_starbucks_at/",
+        "title": "I spent some time working from the Starbucks at Yeouido Hangang Park this weekend. Has anyone else been there?",
+        "snippet": "I spent some time working from the Starbucks at Yeouido Hangang Park this weekend.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1unrahz/famous_photo_spots_of_seoul_my_perspective/",
-        "title": "Famous photo spots of Seoul _ My Perspective",
-        "snippet": "Famous photo spots of Seoul _ My Perspective... The locations in question are... Myeongdong cathedral",
+        "url": "https://www.reddit.com/r/seoul/comments/1uouslg/i_spent_some_time_working_from_the_starbucks_at/",
+        "title": "I spent some time working from the Starbucks at Yeouido Hangang Park this weekend. Has anyone else been there?",
+        "snippet": "I spent some time working from the Starbucks at Yeouido Hangang Park this weekend.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Cheonggyecheon/ENNazl2lr",
-        "title": "An Evening Walk Through Seoul's Living Public Spaces",
-        "snippet": "Cheonggyecheon Outdoor Library Near Seoul City Hall Station, Free admission Part of the Seoul Outdoor Library program (April–June, September–November)",
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "snippet": "When you step into the first-floor atrium of Yeongdeungpo Times Square, a massive Christmas tree that seems to reach the ceiling welcomes you. It stands at an impressive 13 meters.",
         "source": "visit_seoul"
-      },
-      {
-        "url": "https://www.ajunews.com/view/20260705145127456",
-        "title": "[Why] 글로벌도 토종도 결국 '강남'…외식 브랜드 출점 1순위 된 이유",
-        "snippet": "단기 체류 외국인 생활인구도 1만8547명으로 중구에 이어 서울...",
-        "source": "naver_news"
       }
     ],
-    "updated_at": "2026-07-05T22:35:30.923Z"
+    "updated_at": "2026-07-06T22:43:26.779Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 29,
-    "sentiment_avg": 0.5517241379310345,
-    "summary_ko": "용산구 서빙고동 금호맨션 근처 남산타워, 동자교 등 명소. 'Dice & Comics Cafe' 보드게임, '새로울 카페' 등 핫플.",
-    "summary_en": "Yongsan-gu's ST-329 is near Namsan Tower, Dongjak Bridge. 'Dice & Comics Cafe' and 'Saeraul Cafe' are trending.",
+    "mention_count": 2,
+    "sentiment_avg": 0.5,
+    "summary_ko": "용산 서빙고 인근 한남동 카페 탐방 추천. 서울역 로뎀마트 중립적 평가.",
+    "summary_en": "Yongsan-gu's Hannam-dong cafes popular; Seoul Station LotteMart has mixed reviews. Garden events ongoing.",
     "related_event_ids": [
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
@@ -193,30 +182,18 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1unrahz/famous_photo_spots_of_seoul_my_perspective/",
-        "title": "Famous photo spots of Seoul _ My Perspective",
-        "snippet": "Famous photo spots of Seoul _ My Perspective... The locations in question are Namsan tower",
+        "url": "https://www.reddit.com/r/seoul/comments/1uofz75/neighborhoods_with_fancy_coffee_and_arty_shops/",
+        "title": "Neighborhoods with fancy coffee and arty shops?",
+        "snippet": "I'm in town for business this week and am looking for a good neighborhood to just wander through and drink good coffee/eat good pastries while popping into random local artisan shops to bring back some cool souvenirs. What's a good neighborhood to do this in for an afternoon brea",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1unvzce/playing_blood_on_the_clocktower_dice_comics_cafe/",
-        "title": "Playing Blood on the Clocktower @ Dice & Comics Cafe - July 12th & July 26th (Starting at noon)!",
-        "snippet": "Blood on the Clocktower @ Dice & Comics Cafe - July 12th & July 26th (Starting at noon)! The cafe we play at has an hourly fee for play, with a discount available if a cafe drink is purchased. Gotta show the cafe some love and support for providing us with a place to play.",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1uo626n/how_does_the_jongno_terrace_sound_to_foreigners/",
-        "title": "How does “THE JONGNO TERRACE” sound to foreigners?",
-        "snippet": "Namsan Tower",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1untz5s/need_human_tripod_in_seoul/",
-        "title": "Need human tripod in Seoul",
-        "snippet": "We can meet up at saeraul cafe, they have a dark architectural theme vibe that I can’t get out of my head and I think it would make for a great background shot.",
+        "url": "https://www.reddit.com/r/seoul/comments/1uoweer/where_to_find_tams_zero_15l/",
+        "title": "Where to Find Tams Zero (1.5L)",
+        "snippet": "the LotteMart at Seoul Station",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-07-05T22:35:30.923Z"
+    "updated_at": "2026-07-06T22:43:26.779Z"
   }
 ]
