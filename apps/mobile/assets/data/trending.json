@@ -4,16 +4,16 @@
     "station_name_ko": "SK 서린빌딩 앞",
     "gu_ko": "종로구",
     "gu_en": "Jongno-gu",
-    "mention_count": 68,
-    "sentiment_avg": 0.5147058823529411,
-    "summary_ko": "인사동에서 김치 박물관·김칫집이 화제. 종로구 경복궁역과 청계천에서 이벤트가 활발하다.",
-    "summary_en": "Kimchi museums/restaurants buzzing in Insadong (Jongno-gu); festivals/events ongoing near Gyeongbokgung Station.",
+    "mention_count": 61,
+    "sentiment_avg": 0.5901639344262295,
+    "summary_ko": "종로구 인사동·김치박물관과 청계천 인근에서 팝업·영화워크숍 등 이벤트 활발. 삼계탕·전통거리 관광은 긍정적.",
+    "summary_en": "Events buzz around Jongno-gu's Insadong, Kimchikan Museum, and Cheonggyecheon: pop-ups, film workshops. Samgyetang and traditional streets draw positive reviews.",
     "related_event_ids": [
       "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅱ.프리프로덕션|서울영화센터 7층 다목적실|2026-07-18",
       "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
       "노우찬·이기찬 [입으로 부는 바람 when breath turns to wind]|스페이스 카다로그|2026-07-03",
       "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-07-06",
-      "중구 토요일 은하수 길 따라 남산 야간 트레킹|매경미디어센터빌딩|2026-07-04"
+      "(누구나 가드너 입문반) 서울 정원문화힐링센터(가드닝라운지, 서울정원문화힐링센터) 예비정원사 8주 과정 안내|서울 정원문화힐링센터|2026-06-01"
     ],
     "sources": [
       {
@@ -25,33 +25,33 @@
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-seoulfood/ENNxh7mcn",
         "title": "Seoul Through Food: Five Dishes Every First-Time Visitor Should Know",
-        "snippet": "Museum Kimchikan 35-4, Insadong-gil, Jongno-gu, Seoul",
+        "snippet": "Museum Kimchikan 35-4, Insadong-gil, Jongno-gu, Seoul (서울특별시 종로구 인사동길 35-4)",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-seoulfood/ENNxh7mcn",
         "title": "Seoul Through Food: Five Dishes Every First-Time Visitor Should Know",
-        "snippet": "Tosokchon Samgyetang 5, Jahamun-ro 5-gil, Jongno-gu, Seoul",
+        "snippet": "Subway Line 3, Anguk Station Exit 6, 400 meters / about a 5-minute walk",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-seoulfood/ENNxh7mcn",
         "title": "Seoul Through Food: Five Dishes Every First-Time Visitor Should Know",
-        "snippet": "400m from Gyeongbokgung Station, Line 3; 5 min walk",
+        "snippet": "Tosokchon Samgyetang 5, Jahamun-ro 5-gil, Jongno-gu, Seoul (서울특별시 종로구 자하문로5길 5)",
         "source": "visit_seoul"
       }
     ],
-    "updated_at": "2026-07-17T22:23:30.600Z"
+    "updated_at": "2026-07-18T22:18:04.276Z"
   },
   {
     "station_no": "ST-207",
     "station_name_ko": "서강대역 2번출구 앞",
     "gu_ko": "마포구",
     "gu_en": "Mapo-gu",
-    "mention_count": 34,
-    "sentiment_avg": 0.5294117647058824,
-    "summary_ko": "마포구에서 서강대·영사관 주변으로 스카이블루 거리와 예술 이벤트가 화제.",
-    "summary_en": "Smart blue roads/Hongdae charm spotlighted near Seoul Cinema Center/Mapo-gu tours/events.",
+    "mention_count": 45,
+    "sentiment_avg": 0.5111111111111111,
+    "summary_ko": "마포구 홍대 인근 바·클럽 검색 활발. 신촌 도보여행·문화행사 등 이벤트 다수. 여대생 모임 요청 등 혼재된 반응.",
+    "summary_en": "Hongdae's bars/clubs trending near Mapo-gu. Events: Sinchon walking tours, cultural programs. Mixed vibes—girl meetups requested but budget-friendly options limited.",
     "related_event_ids": [
       "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
       "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
@@ -61,41 +61,41 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uz565k/what_if_every_road_were_sky_blue/",
-        "title": "What if every road were sky blue?☁️",
-        "snippet": "Inspired by a sky-blue road in Mapo",
+        "url": "https://www.reddit.com/r/seoul/comments/1uzpanc/lost_in_the_vibrant_streets_of_hongdae/",
+        "title": "Lost in the vibrant streets of Hongdae 🇰🇷",
+        "snippet": "Lost in the vibrant streets of Hongdae",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uz2grl/the_hongdae_guy_cometh/",
-        "title": "The Hongdae Guy Cometh",
-        "snippet": "The title 'The Hongdae Guy Cometh' directly references Hongdae, a well-known neighborhood in Seoul popular for its youthful energy, street art, and nightlife, which is a common destination for foreign visitors.",
+        "url": "https://www.reddit.com/r/seoul/comments/1uzqsh1/is_namyeong_a_good_place_to_live_for_a_sogang/",
+        "title": "Is Namyeong a good place to live for a Sogang University student?",
+        "snippet": "I originally planned to live in Sinchon or Hongdae, but most of the options within my budget are goshiwons or dorms.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uz07lu/would_you_rather_live_close_to_snu_or_do_a_long/",
-        "title": "Would you rather: live close to SNU or do a long commute?",
-        "snippet": "do a long commute from areas like Sangsu",
+        "url": "https://www.reddit.com/r/seoul/comments/1uzxgza/any_girls_wanna_meetup_in_hongdae_tonight_im_20f/",
+        "title": "any girls wanna meetup in hongdae tonight? (im 20F)",
+        "snippet": "any girls wanna meetup in hongdae tonight? (im 20F) im also a girl and study here in seoul and i would like to connect and have fun with girlfriends! lmk if anyone’s up for it!",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uz0eyb/worldcup_final/",
-        "title": "Worldcup final",
-        "snippet": "Hey guys, we are from Spain and staying in Seoul, where could we go to watch the final?? We are around Hongdae area but we dont know where to find a pub opened at that hour.",
+        "url": "https://www.reddit.com/r/seoul/comments/1uztqsb/trying_to_find_a_pub/",
+        "title": "trying to find a pub",
+        "snippet": "i’m trying to find a cocktail pub/bar that’s in 홍대",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-07-17T22:23:30.600Z"
+    "updated_at": "2026-07-18T22:18:04.276Z"
   },
   {
     "station_no": "ST-1199",
     "station_name_ko": "서울숲 관리사무소",
     "gu_ko": "성동구",
     "gu_en": "Seongdong-gu",
-    "mention_count": 23,
-    "sentiment_avg": 0.2608695652173913,
-    "summary_ko": "서울숲공원 포켓몬 이벤트가 화제지만 성수동 상점 분위기는 평이 분분(성동구).",
-    "summary_en": "Pokemon Mega Festa buzz at Seoul Forest Park (Seongdong-gu); shops garner mixed sentiments.",
+    "mention_count": 25,
+    "sentiment_avg": 0.4,
+    "summary_ko": "성동구 서울숲·성수동 인기. 포케몬 팝업·외국인 관광객 유입 주목. 카페·수레 카페 등 MZ·어르신 모두 찾는 복합공간.",
+    "summary_en": "Seongdong-gu's Seoul Forest and Seongsu-dong trend: Pokémon pop-ups, foreign tourists. Cafés and mobile cafes attract both MZ and seniors.",
     "related_event_ids": [
       "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
       "(서울숲)_ 청년맞춤 정원처방 숲해설|서울숲 방문자센터|2026-05-23",
@@ -107,83 +107,39 @@
       {
         "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
         "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "Seoul Forest Park transformed with Pokémon’s even taking over most of the area. The atmosphere felt playful, nostalgic, and comforting at the same time.",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
-        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
-        "snippet": "This event is part of the Pokémon 30th Anniversary Project, Pokémon Mega Festa 2026, where the “Pokémon Secret Forest” was created as a special garden space blending urban nature with the world of Pokémon.",
+        "snippet": "Seoul Forest Park transformed with Pokémon’s even taking over most of the area. The moment we walk into the area, it genuinely feels like entering a small Pokémon universe hidden inside Seoul.",
         "source": "visit_seoul"
       },
       {
         "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
         "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
-        "snippet": "aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong.",
         "source": "visit_seoul"
       },
       {
-        "url": "https://www.wikitree.co.kr/articles/1146957",
-        "title": "명동·성수 가던 외국인들이 왜 여기에… 외국인 관광객 쓸어 담는 '의외...",
-        "snippet": "명동이나 성수처럼 이미 잘 알려진 쇼핑 명소를 벗어나...",
+        "url": "https://economist.co.kr/article/view/ecn202607150013",
+        "title": "10명 중 6명 다시 찾았다…“배달로봇 사고 ‘0’건”",
+        "snippet": "기자가 요기요 애플리케이션(앱)으로 성수동 소재 한 카페의 커피와 빵을 주문하려고 했더니 선택 가능한 메뉴가 제한됐다. 그래도 인상적이었던 것은 배달라이더보다 예상 도착 가능 시간이 좀 더 빨랐다는 것이다.",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://economist.co.kr/article/view/ecn202607150006",
+        "title": "소비자·라이더 모두 웃는다…배달앱이 로봇에 꽂힌 이유",
+        "snippet": "빌딩 숲이 즐비한 서울 강남은 물론이고 수많은 인파로 혼잡한 핫플레이스 성수동에서도 로봇이 거리를...",
         "source": "naver_news"
       }
     ],
-    "updated_at": "2026-07-17T22:23:30.600Z"
-  },
-  {
-    "station_no": "ST-2525",
-    "station_name_ko": "저동2가 22-1",
-    "gu_ko": "중구",
-    "gu_en": "Jung-gu",
-    "mention_count": 24,
-    "sentiment_avg": 0.125,
-    "summary_ko": "명동스퀘어 야행·남산 트레킹 등 중구 이벤트 진행 중. 명동 쇼핑은 평작.",
-    "summary_en": "Myeongdong night tours/Namsan treks ongoing (Jung-gu); Myeongdong shopping mixed.",
-    "related_event_ids": [
-      "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅱ.프리프로덕션|서울영화센터 7층 다목적실|2026-07-18",
-      "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
-      "노우찬·이기찬 [입으로 부는 바람 when breath turns to wind]|스페이스 카다로그|2026-07-03",
-      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-07-06",
-      "중구 토요일 은하수 길 따라 남산 야간 트레킹|매경미디어센터빌딩|2026-07-04"
-    ],
-    "sources": [
-      {
-        "url": "https://www.reddit.com/r/seoul/comments/1uywamo/reputable_piercing_shops_for_nipple_piercings/",
-        "title": "Reputable piercing shops for nipple piercings",
-        "snippet": "preferrably in Myeongdong",
-        "source": "reddit_seoul"
-      },
-      {
-        "url": "https://english.visitseoul.net/editorspicks/2026-Cheonggyecheon/ENNazl2lr",
-        "title": "An Evening Walk Through Seoul's Living Public Spaces",
-        "snippet": "Near Seoul City Hall Station",
-        "source": "visit_seoul"
-      },
-      {
-        "url": "https://www.wikitree.co.kr/articles/1146957",
-        "title": "명동·성수 가던 외국인들이 왜 여기에… 외국인 관광객 쓸어 담는 '의외...",
-        "snippet": "명동이나 성수처럼 이미 잘 알려진 쇼핑 명소를 벗어나...",
-        "source": "naver_news"
-      },
-      {
-        "url": "https://www.khan.co.kr/article/202607170900011",
-        "title": "여름 별미부터 가을 여행까지…이번주 ‘호텔가 브리핑’",
-        "snippet": "호텔업계가 여름 성수기와 다가오는 가을 여행 수요를 동시에 겨냥한 시즌 마케팅에 속도를 내고 있다.... 베이커리 카페 이용 혜택 등을 제공한다. 여름 시즌 미식 경쟁도 눈에 띈다. 파크 하얏트 서울의 이탈리안...",
-        "source": "naver_news"
-      }
-    ],
-    "updated_at": "2026-07-17T22:23:30.600Z"
+    "updated_at": "2026-07-18T22:18:04.276Z"
   },
   {
     "station_no": "ST-329",
     "station_name_ko": "서빙고동 금호맨션 앞",
     "gu_ko": "용산구",
     "gu_en": "Yongsan-gu",
-    "mention_count": 20,
-    "sentiment_avg": 0.15,
-    "summary_ko": "용산가족공원 텃밭 분양·숲 체험 등 용산구 가족 행사 진행 중. 서울스카이 기념품 인기.",
-    "summary_en": "Yongsan Family Park allotments/forest events (Yongsan-gu); Seoul Sky souvenirs still trending.",
+    "mention_count": 24,
+    "sentiment_avg": 0.20833333333333334,
+    "summary_ko": "용산구 한남동 럭셔리 부티크·이태원 테크노 클럽 언급. 용산가족공원 텃밭 분양 등 자연행사 위주. 부정적 평가 일부.",
+    "summary_en": "Yongsan-gu's Hannam-dong luxury boutiques and Itaewon techno clubs mentioned. Events: Yongsan Family Park allotments. Some negative sentiment.",
     "related_event_ids": [
       "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
       "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
@@ -193,30 +149,74 @@
     ],
     "sources": [
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uza9gi/enamel_pin_souvenir/",
-        "title": "Enamel pin souvenir",
-        "snippet": "enamel pins from Seoul sky",
+        "url": "https://www.reddit.com/r/seoul/comments/1uzrzjl/chrome_hearts_location/",
+        "title": "chrome hearts location??",
+        "snippet": "Chrome Hearts' rumored Seoul location (not 'chrome hearts seoul' or 'hans room') is likely in Hannam-dong, Yongsan-gu, where luxury boutiques cluster.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uyp84y/is_yoons_color_still_open_to_the_public/",
-        "title": "Is Yoon's Color still open to the public?",
-        "snippet": "I am a huge fan of the Endless Love Series and ChatGPT suggested this place. I wonder if this is still open to the public, with all of the exhibits still there?",
+        "url": "https://www.reddit.com/r/seoul/comments/1uzrzjl/chrome_hearts_location/",
+        "title": "chrome hearts location??",
+        "snippet": "Yongsan district reference from Chrome Hearts' association with Hannam-dong area.",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uz07lu/would_you_rather_live_close_to_snu_or_do_a_long/",
-        "title": "Would you rather: live close to SNU or do a long commute?",
-        "snippet": "do a long commute from areas like Hannam",
+        "url": "https://www.reddit.com/r/seoul/comments/1uzqsh1/is_namyeong_a_good_place_to_live_for_a_sogang/",
+        "title": "Is Namyeong a good place to live for a Sogang University student?",
+        "snippet": "I found a private studio in a co-living building in Namyeong that’s about 2–5 minutes from both the subway and bus stops. I’ve been a working professional for several years, so having my own private space is important to me. A studio is more expensive than a goshiwon, but I think",
         "source": "reddit_seoul"
       },
       {
-        "url": "https://www.reddit.com/r/seoul/comments/1uywamo/reputable_piercing_shops_for_nipple_piercings/",
-        "title": "Reputable piercing shops for nipple piercings",
-        "snippet": "preferrably in Itaewon",
+        "url": "https://www.reddit.com/r/seoul/comments/1uzj179/hi_any_girls_hanging_out_in_itaewon_tonight/",
+        "title": "hi any girls hanging out in itaewon tonight?",
+        "snippet": "hi any girls hanging out in itaewon tonight? there is a big hard techno dj in waikiki utopia and i am planning to to go solo..",
         "source": "reddit_seoul"
       }
     ],
-    "updated_at": "2026-07-17T22:23:30.600Z"
+    "updated_at": "2026-07-18T22:18:04.276Z"
+  },
+  {
+    "station_no": "ST-2525",
+    "station_name_ko": "저동2가 22-1",
+    "gu_ko": "중구",
+    "gu_en": "Jung-gu",
+    "mention_count": 20,
+    "sentiment_avg": 0.45,
+    "summary_ko": "중구 을지로4가 푸르지오 아트홀 공연·야경 특구 조성. 롯데백화점 먹거리·오마카세 닭요리 등 상권 활성화 이벤트.",
+    "summary_en": "Jung-gu's Euljiro-4ga art hall performances, night economy zones. Events: Lotte Dept. food, omakase chicken—boosting local commerce.",
+    "related_event_ids": [
+      "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅱ.프리프로덕션|서울영화센터 7층 다목적실|2026-07-18",
+      "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
+      "노우찬·이기찬 [입으로 부는 바람 when breath turns to wind]|스페이스 카다로그|2026-07-03",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-07-06",
+      "(누구나 가드너 입문반) 서울 정원문화힐링센터(가드닝라운지, 서울정원문화힐링센터) 예비정원사 8주 과정 안내|서울 정원문화힐링센터|2026-06-01"
+    ],
+    "sources": [
+      {
+        "url": "https://sports.donga.com/life/article/all/20260718/134320294/1",
+        "title": "아이재아 제이 톰슨 전통 재즈의 새 얼굴 서울에 뜬다",
+        "snippet": "서울 을지로4가 푸르지오 아트홀에서 첫 내한공연을 연다",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://sports.donga.com/life/article/all/20260718/134320294/1",
+        "title": "아이재아 제이 톰슨 전통 재즈의 새 얼굴 서울에 뜬다",
+        "snippet": "서울 을지로4가 푸르지오 아트홀에서 첫 내한공연을 연다",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.ngetnews.com/news/articleView.html?idxno=551606",
+        "title": "롯데백화점, 먹거리로 '몰캉스' 수요 공략",
+        "snippet": "롯데백화점, 먹거리로 '몰캉스' 수요 공략",
+        "source": "naver_news"
+      },
+      {
+        "url": "https://www.ngetnews.com/news/articleView.html?idxno=551606",
+        "title": "롯데백화점, 먹거리로 '몰캉스' 수요 공략",
+        "snippet": "한식 오마카세 을지로보석의 조서형 셰프는 23일까지 찹쌀 누룽지 김치 치즈닭을 판매한다",
+        "source": "naver_news"
+      }
+    ],
+    "updated_at": "2026-07-18T22:18:04.276Z"
   }
 ]
