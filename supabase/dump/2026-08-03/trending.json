@@ -1,0 +1,208 @@
+[
+  {
+    "rank": 3,
+    "station_no": "ST-329",
+    "station_name_ko": "서빙고동 금호맨션 앞",
+    "gu_ko": "용산구",
+    "gu_en": "Yongsan-gu",
+    "mention_count": 4,
+    "sentiment_avg": 0.25,
+    "summary_ko": "용산구 서빙고동: 용산가족공원 텃밭 분양과 숲 체험 프로그램 진행. 주변 호평은 적으나 일부 카페·공원은 긍정적 반응.",
+    "summary_en": "Yongsan-gu's Seobinggo-dong: Yongsan Family Park allotments and forest programs running. Mixed reviews; some cafes/parks praised.",
+    "related_event_ids": [
+      "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
+      "용산가족공원 텃밭 분양(단체)|용산가족공원>텃밭|2026-02-20",
+      "용산가족공원 텃밭 분양(휠체어 장애인-개인)|용산가족공원>텃밭|2026-02-12",
+      "(토) 용산가족공원 숲티어링|용산가족공원|2026-07-04",
+      "용산가족공원 꼬물꼬물 호기심 숲 (유아단체)|용산가족공원|2026-07-01"
+    ],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1v1awjt/biweekly_outdoor_drawing_meetup_on_sunday/",
+        "title": "Biweekly Outdoor Drawing Meetup on Sunday",
+        "source": "reddit_seoul",
+        "snippet": "Last time we went to a cafe in Yongsan!"
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1v1tprm/looking_for_a_showweird_restaurants/",
+        "title": "Looking for a show/weird restaurants",
+        "source": "reddit_seoul",
+        "snippet": "The only one I found which is not in full Korean, is Nanta but feels a bit too touristy."
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1v1bwb4/where_not_to_stay_in_seoul_grand_hyatt/",
+        "title": "Where not to stay in Seoul- Grand Hyatt",
+        "source": "reddit_seoul",
+        "snippet": "Location- other reviews were right horrible location if you want to be in the heart of the action. There is nothing outside the hotel. If you want to get away from Seoul this is where you come."
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
+        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
+        "source": "visit_seoul",
+        "snippet": "One bridge that should not be missed is Dongjak bridge, known for its easy accessibility and beautiful panoramic view of Seoul."
+      }
+    ],
+    "entry_updated_at": "2026-07-20T22:27:42.958+00:00",
+    "updated_at": "2026-07-20T22:27:43.937+00:00"
+  },
+  {
+    "rank": 2,
+    "station_no": "ST-2217",
+    "station_name_ko": "홍제동 295-33",
+    "gu_ko": "서대문구",
+    "gu_en": "Seodaemun-gu",
+    "mention_count": 8,
+    "sentiment_avg": 1,
+    "summary_ko": "서대문구 홍제동: 연희숲쉼터와 홍제천 인공폭포, 카페 포크포·팝코 인기. 유아 숲체험·키즈카페 등 가족 행사 많아.",
+    "summary_en": "Seodaemun-gu's Hongje-dong: Yeonhui Forest Retreat, Hongjecheon Waterfall, and cafes Pokpo/Popco are trending. Preschool and kids' events abound.",
+    "related_event_ids": [
+      "서울형 키즈카페 은평구 응암1동점(은평아이맘놀이터)|서울특별시 은평구 은평로 220 은평아이맘놀이터 응암1동점 (주차 공간 없음,  커뮤니티센터 2동 1층)|2026-07-20",
+      "서울형 키즈카페 서대문구 홍제1동점|서울특별시 서대문구 통일로39길 22-31 홍광문화선교원 3층 (홍제동)|2026-07-20",
+      "서울형 키즈카페 서대문구 홍제3동점(키즈땅놀이터)|서울특별시 서대문구 세검정로 104 문화촌제일교회 1층 (홍제3동)|2026-07-20",
+      "[서대문구]인왕산 유아숲체험원 주중 오후 숲체험 프로그램|인왕산 유아숲 체험원|2026-07-16",
+      "[서대문구]백련산유아숲체험원-주중 오후 숲체험 프로그램|백련산유아숲체험원>백련산유아숲체험원|2026-07-15"
+    ],
+    "sources": [
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Yeonhuidong/ENN1itsml",
+        "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
+        "source": "visit_seoul",
+        "snippet": "Yeonhui-dong, located right next to Hongdae and Yeonnam-dong...If you have already seen enough of Seoul's major tourist attractions, this is the perfect place to experience a day in the life of Seoulites."
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Yeonhuidong/ENN1itsml",
+        "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
+        "source": "visit_seoul",
+        "snippet": "Nestled at the foot of Ansan Mountain, 'Yeonhui Forest Retreat' is more than just a green space; it is somewhere residents and tourists alike can pause and take a break."
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Yeonhuidong/ENN1itsml",
+        "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
+        "source": "visit_seoul",
+        "snippet": "Nestled at the foot of Ansan Mountain, 'Yeonhui Forest Retreat'...The walking trails are well-maintained and easy to navigate."
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-Yeonhuidong/ENN1itsml",
+        "title": "Strolling Through Yeonhui-dong: Embracing the Warmth and Poetic Charm of the Afternoon",
+        "source": "visit_seoul",
+        "snippet": "Following that sound will lead you to a massive waterfall next to Hongjecheon Stream. This breathtaking attraction is the 'Hongjecheon Artificial Waterfall.'"
+      }
+    ],
+    "entry_updated_at": "2026-07-20T22:27:42.958+00:00",
+    "updated_at": "2026-07-20T22:27:43.937+00:00"
+  },
+  {
+    "rank": 4,
+    "station_no": "ST-3414",
+    "station_name_ko": "헌릉로 747",
+    "gu_ko": "강남구",
+    "gu_en": "Gangnam-gu",
+    "mention_count": 3,
+    "sentiment_avg": 0.333333333333333,
+    "summary_ko": "강남구 헌릉로: 코엑스 근처 하얏트 호텔 호평. 풋살 클럽·코엑스 몰은 중립적 반응. 특별 행사 없음.",
+    "summary_en": "Gangnam-gu's Heollin-ro: Hyatt near COEX praised. Futsal club/COEX Mall have mixed feedback. No standout events.",
+    "related_event_ids": [],
+    "sources": [
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1v1hqwg/anyone_interested_in_joining_a_futsal_team/",
+        "title": "Anyone interested in joining a futsal team?",
+        "source": "reddit_seoul",
+        "snippet": "I run a futsal club in Seocho-gu near Gangnam and I am wondering if anyone's interested in joining our team."
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1v1bwb4/where_not_to_stay_in_seoul_grand_hyatt/",
+        "title": "Where not to stay in Seoul- Grand Hyatt",
+        "source": "reddit_seoul",
+        "snippet": "I saw the Hyatt in Gangnam near Coex mall and it looked amazing! Close to several metro stations and massive mall."
+      },
+      {
+        "url": "https://www.reddit.com/r/seoul/comments/1v1bwb4/where_not_to_stay_in_seoul_grand_hyatt/",
+        "title": "Where not to stay in Seoul- Grand Hyatt",
+        "source": "reddit_seoul",
+        "snippet": "I saw the Hyatt in Gangnam near Coex mall and it looked amazing! Close to several metro stations and massive mall."
+      }
+    ],
+    "entry_updated_at": "2026-07-20T22:27:42.958+00:00",
+    "updated_at": "2026-07-20T22:27:43.937+00:00"
+  },
+  {
+    "rank": 5,
+    "station_no": "ST-1199",
+    "station_name_ko": "서울숲 관리사무소",
+    "gu_ko": "성동구",
+    "gu_en": "Seongdong-gu",
+    "mention_count": 2,
+    "sentiment_avg": 1,
+    "summary_ko": "성동구 서울숲: 포켓몬 이벤트로 활기, MZ세대 선호 성수동 부티크 숍도 인기. 탐험가·정원 프로그램 등 행사 다양.",
+    "summary_en": "Seongdong-gu's Seoul Forest: Pokémon event boosts vibes, with MZ-favored Seongsu-dong boutiques. Explorer, garden, and expo events ongoing.",
+    "related_event_ids": [
+      "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
+      "(서울숲)_ 청년맞춤 정원처방 숲해설|서울숲 방문자센터|2026-05-23",
+      "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
+      "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
+      "수도박물관 전시 해설 예약|수도박물관|2025-01-02"
+    ],
+    "sources": [
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-PokémonMegaFesta/ENN937m85",
+        "title": "Seoul’s Summer Escape: Slow Walks Through Nature, Afternoon coffee, And Sunsets",
+        "source": "visit_seoul",
+        "snippet": "Seoul Forest Park transformed with Pokémon's even taking over most of the area. The atmosphere felt playful, nostalgic, and comforting at the same time."
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/IndoorWinter/ENNyc2ldw",
+        "title": "Indoor spaces with festive trees in Seoul, full of ‘end-of-the-year’ vibes",
+        "source": "visit_seoul",
+        "snippet": "All of them are aesthetic lifestyle boutique shops with strong appeal among the MZ generation from areas like Seongsu-dong and Mangwon-dong."
+      }
+    ],
+    "entry_updated_at": "2026-07-20T22:27:42.958+00:00",
+    "updated_at": "2026-07-20T22:27:43.937+00:00"
+  },
+  {
+    "rank": 1,
+    "station_no": "ST-181",
+    "station_name_ko": "SK 서린빌딩 앞",
+    "gu_ko": "종로구",
+    "gu_en": "Jongno-gu",
+    "mention_count": 21,
+    "sentiment_avg": 0.857142857142857,
+    "summary_ko": "종로구 인사동: 김칫간 뮤지엄과 토속촌 삼계탕이 인기, 청계천과 경복궁역 근처. 영화·정원·야행 프로그램 등 다양한 행사 중.",
+    "summary_en": "Jongno-gu's Insadong: Museum Kimchikan and Tosokchon Samgyetang are trending, near Cheonggyecheon and Gyeongbokgung. Film, garden, and night tour events ongoing.",
+    "related_event_ids": [
+      "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅱ.프리프로덕션|서울영화센터 7층 다목적실|2026-07-18",
+      "[서울영화센터] 단체관람 할인 안내|서울영화센터 상영관 1,2,3|2026-06-11",
+      "노우찬·이기찬 [입으로 부는 바람 when breath turns to wind]|스페이스 카다로그|2026-07-03",
+      "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-07-06",
+      "(누구나 가드너 입문반) 서울 정원문화힐링센터(가드닝라운지, 서울정원문화힐링센터) 예비정원사 8주 과정 안내|서울 정원문화힐링센터|2026-06-01"
+    ],
+    "sources": [
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-seoulfood/ENNxh7mcn",
+        "title": "Seoul Through Food: Five Dishes Every First-Time Visitor Should Know",
+        "source": "visit_seoul",
+        "snippet": "Museum Kimchikan hiding in the traditional streets of Insadong"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-seoulfood/ENNxh7mcn",
+        "title": "Seoul Through Food: Five Dishes Every First-Time Visitor Should Know",
+        "source": "visit_seoul",
+        "snippet": "Museum Kimchikan 35-4, Insadong-gil, Jongno-gu, Seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-seoulfood/ENNxh7mcn",
+        "title": "Seoul Through Food: Five Dishes Every First-Time Visitor Should Know",
+        "source": "visit_seoul",
+        "snippet": "Tosokchon Samgyetang 5, Jahamun-ro 5-gil, Jongno-gu, Seoul"
+      },
+      {
+        "url": "https://english.visitseoul.net/editorspicks/2026-seoulfood/ENNxh7mcn",
+        "title": "Seoul Through Food: Five Dishes Every First-Time Visitor Should Know",
+        "source": "visit_seoul",
+        "snippet": "400m from Gyeongbokgung Station, Line 3; 5 min walk"
+      }
+    ],
+    "entry_updated_at": "2026-07-20T22:27:42.958+00:00",
+    "updated_at": "2026-07-20T22:27:43.937+00:00"
+  }
+]

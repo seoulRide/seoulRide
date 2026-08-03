@@ -1,0 +1,2722 @@
+[
+  {
+    "anchor_station_no": "ST-1199",
+    "rank": 1,
+    "event_id": "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
+    "reason_ko": "오늘 진행 중인 서울숲 탐험 프로그램",
+    "reason_en": "Ongoing Seoul Forest exploration program today",
+    "distance_km": 0.0237193841475844,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-1199",
+    "rank": 2,
+    "event_id": "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
+    "reason_ko": "오늘 진행 중인 국제 정원 박람회",
+    "reason_en": "Ongoing international garden expo today",
+    "distance_km": 0.0378095518190575,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-1199",
+    "rank": 3,
+    "event_id": "[성동문화재단] 2026 두모포 뮤지컬 페스티벌|옥수역 하부 한강공원|2026-07-04",
+    "reason_ko": "오늘 진행 중인 뮤지컬 페스티벌",
+    "reason_en": "Ongoing musical festival today",
+    "distance_km": 0.430792625237556,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-1199",
+    "rank": 4,
+    "event_id": "여름식탁 : 여섯 개의 손, 하나의 식탁|국가유산체험센터 1층 케잇 갤러리 (성동구 아차산로47)|2026-07-01",
+    "reason_ko": "오늘 진행 중인 문화 전시",
+    "reason_en": "Ongoing cultural exhibition today",
+    "distance_km": 0.789139954182739,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-1199",
+    "rank": 5,
+    "event_id": "서울숲 여름방학 특별 _동화속 작은정원(7월)|생태학습장|2026-07-29",
+    "reason_ko": "다가오는 여름방학 특별 체험",
+    "reason_en": "Upcoming summer vacation special experience",
+    "distance_km": 0.697327474918616,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-207",
+    "rank": 1,
+    "event_id": "[이한열기념관] 6월 민주항쟁 39주년 기념 하반기 특별 전시 《이런 양심수》|이한열기념관 3층 기획전시실|2026-06-08",
+    "reason_ko": "실내 전시, 역사 교육 적합",
+    "reason_en": "Indoor exhibition, ideal for historical learning today",
+    "distance_km": 0.235883236567618,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-207",
+    "rank": 2,
+    "event_id": "[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]|마포구립서강도서관 4층 어린이자료실|2026-07-01",
+    "reason_ko": "가까운 실내 갤러리, 어린이 친화적",
+    "reason_en": "Close indoor gallery, child-friendly today",
+    "distance_km": 0.614365054429956,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-207",
+    "rank": 3,
+    "event_id": "[서대문도보여행] (3코스) 신촌 응답하라 7080 - 토,일 오전10시|신촌 일대|2026-02-01",
+    "reason_ko": "근거리 역사 탐방, 화요일에는 비운영",
+    "reason_en": "Close historic tour, not available today (Tue)",
+    "distance_km": 0.421748707369913,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-207",
+    "rank": 4,
+    "event_id": "[마포구립서강도서관] 7월/팟캐스트 서강도서관 피셜 69회 [레볼루셔너리 로드]|마포구립서강도서관|2026-07-01",
+    "reason_ko": "실시간 팟캐스트, 실내 문화 활동",
+    "reason_en": "Live podcast, indoor cultural activity today",
+    "distance_km": 0.614365054429956,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-207",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 서대문구 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 키즈카페, 가족 친화적",
+    "reason_en": "Today-open kids cafe, family-friendly today",
+    "distance_km": 2.56867466419248,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-502",
+    "rank": 1,
+    "event_id": "[서울백제어린이박물관] 영유아 가족 대상 동화교육 <도란도란~ 이야기 시간여행>",
+    "reason_ko": "7월 21일 현재 진행 중, 0.6km",
+    "reason_en": "Ongoing on 21st, 0.6km, family-friendly",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-502",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 강동구 성내1동점(아이·맘 강동)",
+    "reason_ko": "7월 20-27일 운영, 0.7km, 실내",
+    "reason_en": "Indoor, 0.7km, July 20-27, child-friendly",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-502",
+    "rank": 3,
+    "event_id": "서울형 키즈카페 강동구 성내2동점(아이·맘 강동)",
+    "reason_ko": "7월 20-27일 운영, 0.8km, 실내",
+    "reason_en": "Indoor, 0.8km, July 20-27, family-cafe",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-502",
+    "rank": 4,
+    "event_id": "[7월 송파 청년아티스트센터 프로그램] 데구르르 액션! 규칙에 따라 구슬로 그리는 추상화 (전연령/무료)",
+    "reason_ko": "7월 1-31일, 1.5km, 전연령 체험",
+    "reason_en": "1.5km, free, all-ages art (July 1-31)",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-502",
+    "rank": 5,
+    "event_id": "[송파 청년아티스트센터] 3기 릴레이 개인전 [부풀리고 터뜨리며 본 것들-민주미]",
+    "reason_ko": "7월 1-13일, 1.5km, 실내 전시",
+    "reason_en": "1.5km, indoor art (July 1-13), last days",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-474",
+    "rank": 1,
+    "event_id": "[서울기록원] 어린이 기록체험실 <꼬불꼬불 기록 탐험> 2026년 7월 개별 관람|서울기록원|2026-07-01",
+    "reason_ko": "오늘 운영 중인 어린이 전시 (0.6km)",
+    "reason_en": "Running today, kid-friendly exhibition (0.6km)",
+    "distance_km": 0.62055987426604,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-474",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 은평구 불광2동점(은평아이맘놀이터)|서울특별시 은평구 불광로18길 6 2-3층 (불광동, 수리마을 들락날락)|2026-07-20",
+    "reason_ko": "오늘 운영되는 가까운 키즈카페 (1.2km)",
+    "reason_en": "Operating today, nearest kids cafe (1.2km)",
+    "distance_km": 1.24572088116207,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-474",
+    "rank": 3,
+    "event_id": "[서울기록원] 기록으로 산책하기_서울의 공원 展|서울기록원 2층 제2전시실|2025-10-23",
+    "reason_ko": "계속 운영되는 공원 전시 (0.6km)",
+    "reason_en": "Ongoing parks exhibition (0.6km)",
+    "distance_km": 0.607623534323613,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-474",
+    "rank": 4,
+    "event_id": "[서울기록원] 전시 [어느 도시의 탑승록]|서울기록원 2층 제1전시실|2025-10-23",
+    "reason_ko": "장기 전시로 접근 용이 (0.6km)",
+    "reason_en": "Long-running exhibition (0.6km)",
+    "distance_km": 0.607623534323613,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-474",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 은평구 응암1동점(은평아이맘놀이터)|서울특별시 은평구 은평로 220 은평아이맘놀이터 응암1동점 (주차 공간 없음, 커뮤니티센터 2동 1층)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 근접 키즈카페 (1.3km)",
+    "reason_en": "Operating today, nearby kids cafe (1.3km)",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-870",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 구로구 개봉1동점|서울특별시 구로구 경인로 318-15 2층 (개봉동)|2026-07-20",
+    "reason_ko": "7월 21일 오늘 운영 중, 0.4km 초근접",
+    "reason_en": "Operating today, 0.4km away, family-friendly",
+    "distance_km": 0.401935804718539,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-870",
+    "rank": 2,
+    "event_id": "구로 반려식물 클리닉 (26년7월)|구로구 정원지원센터|2026-07-01",
+    "reason_ko": "7월 21일 현재 진행, 0.5km 생활 경험",
+    "reason_en": "Ongoing until 7/31, 0.5km, plant care workshop",
+    "distance_km": 0.45321323165255,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-870",
+    "rank": 3,
+    "event_id": "서울아트책보고] 어린이 프로그램 [그림책 예술놀이: 상상하는 우리]|서울아트책보고 워크숍룸|2026-06-27",
+    "reason_ko": "7월 21일 관련 전시 중, 0.8km 문화 체험",
+    "reason_en": "Exhibition ongoing, 0.8km, art play for children",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-870",
+    "rank": 4,
+    "event_id": "구로구 원데이클래스] 업사이클링 북바인딩 원데이클래스 (7/25, 7/29, 7/31)|서울아트책보고|2026-07-25",
+    "reason_ko": "7월 21일 사전 등록 가능, 0.8km 체험",
+    "reason_en": "Upcoming 7/25, 0.8km, bookbinding craft",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-870",
+    "rank": 5,
+    "event_id": "서울아트책보고] 소설가와 함께 소설 읽기 - 정용준 소설가|서울아트책보고 워크숍룸|2026-07-02",
+    "reason_ko": "7월 21일 관련 진행, 0.8km 문학 활동",
+    "reason_en": "Ongoing until 7/30, 0.8km, novel reading",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2525",
+    "rank": 1,
+    "event_id": "[서울영화센터] 스마트폰으로 만드는 나만의 영화 - ⅱ.프리프로덕션|서울영화센터 7층 다목적실|2026-07-18",
+    "reason_ko": "오늘 진행 중, 0.1km 초근접 체험",
+    "reason_en": "Currently running, 0.1km away, hands-on experience",
+    "distance_km": 0.127387284268889,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2525",
+    "rank": 2,
+    "event_id": "노우찬·이기찬 [입으로 부는 바람 when breath turns to wind]|스페이스 카다로그|2026-07-03",
+    "reason_ko": "오늘까지 전시, 0.2km 가까운 실내 전시",
+    "reason_en": "Exhibition ends today, 0.2km away, indoor",
+    "distance_km": 0.223213827118851,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2525",
+    "rank": 3,
+    "event_id": "명동스퀘어, 빛을 걷다(도보관광 야행 프로그램)|명동대성당|2026-07-06",
+    "reason_ko": "오늘 진행 야간 도보 체험, 0.4km",
+    "reason_en": "Night walking tour ongoing, 0.4km, cultural venue",
+    "distance_km": 0.366255812304039,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2525",
+    "rank": 4,
+    "event_id": "[공평도시유적전시관] 직장인 대상 점심시간 전시해설 '공평 시티브루 - 30분 도시 산책'|공평도시유적전시관|2026-07-01",
+    "reason_ko": "오늘 진행 점심시간 전시 해설, 1km",
+    "reason_en": "Lunchtime tour ongoing, 1km, historical context",
+    "distance_km": 0.991383678000469,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2525",
+    "rank": 5,
+    "event_id": "[서울갤러리] 런치 스테이지 [ 첼리스트 빅바플]|서울갤러리 지하 1층 공연장|2026-07-25",
+    "reason_ko": "목요일 실내 공연, 1.1km",
+    "reason_en": "Thursday indoor concert, 1.1km, tourist-friendly",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2217",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 서대문구 홍제1동점|서울특별시 서대문구 통일로39길 22-31 홍광문화선교원 3층 (홍제동)|2026-07-20",
+    "reason_ko": "0.3km 내 현재 운영 중",
+    "reason_en": "0.3km, running now, close to station",
+    "distance_km": 0.341707997980284,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2217",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 서대문구 홍제3동점(키즈땅놀이터)|서울특별시 서대문구 세검정로 104 문화촌제일교회 1층 (홍제3동)|2026-07-20",
+    "reason_ko": "0.7km 내 현재 운영 중",
+    "reason_en": "0.7km, running now, close to station",
+    "distance_km": 0.700753983645573,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2217",
+    "rank": 3,
+    "event_id": "[서울기록원] 어린이 기록체험실 <꼬불꼬불 기록 탐험> 2026년 7월 개별 관람|서울기록원|2026-07-01",
+    "reason_ko": "1.9km 내 전시, 현재 운영 중",
+    "reason_en": "1.9km, running now, indoor exhibition",
+    "distance_km": 1.91630155928771,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2217",
+    "rank": 4,
+    "event_id": "서울형 키즈카페 서대문구 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동)|2026-07-20",
+    "reason_ko": "3km 내 현재 운영 중",
+    "reason_en": "3km, running now, farthest but valid",
+    "distance_km": 2.99463458705534,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2217",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 서대문구 baby 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동) (남가좌동)|2026-07-20",
+    "reason_ko": "3km 내 현재 운영 중, 영어 제목",
+    "reason_en": "3km, running now, English title present",
+    "distance_km": 2.99463458705534,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-825",
+    "rank": 1,
+    "event_id": "옛 서울시장 공관의 역사와 한양도성의 의미(2026년 7월)|한양도성 혜화동 전시안내센터(옛 시장공관)|2026-07-01",
+    "reason_ko": "오늘 진행 중인 역사 전시",
+    "reason_en": "Ongoing history exhibition today",
+    "distance_km": 0.291117544245117,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-825",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 종로구 혜화동점(종로 혜명 아이들 상상놀이터)|서울특별시 종로구 성균관로 91 올림픽기념국민생활관 2층 (혜화동)|2026-07-20",
+    "reason_ko": "0.7km 내 어린이 친화적 체험",
+    "reason_en": "Kids-friendly within 0.7km today",
+    "distance_km": 0.687827746929995,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-825",
+    "rank": 3,
+    "event_id": "2026 아시테지 국제여름축제 [랑랑별 때때롱]|종로 아이들극장|2026-07-29",
+    "reason_ko": "근처 국제 어린이 축제 (29-30일)",
+    "reason_en": "Nearby international kids' festival",
+    "distance_km": 0.725925423930358,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-825",
+    "rank": 4,
+    "event_id": "서울형 키즈카페 성북구 성북동점|서울특별시 성북구 성북로4길 21 2층 서울형키즈카페 성북동점 (동소문동1가)|2026-07-20",
+    "reason_ko": "0.1km 내 현재 운영 중인 키즈카페",
+    "reason_en": "Kids cafe operating 0.1km away today",
+    "distance_km": 0.142508121445786,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-825",
+    "rank": 5,
+    "event_id": "jcc 건축탐방 : 안도 타다오 건축을 읽다|jcc재능아트센터, 재능크리에이티브센터|2026-07-07",
+    "reason_ko": "0.4km 내 건축 체험 (오늘 종료)",
+    "reason_en": "Architecture tour ending today (0.4km)",
+    "distance_km": 0.427634593981573,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-1210",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 성북구 종암동점|서울특별시 성북구 종암로19길 60 성북함께어울림센터, 2층 (종암동)|2026-07-20",
+    "reason_ko": "오늘 진행 중, 1.6km 내 가까운 체험",
+    "reason_en": "Ongoing today, 1.6km - close & family-friendly",
+    "distance_km": 1.55352445577185,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-1210",
+    "rank": 2,
+    "event_id": "옛 서울시장 공관의 역사와 한양도성의 의미(2026년 7월)|한양도성 혜화동 전시안내센터(옛 시장공관)|2026-07-01",
+    "reason_ko": "7월 내 진행, 2.7km 내 역사 전시",
+    "reason_en": "Ongoing in July, 2.7km - cultural & historical",
+    "distance_km": 2.72674153835771,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-1210",
+    "rank": 3,
+    "event_id": "2026 아시테지 국제여름축제 [랑랑별 때때롱]|종로 아이들극장|2026-07-29",
+    "reason_ko": "7월 말 진행, 2.8km 내 국제 축제",
+    "reason_en": "Upcoming in July, 2.8km - international children's festival",
+    "distance_km": 2.83780494833708,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-1210",
+    "rank": 4,
+    "event_id": "jcc 건축탐방 : 안도 타다오 건축을 읽다|jcc재능아트센터, 재능크리에이티브센터|2026-07-07",
+    "reason_ko": "7월 내 진행, 2.9km 내 건축 체험",
+    "reason_en": "Ongoing in July, 2.9km - architecture tour for enthusiasts",
+    "distance_km": 2.91380940682491,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-1210",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 성북구 벌집어린이공원점|서울특별시 성북구 월곡로7길 56-7 서울형 키즈카페 성북구 벌집어린이공원점 (종암동)|2026-07-20",
+    "reason_ko": "오늘 진행 중, 1.8km 내 추가 체험",
+    "reason_en": "Ongoing today, 1.8km - additional family option",
+    "distance_km": 1.80071763169786,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-387",
+    "rank": 1,
+    "event_id": "아차산 여가센터 7월 프로그램|아차산여가센터|2026-06-21",
+    "reason_ko": "오늘 운영 중인 근접 체험 프로그램",
+    "reason_en": "Nearby ongoing experience program today",
+    "distance_km": 0.830302091217963,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-387",
+    "rank": 2,
+    "event_id": "광진구숲해설-성인 ,가족주말(서울형정원처방)(6,7월)|광진구 아차산 어울림정원 광장|2026-05-23",
+    "reason_ko": "주말 관광 친화적 정원 체험 프로그램",
+    "reason_en": "Tourist-friendly weekend garden program near today",
+    "distance_km": 0.889215292574569,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-387",
+    "rank": 3,
+    "event_id": "[7월 송파 청년아티스트센터 프로그램] 보이지 않는 얼굴을 그리다 (전연령/무료)|송파 청년아티스트센터|2026-07-01",
+    "reason_ko": "무료 체험 프로그램 - 오늘 마감 임박",
+    "reason_en": "Free art experience ending today near anchor",
+    "distance_km": 1.57933719954476,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-387",
+    "rank": 4,
+    "event_id": "[서울둘레길안내센터] 숲길위의 하모니 1차 7/16(목)|광나루역|2026-07-16",
+    "reason_ko": "역사 당일 근접한 산책 이벤트",
+    "reason_en": "Forest trail event held yesterday near station",
+    "distance_km": 0.0909320520886577,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-387",
+    "rank": 5,
+    "event_id": "[광진구] 아차산 치유의 숲길- 7월 산림치유 프로그램(토)- 가족|치유의 숲길(아차산어울림광장 주변)|2026-07-01",
+    "reason_ko": "가족 친화적 산림 치유 프로그램 운영 중",
+    "reason_en": "Family forest healing program ongoing nearby",
+    "distance_km": 0.846540959328483,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-113",
+    "rank": 1,
+    "event_id": "[서울상상나라] 가방에 쏘옥!|서울상상나라 b1 표현놀이실|2026-07-21",
+    "reason_ko": "오늘 시작, 2.4km, 어린이 체험",
+    "reason_en": "Starts today, 2.4km, child-friendly activity",
+    "distance_km": 2.4019721119879,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-113",
+    "rank": 2,
+    "event_id": "[광진문화재단] 2026 나루랑 버스킹|청춘뜨락, 아차산 토요한마당 상설무대|2026-04-04",
+    "reason_ko": "1.8km, 현재 진행 중, 야외 공연",
+    "reason_en": "1.8km, ongoing, open-air performance",
+    "distance_km": 1.84167588410975,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-113",
+    "rank": 3,
+    "event_id": "[서울상상나라] 그림책 작업실: 사소하고 특별한|서울상상나라 b1 기획전시실|2026-07-04",
+    "reason_ko": "2.4km, 장기 전시, 실내 활동",
+    "reason_en": "2.4km, long-term exhibit, indoor activity",
+    "distance_km": 2.4019721119879,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-113",
+    "rank": 4,
+    "event_id": "[서울상상나라] 두들팝|상상나라극장|2026-08-01",
+    "reason_ko": "2.4km, 8월 공연, 가족 친화적",
+    "reason_en": "2.4km, Aug performance, family-friendly",
+    "distance_km": 2.4019721119879,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-113",
+    "rank": 5,
+    "event_id": "[서울둘레길안내센터] 숲길위의 하모니 1차 7/16(목)|광나루역|2026-07-16",
+    "reason_ko": "2.2km, 7/16 단회, 자연 체험",
+    "reason_en": "2.2km, 7/16 one-day, nature experience",
+    "distance_km": 2.24915323386145,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3010",
+    "rank": 1,
+    "event_id": "7월 공모선정작품 [공연봄날]|서울문화예술교육센터 은평, 서울문화예술교육센터 서초, 북서울 꿈의숲아트센터|2026-07-01",
+    "reason_ko": "7월 21일 현재 진행 중인 공연",
+    "reason_en": "Currently running until July 17",
+    "distance_km": 0.350416023556772,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3010",
+    "rank": 2,
+    "event_id": "용산가족공원 꼬물꼬물 호기심 숲 (유아단체)|용산가족공원|2026-07-01",
+    "reason_ko": "2.2km 내 7월 체험 가능 유아 친화적 활동",
+    "reason_en": "2.2km away, July experience for preschoolers",
+    "distance_km": 2.17027036260827,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3010",
+    "rank": 3,
+    "event_id": "자연물 염색 (유아단체)|용산가족공원|2026-07-01",
+    "reason_ko": "2.2km 내 7월 자연체험 프로그램",
+    "reason_en": "Natural dyeing workshop until July 22",
+    "distance_km": 2.17027036260827,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3010",
+    "rank": 4,
+    "event_id": "〔방학특별〕용산가족공원 곤충교실(초등)|용산가족공원|2026-07-30",
+    "reason_ko": "방학 특별 7월 30일 곤충 체험",
+    "reason_en": "Vacation special insect class on July 30",
+    "distance_km": 2.17027036260827,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3010",
+    "rank": 5,
+    "event_id": "[서초문화재단] 2026 공공미술 전시 [wonder street]|서초구 전역 원베일리 공공보행로 피카소벽화거리|2026-04-27",
+    "reason_ko": "0.4km 내 상설 전시 관광명소",
+    "reason_en": "0.4km public art exhibition in Seocho",
+    "distance_km": 0.378697541271785,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-565",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 성북구 벌집어린이공원점|서울특별시 성북구 월곡로7길 56-7 서울형 키즈카페 성북구 벌집어린이공원점 (종암동)|2026-07-20",
+    "reason_ko": "0.3km 근접, 키즈카페 체험 가능",
+    "reason_en": "Closest (0.3km) kids cafe open today",
+    "distance_km": 0.269148447788462,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-565",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 성북구 종암동점|서울특별시 성북구 종암로19길 60 성북함께어울림센터, 2층 (종암동)|2026-07-20",
+    "reason_ko": "0.7km 거리, 체험 이벤트 진행 중",
+    "reason_en": "0.7km away, active experience event",
+    "distance_km": 0.686187037971091,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-565",
+    "rank": 3,
+    "event_id": "[문화공간이육사] 2026 기획전시 [육사답사]|문화공간이육사 3층 교목실|2026-05-18",
+    "reason_ko": "0.6km, 전시 관람 가능 (실내)",
+    "reason_en": "Indoor exhibition 0.6km away today",
+    "distance_km": 0.588075729674053,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-565",
+    "rank": 4,
+    "event_id": "[성북문화재단] 브런치콘서트 [11시11분] - 미드나잇 인 파리|꿈빛극장|2026-07-24",
+    "reason_ko": "1.6km, 내일 시작 콘서트 (영어 제목)",
+    "reason_en": "Concert starts tomorrow (1.6km)",
+    "distance_km": 1.63156972329123,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-565",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 성북구 월곡1동점|서울특별시 성북구 오패산로10길 19 육아종합지원센터 2층 (하월곡동)|2026-07-20",
+    "reason_ko": "0.9km, 키즈카페 운영 중 (영어)",
+    "reason_en": "Kids cafe 0.9km with English title",
+    "distance_km": 0.854318768603324,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-311",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 양천구 신트리공원점|서울특별시 양천구 목동동로 5 서울형 키즈카페 양천구 신트리공원점 (신정동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 가까운 실내 체험",
+    "reason_en": "Today's running indoor experience nearby",
+    "distance_km": 1.89847484201253,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-311",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 시립 목동점|서울특별시 양천구 안양천로 1131 지식산업센터 2층 (목동)|2026-07-20",
+    "reason_ko": "목동 인근 오늘 운영 키즈카페",
+    "reason_en": "Today's running kids cafe near Mokdong",
+    "distance_km": 2.19512268060627,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-311",
+    "rank": 3,
+    "event_id": "서울아트책보고 워크숍룸|서울아트책보고 워크숍룸|2026-07-22",
+    "reason_ko": "내일 시작하는 책 서평 워크숍",
+    "reason_en": "Tomorrow's book review workshop nearby",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-311",
+    "rank": 4,
+    "event_id": "구로 재난안전체험장|구로재난안전체험장|2024-11-01",
+    "reason_ko": "상시 운영 재난 체험 시설",
+    "reason_en": "Always-open disaster experience center",
+    "distance_km": 2.92679431479652,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-311",
+    "rank": 5,
+    "event_id": "서울아트책보고 워크숍룸|서울아트책보고 워크숍룸|2026-07-26",
+    "reason_ko": "주말 오카리나 음악 체험",
+    "reason_en": "Saturday ocarina music experience",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-475",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 은평구 갈곡리공원점(은평아이맘놀이터)|서울특별시 은평구 갈현로41길 3 지하1층, 지상1층 (갈현동 ,주차공간 없음)|2026-07-20",
+    "reason_ko": "7/20~27 진행, 0.9km 내 키즈카페",
+    "reason_en": "Kids cafe running now, within 1km",
+    "distance_km": 0.850511822854664,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-475",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 은평구 불광2동점(은평아이맘놀이터)|서울특별시 은평구 불광로18길 6 2-3층 (불광동, 수리마을 들락날락)|2026-07-20",
+    "reason_ko": "7/20~27 진행, 1km 내 키즈카페",
+    "reason_en": "Family-friendly cafe ongoing, under 1.5km",
+    "distance_km": 0.959754067312941,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-475",
+    "rank": 3,
+    "event_id": "[서울기록원] 어린이 기록체험실 <꼬불꼬불 기록 탐험> 2026년 7월 개별 관람|서울기록원|2026-07-01",
+    "reason_ko": "7월 전시 체험, 1.6km 내 실내 활동",
+    "reason_en": "Indoor children's exhibition running all July",
+    "distance_km": 1.59028088726046,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-475",
+    "rank": 4,
+    "event_id": "문예북흥 no.66 - 함민복 시인이 살고 있는 강화의 보드랍고 야들야들한 개흙, 발을 잡아주고 가는 길도 잡아주는, 그 『말랑말랑한 힘』의 단단함|이호철북콘서트홀|2026-07-25",
+    "reason_ko": "7/25 문학 행사, 0.6km 내 사전 예약 가능",
+    "reason_en": "Literature event nearby (0.6km), starts 7/25",
+    "distance_km": 0.553812155331464,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-475",
+    "rank": 5,
+    "event_id": "[서울기록원] 전시 [어느 도시의 탑승록]|서울기록원 2층 제1전시실|2025-10-23",
+    "reason_ko": "장기 전시, 1.6km 내 실내 문화 체험",
+    "reason_en": "Long-running city exhibition indoors (1.6km)",
+    "distance_km": 1.57684142185241,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-249",
+    "rank": 1,
+    "event_id": "[성동문화재단] 판타지 발레 [구미호]|소월아트홀|2026-07-25",
+    "reason_ko": "오늘 날씨 불확실, 실내 공연 선호",
+    "reason_en": "Weather unavailable, indoor performance preferred",
+    "distance_km": 0.489263916021589,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-249",
+    "rank": 2,
+    "event_id": "서울숲 여름방학 특별 _동화속 작은정원(7월)|생태학습장|2026-07-29",
+    "reason_ko": "7월 진행, 서울숲 명소 관광 추천",
+    "reason_en": "July event at iconic Seoul Forest venue",
+    "distance_km": 1.32895574003193,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-249",
+    "rank": 3,
+    "event_id": "[청계천박물관] 청계천의 별이 된 노무라 모토유키|청계천박물관 기획전시|2026-06-13",
+    "reason_ko": "장기 전시, 문화 명소 청계천 박물관",
+    "reason_en": "Long-running exhibition at cultural landmark",
+    "distance_km": 1.3361777506692,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-249",
+    "rank": 4,
+    "event_id": "여름식탁 : 여섯 개의 손, 하나의 식탁|국가유산체험센터 1층 케잇 갤러리 (성동구 아차산로47)|2026-07-01",
+    "reason_ko": "7월 전시, 실내 문화 체험 적합",
+    "reason_en": "July indoor exhibition ideal for weather",
+    "distance_km": 1.69052136722963,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-249",
+    "rank": 5,
+    "event_id": "프랑스 음악 레퍼토리 [french repertoire] 피아니스트 김기경|스튜디오301 성수|2026-07-25",
+    "reason_ko": "7월 콘서트, 실내 음악회 날씨 영향 적음",
+    "reason_en": "July concert with minimal weather impact",
+    "distance_km": 1.38921534685269,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-369",
+    "rank": 1,
+    "event_id": "[SeMA 백남준기념관] 메가트론 랩소디 megatron rhapsody|sema 백남준기념관|2025-06-17",
+    "reason_ko": "7월 21일 현재 진행 중, 0.9km",
+    "reason_en": "Ongoing today, 0.9km, weather-agnostic exhibition",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-369",
+    "rank": 2,
+    "event_id": "[동대문문화재단] 2026 생생 국가유산 사업 [지구를 지키는 선농마켓]|선농단역사문화공원 및 선농단역사문화관|2026-07-04",
+    "reason_ko": "7월 21일 현재, 1.3km, 문화 행사",
+    "reason_en": "Ongoing today, 1.3km, cultural festival for tourists",
+    "distance_km": 1.33994029081911,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-369",
+    "rank": 3,
+    "event_id": "[청계천박물관] 청계천의 별이 된 노무라 모토유키|청계천박물관 기획전시|2026-06-13",
+    "reason_ko": "7월 21일 현재, 1km, 유명 전시",
+    "reason_en": "Ongoing today, 1km, well-known cultural exhibition",
+    "distance_km": 1.01220686911857,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-369",
+    "rank": 4,
+    "event_id": "2026 아시테지 국제여름축제|아르코예술극장, 아르코꿈밭극장, 종로아이들극장, 서울연극창작센터, 모두예술극장|2026-07-23",
+    "reason_ko": "7월 23일 시작, 2.1km, 국제 축제",
+    "reason_en": "Starts 7/23, 2.1km, international summer festival",
+    "distance_km": 2.1307602594814,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-369",
+    "rank": 5,
+    "event_id": "대학로1등 판타지코믹연극 [타임]|대학로스타릿홀 5층|2026-07-15",
+    "reason_ko": "7월 15일 시작, 2.1km, 영어 제목",
+    "reason_en": "Starts 7/15, 2.1km, real English title present",
+    "distance_km": 2.07871559403072,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-314",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 양천구 신트리공원점|서울특별시 양천구 목동동로 5 서울형 키즈카페 양천구 신트리공원점 (신정동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 가까운 키즈카페",
+    "reason_en": "Today's operating nearby kids cafe (0.2km)",
+    "distance_km": 0.179490206515176,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-314",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 양천구 신정4동점|서울특별시 양천구 은행정로 29 대한교회 후문 교육관 센터위드  4층 (신정동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 또 다른 가까운 키즈카페",
+    "reason_en": "Another today's operating kids cafe (0.9km)",
+    "distance_km": 0.86812404563873,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-314",
+    "rank": 3,
+    "event_id": "구로 재난안전체험장|구로재난안전체험장|2024-11-01",
+    "reason_ko": "오늘 체험 가능 교육 시설",
+    "reason_en": "Today's available safety experience center",
+    "distance_km": 2.10249165402332,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-314",
+    "rank": 4,
+    "event_id": "서울형 키즈카페 구로구 개봉1동점|서울특별시 구로구 경인로 318-15 2층 (개봉동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 인근 키즈카페",
+    "reason_en": "Today's operating nearby kids cafe (2km)",
+    "distance_km": 2.04638175707111,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-314",
+    "rank": 5,
+    "event_id": "[서울문화재단] 2026 서울문화예술교육센터 양천 [모두의 아뜰리에] 상설 체험 프로그램: 《오늘의 색, 오늘의 기억》|서울문화예술교육센터 양천 1층 로비|2026-06-10",
+    "reason_ko": "오늘 체험 가능 문화 시설",
+    "reason_en": "Today's available cultural experience center",
+    "distance_km": 2.47712542563557,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-321",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 양천구 신월3동점|서울특별시 양천구 남부순환로 374 4층(신나다비전센터)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 가장 가까운 키즈카페",
+    "reason_en": "Closest today-open kids cafe (0.2km)",
+    "distance_km": 0.172508986092827,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-321",
+    "rank": 2,
+    "event_id": "[서울문화재단] 2026 서울문화예술교육센터 양천 [모두의 아뜰리에] 상설 체험 프로그램: 《오늘의 색, 오늘의 기억》|서울문화예술교육센터 양천 1층 로비|2026-06-10",
+    "reason_ko": "문화재단 체험 프로그램, 오늘 운영 중",
+    "reason_en": "Cultural foundation program running today",
+    "distance_km": 0.495510620376106,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-321",
+    "rank": 3,
+    "event_id": "서울형 키즈카페 양천구 신월5동점|서울특별시 양천구 화곡로4길 10 신월5동주민센터 6층 (신월동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 2번째로 가까운 키즈카페",
+    "reason_en": "2nd-closest today-open kids cafe (0.7km)",
+    "distance_km": 0.743645422243589,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-321",
+    "rank": 4,
+    "event_id": "강서정원지원센터 \"꿈꾸는 정원\" (7월)- 화요일, 금요일|강서정원지원센터|2026-07-01",
+    "reason_ko": "7월 운영 중인 정원 프로그램, 화/금 가능",
+    "reason_en": "July garden program (Tue/Fri available)",
+    "distance_km": 2.57434121292331,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-321",
+    "rank": 5,
+    "event_id": "2026년 양천구 숲해설 무료체험 : (토) 꿈꾸는 우리 가족 숲놀이! 숲속 보물을 찾아라!|계남근린공원유아숲체험원(양천구 계남다목적체육관|2026-07-13",
+    "reason_ko": "무료 숲체험 프로그램, 주말 운영 중",
+    "reason_en": "Free forest experience program (Sat available)",
+    "distance_km": 2.71163761303198,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-212",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 서대문구 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 가장 가까운 키즈카페",
+    "reason_en": "Closest running kids cafe today (0.7km)",
+    "distance_km": 0.67945438894351,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-212",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 서대문구 baby 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동) (남가좌동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 아기 친화적 키즈카페",
+    "reason_en": "Baby-friendly cafe running today (0.7km)",
+    "distance_km": 0.67945438894351,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-212",
+    "rank": 3,
+    "event_id": "마포 스마트팜 체험관 견학|마포 스마트팜 체험관|2026-06-29",
+    "reason_ko": "오늘 가능한 실내 스마트팜 체험전",
+    "reason_en": "Indoor smart farm exhibition available today",
+    "distance_km": 1.61747893592708,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-212",
+    "rank": 4,
+    "event_id": "7월[마포 스마트팜 체험관] 어린이 초록빛 미래농장 교육 · 체험 프로그램|마포 스마트팜 체험관|2026-07-01",
+    "reason_ko": "7월 중 진행 중인 어린이 교육 프로그램",
+    "reason_en": "Ongoing children's program this month (1.6km)",
+    "distance_km": 1.61747893592708,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-212",
+    "rank": 5,
+    "event_id": "[구립증산도서관] 7월 주말영화상영안내|구립증산도서관 2층 소강당|2026-07-01",
+    "reason_ko": "7월 중 실내 영화 상영 프로그램",
+    "reason_en": "Indoor film screenings this month (1.7km)",
+    "distance_km": 1.73990693497503,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2214",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 서대문구 북가좌1동점(다정다감 키즈카페)|서울특별시 서대문구 수색로8길 48-4 사회교육관 3층 (북가좌동)|2026-07-20",
+    "reason_ko": "0.3km 내 오늘 진행 중인 키즈카페",
+    "reason_en": "0.3km: running today, family-friendly",
+    "distance_km": 0.334357962119282,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2214",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 서대문구 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동)|2026-07-20",
+    "reason_ko": "0.8km 내 오늘 시작 키즈카페 (영어 제목)",
+    "reason_en": "0.8km: starts today, real English title",
+    "distance_km": 0.838524062754599,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2214",
+    "rank": 3,
+    "event_id": "서울형 키즈카페 서대문구 baby 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동) (남가좌동)|2026-07-20",
+    "reason_ko": "0.8km 내 오늘 시작 유아 전용 키즈카페",
+    "reason_en": "0.8km: starts today, baby-specific",
+    "distance_km": 0.838524062754599,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2214",
+    "rank": 4,
+    "event_id": "[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기|구립증산도서관 2층 종합자료실 앞|2026-07-01",
+    "reason_ko": "0.8km 내 오늘까지 진행 중인 여름 전시",
+    "reason_en": "0.8km: running until today, summer theme",
+    "distance_km": 0.795922357566511,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2214",
+    "rank": 5,
+    "event_id": "7월[마포 스마트팜 체험관] 어린이 초록빛 미래농장 교육 · 체험 프로그램|마포 스마트팜 체험관|2026-07-01",
+    "reason_ko": "2.3km 내 오늘까지 진행 어린이 교육",
+    "reason_en": "2.3km: running until today, child education",
+    "distance_km": 2.34041622870052,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-211",
+    "rank": 1,
+    "event_id": "7월[마포 스마트팜 체험관] 어린이 초록빛 미래농장 교육 · 체험 프로그램|마포 스마트팜 체험관|2026-07-01",
+    "reason_ko": "오늘 운영 중인 0.6km 스마트팜 체험 (어린이 친화적)",
+    "reason_en": "Currently running 0.6km smart farm experience (child-friendly)",
+    "distance_km": 0.587021420499028,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-211",
+    "rank": 2,
+    "event_id": "마포 스마트팜 체험관 견학|마포 스마트팜 체험관|2026-06-29",
+    "reason_ko": "0.6km 스마트팜 견학 (장기 운영 중)",
+    "reason_en": "0.6km smart farm tour (long-term running)",
+    "distance_km": 0.587021420499028,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-211",
+    "rank": 3,
+    "event_id": "[구립증산도서관] 하계 부모교육 특강 - 친구에게 휘둘리지 않는 아이의 단단한 말하기|구립증산도서관 2층 강당|2026-07-20",
+    "reason_ko": "오늘 2.4km 부모교육 특강 (실용성 높음)",
+    "reason_en": "Today's 2.4km parenting lecture (high practical value)",
+    "distance_km": 2.4427596195061,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-211",
+    "rank": 4,
+    "event_id": "서울형 키즈카페 서대문구 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동)|2026-07-20",
+    "reason_ko": "1.9km 키즈카페 (오늘 운영)",
+    "reason_en": "1.9km kids cafe (currently open)",
+    "distance_km": 1.85282771140335,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-211",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 서대문구 baby 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동) (남가좌동)|2026-07-20",
+    "reason_ko": "1.9km 베이비 키즈카페 (오늘 운영)",
+    "reason_en": "1.9km baby kids cafe (currently open)",
+    "distance_km": 1.85282771140335,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-272",
+    "rank": 1,
+    "event_id": "[sema 백남준기념관] 메가트론 랩소디 megatron rhapsody|sema 백남준기념관|2025-06-17",
+    "reason_ko": "0.9km, 백남준 기념관 전시, 오늘 진행 중",
+    "reason_en": "0.9km, SeMA Nam June Paik Art Center, ongoing today",
+    "distance_km": 0.888723313859055,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-272",
+    "rank": 2,
+    "event_id": "2026 아시테지 국제여름축제|아르코예술극장, 아르코꿈밭극장, 종로아이들극장, 서울연극창작센터, 모두예술극장|2026-07-23",
+    "reason_ko": "1.9km, 국제 공연 축제, 7/23~8/2 진행",
+    "reason_en": "1.9km, International performance festival, 7/23-8/2",
+    "distance_km": 1.91985628196551,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-272",
+    "rank": 3,
+    "event_id": "[동대문문화재단] 2026 생생 국가유산 사업 [지구를 지키는 선농마켓]|선농단역사문화공원 및 선농단역사문화관|2026-07-04",
+    "reason_ko": "1km, 선농단 역사공원, 7/4 종료한 문화 행사",
+    "reason_en": "1km, Seonnongdan Park, cultural event ended 7/4",
+    "distance_km": 0.991343670874768,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-272",
+    "rank": 4,
+    "event_id": "대학로1등 판타지코믹연극 [타임]|대학로스타릿홀 5층|2026-07-15",
+    "reason_ko": "1.9km, 대학로 연극, 오늘 포함 진행 중",
+    "reason_en": "1.9km, Daehangno play, ongoing including today",
+    "distance_km": 1.86802437026558,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-272",
+    "rank": 5,
+    "event_id": "[청계천박물관] 청계천의 별이 된 노무라 모토유키|청계천박물관 기획전시|2026-06-13",
+    "reason_ko": "1.1km, 청계천박물관 전시, 10/11까지 진행",
+    "reason_en": "1.1km, Cheonggyecheon Museum, ongoing until 10/11",
+    "distance_km": 1.11312820229859,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-106",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 성동구 성수1가1동점(성수 키즈카페)|서울특별시 성동구 뚝섬로3길 18 성수1가1동주민센터 1층 (성수동1가)|2026-07-20",
+    "reason_ko": "0.4km 내 현재 진행 중 실내 체험",
+    "reason_en": "0.4km, ongoing indoor experience",
+    "distance_km": 0.368404276195602,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-106",
+    "rank": 2,
+    "event_id": "여름식탁 : 여섯 개의 손, 하나의 식탁|국가유산체험센터 1층 케잇 갤러리 (성동구 아차산로47)|2026-07-01",
+    "reason_ko": "0.8km 실내 전시, 문화유산 연계",
+    "reason_en": "0.8km indoor exhibition at heritage venue",
+    "distance_km": 0.817935482236652,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-106",
+    "rank": 3,
+    "event_id": "[서울상상나라] 가방에 쏘옥!|서울상상나라 b1 표현놀이실|2026-07-21",
+    "reason_ko": "2.5km 어린이 친화적 당일 체험",
+    "reason_en": "2.5km kid-friendly today-only workshop",
+    "distance_km": 2.51359579155938,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-106",
+    "rank": 4,
+    "event_id": "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
+    "reason_ko": "1km 야외 탐방 (날씨 무관 연중 운영)",
+    "reason_en": "1km outdoor exploration (weather-neutral)",
+    "distance_km": 1.01431387369349,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-106",
+    "rank": 5,
+    "event_id": "수도박물관 전시 해설 예약|수도박물관|2025-01-02",
+    "reason_ko": "0.9km 실내 박물관 해설 예약 가능",
+    "reason_en": "0.9km indoor museum tour reservations open",
+    "distance_km": 0.909130886540725,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-312",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 양천구 신정4동점|서울특별시 양천구 은행정로 29 대한교회 후문 교육관 센터위드  4층 (신정동)|2026-07-20",
+    "reason_ko": "오늘 진행 중인 0.5km 거리 키즈카페",
+    "reason_en": "0.5km kids cafe running today",
+    "distance_km": 0.540359133660549,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-312",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 양천구 신트리공원점|서울특별시 양천구 목동동로 5 서울형 키즈카페 양천구 신트리공원점 (신정동)|2026-07-20",
+    "reason_ko": "1.2km 내 실시간 운영 키즈카페",
+    "reason_en": "1.2km kids cafe open now",
+    "distance_km": 1.18282827527176,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-312",
+    "rank": 3,
+    "event_id": "서울아트책보고 북클럽 x 은행나무 : 무너진 세계에서 우리를 살게 하는 것들 [1기]|서울아트책보고 워크숍룸|2026-08-06",
+    "reason_ko": "2.8km 실내 전시 프로그램 (영어 제목)",
+    "reason_en": "2.8km indoor exhibition (English title)",
+    "distance_km": 2.79112821033367,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-312",
+    "rank": 4,
+    "event_id": "[서울아트책보고] 큐레이션 서가 4기 [지구와 나누는 대화]|서울아트책보고 예술책방|2026-07-14",
+    "reason_ko": "2.8km 장기 실내 전시 프로그램",
+    "reason_en": "2.8km long-running indoor exhibition",
+    "distance_km": 2.79112821033367,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-312",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 시립 목동점|서울특별시 양천구 안양천로 1131 지식산업센터 2층 (목동)|2026-07-20",
+    "reason_ko": "2.7km 내 오늘 운영 키즈카페 지점",
+    "reason_en": "2.7km today's operating kids cafe branch",
+    "distance_km": 2.68014261172372,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3407",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 시립 목동점|서울특별시 양천구 안양천로 1131 지식산업센터 2층 (목동)|2026-07-20",
+    "reason_ko": "오늘 운영 중, 0.3km 초근접",
+    "reason_en": "Operating today, 0.3km super close",
+    "distance_km": 0.29814633206706,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3407",
+    "rank": 2,
+    "event_id": "7월[마포 스마트팜 체험관] 어린이 초록빛 미래농장 교육 · 체험 프로그램|마포 스마트팜 체험관|2026-07-01",
+    "reason_ko": "7월 진행 중, 2.4km 내 교육 체험",
+    "reason_en": "Ongoing in July, 2.4km educational experience",
+    "distance_km": 2.40048482911242,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3407",
+    "rank": 3,
+    "event_id": "마포 스마트팜 체험관 견학|마포 스마트팜 체험관|2026-06-29",
+    "reason_ko": "8월까지 운영, 2.4km 내 실내 전시",
+    "reason_en": "Runs until August, 2.4km indoor exhibition",
+    "distance_km": 2.40048482911242,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3407",
+    "rank": 4,
+    "event_id": "[마포문화재단] 마포 골목 문화예술교육 [취향도감]|감성충전 : 제로헌드레드, 추억더미 : 스파인 서울, 색의잔상 : 그래도감성공방|2026-07-07",
+    "reason_ko": "7-9월 진행, 2.1km 내 문화 교육",
+    "reason_en": "July-Sept, 2.1km cultural education",
+    "distance_km": 2.12012316830721,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3407",
+    "rank": 5,
+    "event_id": "[미래한강본부] 2026 한강페스티벌-여름 [hangang river festival-summer]|한강 수상과 9개 한강공원 일대(망원, 잠실, 양화, 난지 중심)|2026-08-01",
+    "reason_ko": "8월 예정, 1.8km 내 여름 축제",
+    "reason_en": "Upcoming in August, 1.8km summer festival",
+    "distance_km": 1.75130291203497,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-353",
+    "rank": 1,
+    "event_id": "[서울문화재단] 정책포럼 [제12회 서울문화예술포럼]",
+    "reason_ko": "오늘(7/21) 진행 중, 1.5km 내 문화 행사",
+    "reason_en": "Today's event, 1.5km, cultural policy forum",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-353",
+    "rank": 2,
+    "event_id": "경교장 전시해설 사전예약 (7월)",
+    "reason_ko": "7월 중 진행, 1km 내 역사 전시",
+    "reason_en": "July event, 1km, historical exhibition",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-353",
+    "rank": 3,
+    "event_id": "딜쿠샤 전시해설 사전예약 (7월)",
+    "reason_ko": "7월 중 진행, 0.5km 내 독립 기념 전시",
+    "reason_en": "July event, 0.5km, independence-themed exhibition",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-353",
+    "rank": 4,
+    "event_id": "서울형 키즈카페 서대문구 천연동점",
+    "reason_ko": "7/20-27 진행, 0.9km 내 가족 친화적",
+    "reason_en": "7/20-27, 0.9km, family-friendly experience",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-353",
+    "rank": 5,
+    "event_id": "국토발전전시관 정기강연 [이 땅 위에 우리 이야기]",
+    "reason_ko": "7/22 진행, 1.3km 내 역사 강연",
+    "reason_en": "7/22 event, 1.3km, national development lecture",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3415",
+    "rank": 1,
+    "event_id": "강서정원지원센터 \"꿈꾸는 정원\" (7월)- 화요일, 금요일|강서정원지원센터|2026-07-01",
+    "reason_ko": "오늘 화요일에는 가까운 정원 체험",
+    "reason_en": "Today (Tue) at nearby garden workshop",
+    "distance_km": 0.378885698768083,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3415",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 강서구 발산1동점|서울특별시 강서구 수명로2길 50  (내발산동) 2층 서울형 키즈카페|2026-07-20",
+    "reason_ko": "가까운 키즈카페에서 실내 활동 가능",
+    "reason_en": "Indoor kids cafe within 1km",
+    "distance_km": 0.811675143129984,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3415",
+    "rank": 3,
+    "event_id": "[서울퓨처랩] 7월 | VR 우주 탐험대|서울퓨처랩 체험관|2026-07-01",
+    "reason_ko": "실내 VR 체험으로 날씨 영향 적음",
+    "reason_en": "VR space exploration indoors",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3415",
+    "rank": 4,
+    "event_id": "[서울퓨처랩] 7월 | 퓨처 스포츠|서울퓨처랩 체험관|2026-07-01",
+    "reason_ko": "다양한 체험 가능 (1.3km 내)",
+    "reason_en": "Innovative sports experience nearby",
+    "distance_km": 1.30536026126016,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3415",
+    "rank": 5,
+    "event_id": "강서정원지원센터 7월 정원프로그램(월요일, 수요일)|강서정원지원센터|2026-07-01",
+    "reason_ko": "7월 정원 프로그램 운영 중 (0.4km)",
+    "reason_en": "Active July garden workshops nearby",
+    "distance_km": 0.378885698768083,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-393",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 동대문구 새샘공원점|서울특별시 동대문구 사가정로2길 99  (답십리동) 서울형키즈카페 새샘공원점_답십리초등학교 후문 옆 새샘근린공원 내 두번째 건물|2026-07-20",
+    "reason_ko": "0.2km 내 현재 운영 중",
+    "reason_en": "0.2km, running now, family-friendly",
+    "distance_km": 0.203839791246717,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-393",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 동대문구 답십리1동점|서울특별시 동대문구 답십리130 309동 커뮤니티센터 내 (답십리동, 래미안위브)|2026-07-20",
+    "reason_ko": "0.4km 내 현재 운영 중",
+    "reason_en": "0.4km, running now, close to station",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-393",
+    "rank": 3,
+    "event_id": "[성동문화재단] 판타지 발레 [구미호]",
+    "reason_ko": "2.1km, 오늘 공연, 실내 활동",
+    "reason_en": "2.1km, today's performance, indoor",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-393",
+    "rank": 4,
+    "event_id": "[서울상상나라] 가방에 쏘옥!|서울상상나라 b1 표현놀이실|2026-07-21",
+    "reason_ko": "2.7km, 오늘 시작, 체험형",
+    "reason_en": "2.7km, starts today, hands-on",
+    "distance_km": 2.66080132930757,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-393",
+    "rank": 5,
+    "event_id": "여름식탁 : 여섯 개의 손, 하나의 식탁|국가유산체험센터 1층 케잇 갤러리 (성동구 아차산로47)|2026-07-01",
+    "reason_ko": "2.5km, 전시, 문화 체험",
+    "reason_en": "2.5km, ongoing exhibit, cultural",
+    "distance_km": 2.48833420629389,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2219",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 중구 중림동점(노리몽땅)|서울특별시 중구 서소문로6길 16 본관 1층 (중림동)|2026-07-20",
+    "reason_ko": "0.2km 키즈카페, 실내 활동 적합",
+    "reason_en": "0.2km indoor kids cafe, great for rainy days",
+    "distance_km": 0.201961659317878,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2219",
+    "rank": 2,
+    "event_id": "[서소문성지 역사박물관] 《the face: 마주하다》 전시 연계 프로그램 [나를 비추는 거울 액자 만들기]|서소문성지 역사박물관 지하1층 명례방|2026-07-12",
+    "reason_ko": "0.2km 역사박물관, 실내 전시 프로그램",
+    "reason_en": "0.2km museum exhibition program, ideal indoor activity",
+    "distance_km": 0.217889209234776,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2219",
+    "rank": 3,
+    "event_id": "[서울문화재단] 정책포럼 [제12회 서울문화예술포럼]|서울문화재단 청년예술청 그레이홀(서대문구 경기대로 26-26,b2)|2026-07-21",
+    "reason_ko": "0.4km 오늘 포럼, 문화예술 토론 기회",
+    "reason_en": "0.4km today's policy forum, cultural discussion",
+    "distance_km": 0.388387961562788,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2219",
+    "rank": 4,
+    "event_id": "[서울시립미술관 서소문본관] 예술가의 런치박스 듀킴 [허니듀와 다육사도들]|서울시립미술관 서소문본관 3층 세마엘|2026-07-21",
+    "reason_ko": "0.7km 미술관 오늘 프로그램, 영어 설명",
+    "reason_en": "0.7km museum program today, English-friendly",
+    "distance_km": 0.699732282638064,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-2219",
+    "rank": 5,
+    "event_id": "[서울시립미술관 서소문본관] 2026년 한국 근대 거장전 《유영국: 산은 내 안에 있다》|서울시립미술관 서소문본관 1층 전시실|2026-05-19",
+    "reason_ko": "0.7km 유명 거장전, 실내 전시 관람",
+    "reason_en": "0.7km famous master exhibition, indoor viewing",
+    "distance_km": 0.699732282638064,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-181",
+    "rank": 1,
+    "event_id": "[서울갤러리] 런치 스테이지 [하모니시스트 이한결]|서울갤러리 지하 1층 공연장|2026-07-22",
+    "reason_ko": "오늘 0.4km 내 콘서트로 접근성과 일정 적합",
+    "reason_en": "0.4km concert today, best distance and current",
+    "distance_km": 0.394493431163505,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-181",
+    "rank": 2,
+    "event_id": "인사도시유적전시관 개관|인사도시유적전시관 (서울 종로구 종로11길 18 (인사동))|2026-07-15",
+    "reason_ko": "개관일 0.4km 내 문화명소, 외국인 선호",
+    "reason_en": "0.4km opening at cultural hotspot, Insadong",
+    "distance_km": 0.377853518691329,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-181",
+    "rank": 3,
+    "event_id": "[공평도시유적전시관] 전시 해설 운영|공평도시유적전시관|2025-09-23",
+    "reason_ko": "0.4km 내 장기 전시, 오늘까지 진행 중",
+    "reason_en": "0.4km ongoing exhibition, valid through today",
+    "distance_km": 0.371845645037066,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-181",
+    "rank": 4,
+    "event_id": "[서울 문화의 밤] 7월 작가힙톡(hip-talk) - 관계 속에서 나를 지키는 철학의 기술(현남숙, 진보성)|서울도서관 1층 생각마루|2026-07-24",
+    "reason_ko": "0.4km 내 철학 강연, 오늘과 가까운 일정",
+    "reason_en": "0.4km philosophy talk, near-today event (24th)",
+    "distance_km": 0.403913868648896,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-181",
+    "rank": 5,
+    "event_id": "[서울도서관] 2026 움직이는 서울형책방 6회 : 무아레서점|광화문 라운지 (광화문역 9번 출구)|2026-07-25",
+    "reason_ko": "0.4km 내 책방 행사, 오늘과 가까운 문화 체험",
+    "reason_en": "0.4km book event, near-today culture (25th)",
+    "distance_km": 0.422971778761436,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-510",
+    "rank": 1,
+    "event_id": "[서울퓨처랩] 7월 | 서울 드론 레이스|서울퓨처랩 체험관|2026-07-01",
+    "reason_ko": "7월 중 진행, 1.5km 내 가까운 체험",
+    "reason_en": "Ongoing in July, 1.5km away, tech experience",
+    "distance_km": 1.45199258610081,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-510",
+    "rank": 2,
+    "event_id": "[서울퓨처랩] 7월 | VR 우주 탐험대|서울퓨처랩 체험관|2026-07-01",
+    "reason_ko": "7월 중 진행, 1.5km 내 VR 체험",
+    "reason_en": "Ongoing in July, 1.5km, indoor VR activity",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-510",
+    "rank": 3,
+    "event_id": "강서정원지원센터 \"꿈꾸는 정원\" (7월)- 화요일, 금요일|강서정원지원센터|2026-07-01",
+    "reason_ko": "화요일 진행, 1.6km 내 정원 프로그램",
+    "reason_en": "Tue/Fri in July, 1.6km, garden-themed event",
+    "distance_km": 1.59227119909252,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-510",
+    "rank": 4,
+    "event_id": "강서정원지원센터 7월 정원프로그램(월요일, 수요일)|강서정원지원센터|2026-07-01",
+    "reason_ko": "7월 중 진행, 1.6km 내 다양한 체험",
+    "reason_en": "Ongoing in July, 1.6km, diverse gardening",
+    "distance_km": 1.59227119909252,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-510",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 강서구 발산1동점|서울특별시 강서구 수명로2길 50  (내발산동) 2층 서울형 키즈카페|2026-07-20",
+    "reason_ko": "2.1km 내 어린이 친화적 공간",
+    "reason_en": "2.1km away, family-friendly kids' space",
+    "distance_km": 2.11000199418439,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-853",
+    "rank": 1,
+    "event_id": "2026년 7월 여름방학 특별 프로그램 운영(봉화산유아숲체험원)|봉화산 유아숲체험장|2026-07-22",
+    "reason_ko": "오늘 시작, 0.1km 근접",
+    "reason_en": "Begins today, 0.1km away",
+    "distance_km": 0.124911421806104,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-853",
+    "rank": 2,
+    "event_id": "아이와 함께하는 가족 숲체험(봉화산유아숲체험원)|봉화산 유아숲체험장|2026-07-25",
+    "reason_ko": "25일 시작, 매우 가까움",
+    "reason_en": "Starts 25th, 0.1km proximity",
+    "distance_km": 0.124911421806104,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-853",
+    "rank": 3,
+    "event_id": "[서울생활사박물관] (주말)2026년 전시 연계 교육 '대학에서 나는'(초등학생 동반 가족)|서울생활사박물관|2026-07-18",
+    "reason_ko": "전시 연계, 0.9km 내 박물관",
+    "reason_en": "Exhibition-linked, 0.9km museum",
+    "distance_km": 0.919478449761595,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-853",
+    "rank": 4,
+    "event_id": "[서울생활사박물관] 대학에서 우리는|서울생활사박물관 기획전시실|2026-05-15",
+    "reason_ko": "유명 박물관 전시중(~9.27)",
+    "reason_en": "Ongoing museum exhibit (until Sept 27)",
+    "distance_km": 0.91964610181064,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-853",
+    "rank": 5,
+    "event_id": "(주말)기차와 떠나는 여름 여행|경춘선숲길|2026-07-01",
+    "reason_ko": "주말 체험, 1.1km 숲길",
+    "reason_en": "Weekend trail experience, 1.1km away",
+    "distance_km": 1.12751912176868,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-182",
+    "rank": 1,
+    "event_id": "2026 의정부지 역사유적광장 전통무예행사|의정부지 역사유적광장|2026-04-11",
+    "reason_ko": "오늘 진행 중인 전통 축제, 0.1km 내",
+    "reason_en": "Ongoing traditional festival, 0.1km away today",
+    "distance_km": 0.0898929783250009,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-182",
+    "rank": 2,
+    "event_id": "2026년 경복궁 [경회루·향원정] 특별관람|경복궁 경회루·향원정|2026-04-01",
+    "reason_ko": "오늘 가능한 경복궁 특별관람, 0.2km",
+    "reason_en": "Special palace viewing today, 0.2km away",
+    "distance_km": 0.153087262940558,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-182",
+    "rank": 3,
+    "event_id": "광화문광장 감사의 정원 프리덤 홀 전시 해설|광화문광장 감사의 정원 프리덤홀|2026-05-13",
+    "reason_ko": "광화문 인근 전시 해설, 오늘 진행 중",
+    "reason_en": "Exhibition tour near Gwanghwamun, ongoing today",
+    "distance_km": 0.298891887237775,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-182",
+    "rank": 4,
+    "event_id": "현준희 바이올린 독주회 - a sentimental night ii 심연(深淵)|세종체임버홀|2026-07-22",
+    "reason_ko": "오늘 진행되는 실내 공연, 0.4km",
+    "reason_en": "Indoor performance today, 0.4km away",
+    "distance_km": 0.387430350181016,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-182",
+    "rank": 5,
+    "event_id": "2026 서울미래유산 시민 답사 3회차|조계사|2026-06-27",
+    "reason_ko": "문화 유산 답사, 0.3km 내 (종료됨)",
+    "reason_en": "Heritage tour within 0.3km (ended yesterday)",
+    "distance_km": 0.347513940962902,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-585",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 중랑구 망우본동점(중랑실내놀이터 양원)|서울특별시 중랑구 용마산로 670 시티원스퀘어 상가 201동 지하1층 (망우동, 신내역 프라디움 더 테라스)|2026-07-20",
+    "reason_ko": "오늘 운영 중, 거리 0.5km",
+    "reason_en": "Operating today, 0.5km away",
+    "distance_km": 0.475494834563406,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-585",
+    "rank": 2,
+    "event_id": "[중랑문화재단] 봉화산 옹기문화마당 6월~7월 체험프로그램|봉화산 옹기문화마당(중랑구 신내로21길 115-1)|2026-06-02",
+    "reason_ko": "오늘 운영 중, 거리 0.8km",
+    "reason_en": "Operating today, 0.8km away",
+    "distance_km": 0.821478751958918,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-585",
+    "rank": 3,
+    "event_id": "2026년 7월 여름방학 특별 프로그램 운영(봉화산유아숲체험원)|봉화산 유아숲체험장|2026-07-22",
+    "reason_ko": "오늘 시작, 거리 1.1km",
+    "reason_en": "Starts today, 1.1km away",
+    "distance_km": 1.11812494868252,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-585",
+    "rank": 4,
+    "event_id": "(주말)기차와 떠나는 여름 여행|경춘선숲길|2026-07-01",
+    "reason_ko": "주말 프로그램, 거리 1.2km",
+    "reason_en": "Weekend program, 1.2km away",
+    "distance_km": 1.23671625744564,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-585",
+    "rank": 5,
+    "event_id": "[서울생활사박물관] (주말)2026년 전시 연계 교육 '대학에서 나는'(초등학생 동반 가족)|서울생활사박물관|2026-07-18",
+    "reason_ko": "오늘 종료, 전시 교육",
+    "reason_en": "Ends today, indoor exhibition",
+    "distance_km": 1.95558689957859,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-359",
+    "rank": 1,
+    "event_id": "[성동구] 찾아가는 숲해설|성동구|2026-04-01",
+    "reason_ko": "오늘 진행 중, 0.1km 초근접",
+    "reason_en": "Ongoing today, 0.1km super close",
+    "distance_km": 0.136098047545978,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-359",
+    "rank": 2,
+    "event_id": "[청계천박물관] 청계천의 별이 된 노무라 모토유키|청계천박물관 기획전시|2026-06-13",
+    "reason_ko": "전시 중, 0.8km 문화명소",
+    "reason_en": "Ongoing exhibition, 0.8km cultural hub",
+    "distance_km": 0.751959720635892,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-359",
+    "rank": 3,
+    "event_id": "[성동문화재단] 판타지 발레 [구미호]|소월아트홀|2026-07-25",
+    "reason_ko": "내일 공연, 0.6km 예술행사",
+    "reason_en": "Tomorrow's show, 0.6km art event",
+    "distance_km": 0.590946332765091,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-359",
+    "rank": 4,
+    "event_id": "[청계천박물관] 2026년 여름방학 가족 교육 [청계천 시장에 가면]|청계천박물관 지하 1층 교육실 (서울특별시 성동구 청계천로 530)|2026-07-29",
+    "reason_ko": "다음주 시작, 0.8km 가족체험",
+    "reason_en": "Starts next week, 0.8km family program",
+    "distance_km": 0.751959720635892,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-359",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 동대문구 답십리1동점|서울특별시 동대문구 답십리1동점|2026-07-20",
+    "reason_ko": "오늘 시작, 1.7km 어린이시설",
+    "reason_en": "Starts today, 1.7km kids-friendly",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-329",
+    "rank": 1,
+    "event_id": "용산가족공원 텃밭 분양(개인)|용산가족공원>텃밭|2026-02-12",
+    "reason_ko": "오늘 진행 중인 초근접 체험 프로그램",
+    "reason_en": "Ongoing nearby experience event today",
+    "distance_km": 0.456020287839997,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-329",
+    "rank": 2,
+    "event_id": "리움미술관 아이디어 뮤지엄 《in the middle voice: 다섯 개의 움직임》 - [듣기의 실천들]|리움미술관 강당 및 온라인|2026-07-15",
+    "reason_ko": "유명 미술관 전시로 날씨 영향 없음",
+    "reason_en": "Premium indoor exhibition unaffected by weather",
+    "distance_km": 2.16728831295475,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-329",
+    "rank": 3,
+    "event_id": "자연물 염색 (유아단체)|용산가족공원|2026-07-01",
+    "reason_ko": "현재 진행 중인 자연 체험 활동",
+    "reason_en": "Active nature-based experience program",
+    "distance_km": 0.560987648042873,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-329",
+    "rank": 4,
+    "event_id": "마에스트로 핑고와 떠나는 클래식 지구 한 바퀴|서울체임버홀|2026-08-08",
+    "reason_ko": "실내 공연으로 안정적인 관광 옵션",
+    "reason_en": "Indoor performance for reliable visit",
+    "distance_km": 1.911191257219,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-329",
+    "rank": 5,
+    "event_id": "[서울문화예술교육센터 서초] 음악의 집 [8월, 음악가의 사적인 플레이리스트] 류이치 사카모토의 피아노 여정|서울문화예술교육센터 서초 1층 더라운지|2026-08-08",
+    "reason_ko": "다양한 카테고리 실내 음악 행사",
+    "reason_en": "Diverse indoor music event category",
+    "distance_km": 1.911191257219,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3410",
+    "rank": 1,
+    "event_id": "[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기|구립증산도서관 2층 종합자료실 앞|2026-07-01",
+    "reason_ko": "7월 진행 중, 0.6km 내 실내 전시",
+    "reason_en": "Ongoing July exhibition, 0.6km indoor",
+    "distance_km": 0.602640457670415,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3410",
+    "rank": 2,
+    "event_id": "[구립증산도서관] 7월 주말영화상영안내|구립증산도서관 2층 소강당|2026-07-01",
+    "reason_ko": "7월 상영 중, 화요일 관람 가능 실내 행사",
+    "reason_en": "July screenings ongoing, Tuesday-friendly indoor",
+    "distance_km": 0.602640457670415,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3410",
+    "rank": 3,
+    "event_id": "[구립증산도서관] 테마로 즐기는 도서관 - 7월 테마전시체험전 [얼음산 빙수가게]|구립증산도서관 지하 1층 북갤러리 및 3층 가족열람실|2026-07-01",
+    "reason_ko": "빙수 테마 전시 체험, 0.6km 실내 이벤트",
+    "reason_en": "Themed ice dessert exhibition, 0.6km indoor",
+    "distance_km": 0.602640457670415,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3410",
+    "rank": 4,
+    "event_id": "[구립증산도서관] 가족열람실 7월 북큐레이션 [같이 읽자, 여름 먹거리]|구립증산도서관 3층 가족열람실|2026-07-01",
+    "reason_ko": "여름 주제 도서 전시, 0.6km 실내 관람",
+    "reason_en": "Summer-themed book display, 0.6km indoor",
+    "distance_km": 0.602640457670415,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3410",
+    "rank": 5,
+    "event_id": "[구립증산도서관] 책 따라 걷는 도서관 - 7월 원화 전시 [감염 동물]|구립증산도서관 1층 로비 및 3층 어린이열람실|2026-07-01",
+    "reason_ko": "원화 전시 진행 중, 0.6km 실내 문화 행사",
+    "reason_en": "Ongoing illustration exhibit, 0.6km indoor",
+    "distance_km": 0.602640457670415,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-315",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 양천구 신정4동점|서울특별시 양천구 은행정로 29 대한교회 후문 교육관 센터위드  4층 (신정동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 가까운 키즈카페",
+    "reason_en": "Close kids cafe operating today",
+    "distance_km": 1.04318492623436,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-315",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 양천구 신트리공원점|서울특별시 양천구 목동동로 5 서울형 키즈카페 양천구 신트리공원점 (신정동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 1.2km 키즈카페",
+    "reason_en": "1.2km kids cafe operating today",
+    "distance_km": 1.24750218727881,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-315",
+    "rank": 3,
+    "event_id": "2026년 양천구 숲해설 무료체험 : (토) 꿈꾸는 우리 가족 숲놀이! 숲속 보물을 찾아라!|계남근린공원유아숲체험원(양천구 계남다목적체육관|2026-07-13",
+    "reason_ko": "1.9km 가족 숲 체험 프로그램",
+    "reason_en": "1.9km family forest program",
+    "distance_km": 1.8618175451963,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-315",
+    "rank": 4,
+    "event_id": "구로 재난안전체험장|구로재난안전체험장|2024-11-01",
+    "reason_ko": "2.3km 관광명소 안전 체험장",
+    "reason_en": "2.3km tourist attraction safety center",
+    "distance_km": 2.31809849320809,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-315",
+    "rank": 5,
+    "event_id": "[서울아트책보고] 큐레이션 서가 4기 [지구와 나누는 대화]|서울아트책보고 예술책방|2026-07-14",
+    "reason_ko": "2.3km 예술책방 지구 주제 전시",
+    "reason_en": "2.3km art bookstore earth exhibit",
+    "distance_km": 2.32202275059923,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-111",
+    "rank": 1,
+    "event_id": "여름식탁 : 여섯 개의 손, 하나의 식탁|국가유산체험센터 1층 케잇 갤러리 (성동구 아차산로47)|2026-07-01",
+    "reason_ko": "오늘 진행 중, 실내 전시, 거리 0km",
+    "reason_en": "Ongoing today, indoor exhibition, 0km away",
+    "distance_km": 0.038612386129298,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-111",
+    "rank": 2,
+    "event_id": "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
+    "reason_ko": "오늘 진행 중, 유명 야외 축제, 0.8km",
+    "reason_en": "Ongoing today, famous outdoor festival, 0.8km away",
+    "distance_km": 0.792302483508766,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-111",
+    "rank": 3,
+    "event_id": "프랑스 음악 레퍼토리 [french repertoire] 피아니스트 김기경|스튜디오301 성수|2026-07-25",
+    "reason_ko": "오늘 진행 중, 실내 콘서트, 거리 0.8km",
+    "reason_en": "Ongoing today, indoor concert, 0.8km away",
+    "distance_km": 0.767890412644512,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-111",
+    "rank": 4,
+    "event_id": "[성동문화재단] 2026 두모포 뮤지컬 페스티벌|옥수역 하부 한강공원|2026-07-04",
+    "reason_ko": "오늘 마감, 야외 페스티벌, 거리 1.1km",
+    "reason_en": "Ends today, outdoor festival, 1.1km away",
+    "distance_km": 1.08752156706141,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-111",
+    "rank": 5,
+    "event_id": "[서울하수도과학관 체험형 기획전] 오염코드404: 비점오염원을 찾아라!|서울하수도과학관 1층 로비|2026-04-07",
+    "reason_ko": "오늘 진행 중, 실내 체험전, 거리 1.8km",
+    "reason_en": "Ongoing today, indoor exhibition, 1.8km away",
+    "distance_km": 1.82909253419276,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-114",
+    "rank": 1,
+    "event_id": "[서울상상나라] 가방에 쏘옥!|서울상상나라 b1 표현놀이실|2026-07-21",
+    "reason_ko": "오늘 시작, 0.8km 초근접 체험",
+    "reason_en": "Starts today, ultra-close 0.8km experience",
+    "distance_km": 0.7614811213753,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-114",
+    "rank": 2,
+    "event_id": "[서울상상나라] 그림책 작업실: 사소하고 특별한|서울상상나라 b1 기획전시실|2026-07-04",
+    "reason_ko": "0.8km 내 진행 중인 전시, 실내 추천",
+    "reason_en": "Ongoing 0.8km exhibition, indoor-friendly",
+    "distance_km": 0.7614811213753,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-114",
+    "rank": 3,
+    "event_id": "[서울상상나라] 두들팝|상상나라극장|2026-08-01",
+    "reason_ko": "0.8km 공연 중, 어린이 친화적",
+    "reason_en": "Ongoing 0.8km performance, child-friendly",
+    "distance_km": 0.7614811213753,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-114",
+    "rank": 4,
+    "event_id": "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
+    "reason_ko": "2.5km 실내/외 가능, 연중 운영",
+    "reason_en": "2.5km indoor/outdoor, year-round access",
+    "distance_km": 2.50229409891106,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-114",
+    "rank": 5,
+    "event_id": "[광진문화재단] 2026 나루랑 버스킹|청춘뜨락, 아차산 토요한마당 상설무대|2026-04-04",
+    "reason_ko": "0.9km 야외 공연, 화/목/토 운영",
+    "reason_en": "0.9km outdoor concert, Tue/Thu/Sat",
+    "distance_km": 0.897349250348646,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-609",
+    "rank": 1,
+    "event_id": "수락정 국궁장 체험프로그램|수락정|2025-08-01",
+    "reason_ko": "7월 21일 진행 중, 1km 내 국궁 체험",
+    "reason_en": "Ongoing on July 21, 1km archery experience",
+    "distance_km": 0.969925014453747,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-609",
+    "rank": 2,
+    "event_id": "노원구 수락산 숲해설 프로그램 - 함께하는 숲|동막골 자연휴양|2026-07-04",
+    "reason_ko": "7월 21일 진행 중, 1.1km 숲 해설",
+    "reason_en": "Ongoing on July 21, 1.1km forest tour",
+    "distance_km": 1.09996409757138,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-302",
+    "rank": 1,
+    "event_id": "[영등포문화재단] 2026 도림 생활문화센터 특별프로그램|도림 생활문화센터(영등포구 도신로 33길 4)|2026-04-02",
+    "reason_ko": "오늘 종료되는 가까운 문화 체험",
+    "reason_en": "Ends today, close cultural experience",
+    "distance_km": 0.800239149507339,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-302",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 영등포구 신길4동점|서울특별시 영등포구 신길로40길 5 육아종합지원센터 3층 (신길동)|2026-07-20",
+    "reason_ko": "오늘 시작, 가까운 가족 친화적 장소",
+    "reason_en": "Starts today, nearby family-friendly venue",
+    "distance_km": 0.816672861557688,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-302",
+    "rank": 3,
+    "event_id": "[서울외국인주민센터] 세계문화탐방 [일상 속 세계정거장] 스페인 문화편|인스티투토 세르반테스|2026-06-26",
+    "reason_ko": "외국인 대상 스페인 문화 체험",
+    "reason_en": "Foreigner-focused Spanish cultural program",
+    "distance_km": 0.540185362038775,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-302",
+    "rank": 4,
+    "event_id": "영등포 수변생태 정원처방 <가족과 함께하는 물가 숲길 체험>|안양천생태운영센터|2026-04-25",
+    "reason_ko": "이미 종료된 생태 체험 프로그램",
+    "reason_en": "Past event (ended June 27)",
+    "distance_km": 2.84765647717496,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-302",
+    "rank": 5,
+    "event_id": "영등포 수변생태『서울둘레길 14코스』 안양천 수변 감성기행|안양천생태운영센터|2026-04-25",
+    "reason_ko": "이미 종료된 둘레길 체험 프로그램",
+    "reason_en": "Past event (ended June 30)",
+    "distance_km": 2.84765647717496,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-829",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 시립 화곡점|서울특별시 강서구 화곡로31나길 35 1층 서울형 키즈카페 시립 화곡점|2026-07-20",
+    "reason_ko": "화곡역 0.5km, 오늘 운영 중",
+    "reason_en": "0.5km from Hwagok Station, open today",
+    "distance_km": 0.461063820587298,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-829",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 강서구 화곡3동점|서울특별시 강서구 강서로 231 2층 (화곡동, 우장산역 해링턴 타워)|2026-07-20",
+    "reason_ko": "화곡3동 0.7km, 오늘 운영 중",
+    "reason_en": "0.7km in Hwagok 3-dong, open today",
+    "distance_km": 0.656758284351641,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-829",
+    "rank": 3,
+    "event_id": "강서정원지원센터 7월 정원프로그램(월요일, 수요일)|강서정원지원센터|2026-07-01",
+    "reason_ko": "화요일, 2km, 7월 프로그램",
+    "reason_en": "2km, July program (Tue/Wed)",
+    "distance_km": 2.03987281534328,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-829",
+    "rank": 4,
+    "event_id": "강서정원지원센터 \"꿈꾸는 정원\" (7월)- 화요일, 금요일|강서정원지원센터|2026-07-01",
+    "reason_ko": "화요일 2km, 7월 특별 프로그램",
+    "reason_en": "2km, 'Dream Garden' (Tue/Fri, July)",
+    "distance_km": 2.03987281534328,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-829",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 양천구 신정4동점|서울특별시 양천구 은행정로 29 대한교회 후문 교육관 센터위드  4층 (신정동)|2026-07-20",
+    "reason_ko": "신정4동 2.7km, 오늘 운영 중",
+    "reason_en": "2.7km in Shindong 4-dong, open today",
+    "distance_km": 2.68960783926777,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-108",
+    "rank": 1,
+    "event_id": "2026 서울국제정원박람회|서울숲 일대|2026-05-01",
+    "reason_ko": "오늘 진행 중인 서울숲 정원 축제",
+    "reason_en": "Ongoing garden festival at Seoul Forest today",
+    "distance_km": 0.299389005268605,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-108",
+    "rank": 2,
+    "event_id": "[서울숲]나도 서울숲 탐험가(연중)|서울숲 방문자센터|2026-01-01",
+    "reason_ko": "연중 진행 중인 서울숲 탐험 프로그램",
+    "reason_en": "Year-round Seoul Forest explorer program nearby",
+    "distance_km": 0.306682425223814,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-108",
+    "rank": 3,
+    "event_id": "여름식탁 : 여섯 개의 손, 하나의 식탁|국가유산체험센터 1층 케잇 갤러리 (성동구 아차산로47)|2026-07-01",
+    "reason_ko": "7월 진행 중인 실내 전시 체험",
+    "reason_en": "Indoor summer exhibition running this month",
+    "distance_km": 0.498031279314959,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-108",
+    "rank": 4,
+    "event_id": "2026 서로장터|서울광장, 서울숲, 양재시민의 숲, 잠수교|2026-04-26",
+    "reason_ko": "서울숲에서 진행 중인 서로장터 축제",
+    "reason_en": "Mutual Market festival ongoing at Seoul Forest",
+    "distance_km": 0.299389005268605,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-108",
+    "rank": 5,
+    "event_id": "[성동문화재단] 2026 두모포 뮤지컬 페스티벌|옥수역 하부 한강공원|2026-07-04",
+    "reason_ko": "7월 4일 진행 예정이었던 한강공원 뮤지컬",
+    "reason_en": "Musical festival at Hangang Park this month",
+    "distance_km": 0.67717643826434,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-209",
+    "rank": 1,
+    "event_id": "[마포문화재단] 마포 골목 문화예술교육 [취향도감]|감성충전 : 제로헌드레드, 추억더미 : 스파인 서울, 색의잔상 : 그래도감성공방|2026-07-07",
+    "reason_ko": "7/21 현재 진행 중, 0.6km",
+    "reason_en": "Ongoing today, 0.6km",
+    "distance_km": 0.644363198578511,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-209",
+    "rank": 2,
+    "event_id": "7월[마포 스마트팜 체험관] 어린이 초록빛 미래농장 교육 · 체험 프로그램|마포 스마트팜 체험관|2026-07-01",
+    "reason_ko": "7/21 현재 진행 중, 0.8km",
+    "reason_en": "Ongoing today, 0.8km",
+    "distance_km": 0.787639929128159,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-209",
+    "rank": 3,
+    "event_id": "서울형 키즈카페 시립 목동점|서울특별시 양천구 안양천로 1131 지식산업센터 2층 (목동)|2026-07-20",
+    "reason_ko": "7/21 시작, 2km, 가족 친화",
+    "reason_en": "Starts today, 2km, family-friendly",
+    "distance_km": 1.96522300048239,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-209",
+    "rank": 4,
+    "event_id": "서울형 키즈카페 서대문구 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동)|2026-07-20",
+    "reason_ko": "7/21 시작, 2.7km, 영어 제공",
+    "reason_en": "Starts today, 2.7km, English title",
+    "distance_km": 2.73826930652765,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-209",
+    "rank": 5,
+    "event_id": "마포 스마트팜 체험관 견학|마포 스마트팜 체험관|2026-06-29",
+    "reason_ko": "7/21 진행 중, 0.8km, 실내",
+    "reason_en": "Ongoing today, 0.8km, indoor",
+    "distance_km": 0.787639929128159,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-322",
+    "rank": 1,
+    "event_id": "[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]",
+    "reason_ko": "2.6km, 오늘까지 진행 중인 실내 전시",
+    "reason_en": "2.6km, ongoing indoor exhibition until today",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-322",
+    "rank": 2,
+    "event_id": "[마포구립서강도서관] 6-11월/길 위의 인문학 [독서 페어링：all that library to do]",
+    "reason_ko": "2.6km, 오늘까지 진행 중인 독서 프로그램",
+    "reason_en": "2.6km, ongoing reading program until today",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-322",
+    "rank": 3,
+    "event_id": "[마포구립서강도서관] 7~10월/읽는 인간_호모 부커스 ⅲ. [마르셀 프루스트의 『잃어버린 시간을 찾아서』 읽기]",
+    "reason_ko": "2.6km, 오늘까지 진행 중인 문학 읽기",
+    "reason_en": "2.6km, ongoing literature reading until today",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-322",
+    "rank": 4,
+    "event_id": "용산가족공원 꼬물꼬물 호기심 숲 (유아단체)",
+    "reason_ko": "2.8km, 오늘까지 진행 중인 자연 체험",
+    "reason_en": "2.8km, ongoing nature experience until today",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-322",
+    "rank": 5,
+    "event_id": "자연물 염색 (유아단체)",
+    "reason_ko": "2.8km, 오늘까지 진행 중인 자연 염색",
+    "reason_en": "2.8km, ongoing natural dyeing until today",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-347",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 서대문구 북가좌1동점(다정다감 키즈카페)|서울특별시 서대문구 수색로8길 48-4 사회교육관 3층 (북가좌동)|2026-07-20",
+    "reason_ko": "0.4km 내 현재 진행 중 키즈카페",
+    "reason_en": "0.4km, ongoing today, family-friendly",
+    "distance_km": 0.405189804695329,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-347",
+    "rank": 2,
+    "event_id": "[구립증산도서관] 2026년 7월 북인사이트 : 여름 이야기|구립증산도서관 2층 종합자료실 앞|2026-07-01",
+    "reason_ko": "0.5km 내 현재 진행 중 실내 전시",
+    "reason_en": "0.5km, ongoing exhibition, weather-agnostic",
+    "distance_km": 0.51252380273932,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-347",
+    "rank": 3,
+    "event_id": "[구립증산도서관] 7월 주말영화상영안내|구립증산도서관 2층 소강당|2026-07-01",
+    "reason_ko": "0.5km 내 현재 진행 중 영화 상영",
+    "reason_en": "0.5km, ongoing film screenings, indoor",
+    "distance_km": 0.51252380273932,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-347",
+    "rank": 4,
+    "event_id": "서울형 키즈카페 서대문구 남가좌1동점|서울특별시 서대문구 모래내로15길 31 서대문구육아종합지원센터 2층 (남가좌동)|2026-07-20",
+    "reason_ko": "1km 내 현재 진행 중 키즈카페",
+    "reason_en": "1km, ongoing today, child-friendly",
+    "distance_km": 1.03920019147266,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-347",
+    "rank": 5,
+    "event_id": "7월[마포 스마트팜 체험관] 어린이 초록빛 미래농장 교육 · 체험 프로그램|마포 스마트팜 체험관|2026-07-01",
+    "reason_ko": "2.6km 내 현재 진행 중 교육 체험",
+    "reason_en": "2.6km, ongoing edutainment, family activity",
+    "distance_km": 2.61866331220607,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-398",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 동대문구 새샘공원점|서울특별시 동대문구 사가정로2길 99  (답십리동) 서울형키즈카페 새샘공원점_답십리초등학교 후문 옆 새샘근린공원 내 두번째 건물|2026-07-20",
+    "reason_ko": "오늘 운영 중인 초근접 놀이공간",
+    "reason_en": "Closest running kids cafe today (0.3km)",
+    "distance_km": 0.335658592162679,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-398",
+    "rank": 2,
+    "event_id": "서울형 키즈카페 동대문구 답십리1동점|서울특별시 동대문구 답십리1동 130 309동 커뮤니티센터 내 (답십리동, 래미안위브)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 초근접 실내 체험",
+    "reason_en": "Next closest running indoor experience (0.4km)",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-398",
+    "rank": 3,
+    "event_id": "여름식탁 : 여섯 개의 손, 하나의 식탁|국가유산체험센터 1층 케잇 갤러리 (성동구 아차산로47)|2026-07-01",
+    "reason_ko": "현재 진행 중인 실내 전시 체험",
+    "reason_en": "Ongoing indoor exhibition with cultural value (2.4km)",
+    "distance_km": 2.40140034097466,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-398",
+    "rank": 4,
+    "event_id": "[청계천박물관] 청계천의 별이 된 노무라 모토유키|청계천박물관 기획전시|2026-06-13",
+    "reason_ko": "현재 진행 중인 문화유산 전시",
+    "reason_en": "Ongoing cultural heritage exhibition (1.5km)",
+    "distance_km": 1.47123486745206,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-398",
+    "rank": 5,
+    "event_id": "[성동문화재단] 판타지 발레 [구미호]|소월아트홀|2026-07-25",
+    "reason_ko": "내일 예정된 유명 공연장 발레",
+    "reason_en": "Well-known venue ballet tomorrow (1.7km)",
+    "distance_km": 1.66910789149468,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-119",
+    "rank": 1,
+    "event_id": "2026 아뜰리에 광화 [세종뜨락 작은 영화관]|세종문화회관 세종뜨락|2026-08-01",
+    "reason_ko": "오늘 가까운 실내 영화관",
+    "reason_en": "Indoor cinema near station today",
+    "distance_km": 0.151704433440443,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-119",
+    "rank": 2,
+    "event_id": "2026 청소년을 위한 클래식 페스티벌|세종체임버홀|2026-08-08",
+    "reason_ko": "7월 21일 현재 진행 중",
+    "reason_en": "Active today, family-friendly",
+    "distance_km": 0.151704433440443,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-119",
+    "rank": 3,
+    "event_id": "2026 꿈나무 토요음악회 [춤추는 클래식]|세종체임버홀|2026-07-11",
+    "reason_ko": "7월 21일 전 주 진행",
+    "reason_en": "Completed last week, child-friendly",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-119",
+    "rank": 4,
+    "event_id": "테너 김승직 솔로 리사이틀 : 시인의 사랑|세종체임버홀|2026-07-18",
+    "reason_ko": "7월 18일 진행, 영문제목",
+    "reason_en": "Held Jul 18, translated title",
+    "distance_km": 0.151704433440443,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-119",
+    "rank": 5,
+    "event_id": "2026 Commentated Youth Concert: Music for Every Moment|세종체임버홀|2026-08-14",
+    "reason_ko": "8월 14일 예정, 청소년용",
+    "reason_en": "Upcoming Aug 14, youth-oriented",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-511",
+    "rank": 1,
+    "event_id": "[서울퓨처랩] 7월 | 서울 드론 레이스|서울퓨처랩 체험관|2026-07-01",
+    "reason_ko": "오늘 진행 중인 실내 체험 이벤트",
+    "reason_en": "Indoor experience event ongoing today",
+    "distance_km": 1.47333925575884,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-511",
+    "rank": 2,
+    "event_id": "[서울퓨처랩] 7월 | VR 우주 탐험대|서울퓨처랩 체험관|2026-07-01",
+    "reason_ko": "근처 실내 체험 이벤트, 화요일 가능",
+    "reason_en": "Close indoor experience event (1.5km)",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-511",
+    "rank": 3,
+    "event_id": "강서정원지원센터 \"꿈꾸는 정원\" (7월)- 화요일, 금요일|강서정원지원센터|2026-07-01",
+    "reason_ko": "화요일 가능한 실외 정원 체험",
+    "reason_en": "Outdoor garden workshop on Tuesdays",
+    "distance_km": 1.5664950635535,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-511",
+    "rank": 4,
+    "event_id": "[서울퓨처랩] 7월 | AI 웹툰 공작소|서울퓨처랩 체험관|2026-07-01",
+    "reason_ko": "근처 창의적 체험 이벤트 진행 중",
+    "reason_en": "Ongoing creative experience nearby",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-511",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 강서구 발산1동점|서울특별시 강서구 수명로2길 50  (내발산동) 2층 서울형 키즈카페|2026-07-20",
+    "reason_ko": "가까운 실내 키즈카페 (2.1km)",
+    "reason_en": "Nearby indoor kids cafe (2.1km)",
+    "distance_km": 2.0732456529791,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3009",
+    "rank": 1,
+    "event_id": "[서초문화재단] 2026 공공미술 전시 [wonder street]|서초구 전역 원베일리 공공보행로 피카소벽화거리|2026-04-27",
+    "reason_ko": "오늘 진행 중인 서초구 공공미술 전시",
+    "reason_en": "Ongoing public art exhibition in Seocho-gu today",
+    "distance_km": 1.75872943145416,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3009",
+    "rank": 2,
+    "event_id": "[서울문화예술교육센터 서초] 음악의 집 [8월, 음악가의 사적인 플레이리스트] 류이치 사카모토의 피아노 여정|서울문화예술교육센터 서초 1층 더라운지|2026-08-08",
+    "reason_ko": "8월 8일 실내 콘서트, 영어 소개 있음",
+    "reason_en": "Indoor concert on Aug 8 with English details",
+    "distance_km": 1.3698577337667,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3009",
+    "rank": 3,
+    "event_id": "마에스트로 핑고와 떠나는 클래식 지구 한 바퀴|서울체임버홀|2026-08-08",
+    "reason_ko": "8월 8일 클래식 공연, 유명 공연장",
+    "reason_en": "World classical performance at renowned venue",
+    "distance_km": 1.3698577337667,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3009",
+    "rank": 4,
+    "event_id": "7월 공모선정작품 [공연봄날]|서울문화예술교육센터 은평, 서울문화예술교육센터 서초, 북서울 꿈의숲아트센터|2026-07-01",
+    "reason_ko": "7월 21일 진행 중인 공연, 영어 제목 있음",
+    "reason_en": "Currently running performance with English title",
+    "distance_km": 1.3698577337667,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-3009",
+    "rank": 5,
+    "event_id": "[서울문화예술교육센터 서초] 상설 마티네콘서트 [스피리오 리사이틀]|서울문화예술교육센터 서초 5층 서울체임버홀|2026-04-07",
+    "reason_ko": "상설 실내 공연, 영어 프로그램 있음",
+    "reason_en": "Regular indoor matinee with English program",
+    "distance_km": 1.3698577337667,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-493",
+    "rank": 1,
+    "event_id": "서울형 키즈카페 강동구 성내2동점(아이·맘 강동)|서울특별시 강동구 천호대로162길 70 1층, 2층 (성내동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 0.6km 거리 키즈카페",
+    "reason_en": "Kids cafe open today, 0.6km away",
+    "distance_km": 0.616434365874604,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-493",
+    "rank": 2,
+    "event_id": "[송파 청년아티스트센터] 3기 릴레이 개인전 [부풀리고 터뜨리며 본 것들-민주미]|송파 청년아티스트센터 지하1층 아트스페이스|2026-07-01",
+    "reason_ko": "오늘까지 전시 중인 0.9km 갤러리",
+    "reason_en": "Exhibition ends today, 0.9km away",
+    "distance_km": 0.892002332279969,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-493",
+    "rank": 3,
+    "event_id": "[서울백제어린이박물관] 영유아 가족 대상 동화교육 <도란도란~ 이야기 시간여행>|서울백제어린이박물관|2026-07-03",
+    "reason_ko": "진행 중인 박물관 동화 교육 프로그램",
+    "reason_en": "Ongoing museum storytelling program",
+    "distance_km": 1.64557072050976,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-493",
+    "rank": 4,
+    "event_id": "[송파 청년아티스트센터 프로그램] 보이지 않는 얼굴을 그리다 (전연령/무료)|송파 청년아티스트센터|2026-07-01",
+    "reason_ko": "오늘까지 무료 예술 체험 프로그램",
+    "reason_en": "Free art program ending today",
+    "distance_km": 0,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-493",
+    "rank": 5,
+    "event_id": "서울형 키즈카페 강동구 성내1동점(아이·맘 강동)|서울특별시 강동구 성내로6길 16 2층 (성내동)|2026-07-20",
+    "reason_ko": "오늘 운영 중인 1.1km 대안 키즈카페",
+    "reason_en": "Alternate kids cafe open today, 1.1km",
+    "distance_km": 1.06731483925675,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-324",
+    "rank": 1,
+    "event_id": "리움미술관 아이디어 뮤지엄 《in the middle voice: 다섯 개의 움직임》 - [듣기의 실천들]|리움미술관 강당 및 온라인|2026-07-15",
+    "reason_ko": "오늘 날씨 불명확: 실내 전시 선호",
+    "reason_en": "Weather unavailable: indoor exhibition preferred",
+    "distance_km": 0.39473968016027,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-324",
+    "rank": 2,
+    "event_id": "(일)남산 숲탐정 명탐정|남산 한남유아숲체험원|2026-07-05",
+    "reason_ko": "0.4km 초근접: 화~금 진행 중인 체험",
+    "reason_en": "0.4km close: ongoing Mon-Fri experience",
+    "distance_km": 0.434871836195095,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-324",
+    "rank": 3,
+    "event_id": "[남산골한옥마을] 2026 남산골 여름나기 [여름다과]|남산골한옥마을 옥인동 가옥|2026-07-18",
+    "reason_ko": "2.1km 문화명소: 7/18-8/2 여름 행사",
+    "reason_en": "2.1km cultural venue: July 18-Aug 2 summer event",
+    "distance_km": 2.13155031571193,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-324",
+    "rank": 4,
+    "event_id": "(토)호시탐탐 남산탐험_맴맴! 여름 숲 곤충탐험대|한남공원이용지원센터|2026-07-04",
+    "reason_ko": "0.5km 근접: 화~금 곤충 탐험 진행",
+    "reason_en": "0.5km close: Tue-Fri insect exploration ongoing",
+    "distance_km": 0.452267151058188,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-324",
+    "rank": 5,
+    "event_id": "2026 서울시 태권도 공연|남산골한옥마을, ddp(동대문디자인플라자) 등|2026-05-09",
+    "reason_ko": "2.1km 유명 장소: 5/9-10/18 태권도 공연",
+    "reason_en": "2.1km landmark: May 9-Oct 18 taekwondo show",
+    "distance_km": 2.13155031571193,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-339",
+    "rank": 1,
+    "event_id": "[마포문화재단] 마포 골목 문화예술교육 [취향도감]|감성충전 : 제로헌드레드, 추억더미 : 스파인 서울, 색의잔상 : 그래도감성공방|2026-07-07",
+    "reason_ko": "오늘 진행 중인 가까운 체험 프로그램",
+    "reason_en": "Ongoing nearby experience program today",
+    "distance_km": 0.284994043078027,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-339",
+    "rank": 2,
+    "event_id": "7월[마포 스마트팜 체험관] 어린이 초록빛 미래농장 교육 · 체험 프로그램|마포 스마트팜 체험관|2026-07-01",
+    "reason_ko": "현재 진행 중인 어린이 체험 프로그램",
+    "reason_en": "Current children's experience program",
+    "distance_km": 0.560679228009192,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-339",
+    "rank": 3,
+    "event_id": "서울형 키즈카페 시립 목동점|서울특별시 양천구 안양천로 1131 지식산업센터 2층 (목동)|2026-07-20",
+    "reason_ko": "오늘 시작한 가까운 키즈카페",
+    "reason_en": "Kids cafe started today nearby",
+    "distance_km": 1.95727236346563,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-339",
+    "rank": 4,
+    "event_id": "[마포구립서강도서관] 3분기/어린이갤러리 [내일은 맑겠습니다]|마포구립서강도서관 4층 어린이자료실|2026-07-01",
+    "reason_ko": "현재 진행 중인 어린이 전시",
+    "reason_en": "Ongoing children's exhibition",
+    "distance_km": 2.62181904284842,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  },
+  {
+    "anchor_station_no": "ST-339",
+    "rank": 5,
+    "event_id": "[마포구립서강도서관] 7월/팟캐스트 서강도서관 피셜 69회 [레볼루셔너리 로드]|마포구립서강도서관|2026-07-01",
+    "reason_ko": "현재 진행 중인 영어 팟캐스트",
+    "reason_en": "Ongoing English podcast",
+    "distance_km": 2.62181904284842,
+    "pick_date": "2026-07-21",
+    "updated_at": "2026-07-20T23:09:10.708239+00:00"
+  }
+]
