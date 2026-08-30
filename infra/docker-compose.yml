@@ -34,6 +34,8 @@ services:
     volumes:
       - certbot-etc:/etc/letsencrypt:ro
       - certbot-www:/var/www/certbot
+      # 벼리 웹앱(Expo 정적 export) 산출물. byeori 레포에서 빌드해 이 볼륨에 넣는다.
+      - byeori-web:/var/www/byeori:ro
     depends_on:
       - web
     networks:
@@ -59,3 +61,6 @@ volumes:
   certbot-www:
     name: seoulride-certbot-www
     external: true
+  # 벼리 웹앱 정적 파일. byeori 레포의 `npx expo export --platform web` 산출물을 여기에 넣는다.
+  byeori-web:
+    name: byeori-web
